@@ -16,4 +16,6 @@ Contenido
 
 .. note::
 
-   Sitio web anterior https://dawmfiec.github.io/DAWM/
+   Puedes consultar el `contenido de la asignatura <http://www.gestioncurso.espol.edu.ec/wr-resource/Contenidocurso/Archivos/Spa/2034/solicitudaprobadacpEspanol.pdf>`_.
+
+   Y el enlace al `sitio web anterior <https://dawmfiec.github.io/DAWM/>`_.
