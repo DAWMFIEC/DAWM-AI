@@ -5,13 +5,13 @@ Desarrollo de Aplicaciones Web y Móviles - SOFG1006
 `Computación <https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion>`_ de la `Escuela Superior Politécnica del Litoral (ESPOL) <https://www.espol.edu.ec/es>`_ cuyo propósito es diseñar e implementar aplicaciones web y
 móviles cumpliendo con los estándares actuales y las buenas prácticas de programación. 
 
-Contenido
---------
-
 .. toctree::
+  :maxdepth: 1
+  :numbered:
+  :caption: Contenido
+  :glob:
 
-   usage
-   api
+  proyectos/*
 
 
 .. note::
