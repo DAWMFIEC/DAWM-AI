@@ -1,9 +1,5 @@
-Template for the Read the Docs tutorial
+Desarrollo de Aplicaciones Web y Móviles - SOFG1006
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Sitio web 
+https://dawm-ai.readthedocs.io/
