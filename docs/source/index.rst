@@ -16,3 +16,9 @@ móviles cumpliendo con los estándares actuales y las buenas prácticas de prog
 .. note::
 
    Puedes consultar el `contenido de la asignatura <http://www.gestioncurso.espol.edu.ec/wr-resource/Contenidocurso/Archivos/Spa/2034/solicitudaprobadacpEspanol.pdf>`_ y el enlace al `sitio web anterior <https://dawmfiec.github.io/DAWM/>`_.
+
+.. rubric:: Créditos
+  :heading-level: 2
+  :class: explanation
+
+   Tema por `Sphinx Read the Docs <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`_
