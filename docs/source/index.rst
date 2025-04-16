@@ -10,6 +10,7 @@ móviles cumpliendo con los estándares actuales y las buenas prácticas de prog
   :glob:
 
   proyectos/*
+  diccionario
 
 
 .. note::
