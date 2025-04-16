@@ -13,8 +13,7 @@ móviles cumpliendo con los estándares actuales y las buenas prácticas de prog
   otros/*
 
 
-.. rubric:: Nota
-  :heading-level: 2
+.. note::
 
    Puedes consultar el `contenido de la asignatura <http://www.gestioncurso.espol.edu.ec/wr-resource/Contenidocurso/Archivos/Spa/2034/solicitudaprobadacpEspanol.pdf>`_ y el enlace al `sitio web anterior <https://dawmfiec.github.io/DAWM/>`_.
 
