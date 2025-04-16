@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'DAWM'
+copyright = '2025, ARAS'
+author = 'Allan Avendaño'
 
 release = '0.1'
 version = '0.1.0'
