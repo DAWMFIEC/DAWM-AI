@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'DAWM'
-copyright = '2025, ARAS'
+project = 'Desarrollo de Aplicaciones Web y Móviles'	
+copyright = '2025, Allan Avendaño'
 author = 'Allan Avendaño'
 
 release = '0.1'
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_copybutton',
 ]
 
 intersphinx_mapping = {
