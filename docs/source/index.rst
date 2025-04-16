@@ -7,7 +7,6 @@ móviles cumpliendo con los estándares actuales y las buenas prácticas de prog
 
 .. toctree::
   :maxdepth: 1
-  :numbered:
   :caption: Proyectos
   :glob:
 
