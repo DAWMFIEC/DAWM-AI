@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Desarrollo de Aplicaciones Web y Móviles'	
-copyright = '2025, Allan Avendaño'
+copyright = '2025'
 author = 'Allan Avendaño'
 
 release = '0.1'
