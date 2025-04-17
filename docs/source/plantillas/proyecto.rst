@@ -3,9 +3,6 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-.. |EXAMPLE| image:: https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg
-    :width: 1em
-
 =============
 Proyecto
 =============
