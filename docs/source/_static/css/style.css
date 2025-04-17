@@ -7,7 +7,6 @@ li.toctree-l1 {
 }
 
 main a.reference.internal {
-	font-style: italic !important;
 	text-decoration: none !important;
 }
 
