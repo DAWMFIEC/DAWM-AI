@@ -24,6 +24,35 @@ someone might be using it, so here's an example: **re**\ ``Structured``\ *Text*.
 It is also possible to link to documented items, such as
 :class:`api_sample.RandomNumberGenerator`.
 
+Here's my sentence and a sidenote[^sn1].
+
+[^sn1]: And here's my sidenote content.
+
+Here's my sentence and a marginnote[^mn1].
+
+[^mn1]: {-} And here's my marginnote content.
+
+```{margin} **Here is my margin content**
+It is pretty cool!
+```
+
+:::{note}
+:class: margin
+This note will be in the margin!
+:::
+
+
+`````{example} Admonitions and images in the margin
+:no-container:
+:reverse:
+
+````{margin} **Notes in margins**
+```{note}
+Wow, a note with an image in a margin!
+![](../images/cool.jpg)
+```
+````
+
 Code with Sidebar
 -----------------
 
