@@ -55,6 +55,24 @@ voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
         console.log('Iframes e Images cargadas')
     }
 
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+
+    .. code-block:: javascript
+        :caption: Code Blocks can have captions, which also adds a link to it.
+        :linenos:
+        :emphasize-lines: 3,5
+
+        let ready = () => {
+            console.log('DOM está listo')
+            debugger
+        }
+
+        let loaded = () => {
+            debugger
+            console.log('Iframes e Images cargadas')
+        }
+
 Documentación
 =============
 
