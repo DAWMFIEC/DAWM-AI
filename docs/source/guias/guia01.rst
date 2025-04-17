@@ -42,9 +42,9 @@ Conclusión
 Extra
 =====
 
-1. Revisa el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
-2. Analiza la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en :term:`GitHub`.
-3. Examina la documentación de para la `automatización de flujos de trabajo <https://docs.github.com/es/actions>`_ en :term:`GitHub Actions`.
+1. Revise el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
+2. Analice la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en :term:`GitHub`.
+3. Examine la documentación de para la `automatización de flujos de trabajo <https://docs.github.com/es/actions>`_ en :term:`GitHub Actions`.
 
 .. raw:: html
 
