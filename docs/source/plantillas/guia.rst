@@ -18,7 +18,7 @@ Actividades en clases
 =====================
 
 Lorem ipsum :term:`DAWM` sit amet consectetur adipisicing elit. Accusamus, sunt
-voluptatum tenetur libero [#standard]_ nulla esse veritatis accusantium earum commodi hic [#etiquetas]
+voluptatum tenetur libero [#standard]_ nulla esse veritatis accusantium earum commodi hic [#etiquetas]_
 voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
 
 Diseño
