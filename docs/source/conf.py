@@ -22,7 +22,6 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_copybutton',
     'myst_parser',
-    'sphinx_tweet_embed',
 ]
 
 intersphinx_mapping = {
