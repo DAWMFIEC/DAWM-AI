@@ -42,6 +42,7 @@ voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
 
 .. code:: javascript
     :number-lines:
+    :emphasize-lines: 3,5
 
     let ready = () => {
         console.log('DOM está listo')
