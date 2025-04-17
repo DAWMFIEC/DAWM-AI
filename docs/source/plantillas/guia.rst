@@ -2,40 +2,55 @@
 Título 1
 =============
 
-Subtítulo 2
+.. topic:: Objetivo específico
+    :class: objetivo
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
+
+Actividades previas
+=====================
+
+Lorem ipsum sit amet consectetur adipisicing elit. Accusamus, sunt
+voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic
+voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
+
+Actividades en clases
+=====================
+
+Lorem ipsum :term:`DAWM` sit amet consectetur adipisicing elit. Accusamus, sunt
+voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic
+voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
+
+Diseño
+------
+
+1. Arabic numerals.
+
+   a) lower alpha)
+
+      (i) (lower roman)
+
+          A. upper alpha.
+
+             I) upper roman)
+
+Documentación
 =============
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt
-voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic
-voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
+It is a website, so it'll have hyperlinks `Python web site <http://www.python.org>`_.
 
-Subtítulo 2.1
----------------
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt
-voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic
-voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
-
-Subtítulo 2.2
----------------
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt
-voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic
-voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
-
-Subtítulo 3
+Fundamental
 ===========
 
-Subtítulo 2.1
----------------
+.. tweet:: https://twitter.com/pypi/status/315214320826978305
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt
-voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic
-voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
+You can use display-thread flag to display replyes.
 
-Subtítulo 3.2
----------------
+.. tweet:: https://twitter.com/pypi/status/315214320826978305
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt
-voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic
-voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
+:tw:`@shomah4a`
+
+.. timeline:: 319830355039371264
+
+Referencias
+===========

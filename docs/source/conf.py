@@ -21,6 +21,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx_copybutton',
+    'sphinxcontrib.twitter',
     'myst_parser',
 ]
 
