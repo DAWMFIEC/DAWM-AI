@@ -17,7 +17,7 @@ Pregunta
 
 .. admonition:: Prompt para ChatGPT
 
-    Como desarrollador, ¿Cómo puedo presentar mi trabajo tecnológico que he desarrollado hasta ahora?
+    Como desarrollador, ¿Cómo puedo presentar mis proyectos tecnológicos?
 
 Respuesta
 =====================
