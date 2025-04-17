@@ -1,5 +1,6 @@
-Guía 01: Git + GitHub
-===================================
+Título
+======
+
 
 Here's my sentence and a sidenote[^sn1].
 
@@ -10,4 +11,4 @@ Here's my sentence and a sidenote[^sn1].
    :class: arg1
    :name: arg1
 
-   abcdefghijklmnopqrstuvwxyz
+   abc
