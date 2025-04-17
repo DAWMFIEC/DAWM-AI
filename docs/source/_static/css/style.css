@@ -4,6 +4,7 @@ li.toctree-l1 {
 
 a.reference.internal{
 	font-style: italic !important;
+	text-decoration: none !important;
 }
 
 a.reference.external{
