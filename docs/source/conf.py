@@ -9,7 +9,7 @@ author = 'Allan Avendaño'
 release = '0.1'
 version = '0.1.0'
 
-html_title = "Contenidos de " + project
+html_title = project
 # html_logo = "_static/img/myimage.png"
 
 # -- General configuration
