@@ -6,10 +6,10 @@ li.toctree-l1 {
 	list-style: none !important;
 }
 
-a.reference.internal {
-	/* font-style: italic !important;
-	color: black !important;
-    font-weight: bold !important; */
+a.reference.internal span.xref.std.std-term {
+	font-style: italic !important;
+	/* color: black !important;*/
+    font-weight: bold !important; 
 }
 
 a.reference.external {
