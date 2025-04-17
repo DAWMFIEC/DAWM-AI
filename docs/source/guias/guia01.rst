@@ -32,3 +32,15 @@ QR
 
 1. Genere el código :term:`QR` del sitio en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL`.
 
+Extra
+=====
+
+1. Revisa el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
+2. Analiza la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en :term:`GitHub`.
+3. Examina la documentación de para la `automatización de flujos de trabajo <https://docs.github.com/es/actions>`_ en :term:`GitHub Actions`.
+
+.. raw:: html
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://x.com/alexxubyte/status/1708145139515109449">Tweet from @alexxubyte</a>
+    <img alt="" src="https://pbs.twimg.com/media/F7SM78-bgAAKd6h?format=jpg" width="250" height="auto" class="align-center"></p>
+    </blockquote>
