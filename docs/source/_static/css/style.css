@@ -6,7 +6,7 @@ li.toctree-l1 {
 	list-style: none !important;
 }
 
-a.reference.internal span.xref.std.std-term {
+a.reference.internal {
 	font-style: italic !important;
 	text-decoration: none !important;
 	/* color: black !important;*/
@@ -15,6 +15,7 @@ a.reference.internal span.xref.std.std-term {
 
 a.reference.external {
 	font-weight: bold !important;
+	text-decoration: none !important;
 	/* font-weight: bold !important;
 	color: var(--pst-color-primary-new) !important; */
 }
