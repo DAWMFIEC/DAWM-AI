@@ -29,4 +29,4 @@ Contenido del repositorio
 QR
 --
 
-1. Genere el código :term:`QR` del sitio en `QR Code Generator <https://br.qr-code-generator.com/>` a partir de la :term:`URL`.
+1. Genere el código :term:`QR` del sitio en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL`.
