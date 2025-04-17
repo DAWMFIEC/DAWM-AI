@@ -1,20 +1,19 @@
 Título
 ======
 
-```{epigraph}
-Here's my quote, it's pretty neat.
-I wonder how many lines I can create with
-a single stream-of-consciousness quote.
-I could try to add a list of ideas to talk about.
-I suppose I could just keep going on forever,
-but I'll stop here.
-```
+.. epigraph::
 
-oops
+   No matter where you go, there you are.
 
-Here's my sentence and a sidenote[^sn1].
+   -- Buckaroo Banzai
 
-[^sn1]: And here's my sidenote content.
+
+.. sidebar:: Optional Sidebar Title
+   :subtitle: Optional Sidebar Subtitle
+
+   Subsequent indented lines comprise
+   the body of the sidebar, and are
+   interpreted as body elements.
 
 ```{margin} **Here is my margin content**
 It is pretty cool!
