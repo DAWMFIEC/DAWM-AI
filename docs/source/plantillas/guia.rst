@@ -18,7 +18,7 @@ Actividades en clases
 =====================
 
 Lorem ipsum :term:`DAWM` sit amet consectetur adipisicing elit. Accusamus, sunt
-voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic
+voluptatum tenetur libero [#label]_ nulla esse veritatis accusantium earum commodi hic
 voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
 
 Diseño
@@ -51,3 +51,4 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt volupta
 Referencias
 ===========
 
+.. [#label] Footnotes may be numbered, either manually or automatically using a "#"-prefixed label.  This footnote has a label so it can be referred to from multiple places, both as a footnote reference ([#label]_) and as a hyperlink reference (label_).
