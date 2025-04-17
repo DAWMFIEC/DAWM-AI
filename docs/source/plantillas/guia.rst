@@ -34,6 +34,25 @@ Diseño
 
              I) upper roman)
 
+Ciclo de vida de una página HTML
+--------------------------------
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt
+voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
+
+.. code:: javascript
+    :number-lines:
+
+    let ready = () => {
+        console.log('DOM está listo')
+        debugger
+    }
+
+    let loaded = () => {
+        debugger
+        console.log('Iframes e Images cargadas')
+    }
+
 Documentación
 =============
 
