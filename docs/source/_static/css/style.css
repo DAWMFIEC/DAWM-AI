@@ -2,3 +2,6 @@ li.toctree-l1 {
 	list-style: none !important;
 }
 
+a.reference.internal{
+	font-style: italic !important;
+}
