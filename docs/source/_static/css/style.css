@@ -6,6 +6,10 @@ li.toctree-l1 {
 	list-style: none !important;
 }
 
+li.toctree-l1 a {
+	text-decoration: none !important;
+}
+
 main div.bd-article-container p a.reference.internal {
 	text-decoration: none !important;
 }
