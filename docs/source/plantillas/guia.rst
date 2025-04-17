@@ -40,8 +40,9 @@ Ciclo de vida de una página HTML
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt
 voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
 
-.. code:: javascript
-    :number-lines:
+.. code-block:: javascript
+    :linenos:
+    :emphasize-lines: 3,5
 
     let ready = () => {
         console.log('DOM está listo')
