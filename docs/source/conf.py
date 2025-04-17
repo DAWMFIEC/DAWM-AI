@@ -9,7 +9,7 @@ author = 'Allan Avendaño'
 release = '0.1'
 version = '0.1.0'
 
-html_title = "My site title"
+html_title = "Sitio de " + project
 
 # -- General configuration
 
