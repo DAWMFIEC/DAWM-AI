@@ -57,6 +57,27 @@ Code with Sidebar
 
    abcdefghijklmnopqrstuvwxyz
 
+Targets
+-------
+
+.. _example:
+
+This paragraph is pointed to by the explicit "example" target.
+A reference can be found under `Inline Markup`_, above. `Inline
+hyperlink targets`_ are also possible.
+
+Section headers are implicit targets, referred to by name. See
+Targets_.
+
+Explicit external targets are interpolated into references such as "Python_".
+
+.. _Python: http://www.python.org/
+
+Targets may be indirect and anonymous.  Thus `this phrase`__ may also
+refer to the Targets_ section.
+
+__ Targets_
+
 References
 ==========
 
