@@ -6,17 +6,17 @@ li.toctree-l1 {
 	list-style: none !important;
 }
 
-a.reference.internal {
+main a.reference.internal {
 	font-style: italic !important;
 	text-decoration: none !important;
-	/* color: black !important;*/
-     
 }
 
-a.reference.external {
+main a.reference.internal::after {
+    content: "!";
+}
+
+main a.reference.external {
 	font-weight: bold !important;
 	text-decoration: none !important;
-	/* font-weight: bold !important;
-	color: var(--pst-color-primary-new) !important; */
 }
 
