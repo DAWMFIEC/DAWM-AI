@@ -87,12 +87,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt volupta
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/choldgraf/status/1564614538309390345">Tweet from @choldgraf</a></blockquote>
 
-References
-==========
+.. [#standard] HTML Standard. (2023). Retrieved 15 May 2023, from `URL <https://html.spec.whatwg.org/multipage/>`_.
 
-Footnotes
----------
-
-.. [#standard] HTML Standard. (2023). Retrieved 15 May 2023, from https://html.spec.whatwg.org/multipage/
-
-.. [#etiquetas] HTML: Lenguaje de etiquetas de hipertexto MDN. (2021). Retrieved 18 May 2022, from https://developer.mozilla.org/es/docs/Web/HTML
+.. [#etiquetas] HTML: Lenguaje de etiquetas de hipertexto MDN. (2021). Retrieved 18 May 2022, from `URL <https://developer.mozilla.org/es/docs/Web/HTML>`_.	
