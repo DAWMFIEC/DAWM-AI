@@ -1,12 +1,18 @@
+:root {
+    --pst-color-primary-new: darkgreen;
+}
+
 li.toctree-l1 {
 	list-style: none !important;
 }
 
-a.reference.internal{
+a.reference.internal {
 	font-style: italic !important;
 	text-decoration: none !important;
 }
 
-a.reference.external{
+a.reference.external {
 	font-weight: bold !important;
+	color: var(--pst-color-primary-new) !important;
 }
+
