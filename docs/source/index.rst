@@ -6,11 +6,17 @@ móviles cumpliendo con los estándares actuales y las buenas prácticas de prog
 
 .. toctree::
   :maxdepth: 1
-  :caption: Contenidos del curso
+  :caption: Proyectos
   :glob:
 
   proyectos/*
-  otros/*
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Información importante
+  :glob:
+
+  informacion/*
 
 
 .. note::
