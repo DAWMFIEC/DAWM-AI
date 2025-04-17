@@ -48,7 +48,4 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt volupta
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/choldgraf/status/1564614538309390345">Tweet from @choldgraf</a></blockquote>
 
-Referencias
-===========
-
-.. [#label] Footnotes may be numbered, either manually or automatically using a "#"-prefixed label.  This footnote has a label so it can be referred to from multiple places, both as a footnote reference ([#label]_) and as a hyperlink reference (label_).
+.. [#label] Footnotes may be numbered, either manually or automatically using a "#"-prefixed label.
