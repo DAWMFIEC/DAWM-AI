@@ -15,7 +15,7 @@ Guía 01: Git + GitHub
 Actividades previas
 =====================
 
-Siga las instrucciones de :term:`Bard` del `archivo PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia01-bard01.pdf>`_ para empezar su repositorio personal en Github.
+1. Siga las instrucciones de :term:`Bard` del `archivo PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia01-bard01.pdf>`_ para empezar su repositorio personal en Github.
 
 Actividades en clases
 =====================
