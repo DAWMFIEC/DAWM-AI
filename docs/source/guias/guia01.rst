@@ -32,6 +32,13 @@ QR
 
 1. Genere el código :term:`QR` del sitio en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL`.
 
+Conclusión
+==========
+
+.. topic:: Preguntas de cierre
+
+    ¿Qué criterios seguiste para aceptar o modificar las sugerencias de ChatGPT sobre el contenido de tu repositorio, y por qué crees que esas decisiones mejoran tu identidad digital?
+
 Extra
 =====
 
