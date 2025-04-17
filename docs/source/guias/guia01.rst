@@ -16,6 +16,7 @@ Actividades previas
 =====================
 
 1. Siga las instrucciones de :term:`Bard` del `archivo PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia01-bard01.pdf>`_ para empezar su repositorio personal en Github.
+2. Modifique el archivo *README.md* con las instrucciones de :term:`Markdown` más usadas de acuerdo con el Cheat Sheet [#mdcheatsheet]_.
 
 Actividades en clases
 =====================
@@ -30,3 +31,7 @@ QR
 --
 
 1. Genere el código :term:`QR` del sitio en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL`.
+
+
+.. [#mdcheatsheet] Markdown Cheat Sheet. (n.d.). Retrieved, from `URL <https://www.markdownguide.org/cheat-sheet/>`_.
+   
