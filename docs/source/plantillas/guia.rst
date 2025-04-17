@@ -73,12 +73,8 @@ voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
             console.log('Iframes e Images cargadas')
         }
 
-Documentación
-=============
 
-It is a website, so it'll have hyperlinks `Python web site <http://www.python.org>`_.
-
-Fundamental
+En redes
 ===========
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
