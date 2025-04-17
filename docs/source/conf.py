@@ -49,7 +49,7 @@ html_css_files = [
 ]
 
 html_theme_options = {
-    "use_sidenotes": "true",
-    "rightsidebar": "true",
+    "use_sidenotes": True,
+    "rightsidebar": True,
     "relbarbgcolor": "black"
 }
