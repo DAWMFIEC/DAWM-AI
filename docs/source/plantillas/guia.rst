@@ -41,6 +41,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt
 voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
 
 .. code-block:: javascript
+    :caption: Code Blocks can have captions, which also adds a link to it.
     :linenos:
     :emphasize-lines: 3,5
 
