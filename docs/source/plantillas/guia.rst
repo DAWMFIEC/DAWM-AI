@@ -42,7 +42,9 @@ It is a website, so it'll have hyperlinks `Python web site <http://www.python.or
 Fundamental
 ===========
 
+.. raw:: html
 
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/choldgraf/status/1564614538309390345">Tweet from @choldgraf</a></blockquote>
 
 Referencias
 ===========
