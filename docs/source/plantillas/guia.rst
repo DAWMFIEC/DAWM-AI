@@ -140,7 +140,7 @@ voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
 Conclusión
 ==========
 
-.. topic:: Para pensar ...
+.. topic:: Preguntas de cierre
 
     https://chatgpt.com/c/6801905f-5110-8005-8b4a-b13418156f86
 
