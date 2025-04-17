@@ -10,11 +10,11 @@ main div.bd-article-container a.reference.internal {
 	text-decoration: none !important;
 }
 
-main div.bd-article-container  a.reference.internal::after {
+main div.bd-article-container a.reference.internal::after {
     content: "ℹ️" !important;
 }
 
-main div.div.bd-article-container  a.reference.external {
+main div.bd-article-container a.reference.external {
 	font-weight: bold !important;
 	text-decoration: none !important;
 }
