@@ -9,3 +9,6 @@ https://dawmfiec.github.io/DAWM/
 
 Documentación de sphinx-book-theme
 https://sphinx-book-theme.readthedocs.io/en/latest/
+
+Documentación de sphinx-themes
+https://sphinx-themes.org/
