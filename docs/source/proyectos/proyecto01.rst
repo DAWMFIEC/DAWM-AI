@@ -25,6 +25,7 @@ Respuesta
    :alt: reStructuredText, the markup syntax
 
 .. toctree::
+  :maxdepth: 1
   :caption: Guías
   
   ../guias/guia01.rst
