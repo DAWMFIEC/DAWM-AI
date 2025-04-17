@@ -18,7 +18,7 @@ Actividades en clases
 =====================
 
 Lorem ipsum :term:`DAWM` sit amet consectetur adipisicing elit. Accusamus, sunt
-voluptatum tenetur libero [#label]_ nulla esse veritatis accusantium earum commodi hic
+voluptatum tenetur libero [#standard]_ nulla esse veritatis accusantium earum commodi hic [#etiquetas]
 voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
 
 Diseño
@@ -48,4 +48,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt volupta
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/choldgraf/status/1564614538309390345">Tweet from @choldgraf</a></blockquote>
 
-.. [#label] Footnotes may be numbered, either manually or automatically using a "#"-prefixed label.
+.. [#standard] HTML Standard. (2023). Retrieved 15 May 2023, from https://html.spec.whatwg.org/multipage/
+
+.. [#etiquetas] HTML: Lenguaje de etiquetas de hipertexto MDN. (2021). Retrieved 18 May 2022, from https://developer.mozilla.org/es/docs/Web/HTML
