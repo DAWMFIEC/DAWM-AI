@@ -87,8 +87,11 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt volupta
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/choldgraf/status/1564614538309390345">Tweet from @choldgraf</a></blockquote>
 
-Referencias
-===========
+References
+==========
+
+Footnotes
+---------
 
 .. [#standard] HTML Standard. (2023). Retrieved 15 May 2023, from https://html.spec.whatwg.org/multipage/
 
