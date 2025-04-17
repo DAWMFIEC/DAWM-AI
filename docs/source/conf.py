@@ -9,7 +9,8 @@ author = 'Allan Avendaño'
 release = '0.1'
 version = '0.1.0'
 
-html_title = "Sitio de la materia " + project
+html_title = "Contenidos de " + project
+# html_logo = "_static/img/myimage.png"
 
 # -- General configuration
 
