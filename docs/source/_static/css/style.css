@@ -12,7 +12,7 @@ main a.reference.internal {
 }
 
 main a.reference.internal::after {
-    content: "!";
+    content: "ℹ️" !important;
 }
 
 main a.reference.external {
