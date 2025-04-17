@@ -7,10 +7,10 @@
 Proyecto 01: Repositorio del desarrollador
 ==========================================
 
-.. topic:: Objetivo específico
+.. topic:: Objetivo general
     :class: objetivo
 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
+    Diseñar y publicar un repositorio personal con la identidad digital profesional en GitHub Pages.
 
 Pregunta
 =====================

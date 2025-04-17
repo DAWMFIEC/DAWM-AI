@@ -7,8 +7,7 @@
 Proyecto
 =============
 
-.. topic:: Objetivo específico
-    :class: objetivo
+.. topic:: Objetivo general
 
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
 
