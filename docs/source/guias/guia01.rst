@@ -35,7 +35,7 @@ QR
 Conclusión
 ==========
 
-.. topic:: Preguntas de cierre
+.. topic:: Para pensar ...
 
     ¿Qué criterios seguiste para aceptar o modificar las sugerencias de ChatGPT sobre el contenido de tu repositorio, y por qué crees que esas decisiones mejoran tu identidad digital?
 
