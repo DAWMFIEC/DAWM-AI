@@ -15,9 +15,11 @@ Título
    the body of the sidebar, and are
    interpreted as body elements.
 
-```{margin} **Here is my margin content**
-It is pretty cool!
+
+```{margin} Look, some margin content!
+On wider screens, this content will pop out to the side!
 ```
+
 
 .. admonition:: arg1
    :class: arg1
