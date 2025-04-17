@@ -145,8 +145,8 @@ Conclusión
     https://chatgpt.com/c/6801905f-5110-8005-8b4a-b13418156f86
 
 
-Extra
-=====
+Actividades autónomas
+=====================
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
 

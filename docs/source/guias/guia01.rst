@@ -39,8 +39,8 @@ Conclusión
 
     ¿Qué criterios seguiste para aceptar o modificar las sugerencias de ChatGPT sobre el contenido de tu repositorio? y ¿Por qué crees que esas decisiones mejoran tu identidad digital?
 
-Extra
-=====
+Actividades autónomas
+=====================
 
 1. Revise el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
 2. Analice la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en :term:`GitHub`.
