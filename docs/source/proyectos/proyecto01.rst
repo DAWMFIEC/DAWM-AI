@@ -17,7 +17,7 @@ Pregunta
 
 .. admonition:: Prompt para ChatGPT
 
-    Como desarrollador, ¿Cómo puedo presentar mis proyectos tecnológicos?
+    Como desarrollador, ¿de qué manera puedo compartir mis proyectos técnicos-tecnológicos con el mundo de forma accesible y profesional?
 
 Respuesta
 =====================
