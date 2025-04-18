@@ -35,7 +35,6 @@ Estructura general y semántica
 
 1. Cree el documento :term:`HTML` *index.html* dentro del directorio de tu proyecto.
 2. Utilice :term:`VSCode` para editar el documento index.html, con:
-3. Arabic numerals.
 
    a) La :term:`estructura general` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard02.pdf>`_.
 
@@ -45,7 +44,7 @@ Estructura general y semántica
    
     Obligatorio: Utilice 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>).
 
-4. Versione local y remotamente el repositorio curriculum.
+3. Versione local y remotamente el repositorio curriculum.
 
 Despliegue en GitHub Pages
 --------------------------
