@@ -12,17 +12,14 @@ Proyecto 01: Repositorio del desarrollador
 
     Diseñar y publicar un repositorio personal con la identidad digital profesional en GitHub Pages.
 
-Pregunta
+Pregunta y Respuesta
 =====================
 
 .. admonition:: Prompt para ChatGPT
 
     Como desarrollador, ¿de qué manera puedo compartir mis proyectos técnicos-tecnológicos con el mundo de forma accesible y profesional?
 
-Respuesta
-=====================
 .. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto00-pregunta.png
-   :alt: reStructuredText, the markup syntax
 
 .. toctree::
   :maxdepth: 1

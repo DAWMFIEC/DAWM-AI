@@ -12,29 +12,20 @@ Proyecto 02: Curriculum Vitae - HTML & CSS
 
     Desarrollar un currículum vitae digital que permita presentar información profesional de manera organizada, accesible y visualmente atractiva, mediante el uso adecuado de etiquetas HTML estructurales, semánticas, contenido multimedia e interactivo, así como la aplicación de reglas CSS para mejorar la presentación y la accesibilidad del contenido.
 
-Pregunta
-=====================
+Preguntas y Respuestas
+======================
 
 .. admonition:: Prompt para ChatGPT
 
     Como desarrollador, ¿Qué tipo de información debo mostrar en mi curriculum vitae?
 
-Respuesta
-=====================
-
 .. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto01-pregunta1.png
-   :alt: reStructuredText, the markup syntax
-
-
-Pregunta
-=====================
 
 .. admonition:: Prompt para ChatGPT
 
     Como desarrollador, ¿Qué tipo de información NO debo mostrar en mi curriculum vitae?
 
 .. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto01-pregunta2.png
-   :alt: reStructuredText, the markup syntax
 
 .. toctree::
   :maxdepth: 1
