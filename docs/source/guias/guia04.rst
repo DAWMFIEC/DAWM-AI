@@ -10,7 +10,7 @@ Guía 04: CSS - Reglas CSS y Modelo de caja
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Justificar el uso de etiquetas HTML en la estructura general y de etiquetas semánticas mediante el desarrollo de un currículum vitae digital para la presentación de información profesional de manera organizada y accesible en línea.
+    Aplicar reglas CSS en la personalización de efectos visuales mediante el desarrollo de un currículum vitae digital para la presentación de información profesional de manera organizada y accesible en línea.
 
 Actividades previas
 =====================
