@@ -57,7 +57,7 @@ Conclusión
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué aspectos de la estructura sugerida por Bard y Gemini decidiste mantener o modificar, y cómo justificas estas decisiones en función de la claridad y accesibilidad del documento?
+    ¿Qué aspectos de la estructura sugerida por Bard y Gemini decidiste mantener o modificar?, y ¿Cómo justificas estas decisiones en función de la claridad y accesibilidad del documento?
 
 Actividades autónomas
 =====================
