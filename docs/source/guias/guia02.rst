@@ -41,7 +41,7 @@ Estructura general y semántica
 
     Obligatorio: Use de la etiqueta <title> y las etiquetas <meta> (para keywords, description y author), de acuerdo con la sugerencia de Gemini.
 
-   b) La :term:`estructura semántica` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard03.pdf>`.
+   b) La :term:`estructura semántica` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard03.pdf>`_.
    
     Obligatorio: Utilice 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>).
 
