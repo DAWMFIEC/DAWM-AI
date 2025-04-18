@@ -31,3 +31,15 @@ Diccionario de términos
 
     GitHub Actions
         Herramienta de automatización de flujos de trabajo integrada en GitHub. Permite crear y ejecutar flujos de trabajo personalizados para automatizar tareas relacionadas con el desarrollo de software.
+
+    HTML
+        Lenguaje de marcado utilizado para estructurar y presentar contenido en la web. HTML define la estructura básica de una página web mediante etiquetas y elementos.
+
+    VSCode
+        Editor de código fuente desarrollado por Microsoft. Es ampliamente utilizado por desarrolladores para escribir y editar código en varios lenguajes de programación.
+
+    estructura general
+        Conjunto de etiquetas HTML que definen la estructura básica de un documento HTML. Incluye etiquetas como <html>, <head>, <body>, entre otras.
+
+    estructura semántica
+        Conjunto de etiquetas HTML que proporcionan significado y contexto al contenido de una página web. Incluye etiquetas como <header>, <nav>, <article>, <section>, entre otras.
