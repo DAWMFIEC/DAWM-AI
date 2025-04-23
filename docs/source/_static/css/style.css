@@ -15,7 +15,7 @@ main div.bd-article-container p a.reference.internal {
 }
 
 main div.bd-article-container p a.reference.internal::after {
-    content: "ℹ️" !important;
+    content: "📌" !important;
 }
 
 main div.bd-article-container p a.reference.external {
