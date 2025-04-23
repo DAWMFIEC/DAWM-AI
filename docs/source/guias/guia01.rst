@@ -15,9 +15,19 @@ Guía 01: Git + GitHub
 Actividades previas
 =====================
 
-1. Utilice, o cree, su repositorio personal en Github. 
+Utilice su repositorio personal en Github. 
    
-   a) Si no tiene uno, siga las instrucciones de :term:`Bard` con la `guía para crear un repositorio personal <_static/pdf/guia01-repositoriopersonal.pdf>`_ en Github.
+.. hint:: Repositorio personal
+    
+    a) Ingrese a su cuenta de GitHub en `https://github.com <https://github.com>`_.
+
+    b) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios).
+
+    c) Revise la lista de repositorios. Si encuentra uno con su nombre o que represente su portafolio personal, ya tiene un repositorio personal.
+
+.. attention:: Repositorio personal en GitHub
+
+    Si no tiene uno, siga las instrucciones de :term:`Bard` con la `guía para crear un repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>`_ en Github.
 
 Actividades en clases
 =====================
@@ -27,8 +37,6 @@ Contenido del repositorio y QR
 
 1. Use el `Cheat Sheet <https://www.markdownguide.org/cheat-sheet/>`_ con las instrucciones más usadas de :term:`Markdown` para modificar el archivo *README.md* de su proyecto.
 2. Utilice :term:`ChatGPT` para decidir y diseñar la estructura del contenido de tu repositorio personal, p.e.: tus proyectos, las tecnologías que has utilizado, el estado de tus proyectos, correo institucional, etc. Omite datos sensibles, como: foto, números de contacto, correo personal, dirección, etc.
-3. Genere el código :term:`QR` del sitio en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL`.
-   
 
 Conclusión
 ==========
@@ -43,10 +51,12 @@ Conclusión
 Actividades autónomas
 =====================
 
-Markdown
+Markdown y QR
 ------------------------------
 
-1. Revise el `tutorial <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones más usadas de :term:`Markdown`.
+1. Use el `tutorial <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones más usadas de Markdown para modificar su archvio _README.md_.
+2. Genere el código :term:`QR` en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL` de su repositorio personal.
+3. Responda a la actividad en el AulaVirtual.
 
 GIT y GitHub
 ------------------------------
