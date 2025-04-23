@@ -14,7 +14,8 @@ main div.bd-article-container p a.reference.internal {
 	text-decoration: none !important;
 }
 
-main div.bd-article-container p a.reference.internal::after {
+/* main div.bd-article-container p a.reference.internal::after { */
+span.xref.std.std-term {
     content: "📌" !important;
 }
 

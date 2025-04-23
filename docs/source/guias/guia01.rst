@@ -15,16 +15,14 @@ Guía 01: Git + GitHub
 Actividades previas
 =====================
 
-1. Utilice su repositorio personal en Github. 
+Utilice su repositorio personal en Github. 
    
 .. hint::
 
     Para verificar si tiene, o no, un repositorio personal, siga estos pasos: 
     
     a) Ingrese a su cuenta de GitHub en `https://github.com <https://github.com>`_.
-
     b) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios).
-
     c) Revise la lista de repositorios. Si encuentra uno con su nombre o que represente su portafolio personal, ya tiene un repositorio personal.
 
 .. attention::
