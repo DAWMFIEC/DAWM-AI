@@ -15,9 +15,11 @@ Guía 01: Git + GitHub
 Actividades previas
 =====================
 
-Utilice su repositorio personal en Github. 
+1. Utilice su repositorio personal en Github. 
    
-.. hint:: Repositorio personal
+.. hint::
+
+    Para verificar si tiene, o no, un repositorio personal, siga estos pasos: 
     
     a) Ingrese a su cuenta de GitHub en `https://github.com <https://github.com>`_.
 
@@ -25,15 +27,15 @@ Utilice su repositorio personal en Github.
 
     c) Revise la lista de repositorios. Si encuentra uno con su nombre o que represente su portafolio personal, ya tiene un repositorio personal.
 
-.. attention:: Repositorio personal en GitHub
+.. attention::
 
-    Si no tiene uno, siga las instrucciones de :term:`Bard` con la `guía para crear un repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>`_ en Github.
+    Si no tiene un repositorio personal, siga las instrucciones de :term:`Bard` con la guía para :download:`crear y desplegar un repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>` con Github y Github Pages.
 
 Actividades en clases
 =====================
 
-Contenido del repositorio y QR
-------------------------------
+Contenido del repositorio
+-------------------------
 
 1. Use el `Cheat Sheet <https://www.markdownguide.org/cheat-sheet/>`_ con las instrucciones más usadas de :term:`Markdown` para modificar el archivo *README.md* de su proyecto.
 2. Utilice :term:`ChatGPT` para decidir y diseñar la estructura del contenido de tu repositorio personal, p.e.: tus proyectos, las tecnologías que has utilizado, el estado de tus proyectos, correo institucional, etc. Omite datos sensibles, como: foto, números de contacto, correo personal, dirección, etc.
