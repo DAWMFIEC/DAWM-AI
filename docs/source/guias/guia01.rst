@@ -15,32 +15,41 @@ Guía 01: Git + GitHub
 Actividades previas
 =====================
 
-1. Siga las instrucciones de :term:`Bard` del `archivo PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia01-bard01.pdf>`_ para empezar su repositorio personal en Github.
-2. Modifique el archivo *README.md* con las instrucciones de :term:`Markdown` más usadas de acuerdo con el `Cheat Sheet <https://www.markdownguide.org/cheat-sheet/>`_.
+1. Utilice, o cree, su repositorio personal en Github. 
+   
+   a) Si no tiene uno, siga las instrucciones de :term:`Bard` con la `guía para crear un repositorio personal <_static/pdf/guia01-repositoriopersonal.pdf>`_ en Github.
 
 Actividades en clases
 =====================
 
-Contenido del repositorio
--------------------------
+Contenido del repositorio y QR
+------------------------------
 
-1. Utilice :term:`ChatGPT` para decidir el contenido de tu repositorio personal, p.e.: tus proyectos, las tecnologías que has utilizado, el estado de tus proyectos, correo institucional, etc. Omite datos sensibles, como: foto, números de contacto, correo personal, dirección, etc.
-2. Diseñe la estructura del contenido de su repositorio, p.e.: decide el orden del contenido, los títulos y subtítulos de cada sección, imágenes de los proyectos, etc.
-
-QR
---
-
-1. Genere el código :term:`QR` del sitio en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL`.
+1. Use el `Cheat Sheet <https://www.markdownguide.org/cheat-sheet/>`_ con las instrucciones más usadas de :term:`Markdown` para modificar el archivo *README.md* de su proyecto.
+2. Utilice :term:`ChatGPT` para decidir y diseñar la estructura del contenido de tu repositorio personal, p.e.: tus proyectos, las tecnologías que has utilizado, el estado de tus proyectos, correo institucional, etc. Omite datos sensibles, como: foto, números de contacto, correo personal, dirección, etc.
+3. Genere el código :term:`QR` del sitio en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL`.
+   
 
 Conclusión
 ==========
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué criterios seguiste para aceptar o modificar las sugerencias de ChatGPT sobre el contenido de tu repositorio? y ¿Por qué crees que esas decisiones mejoran tu identidad digital?
+    ¿Qué criterios seguiste para aceptar o modificar las sugerencias de ChatGPT sobre el contenido de tu repositorio?
+    
+    ¿Por qué crees que esas decisiones mejoran tu identidad digital?
+
 
 Actividades autónomas
 =====================
+
+Markdown
+------------------------------
+
+1. Revise el `tutorial <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones más usadas de :term:`Markdown`.
+
+GIT y GitHub
+------------------------------
 
 1. Revise el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
 2. Analice la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en :term:`GitHub`.

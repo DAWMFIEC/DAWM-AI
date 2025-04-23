@@ -137,6 +137,10 @@ voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
             console.log('Iframes e Images cargadas')
         }
 
+
+Validación
+=====================
+
 Conclusión
 ==========
 
