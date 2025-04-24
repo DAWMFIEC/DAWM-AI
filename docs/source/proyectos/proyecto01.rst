@@ -10,14 +10,14 @@ Proyecto 01: Repositorio del desarrollador
 .. topic:: Objetivo general
     :class: objetivo
 
-    Diseñar y publicar un repositorio personal con la identidad digital profesional en GitHub Pages.
+    Desarrollar un repositorio personal con la identidad digital profesional en GitHub Pages.
 
 Pregunta y Respuesta
 =====================
 
 .. admonition:: Prompt para ChatGPT
 
-    Como desarrollador, ¿de qué manera puedo compartir mis proyectos técnicos-tecnológicos con el mundo de forma accesible y profesional?
+    Como desarrollador, ¿De qué manera puedo compartir mis proyectos técnicos-tecnológicos con el mundo de forma accesible y profesional?
 
 .. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto00-pregunta.png
 
