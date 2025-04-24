@@ -54,7 +54,7 @@ Actividades autónomas
 Markdown y QR
 ------------------------------
 
-1. Use el `tutorial <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones más usadas de Markdown para modificar su archvio _README.md_.
+1. Use el `tutorial <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones básica de Markdown para seguir modificando su archvio *README.md*.
 2. Genere el código :term:`QR` en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL` de su repositorio personal.
 3. Responda a la actividad en el AulaVirtual.
 
