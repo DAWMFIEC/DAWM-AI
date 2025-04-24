@@ -10,7 +10,7 @@ Proyecto 01: Repositorio del desarrollador
 .. topic:: Objetivo general
     :class: objetivo
 
-    Desarrollar un repositorio personal con la identidad digital profesional en GitHub Pages.
+    Desarrollar un medio para la generación de una identidad digital que facilite la presentación de las habilidades tecnológicas de una manera clara y accesible.
 
 Pregunta y Respuesta
 =====================
