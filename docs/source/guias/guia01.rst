@@ -10,24 +10,24 @@ Guía 01: Git + GitHub
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Evaluar el uso de etiquetas de marcado mediante la estructuración de un repositorio personal en GitHub para la creación una identidad digital que facilite la presentación de sus habilidades y proyectos de manera clara y accesible.
+    Explicar el uso de etiquetas de marcado mediante la estructuración de un repositorio personal en GitHub para la creación una identidad digital que facilite la presentación de sus habilidades y proyectos de manera clara y accesible.
 
 Actividades previas
 =====================
 
-Utilice su repositorio personal en Github. 
+1. Ingrese a su cuenta de :term:`GitHub`, en `https://github.com <https://github.com>`_.
+2. Acceda su repositorio personal. 
    
 .. hint::
 
-    Para verificar si tiene, o no, un repositorio personal, siga estos pasos: 
+    Siga estos pasos para verificar si tiene, o no, un repositorio personal: 
     
-    a) Ingrese a su cuenta de GitHub en `https://github.com <https://github.com>`_.
-    b) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios).
-    c) Revise la lista de repositorios. Si encuentra uno con su nombre o que represente su portafolio personal, ya tiene un repositorio personal.
+    a) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios).
+    b) Revise la lista de repositorios. Si encuentra uno con su nombre de usuario o que represente su portafolio personal, ya tiene un repositorio personal.
 
 .. attention::
 
-    Si no tiene un repositorio personal, siga las instrucciones de :term:`Bard` con la guía para :download:`crear y desplegar un repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>` con Github y Github Pages.
+    Si no tiene un repositorio personal, siga las instrucciones de :term:`Bard` con la guía para :download:`crear repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>` con Github.
 
 Actividades en clases
 =====================
@@ -36,7 +36,28 @@ Contenido del repositorio
 -------------------------
 
 1. Use el `Cheat Sheet <https://www.markdownguide.org/cheat-sheet/>`_ con las instrucciones más usadas de :term:`Markdown` para modificar el archivo *README.md* de su proyecto.
-2. Utilice :term:`ChatGPT` para decidir y diseñar la estructura del contenido de tu repositorio personal, p.e.: tus proyectos, las tecnologías que has utilizado, el estado de tus proyectos, correo institucional, etc. Omite datos sensibles, como: foto, números de contacto, correo personal, dirección, etc.
+2. Utilice :term:`ChatGPT` para el diseño de la estructura y del contenido de tu repositorio personal, p.e.: títulos de cada sección, tus proyectos, los enlaces a cada proyecto, las tecnologías que has utilizado, el estado de tus proyectos, correo institucional, capturas de pantalla de tus proyectos, etc. 
+   
+.. attention::
+
+   Omite datos sensibles, como: foto, números de contacto, correo personal, dirección, etc.
+
+GitHub Pages
+------------
+
+1. En la página de tu repositorio, haz clic en **Settings**.
+2. Busca la sección **Pages**.
+3. En **Build and Deployment**, selecciona la rama `main` como fuente.
+4. Haz clic en **Guardar cambios**.
+5. Una vez que hayas publicado tu sitio, puedes verlo en la siguiente URL: 
+   
+.. centered:: :literal:`https://[Tu nombre de usuario].github.io`.
+
+
+.. hint::
+
+    Por ejemplo, si tu nombre de usuario es :literal:`juanperez`, la URL de tu sitio será: https://juanperez.github.io
+
 
 Conclusión
 ==========
@@ -62,11 +83,16 @@ GIT y GitHub
 ------------------------------
 
 1. Revise el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
-2. Analice la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en :term:`GitHub`.
-3. Examine la documentación de para la `automatización de flujos de trabajo <https://docs.github.com/es/actions>`_ en :term:`GitHub Actions`.
+2. Analice la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en GitHub.
+
+
+Recursos extras
+------------------------------
+
+En redes:
 
 .. raw:: html
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://x.com/alexxubyte/status/1708145139515109449">Tweet from @alexxubyte</a>
-    <img alt="" src="https://pbs.twimg.com/media/F7SM78-bgAAKd6h?format=jpg" width="250" height="auto" class="align-center"></p>
+    <img alt="" src="https://pbs.twimg.com/media/F7SM78-bgAAKd6h?format=jpg" width="65%" height="auto" class="align-center"></p>
     </blockquote>
