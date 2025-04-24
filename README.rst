@@ -18,3 +18,6 @@ https://sphinx-themes.org/sample-sites/sphinx-book-theme/
 
 Documentación de reStructuredText Directives
 https://docutils.sourceforge.io/docs/ref/rst/directives.html#top
+
+Taxonomía de Bloom, con preguntas
+https://imaxinante.com/wp-content/uploads/2020/03/taxonomia-de-bloom-cuadrante-con-preguntas.pdf
