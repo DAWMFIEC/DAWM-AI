@@ -15,7 +15,7 @@ main div.bd-article-container p a.reference.internal {
 }
 
 main div.bd-article-container p a.reference.internal:not(.download)::after {
-	content: "📌" !important;
+	content: "🛈" !important;
 }
 
 main div.bd-article-container p a.reference.external {
