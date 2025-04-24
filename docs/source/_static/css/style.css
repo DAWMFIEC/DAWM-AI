@@ -14,7 +14,7 @@ main div.bd-article-container p a.reference.internal {
 	text-decoration: none !important;
 }
 
-main div.bd-article-container p a.reference.internal::after {
+main div.bd-article-container p a.reference.internal:not(.download)::after {
 	content: "📌" !important;
 }
 
