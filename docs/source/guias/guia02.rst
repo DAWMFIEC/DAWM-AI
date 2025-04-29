@@ -34,30 +34,50 @@ Estructura general y semántica
 ------------------------------
 
 1. Cree el documento :term:`HTML` *index.html* dentro del directorio de tu proyecto.
-2. Utilice :term:`VSCode` para editar el documento index.html, con:
+2. Utilice :term:`VSCode` para editar el documento *index.html*, con:
 
-   a) La :term:`estructura general` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard02.pdf>`_.
+   a) Las :term:`etiquetas` de La :term:`estructura general` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard02.pdf>`_.
 
     Obligatorio: Use de la etiqueta <title> y las etiquetas <meta> (para keywords, description y author), de acuerdo con la sugerencia de Gemini.
 
-   b) La :term:`estructura semántica` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard03.pdf>`_.
+   b) Las etiquetas :term:`estructura semántica` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard03.pdf>`_.
    
     Obligatorio: Utilice 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>).
 
-3. Versione local y remotamente el repositorio curriculum.
+3. Versione local y remotamente el repositorio *curriculum*.
 
 Despliegue en GitHub Pages
 --------------------------
 
-1. Despliegue el sitio del repositorio curriculum de acuerdo con Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard04.pdf>`_.
+1. Despliegue el sitio del repositorio *curriculum* de acuerdo con Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard04.pdf>`_.
 2. Compruebe el resultado en el navegador.
 
-Conclusión
-==========
+Conclusiones
+============
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué aspectos de la estructura sugerida por Bard y Gemini decidiste mantener o modificar?, y ¿Cómo justificas estas decisiones en función de la claridad y accesibilidad del documento?
+    ¿Qué aspectos de la estructura sugerida por Bard y Gemini decidiste mantener o modificar?, y 
+    ¿Cómo justificas estas decisiones para mantener la claridad y accesibilidad del documento?
 
 Actividades autónomas
 =====================
+
+Estándar HTML	
+------------------------------
+
+* Revisa el :term:`estándar` del `HTML Living Standard <https://html.spec.whatwg.org/multipage/>`_.
+* Valida el soporte de las etiquetas HTML en el navegador, con `HTML5 Test <https://html5test.co/>`_ o con `Can I Use <https://caniuse.com/>`_.
+* Valida el anidamiento de etiquetas con `Can I Include <https://caninclude.glitch.me/>`_.
+
+
+Recursos extras
+------------------------------
+
+En redes:
+
+.. raw:: html
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://x.com/alexxubyte/status/1708145139515109449">Tweet from @alexxubyte</a>
+    <img alt="" src="https://pbs.twimg.com/media/F7SM78-bgAAKd6h?format=jpg" width="65%" height="auto" class="align-center"></p>
+    </blockquote>
