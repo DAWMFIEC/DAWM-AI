@@ -74,15 +74,15 @@ Actividades autónomas
 Markdown y QR
 ------------------------------
 
-1. Use el `tutorial <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones básica de Markdown para seguir modificando su archvio *README.md*.
-2. Genere el código :term:`QR` en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL` de su repositorio personal.
-3. Responda a la actividad en el AulaVirtual.
+* Use el `tutorial <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones básica de Markdown para seguir modificando su archvio *README.md*.
+* Genere el código :term:`QR` en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL` de su repositorio personal.
+
 
 GIT y GitHub
 ------------------------------
 
-1. Revise el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
-2. Analice la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en GitHub.
+* Revise el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
+* Analice la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en GitHub.
 
 
 Recursos extras
