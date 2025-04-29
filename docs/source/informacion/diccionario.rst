@@ -35,6 +35,9 @@ Diccionario de términos
     HTML
         Lenguaje de marcado utilizado para estructurar y presentar contenido en la web. HTML define la estructura básica de una página web mediante etiquetas y elementos.
 
+    etiquetas
+        Elementos de HTML que se utilizan para marcar y estructurar el contenido de una página web. Las etiquetas HTML se representan mediante ángulos (<>) y pueden tener atributos que proporcionan información adicional sobre el elemento.
+
     VSCode
         Editor de código fuente desarrollado por Microsoft. Es ampliamente utilizado por desarrolladores para escribir y editar código en varios lenguajes de programación.
 
@@ -43,3 +46,6 @@ Diccionario de términos
 
     estructura semántica
         Conjunto de etiquetas HTML que proporcionan significado y contexto al contenido de una página web. Incluye etiquetas como <header>, <nav>, <article>, <section>, entre otras.
+
+    estándar
+        Conjunto de reglas y pautas que definen cómo debe escribirse y estructurarse el código HTML. El estándar HTML Living Standard es el documento de referencia para el lenguaje HTML.
