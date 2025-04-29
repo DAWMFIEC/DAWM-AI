@@ -59,13 +59,12 @@ GitHub Pages
     Por ejemplo, si tu nombre de usuario es :literal:`juanperez`, la URL de tu sitio será: https://juanperez.github.io
 
 
-Conclusión
-==========
+Conclusiones
+============
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué criterios seguiste para aceptar o modificar las sugerencias de ChatGPT sobre el contenido de tu repositorio?
-    
+    ¿Qué criterios seguiste para aceptar o modificar las sugerencias de ChatGPT sobre el contenido de tu repositorio?, y    
     ¿Por qué crees que esas decisiones mejoran tu identidad digital?
 
 

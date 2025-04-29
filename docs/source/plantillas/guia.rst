@@ -141,8 +141,8 @@ voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic.
 Validación
 =====================
 
-Conclusión
-==========
+Conclusiones
+============
 
 .. topic:: Preguntas de cierre
 
