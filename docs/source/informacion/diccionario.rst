@@ -64,3 +64,6 @@ Diccionario de términos
 
     IAG
         Generador de texto a partir de IA. Herramienta que utiliza inteligencia artificial para generar texto y recomendaciones basadas en el contenido proporcionado por el usuario.
+
+    atributos
+        Propiedades adicionales que se pueden agregar a las etiquetas HTML para proporcionar información adicional sobre el elemento. Los atributos se definen dentro de la etiqueta y pueden incluir valores como identificadores, clases, estilos, entre otros.
