@@ -38,6 +38,9 @@ Diccionario de términos
     etiquetas
         Elementos de HTML que se utilizan para marcar y estructurar el contenido de una página web. Las etiquetas HTML se representan mediante ángulos (<>) y pueden tener atributos que proporcionan información adicional sobre el elemento.
 
+    Copilot
+        Herramienta de autocompletado de código basada en inteligencia artificial, desarrollada por GitHub. Se integra con editores de código como Visual Studio Code y sugiere fragmentos de código y funciones mientras el desarrollador escribe.
+
     VSCode
         Editor de código fuente desarrollado por Microsoft. Es ampliamente utilizado por desarrolladores para escribir y editar código en varios lenguajes de programación.
 

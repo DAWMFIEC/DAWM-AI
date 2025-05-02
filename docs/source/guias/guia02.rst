@@ -34,7 +34,7 @@ Estructura general y semántica
 ------------------------------
 
 1. Cree el documento :term:`HTML` *index.html* dentro del directorio de tu proyecto.
-2. Utilice :term:`VSCode` para editar el documento *index.html*, con:
+2. Utilice :term:`Copilot` de :term:`VSCode` para editar el documento *index.html*, con:
 
    a) Las :term:`etiquetas` de la :term:`estructura general`, sugerida en la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
 
@@ -49,7 +49,7 @@ Estructura general y semántica
 Despliegue en GitHub Pages
 --------------------------
 
-1. Despliegue el sitio del repositorio *curriculum* de acuerdo la guía para :download:`publicar la rama con GitHub Pages <./pdfs/guia02-maingithubpages.pdf>`.
+1. Despliegue el sitio del repositorio *curriculum* de acuerdo la guía para :download:`publicar la rama main con GitHub Pages <./pdfs/guia02-maingithubpages.pdf>`.
 2. Compruebe el resultado en el navegador.
 
 Conclusiones
