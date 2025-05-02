@@ -11,15 +11,13 @@ Proyecto
 
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt voluptatum tenetur libero nulla esse veritatis accusantium earum commodi hic voluptatem officia culpa optio atque. Quaerat sed quibusdam ratione nam.
 
-Pregunta
+Introducción
 =====================
 
 .. admonition:: Prompt para ChatGPT
 
     Como desarrollador, ¿Cómo puedo presentar mi trabajo tecnológico que he desarrollado hasta ahora?
 
-Respuesta
-=====================
 .. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto00-pregunta.png
    :alt: reStructuredText, the markup syntax
 

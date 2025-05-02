@@ -12,7 +12,7 @@ Proyecto 01: Repositorio del desarrollador
 
     Desarrollar un medio para la generación de una identidad digital que facilite la presentación de las habilidades tecnológicas de una manera clara y accesible.
 
-Pregunta y Respuesta
+Introducción
 =====================
 
 .. admonition:: Prompt para ChatGPT

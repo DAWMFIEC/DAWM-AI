@@ -12,7 +12,7 @@ Proyecto 02: Curriculum Vitae - HTML & CSS
 
     Desarrollar un currículum vitae digital que permita presentar información profesional de manera organizada, accesible y visualmente atractiva, mediante el uso adecuado de etiquetas HTML estructurales, semánticas, contenido multimedia e interactivo, así como la aplicación de reglas CSS para mejorar la presentación y la accesibilidad del contenido.
 
-Preguntas y Respuestas
+Introducción
 ======================
 
 .. admonition:: Prompt para ChatGPT
