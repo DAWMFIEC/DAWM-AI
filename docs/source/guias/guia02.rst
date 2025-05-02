@@ -44,7 +44,8 @@ Estructura general y semántica
    
     Obligatorio: Utilice 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>).
 
-3. Versione local y remotamente el repositorio *curriculum*.
+3. Redacta tu biografía corta, datos de contacto, estudios, experiencia, habilidades. Valida y mejora la redacción con ayuda de un LLM.
+4. Versione local y remotamente el repositorio *curriculum*.
 
 Despliegue en GitHub Pages
 --------------------------
