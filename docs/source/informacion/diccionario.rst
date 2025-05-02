@@ -52,3 +52,9 @@ Diccionario de términos
 
     estándar
         Conjunto de reglas y pautas que definen cómo debe escribirse y estructurarse el código HTML. El estándar HTML Living Standard es el documento de referencia para el lenguaje HTML.
+
+    multimedia
+        Contenido que combina diferentes tipos de medios, como texto, imágenes, audio y video. En HTML, se utilizan etiquetas específicas para incluir y mostrar contenido multimedia en una página web.
+
+    semántica de texto
+        Conjunto de etiquetas HTML que proporcionan significado y estructura al texto en una página web. Incluye etiquetas como <h1>, <p>, <ul>, <ol>, entre otras.
