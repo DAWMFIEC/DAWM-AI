@@ -36,21 +36,14 @@ Estructura general y semántica
 1. Cree el documento :term:`HTML` *index.html* dentro del directorio de tu proyecto.
 2. Utilice :term:`Copilot` de :term:`VSCode` para generar las :term:`etiquetas` HTML en el documento *index.html*, con:
 
-   a) La :term:`estructura general` que incluya la etiqueta <title> y las etiquetas <meta> (para keywords, description y author). 
+   a) La :term:`estructura general` que incluya la etiqueta <title> y las etiquetas <meta> (para keywords, description y author). Valide su respuesta con la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
 
-   
-    Valide su respuesta con la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
-    
+   b) La :term:`estructura semántica` que contenga 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>). Valide su respuesta con la guía para :download:`crear una página HTML con la estructura semántica <./pdfs/guia02-estructurasemántica.pdf>`.
 
-   b) La :term:`estructura semántica` que contenga 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>). 
-
-   
-    Valide su respuesta con la guía para :download:`crear una página HTML con la estructura semántica <./pdfs/guia02-estructurasemántica.pdf>`.
-
-3. Redacte el contenido de tu CV con los datos de contacto, estudios, experiencia, habilidades. Valida y mejora la redacción con ayuda de un LLM.
+3. Redacte el contenido de tu CV con los datos de contacto, estudios, experiencia, habilidades. Valida y mejora la redacción con ayuda de un cliente de :term:`IAG`.
 
 Vista Previa
----------------------------
+------------
 
 1. En VSCode, acceda a la opción **Extensión** en la barra lateral izquierda (o presione Ctrl+Shift+X).
 2. Busque e instale la extensión `Live Preview` en el Marketplace de VSCode.
