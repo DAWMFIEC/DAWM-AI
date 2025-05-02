@@ -19,7 +19,6 @@ Diseño
 ------
 
 1. Diseñe el contenido de su CV en el que incorpore un formulario, una imagen o un video, y un mapa, considerando la recomendación de diseño para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
-2. Revise los sitios `Lorem Ipsum <https://www.lipsum.com/>`_ (para generar texto de relleno), y `Placehold <https://placehold.co/>`_ (para obtener marcadores de posición con imágenes).
 
 Actividades en clases
 =====================
@@ -29,11 +28,37 @@ Actividades en clases
 Etiquetas multimedia
 --------------------
 
+1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas :term:`multimedia` en el documento *index.html*, con:
+
+   a) Una una imagen con el placeholder de https://placehold.co.
+   b) Un video de YouTube. Agrega la URL.
+   c) Un mapa de Google Maps.
+
+2. Decida la ubicación de las etiquetas multimedia en las secciones del documento *index.html*.
+3. Compruebe la vista previa del resultado en el navegador.
+    
 Etiquetas de formularios
 ------------------------
 
+1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`formularios` en el documento *index.html*, con:
+
+   a) Un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un elemento con un conjunto de opciones, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>.
+
+2. Decida la ubicación de las etiquetas de formularios en las secciones del documento *index.html*.
+3. Compruebe la vista previa del resultado en el navegador.
+
 Etiquetas de semántica de texto
 -------------------------------
+
+1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`semántica de texto` en el documento *index.html*, con:
+   
+   a) Un párrafo con un enlace a un sitio web. 
+   b) Una lista ordenada de elementos.
+   c) Una lista no ordenada de elementos.
+   d) Una tabla sin bordes, con al menos tres filas y tres columnas. La primera fila y la primera columna debe contener los encabezados de la tabla.
+
+2. Decida la ubicación de las etiquetas de semántica de texto en las secciones del documento *index.html*.
+3. Compruebe la vista previa del resultado en el navegador.
 
 Despliegue con GitHub Pages
 ---------------------------
@@ -58,6 +83,6 @@ En redes:
 
 .. raw:: html
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/deepanshusharmx/status/1708118904391053714">Tweet from @deepanshusharmx</a>
-    <img alt="" src="https://pbs.twimg.com/ext_tw_video_thumb/1708115269187710976/pu/img/316z8sA74Czf1nR6.jpg" width="65%" height="auto" class="align-center"><source type="video/mp4" src="blob:https://x.com/e7c71b7e-0d51-4f41-8e56-28a08cc675fa"></p>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://x.com/alexxubyte/status/1692560840853962987">Tweet from @alexxubyte</a>
+    <img alt="" src="https://pbs.twimg.com/media/F30vG5kXEAE4fYg?format=jpg&name=900x900" width="65%" height="auto" class="align-center"></p>
     </blockquote>
