@@ -38,7 +38,7 @@ Estructura general y semántica
 
    a) Las :term:`etiquetas` de La :term:`estructura general` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard02.pdf>`_.
 
-    Obligatorio: Use de la etiqueta <title> y las etiquetas <meta> (para keywords, description y author), de acuerdo con la sugerencia de Gemini.
+    Obligatorio: Use de la etiqueta <title> y las etiquetas <meta> (para keywords, description y author), de acuerdo con la sugerencia de Bard.
 
    b) Las etiquetas :term:`estructura semántica` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard03.pdf>`_.
    
