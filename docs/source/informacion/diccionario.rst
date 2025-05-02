@@ -56,5 +56,11 @@ Diccionario de términos
     multimedia
         Contenido que combina diferentes tipos de medios, como texto, imágenes, audio y video. En HTML, se utilizan etiquetas específicas para incluir y mostrar contenido multimedia en una página web.
 
+    formularios
+        Conjunto de elementos HTML que permiten a los usuarios ingresar datos y enviar información a un servidor. Incluye etiquetas como <form>, <input>, <textarea>, <select>, entre otras.
+
     semántica de texto
         Conjunto de etiquetas HTML que proporcionan significado y estructura al texto en una página web. Incluye etiquetas como <h1>, <p>, <ul>, <ol>, entre otras.
+
+    IAG
+        Generador de texto a partir de IA. Herramienta que utiliza inteligencia artificial para generar texto y recomendaciones basadas en el contenido proporcionado por el usuario.
