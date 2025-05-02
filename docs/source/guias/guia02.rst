@@ -49,6 +49,17 @@ Estructura general y semántica
 
 3. Redacte el contenido de tu CV con los datos de contacto, estudios, experiencia, habilidades. Valida y mejora la redacción con ayuda de un LLM.
 
+Vista Previa
+---------------------------
+
+1. En VSCode, acceda a la opción **Extensión** en la barra lateral izquierda (o presione Ctrl+Shift+X).
+2. Busque e instale la extensión `Live Preview` en el Marketplace de VSCode.
+3. Habilite la opción `Show Preview` 
+   
+   a) En `View` > `Command Palette`, busque y seleccione `Live Preview: Show Preview (Internal Browser)`, o
+   
+   b) Haga clic en el icono de `Show Preview` junto al nombre del documento.
+
 Despliegue con GitHub Pages
 ---------------------------
 
