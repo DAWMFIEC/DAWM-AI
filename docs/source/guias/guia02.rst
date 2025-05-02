@@ -71,7 +71,7 @@ Conclusiones
 Actividades autónomas
 =====================
 
-Estándar HTML	
+Etiquetas HTML	
 ------------------------------
 
 * Revisa el :term:`estándar` del `HTML Living Standard <https://html.spec.whatwg.org/multipage/>`_.
