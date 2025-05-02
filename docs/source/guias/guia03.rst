@@ -15,11 +15,28 @@ Guía 03: HTML - Etiquetas multimedia, formularios y semánticas de texto
 Actividades previas
 =====================
 
+Diseño
+------
+
+1. Diseñe el contenido de su CV en el que incorpore un formulario, una imagen o un video, y un mapa, considerando la recomendación de diseño para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
+2. Revise los sitios `Lorem Ipsum <https://www.lipsum.com/>`_ (para generar texto de relleno), y `Placehold <https://placehold.co/>`_ (para obtener marcadores de posición con imágenes).
+
 Actividades en clases
 =====================
 
-Despliegue en GitHub Pages
---------------------------
+1. Clone localmente tu repositorio *curriculum*.
+
+Etiquetas multimedia
+--------------------
+
+Etiquetas de formularios
+------------------------
+
+Etiquetas de semántica de texto
+-------------------------------
+
+Despliegue con GitHub Pages
+---------------------------
 
 1. Versione local y remotamente el repositorio *curriculum*.
 2. Compruebe el resultado en el navegador.

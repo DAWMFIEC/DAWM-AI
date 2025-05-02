@@ -18,8 +18,8 @@ Actividades previas
 Actividades en clases
 =====================
 
-Despliegue en GitHub Pages
---------------------------
+Despliegue con GitHub Pages
+---------------------------
 
 1. Versione local y remotamente el repositorio *curriculum*.
 2. Compruebe el resultado en el navegador.

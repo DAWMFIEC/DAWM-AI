@@ -46,8 +46,8 @@ Estructura general y semántica
 
 3. Redacta tu biografía corta, datos de contacto, estudios, experiencia, habilidades. Valida y mejora la redacción con ayuda de un LLM.
 
-Despliegue en GitHub Pages
---------------------------
+Despliegue con GitHub Pages
+---------------------------
 
 1. Versione local y remotamente el repositorio *curriculum*.
 2. Despliegue el sitio del repositorio *curriculum* de acuerdo la guía para :download:`publicar la rama main con GitHub Pages <./pdfs/guia02-maingithubpages.pdf>`.
