@@ -18,8 +18,8 @@ Actividades previas
 Diseño
 ------
 
-1. Decide el contenido de su CV, puede considerar la recomendación en la `imagen <https://dawmfiec.github.io/DAWM/guias/2024/chatgpt/guia02-recomendacion01.png>`_ de ChatGPT o la recomendación en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard01.pdf>`_ de Bard.
-2. Elija la estructura del contenido de su CV, p.e.: el orden de las secciones, título de cada sección, uso de listas numeradas o listas no numeradas de elementos, etc.
+1. Decide el contenido de su CV. Puedes considerar la recomendación de diseño para :download:`diseñar el contenido de un CV <./pdfs/guia02-disenocv.pdf>`.
+2. Elije la estructura del contenido de su CV, p.e.: el orden de las secciones, título de cada sección, uso de listas numeradas o listas no numeradas de elementos, etc.
 
 Github
 ------
@@ -36,11 +36,11 @@ Estructura general y semántica
 1. Cree el documento :term:`HTML` *index.html* dentro del directorio de tu proyecto.
 2. Utilice :term:`VSCode` para editar el documento *index.html*, con:
 
-   a) Las :term:`etiquetas` de La :term:`estructura general` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard02.pdf>`_.
+   a) Las :term:`etiquetas` de la :term:`estructura general`, sugerida en la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
 
-    Obligatorio: Use de la etiqueta <title> y las etiquetas <meta> (para keywords, description y author), de acuerdo con la sugerencia de Bard.
+    Obligatorio: Use de la etiqueta <title> y las etiquetas <meta> (para keywords, description y author), de acuerdo con la sugerencia de Gemini.
 
-   b) Las etiquetas :term:`estructura semántica` sugerida por Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard03.pdf>`_.
+   b) Las etiquetas :term:`estructura semántica` sugerida en la guía para :download:`crear una página HTML con la estructura semántica <./pdfs/guia02-estructurasemántica.pdf>`.
    
     Obligatorio: Utilice 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>).
 
@@ -49,7 +49,7 @@ Estructura general y semántica
 Despliegue en GitHub Pages
 --------------------------
 
-1. Despliegue el sitio del repositorio *curriculum* de acuerdo con Bard en el `PDF <https://dawmfiec.github.io/DAWM/guias/2024/bard/guia02-bard04.pdf>`_.
+1. Despliegue el sitio del repositorio *curriculum* de acuerdo la guía para :download:`publicar la rama con GitHub Pages <./pdfs/guia02-maingithubpages.pdf>`.
 2. Compruebe el resultado en el navegador.
 
 Conclusiones
