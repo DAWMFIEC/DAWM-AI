@@ -71,10 +71,15 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué?
+    ¿Qué inconsistencias, limitaciones o errores detectaste en las sugerencias de la IAG respecto al uso correcto de las etiquetas HTML, y cómo las corregiste para asegurar una mejor calidad técnica del documento?
 
 Actividades autónomas
 =====================
+
+Atributos HTML	
+------------------------------
+
+* Revisa los :term:`atributos` del `HTML Attributes <https://www.w3docs.com/learn-html/html-attributes.html>`_.
 
 Recursos extras
 ------------------------------
