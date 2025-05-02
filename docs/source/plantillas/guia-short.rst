@@ -18,6 +18,12 @@ Actividades previas
 Actividades en clases
 =====================
 
+Despliegue en GitHub Pages
+--------------------------
+
+1. Versione local y remotamente el repositorio *XXXXXX*.
+2. Compruebe el resultado en el navegador.
+
 Conclusiones
 ============
 
