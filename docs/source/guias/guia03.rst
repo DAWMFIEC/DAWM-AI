@@ -84,7 +84,7 @@ Atributos HTML
 Embeber contenido multimedia
 ------------------------------
 
-* En `¿Cómo insertar vídeos de YouTube en nuestra web (HTML)? <https://www.desarrollolibre.net/blog/html/como-insertar-videos-de-youtube-en-nuestra-web-html>`_ se encuentran las instrucciones sobre cómmo embeber videos de YouTube.
+* En `¿Cómo insertar vídeos de YouTube en nuestra web (HTML)? <https://www.desarrollolibre.net/blog/html/como-insertar-videos-de-youtube-en-nuestra-web-html>`_ se encuentran las instrucciones sobre cómo embeber videos de YouTube.
 * Revisa las instrucciones de `Cómo crear un mapa con Leaflet <https://mappinggis.com/2013/06/como-crear-un-mapa-con-leaflet/>`_ para aprender a embeber mapas.
 * Para agregar una canción o un playlist de SoundCloud, revisa `Embedding a track or playlist <https://help.soundcloud.com/hc/en-us/articles/115003568008-Embedding-a-track-or-playlist>`_.
 
