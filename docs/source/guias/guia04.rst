@@ -15,6 +15,11 @@ Guía 04: CSS - Reglas CSS y Modelo de caja
 Actividades previas
 =====================
 
+Diseño
+------
+
+1. Escoge la tipografía con `Google Fonts <https://fonts.google.com/>`_ tu gusto una combinación de familias tipografías para título de pricipal, para los títulos de las secciones y para todo el documento, de acuerdo con la recomendación de `Fontjoy <https://fontjoy.com/>`_.
+
 Github
 ------
 
