@@ -75,14 +75,14 @@ Reglas CSS - I
 Reglas CSS - II
 ---------------
 
-1. Modifique el archivo *index.html*, con:
+1. Modifique el archivo *index.html*:
 
-   a) Agregue el atributo **id** a la etiqueta `<img>` con el valor **photo**.
-   b) Agregue el atributo **class** a las etiquetas `<h2>` con el valor **subtitle**.
+   a) A la etiqueta `<img>`, agregue el atributo **id** con el valor **photo**.
+   b) A las etiquetas `<h2>`, agregue el atributo **class** con el valor **subtitle**.
 
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
-   a) Con el selector por id con el valor **photo** con el ancho de `25vw` y el alto es `automático`.
+   a) Con el selector por id con el valor **photo** cuyo ancho es `25vw` y el alto es `automático`.
    b) Con el selector por clase con el valor **subtitle** cuyo color del texto es `rgb(151 156 165 / 0.89);` y el texto en mayúsculas.
 
 
@@ -111,7 +111,7 @@ Reglas CSS - II
             text-transform: uppercase; 
         }
 
-3. Compruebe la vista previa del resultado en el navegador.
+1. Compruebe la vista previa del resultado en el navegador.
 
 Despliegue con GitHub Pages
 ---------------------------
