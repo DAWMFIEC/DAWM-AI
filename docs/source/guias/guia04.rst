@@ -93,14 +93,9 @@ Reglas CSS - II
     .. code-block:: css
         :emphasize-lines: 5-12,14-21
 
-        * {
-            font-family: Arial, sans-serif;
-        } 
+        * { ... } 
 
-        h1 {
-            text-align: center;
-            font-weight: bold;
-        }
+        h1 { ... }
 
         #photo {
 
