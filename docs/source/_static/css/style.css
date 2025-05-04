@@ -19,7 +19,7 @@ main div.bd-article-container p a.reference.internal:not(.download)::after {
 }
 
 main div.bd-article-container p a.reference.external:not(.download)::after {
-	content: "⭎" !important;
+	content: "ꜛ" !important;
 }
 
 main div.bd-article-container p a.reference.external {
