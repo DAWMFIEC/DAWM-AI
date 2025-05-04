@@ -91,7 +91,11 @@ Reglas CSS - II
     :class: solution
 
     .. code-block:: css
-        :emphasize-lines: 1-6,8-16
+        :emphasize-lines: 5-12,14-21
+
+        * { ... } 
+
+        h1 { ... }
 
         #photo {
 
