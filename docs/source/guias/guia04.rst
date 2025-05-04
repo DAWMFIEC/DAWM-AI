@@ -46,11 +46,27 @@ Reglas CSS - I
 
    b) Con el selector para el título principal, aplique la propiedad CSS para alinear el texto al centro y en negritas.
 
-.. collapse:: A Different Label
-    :class: custom-summary
-    :name: summary0
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
 
-    Something else that might escape notice.
+  .. code-block:: css
+    :emphasize-lines: 1-6,8-15
+
+    * {
+
+       /* Familia de fuentes */
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    h1 {
+
+       /* Alineación del texto */
+       text-align: center;
+
+       /* Grosor de la fuente negrita */ 
+       font-weight: bold; 
+    }
 
 Despliegue con GitHub Pages
 ---------------------------
