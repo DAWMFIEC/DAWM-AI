@@ -77,13 +77,13 @@ Reglas CSS - II
 
 1. Modifique el archivo *index.html*, con:
 
-    a) Agregue el atributo **id** a la etiqueta `<img>` con el valor **photo**.
-    b) Agregue el atributo **class** a la etiqueta `<h2>` con el valor **subtitle**.
+   a) Agregue el atributo **id** a la etiqueta `<img>` con el valor **photo**.
+   b) Agregue el atributo **class** a la etiqueta `<h2>` con el valor **subtitle**.
 
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
-    a) Con el selector por id con el valor **photo** con el ancho de `50vw` y el alto es `automático`.
-    b) Con el selector por clase con el valor **subtitle** cuyo color del texto es `rgb(107 114 128 / 0.89)`.
+   a) Con el selector por id con el valor **photo** con el ancho de `50vw` y el alto es `automático`.
+   b) Con el selector por clase con el valor **subtitle** cuyo color del texto es `rgb(107 114 128 / 0.89)`.
 
 3. Compruebe la vista previa del resultado en el navegador.
 
