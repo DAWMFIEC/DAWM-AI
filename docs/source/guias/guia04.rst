@@ -42,8 +42,15 @@ Reglas CSS - I
 
 1. Utilice un cliente de IAG para generar las :term:`reglas CSS` en el documento *stylesheets/style.css*, con:
 
-   a) A todo el documento, con el :term:`selector CSS` que aplique la :term:`propiedad CSS` **font-family** con el :term:`valor CSS` **'Segoe UI', Tahoma, Geneva, Verdana, sans-serif**.
+   a) Con el :term:`selector CSS` para todo el documento, aplique la :term:`propiedad CSS` **font-family** con el :term:`valor CSS` **'Segoe UI', Tahoma, Geneva, Verdana, sans-serif**.
 
+   b) Con el selector para el título principal, aplique la propiedad CSS para alinear el texto al centro y en negritas.
+
+.. collapse:: A Different Label
+    :class: custom-summary
+    :name: summary0
+
+    Something else that might escape notice.
 
 Despliegue con GitHub Pages
 ---------------------------
