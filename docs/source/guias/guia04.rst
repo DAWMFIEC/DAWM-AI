@@ -83,7 +83,33 @@ Reglas CSS - II
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
    a) Con el selector por id con el valor **photo** con el ancho de `25vw` y el alto es `automático`.
-   b) Con el selector por clase con el valor **subtitle** cuyo color del texto es `rgb(151 156 165 / 0.89);`.
+   b) Con el selector por clase con el valor **subtitle** cuyo color del texto es `rgb(151 156 165 / 0.89);` y el texto en mayúsculas.
+
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: css
+        :emphasize-lines: 1-6,8-16
+
+        #photo {
+
+            /* Ancho del elemento */
+            width: 25vw; 
+
+            /* Alto del elemento */
+            height: auto; 
+        }
+
+        .subtitle {
+
+            /* Color del texto en rgba */
+            color: rgb(151 156 165 / 0.89);
+
+            /* Transformación del texto a mayúsculas */ 
+            text-transform: uppercase; 
+        }
 
 3. Compruebe la vista previa del resultado en el navegador.
 
