@@ -29,5 +29,10 @@ main div.bd-article-container p a.reference.external {
 
 
 summary.admonition-title {
-    background: #07cb79 !important;
+    background: #03a360 !important;
+}
+
+
+.admonition {
+	border-color: #03a360;
 }
