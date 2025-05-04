@@ -15,6 +15,11 @@ Guía 04: CSS - Reglas CSS y Modelo de caja
 Actividades previas
 =====================
 
+Github
+------
+
+1. Clone localmente tu repositorio *curriculum*.
+
 Actividades en clases
 =====================
 

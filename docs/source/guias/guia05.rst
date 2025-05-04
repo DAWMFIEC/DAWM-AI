@@ -15,6 +15,11 @@ Guía 05: CSS - Diseño
 Actividades previas
 =====================
 
+Github
+------
+
+1. Clone localmente tu repositorio *curriculum*.
+
 Actividades en clases
 =====================
 
