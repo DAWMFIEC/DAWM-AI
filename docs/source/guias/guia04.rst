@@ -18,7 +18,8 @@ Actividades previas
 Diseño
 ------
 
-1. Escoge la tipografía con `Google Fonts <https://fonts.google.com/>`_ tu gusto una combinación de familias tipografías para título de pricipal, para los títulos de las secciones y para todo el documento, de acuerdo con la recomendación de `Fontjoy <https://fontjoy.com/>`_.
+1. Escoge las tipografías con `Google Fonts <https://fonts.google.com/>`_ y combínalas con `Fontjoy <https://fontjoy.com/>`_ de acuerdo a tu gusto para el título de pricipal, para los títulos en las secciones y para todo el documento.
+2. Seleciona a tu gusto una combinación de colores de acuerdo con la guía de `Happy Hues <https://www.happyhues.co/>`_, `Huemint <https://huemint.com/website-2/>`_, `Coolors <https://coolors.co/>`_ o `ColorMagic <https://colormagic.app/>`_.
 
 Github
 ------
@@ -27,6 +28,12 @@ Github
 
 Actividades en clases
 =====================
+
+Archivos y estructura
+----------------------
+
+1. Cree la carpeta *stylesheets* dentro del directorio de tu proyecto.
+2. Cree el documento :term:`CSS` *style.css* dentro de la carpeta *stylesheets* de tu proyecto.
 
 Despliegue con GitHub Pages
 ---------------------------

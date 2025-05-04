@@ -34,6 +34,9 @@ Diccionario de términos
 
     HTML
         Lenguaje de marcado utilizado para estructurar y presentar contenido en la web. HTML define la estructura básica de una página web mediante etiquetas y elementos.
+    
+    directorio raíz
+        Carpeta principal de un proyecto que contiene todos los archivos y subcarpetas del mismo. En el contexto de un proyecto web, el directorio raíz suele contener archivos HTML, CSS, JavaScript y otros recursos.
 
     etiquetas
         Elementos de HTML que se utilizan para marcar y estructurar el contenido de una página web. Las etiquetas HTML se representan mediante ángulos (<>) y pueden tener atributos que proporcionan información adicional sobre el elemento.
@@ -67,3 +70,6 @@ Diccionario de términos
 
     atributos
         Propiedades adicionales que se pueden agregar a las etiquetas HTML para proporcionar información adicional sobre el elemento. Los atributos se definen dentro de la etiqueta y pueden incluir valores como identificadores, clases, estilos, entre otros.
+
+    CSS
+        Hojas de estilo en cascada. Lenguaje utilizado para describir la presentación y el diseño de un documento HTML. CSS permite aplicar estilos, colores, fuentes y diseños a los elementos HTML.
