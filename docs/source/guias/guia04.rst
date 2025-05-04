@@ -40,7 +40,7 @@ Archivos y estructura
 Reglas CSS - I
 --------------
 
-1. Utilice un cliente de IAG para generar las :term:`reglas CSS` en el documento *stylesheets/style.css*, con:
+1. Utilice un cliente de IAG para generar las :term:`reglas CSS` en el documento *stylesheets/style.css*:
 
    a) Con el :term:`selector CSS` para todo el documento, aplique la :term:`propiedad CSS` **font-family** con el :term:`valor CSS` **'Segoe UI', Tahoma, Geneva, Verdana, sans-serif**.
 
@@ -71,6 +71,21 @@ Reglas CSS - I
         }
 
 2. Compruebe la vista previa del resultado en el navegador.
+
+Reglas CSS - II
+---------------
+
+1. Modifique el archivo *index.html*, con:
+
+    a) Agregue el atributo **id** a la etiqueta `<img>` con el valor **photo**.
+    b) Agregue el atributo **class** a la etiqueta `<h2>` con el valor **subtitle**.
+
+2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
+
+    a) Con el selector por id con el valor **photo** con el ancho de `50vw` y el alto es `automático`.
+    b) Con el selector por clase con el valor **subtitle** cuyo color del texto es `rgb(107 114 128 / 0.89)`.
+
+3. Compruebe la vista previa del resultado en el navegador.
 
 Despliegue con GitHub Pages
 ---------------------------
