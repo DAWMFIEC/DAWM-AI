@@ -20,10 +20,13 @@ Diseño
 
 1. Diseñe el contenido de su CV en el que incorpore un formulario, una imagen o un video, y un mapa, considerando la recomendación de diseño para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
 
-Actividades en clases
-=====================
+Github
+------
 
 1. Clone localmente tu repositorio *curriculum*.
+
+Actividades en clases
+=====================
 
 Etiquetas multimedia
 --------------------
