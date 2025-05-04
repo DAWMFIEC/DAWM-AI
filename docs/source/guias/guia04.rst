@@ -93,9 +93,14 @@ Reglas CSS - II
     .. code-block:: css
         :emphasize-lines: 5-12,14-21
 
-        * { ... } 
+        * {
+            font-family: Arial, sans-serif;
+        } 
 
-        h1 { ... }
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
 
         #photo {
 
@@ -116,6 +121,16 @@ Reglas CSS - II
         }
 
 1. Compruebe la vista previa del resultado en el navegador.
+
+Modelo de caja
+--------------
+
+Efectos CSS
+-----------
+
+Etiquetas contenedoras
+----------------------
+
 
 Despliegue con GitHub Pages
 ---------------------------
