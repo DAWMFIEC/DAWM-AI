@@ -34,6 +34,16 @@ Archivos y estructura
 
 1. Cree la carpeta *stylesheets* dentro del directorio de tu proyecto.
 2. Cree el documento :term:`CSS` *style.css* dentro de la carpeta *stylesheets* de tu proyecto.
+3. Referencie el documento *style.css* en el documento *index.html* dentro de la etiqueta `<head>`. Valide su respuesta con la guía para :download:`referenciar una hoja de estilo externa <./pdfs/guia04-referenciacss.pdf>`.
+
+
+Reglas CSS - I
+--------------
+
+1. Utilice un cliente de IAG para generar las :term:`reglas CSS` en el documento *stylesheets/style.css*, con:
+
+   a) A todo el documento, con el :term:`selector CSS` que aplique la :term:`propiedad CSS` **font-family** con el :term:`valor CSS` **'Segoe UI', Tahoma, Geneva, Verdana, sans-serif**.
+
 
 Despliegue con GitHub Pages
 ---------------------------
