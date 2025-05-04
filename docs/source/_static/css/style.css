@@ -32,7 +32,7 @@ summary.admonition-title {
     background: #03a360 !important;
 }
 
-
 .admonition {
 	border-color: #03a360;
+	margin-left: 3vw;
 }
