@@ -73,3 +73,15 @@ Diccionario de términos
 
     CSS
         Hojas de estilo en cascada. Lenguaje utilizado para describir la presentación y el diseño de un documento HTML. CSS permite aplicar estilos, colores, fuentes y diseños a los elementos HTML.
+
+    reglas CSS
+        Conjunto de instrucciones que definen cómo se deben presentar los elementos HTML en una página web. Las reglas CSS incluyen selectores, propiedades y valores que determinan el estilo visual de los elementos.
+
+    selector CSS
+        Parte de una regla CSS que se utiliza para seleccionar los elementos HTML a los que se aplicará el estilo. Los selectores pueden ser etiquetas, clases, identificadores o combinaciones de estos.
+
+    propiedad CSS
+        Parte de una regla CSS que define el estilo que se aplicará a los elementos seleccionados. Las propiedades CSS pueden incluir colores, fuentes, márgenes, tamaños, entre otros.
+    
+    valor CSS
+        Parte de una regla CSS que especifica el valor que se aplicará a una propiedad CSS. Los valores pueden ser números, colores, tamaños, unidades de medida, entre otros.
