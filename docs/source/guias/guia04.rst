@@ -224,6 +224,10 @@ En redes:
 
 .. raw:: html
 
+    Animaciones CSS
 
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🔵 CSS Animation Overview 🔵 <br><br>CSS Animations make animating web UI elements simple. You can achieve many animations without needing any JS or external packages and can be done straight away with vanilla CSS.<br><br>Let&#39;s break down CSS animations. 👇 🧵 1/14 <a href="https://t.co/bzCqU3SXm5">pic.twitter.com/bzCqU3SXm5</a></p>&mdash; Coner Murphy (@MrConerMurphy) <a href="https://twitter.com/MrConerMurphy/status/1387832309848625153?ref_src=twsrc%5Etfw">April 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <blockquote class="twitter-tweet"><p lang="es" dir="ltr">🚀 Más de 500 animaciones de carga creadas con un único elemento en CSS<a href="https://t.co/kVvt9DHzFy">https://t.co/kVvt9DHzFy</a> <a href="https://t.co/VEaBgXpgyR">pic.twitter.com/VEaBgXpgyR</a></p>&mdash; Cosmic Red (@carmenansio) <a href="https://twitter.com/carmenansio/status/1710351098211389450?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    Transiciones CSS
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🌟 8 Practical examples of CSS transitions 🌟 <a href="https://t.co/pv679jfGPe">pic.twitter.com/pv679jfGPe</a></p>&mdash; George Moller (@_georgemoller) <a href="https://twitter.com/_georgemoller/status/1522250968741654531?ref_src=twsrc%5Etfw">May 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
