@@ -205,6 +205,13 @@ Conclusiones
 Actividades autónomas
 =====================
 
+Reglas CSS
+------------------------------
+
+* Revisa la documentación de `CSS - MDN <https://developer.mozilla.org/es/docs/Web/CSS>`_.
+* En **W3Schools** revisa las opciones de `Selectores CSS <https://www.w3schools.com/cssref/css_selectors.php>`_ y las `Propiedades CSS <https://www.w3schools.com/cssref/index.php>`_.
+
+
 Recursos extras
 ------------------------------
 
