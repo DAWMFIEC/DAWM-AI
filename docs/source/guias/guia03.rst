@@ -45,7 +45,7 @@ Etiquetas de formularios
 
 1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`formularios` en el documento *index.html*, con:
 
-   a) Un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un elemento con un conjunto de opciones, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>.
+   a) Un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un conjunto de opciones relacionadas, un vector de valores, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>.
 
 2. Decida la ubicación de las etiquetas de formularios en las secciones del documento *index.html*.
 3. Compruebe la vista previa del resultado en el navegador.
