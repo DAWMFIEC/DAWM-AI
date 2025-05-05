@@ -166,17 +166,20 @@ Efectos CSS
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 5-7
+        :emphasize-lines: 7-9
 
         ...
 
-        section { ... }
+        section { 
+            
+           ... 
 
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
+           -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+           border-radius: 5px;
+        }
 
-2. Aplique la propiedad CSS la regla CSS de la etiqueta `<section>`. 
+1. Aplique la propiedad CSS la regla CSS de la etiqueta `<section>`. 
 
 Etiquetas contenedoras
 ----------------------
