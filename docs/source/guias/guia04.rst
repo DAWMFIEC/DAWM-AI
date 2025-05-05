@@ -159,6 +159,25 @@ Modelo de caja
 Efectos CSS
 -----------
 
+1. Utilice el servicio de `Border Radius <https://border-radius.com/>`_ para generar un borde redondeado de 5 píxeles para el borde de la etiqueta `<section>`.
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: text
+        :emphasize-lines: 5-7
+
+        ...
+
+        section { ... }
+
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+
+2. Aplique la propiedad CSS la regla CSS de la etiqueta `<section>`. 
+
 Etiquetas contenedoras
 ----------------------
 
