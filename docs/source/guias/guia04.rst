@@ -215,6 +215,6 @@ En redes:
 
 .. raw:: html
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/deepanshusharmx/status/1708118904391053714">Tweet from @deepanshusharmx</a>
-    <img alt="" src="https://pbs.twimg.com/ext_tw_video_thumb/1708115269187710976/pu/img/316z8sA74Czf1nR6.jpg" width="65%" height="auto" class="align-center"><source type="video/mp4" src="blob:https://x.com/e7c71b7e-0d51-4f41-8e56-28a08cc675fa"></p>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://x.com/carmenansio/status/1710351098211389450">Tweet from @carmenansio</a>
+    <img alt="" src="https://pbs.twimg.com/ext_tw_video_thumb/1710350945651920899/pu/img/ol4vutF5fCHiMsp3.jpg" width="65%" height="auto" class="align-center"><source type="video/mp4" src="blob:https://x.com/i/status/1710351098211389450"></p>
     </blockquote>
