@@ -188,10 +188,6 @@ Efectos CSS
 
 1. Aplique la propiedad CSS la regla CSS de la etiqueta `<section>`. 
 
-Etiquetas contenedoras
-----------------------
-
-
 Despliegue con GitHub Pages
 ---------------------------
 
@@ -203,7 +199,8 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué?
+    ¿Cómo justificarías el impacto visual y funcional de utilizar bordes, márgenes, paddings y sombras en la presentación de las secciones de tu documento HTML frente a otros estilos posibles?
+
 
 Actividades autónomas
 =====================
