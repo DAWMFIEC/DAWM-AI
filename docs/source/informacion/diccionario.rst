@@ -85,3 +85,6 @@ Diccionario de términos
     
     valor CSS
         Parte de una regla CSS que especifica el valor que se aplicará a una propiedad CSS. Los valores pueden ser números, colores, tamaños, unidades de medida, entre otros.
+
+    código legado
+        Código antiguo o desactualizado que aún se utiliza en un proyecto. Puede ser difícil de mantener y actualizar debido a su antigüedad o falta de documentación.

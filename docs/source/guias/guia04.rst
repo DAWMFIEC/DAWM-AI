@@ -159,6 +159,12 @@ Modelo de caja
 Efectos CSS
 -----------
 
+.. sidebar:: Propiedades con prefijos específicos de navegadores
+   
+   Las propiedades `-webkit-border-` y `-moz-box-` son prefijos específicos de navegadores que se utilizaban en versiones antiguas de navegadores para implementar características experimentales o no estandarizadas de CSS. 
+
+   Pueden aparecer en :term:`código legado` o para garantizar compatibilidad con navegadores muy antiguos.
+
 1. Utilice el servicio de `Border Radius <https://border-radius.com/>`_ para generar un borde redondeado de 5 píxeles para el borde de la etiqueta `<section>`.
 2. Utilice el servicio de `Box Shadows <https://box-shadow.dev/>`_ para crear una sombra con desplazamiento de 3 píxeles en ambas direcciones, un desenfoque de 1 píxel y sin expansión, utilizando un color gris claro (235, 234, 234) semitransparente (0.6).
 
