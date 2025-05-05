@@ -16,16 +16,13 @@ Actividades previas
 =====================
 
 1. Ingrese a su cuenta de :term:`GitHub`, en `https://github.com <https://github.com>`_.
-2. Acceda su repositorio personal. 
-   
-.. hint::
-
-    Siga estos pasos para verificar si tiene, o no, un repositorio personal: 
+2. Verifique si tiene, o no, un repositorio personal: 
     
-    a) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios).
-    b) Revise la lista de repositorios. Si encuentra uno con su nombre de usuario o que represente su portafolio personal, ya tiene un repositorio personal.
+   a) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios).
+    
+   b) Revise la lista de repositorios. Si encuentra uno con su nombre de usuario o que represente su portafolio personal, ya tiene un repositorio personal.
 
-.. attention::
+.. hint::
 
     Si no tiene un repositorio personal, siga las instrucciones de :term:`Bard` con la guía para :download:`crear repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>` con Github.
 
