@@ -160,13 +160,14 @@ Efectos CSS
 -----------
 
 1. Utilice el servicio de `Border Radius <https://border-radius.com/>`_ para generar un borde redondeado de 5 píxeles para el borde de la etiqueta `<section>`.
+2. Utilice el servicio de `Box Shadows <https://box-shadow.dev/>`_ para crear una sombra con desplazamiento de 3 píxeles en ambas direcciones, un desenfoque de 1 píxel y sin expansión, utilizando un color gris claro (235, 234, 234) semitransparente (0.6).
 
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 7-9
+        :emphasize-lines: 7-10,12-15
 
         ...
 
@@ -174,9 +175,15 @@ Efectos CSS
             
            ... 
 
+           /* borde redondeado con un radio de 5 píxeles */
            -webkit-border-radius: 5px;
            -moz-border-radius: 5px;
            border-radius: 5px;
+
+           /* sombra a un elemento */
+           -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+           -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+           box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
         }
 
 1. Aplique la propiedad CSS la regla CSS de la etiqueta `<section>`. 
