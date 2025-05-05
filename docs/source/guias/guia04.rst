@@ -50,7 +50,7 @@ Reglas CSS - I
     :collapsible: closed
     :class: solution
 
-    .. code-block:: css
+    .. code-block:: text
         :emphasize-lines: 1-6,8-16
 
         * {
@@ -70,7 +70,7 @@ Reglas CSS - I
 
         }
 
-2. Compruebe la vista previa del resultado en el navegador.
+1. Compruebe la vista previa del resultado en el navegador.
 
 Reglas CSS - II
 ---------------
@@ -90,7 +90,7 @@ Reglas CSS - II
     :collapsible: closed
     :class: solution
 
-    .. code-block:: css
+    .. code-block:: text
         :emphasize-lines: 5-12,14-21
 
         * { ... } 
@@ -115,10 +115,46 @@ Reglas CSS - II
             text-transform: uppercase; 
         }
 
-1. Compruebe la vista previa del resultado en el navegador.
+3. Compruebe la vista previa del resultado en el navegador.
 
 Modelo de caja
 --------------
+
+1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
+
+   a)  Con el selector por elemento para las etiquetas <section> con el borde tiene un grosor de 0.2 puntos, es sólido (sin trazos o estilos especiales) y su color es un tono gris azulado claro (#cedddd).
+   b) Para la regla CSS anterior, entre el borde y el contenido agrega una separación vertical de 1.5% y una separación horizonal 0.8%; 
+   c) Para la regla CSS anterior, agrega un margen de 4 píxeles en la parte superior, 2 píxeles en los lados derecho e izquierdo, y 8 píxeles en la parte inferior.
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: text
+        :emphasize-lines: 5-23
+
+        ...
+
+        .subtitle { ... }
+
+        section {
+
+            /* borde de grosor 0.2 en puntos, estilo sólido y color hexadecimal #cedddd  */
+            border: 0.2pt solid #cedddd; 
+
+            /* relleno (espacio interno) de 
+            1.5% en la parte superior e inferior y 
+            0.8% a los lados derecho e izquierdo. */
+
+            padding: 1.5% 0.8%; 
+
+            /* margen (espacio externo) superior, derecho, abajo e izquierda */
+            margin: 4px 2px 8px 2px; 
+
+        }
+
+1. Compruebe la vista previa del resultado en el navegador.
+
 
 Efectos CSS
 -----------
