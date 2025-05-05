@@ -211,7 +211,7 @@ Conclusiones
 Actividades autónomas
 =====================
 
-Reglas CSS
+Estándar CSS
 ------------------------------
 
 * Revisa la documentación de `CSS - MDN <https://developer.mozilla.org/es/docs/Web/CSS>`_.
