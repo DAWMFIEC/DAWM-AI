@@ -89,6 +89,4 @@ En redes:
 
 .. raw:: html
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://x.com/alexxubyte/status/1708145139515109449">Tweet from @alexxubyte</a>
-    <img alt="" src="https://pbs.twimg.com/media/F7SM78-bgAAKd6h?format=jpg" width="65%" height="auto" class="align-center"></p>
-    </blockquote>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Almost every software engineer has used Git before, but only a handful know how it works.<br><br>To begin with, it&#39;s essential to identify where our code is stored. The common assumption is that there are only two locations - one on a remote server like Github and the other on our… <a href="https://t.co/edXjF0fulA">pic.twitter.com/edXjF0fulA</a></p>&mdash; Alex Xu (@alexxubyte) <a href="https://twitter.com/alexxubyte/status/1708145139515109449?ref_src=twsrc%5Etfw">September 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

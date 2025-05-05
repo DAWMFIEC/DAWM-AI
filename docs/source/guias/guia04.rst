@@ -224,6 +224,6 @@ En redes:
 
 .. raw:: html
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://x.com/carmenansio/status/1710351098211389450">Tweet from @carmenansio</a>
-    <img alt="" src="https://pbs.twimg.com/ext_tw_video_thumb/1710350945651920899/pu/img/ol4vutF5fCHiMsp3.jpg" width="65%" height="auto" class="align-center"><source type="video/mp4" src="blob:https://x.com/i/status/1710351098211389450"></p>
-    </blockquote>
+
+
+    <blockquote class="twitter-tweet"><p lang="es" dir="ltr">🚀 Más de 500 animaciones de carga creadas con un único elemento en CSS<a href="https://t.co/kVvt9DHzFy">https://t.co/kVvt9DHzFy</a> <a href="https://t.co/VEaBgXpgyR">pic.twitter.com/VEaBgXpgyR</a></p>&mdash; Cosmic Red (@carmenansio) <a href="https://twitter.com/carmenansio/status/1710351098211389450?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
