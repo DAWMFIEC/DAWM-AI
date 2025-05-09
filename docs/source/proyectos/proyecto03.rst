@@ -16,6 +16,8 @@ Introducción
 
 .. admonition:: Prompt para ChatGPT
 
+    Pregunta
+
 .. figure:: https://
 
 .. toctree::
