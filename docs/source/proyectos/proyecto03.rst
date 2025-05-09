@@ -1,4 +1,4 @@
-Proyecto 03: Dashboard - React
+Proyecto 03: Landing Page SPA - Bootstrap & Javascript
 ===================================
 
 .. toctree::

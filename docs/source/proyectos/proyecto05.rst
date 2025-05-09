@@ -1,4 +1,4 @@
-Proyecto 05: Backend - Django
+Proyecto 05: Aplicación Híbrida - Angular y Ionic
 ===================================
 
 .. toctree::

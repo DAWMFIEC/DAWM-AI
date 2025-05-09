@@ -1,4 +1,4 @@
-Proyecto 04: Aplicación Híbrida - Angular y Ionic
+Proyecto 04: Dashboard - React
 ===================================
 
 .. toctree::
