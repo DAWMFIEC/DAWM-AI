@@ -205,7 +205,7 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Cómo justificarías el impacto visual y funcional de utilizar bordes, márgenes, paddings y sombras en la presentación de las secciones de tu documento HTML frente a otros estilos posibles?
+    ¿Cómo justificarías el impacto visual y funcional de utilizar bordes, márgenes, relleno y sombras en la presentación de las secciones de tu documento HTML frente a otros estilos posibles?
 
 
 Actividades autónomas
@@ -215,7 +215,7 @@ Estándar CSS
 ------------------------------
 
 * Revisa la documentación de `CSS - MDN <https://developer.mozilla.org/es/docs/Web/CSS>`_.
-* En **W3Schools** revisa las opciones de `Selectores CSS <https://www.w3schools.com/cssref/css_selectors.php>`_ y las `Propiedades CSS <https://www.w3schools.com/cssref/index.php>`_.
+* En **W3Schools** revisa las opciones de `Selectores CSS <https://www.w3schools.com/cssref/css_selectors.php>`_ y las `Propiedades y Valores CSS <https://www.w3schools.com/cssref/index.php>`_.
 
 Recursos extras
 ------------------------------
