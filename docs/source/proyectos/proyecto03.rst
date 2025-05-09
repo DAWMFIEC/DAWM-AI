@@ -3,6 +3,7 @@
   Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
   SPDX-License-Identifier: CC-BY-SA-4.0
 
+======================================================
 Proyecto 03: Landing Page SPA - Bootstrap & Javascript
 ======================================================
 
@@ -18,7 +19,7 @@ Introducción
 
     Pregunta
 
-.. figure:: https://
+.. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto01-pregunta2.png
 
 .. toctree::
   :maxdepth: 1
