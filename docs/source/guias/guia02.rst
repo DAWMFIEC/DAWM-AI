@@ -42,6 +42,11 @@ Estructura general y semántica
 
    a) La :term:`estructura general` que incluya la etiqueta <title> y las etiquetas <meta> (para keywords, description y author). Valide su respuesta con la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
 
+      .. tip:: **Prompt sugerido**
+
+         Genera una estructura HTML básica con las etiquetas <head>, <title>, <meta> y <body>. 
+         La etiqueta <head> debe contener la etiqueta <title> con el nombre de mi CV, y las etiquetas <meta> para keywords, description y author.
+
    b) La :term:`estructura semántica` que contenga 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>). Valide su respuesta con la guía para :download:`crear una página HTML con la estructura semántica <./pdfs/guia02-estructurasemántica.pdf>`.
 
 2. Redacte el contenido de tu CV con los datos de contacto, estudios, experiencia, habilidades. Valida y mejora la redacción con ayuda de un cliente de :term:`IAG`.
