@@ -181,7 +181,7 @@ Modelo de caja
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 5-23
+        :emphasize-lines: 5-24
 
         ...
 
@@ -192,15 +192,18 @@ Modelo de caja
             /* borde de grosor 0.2 en puntos, estilo sólido y color hexadecimal #cedddd  */
             border: 0.2pt solid #cedddd; 
 
+            /* margen (espacio externo) superior, derecho, abajo e izquierda */
+            margin: 4px 2px 8px 2px; 
+
             /* relleno (espacio interno) de 
             1.5% en la parte superior e inferior y 
             0.8% a los lados derecho e izquierdo. */
 
             padding: 1.5% 0.8%; 
 
-            /* margen (espacio externo) superior, derecho, abajo e izquierda */
-            margin: 4px 2px 8px 2px; 
-
+            /* Margen inferior ajustado */
+            margin-bottom: 1.2rem; 
+    
         }
 
 1. Compruebe la vista previa del resultado en el navegador.
