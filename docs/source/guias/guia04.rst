@@ -122,6 +122,44 @@ Reglas CSS - II
 
 3. Compruebe la vista previa del resultado en el navegador.
 
+Reglas CSS - III
+---------------
+
+
+1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
+
+   a) Con el selector para etiqueta descendiente `<p>` dentro de la etiqueta `<footer>`, aplique la propiedad CSS **text-align** con el valor **right**.
+
+   b) Con el selector para la etiqueta hija `<ul>` dentro de la etiqueta `<nav>`, aplique la propiedad CSS **list-style** con el valor **none**.
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: text
+        :emphasize-lines: 5-10,12-17
+
+        ...
+
+        .subtitle { ... }
+
+        footer p {
+
+            /* Alineación del texto a la derecha */
+            text-align: right;
+            
+        }
+        
+        nav > ul {
+          
+            /* Eliminar los estilos de lista predeterminados */
+            list-style: none;
+        
+        }
+
+
+1. Compruebe la vista previa del resultado en el navegador.
+
 Modelo de caja
 --------------
 
@@ -140,7 +178,7 @@ Modelo de caja
 
         ...
 
-        .subtitle { ... }
+        nav > ul { ... }
 
         section {
 
@@ -158,7 +196,7 @@ Modelo de caja
 
         }
 
-2. Compruebe la vista previa del resultado en el navegador.
+1. Compruebe la vista previa del resultado en el navegador.
 
 
 Efectos CSS
