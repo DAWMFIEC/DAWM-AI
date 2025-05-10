@@ -26,7 +26,7 @@ Github
 
 1. Cree un repositorio en GitHub con el nombre *curriculum*.
 2. Clone localmente tu repositorio *curriculum*.
-3. Verifique que su correo electrónico de su cuenta de GitHub esté configurado con su proyecto, de acuerdo con la `Documentación de GitHub <https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository>`_. 
+3. Verifique que el correo electrónico de su cuenta de GitHub esté configurado con su proyecto, de acuerdo con la `Documentación de GitHub <https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository>`_. 
    
    a) Para ello, ejecute el siguiente comando en la terminal de VSCode:
 
