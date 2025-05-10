@@ -44,6 +44,10 @@ Reglas CSS - I
 
    a) Con el :term:`selector CSS` para todo el documento, aplique la :term:`propiedad CSS` **font-family** con el :term:`valor CSS` **'Segoe UI', Tahoma, Geneva, Verdana, sans-serif**.
 
+      .. admonition:: Prompt sugerido
+
+            Agrega el selector CSS para todo el documento que aplique la propiedad CSS font-family con el valor CSS “Segoe UI”, Tahoma, Geneva, Verdana, sans-serif.
+    
    b) Con el selector para el título principal, aplique la propiedad CSS para alinear el texto al centro y en negritas.
 
 .. admonition:: Haga click aquí para ver la solución
@@ -70,7 +74,7 @@ Reglas CSS - I
 
         }
 
-2. Compruebe la vista previa del resultado en el navegador.
+1. Compruebe la vista previa del resultado en el navegador.
 
 Reglas CSS - II
 ---------------
