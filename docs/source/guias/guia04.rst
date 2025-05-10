@@ -210,7 +210,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Cómo justificarías el impacto visual y funcional de utilizar bordes, márgenes, relleno y sombras en la presentación de las secciones de tu documento HTML frente a otros estilos posibles?
+    * ¿Cómo te ayudó la inteligencia artificial generativa a comprender las diferencias entre los selectores globales, por etiqueta, por clase y por identificador en la aplicación de reglas CSS? ¿Qué conocimientos previos necesitaste validar o corregir?
+  
+    * En tu proyecto de currículum, ¿cómo decidiste cuándo utilizar selectores por clase, identificador o etiqueta, y cómo contrastaste tus decisiones con las propuestas por la inteligencia artificial generativa?
+  
+    * ¿Qué papel juega tu juicio personal como desarrollador al aceptar, rechazar o modificar las sugerencias de una IA en cuanto a estilos visuales, efectos o estructura CSS de un proyecto que refleja tu identidad profesional?
 
 
 Actividades autónomas
