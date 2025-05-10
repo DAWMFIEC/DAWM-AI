@@ -66,10 +66,10 @@ Etiquetas de semántica de texto
    
 2. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`semántica de texto` en el documento *index.html*, con:
    
-   a) Un párrafo con un enlace a un sitio web. 
-   b) Una lista ordenada de elementos.
-   c) Una lista no ordenada de elementos.
-   d) Una tabla sin bordes, con al menos tres filas y tres columnas. La primera fila y la primera columna debe contener los encabezados de la tabla.
+   a) Agregue un párrafo con un enlace a un sitio web. 
+   b) Añada una lista ordenada de elementos.
+   c) Incorpore una lista no ordenada de elementos.
+   d) Agregue una tabla sin bordes, con al menos tres filas y tres columnas. La primera fila y la primera columna debe contener los encabezados de la tabla.
 
 3. Compruebe la vista previa del resultado en el navegador.
 

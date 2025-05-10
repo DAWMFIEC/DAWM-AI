@@ -43,7 +43,7 @@ Reglas CSS - I
 
 1. Utilice un cliente de IAG para generar las :term:`reglas CSS` en el documento *stylesheets/style.css*:
 
-   a) Con el :term:`selector CSS` para todo el documento, aplique la :term:`propiedad CSS` **font-family** con el :term:`valor CSS` **'Segoe UI', Tahoma, Geneva, Verdana, sans-serif**.
+   a) Con el :term:`selector CSS` para todos los elementos, aplique la :term:`propiedad CSS` **font-family** con el :term:`valor CSS` **'Segoe UI', Tahoma, Geneva, Verdana, sans-serif**.
 
       .. admonition:: Prompt sugerido
 
@@ -87,7 +87,7 @@ Reglas CSS - II
 
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
-   a) Con el selector por id con el valor **photo** cuyo ancho es `25vw` y el alto es `automático`.
+   a) Con el selector por id con el valor **photo** cuyo ancho es `8vw` y el alto es `automático`.
    b) Con el selector por clase con el valor **subtitle** cuyo color del texto es `rgb(151 156 165 / 0.89);` y el texto en mayúsculas.
 
 
@@ -105,7 +105,7 @@ Reglas CSS - II
         #photo {
 
             /* Ancho del elemento */
-            width: 25vw; 
+            width: 8vw; 
 
             /* Alto del elemento */
             height: auto; 
@@ -130,7 +130,7 @@ Reglas CSS - III
 
    a) Con el selector para etiqueta descendiente `<p>` dentro de la etiqueta `<footer>` alinee el texto a la derecha y en itálica.
 
-   b) Con el selector para la etiqueta hija `<ul>` dentro de la etiqueta `<nav>`, elimine la viñeta.
+   b) Con el selector para la etiqueta hija inmediata `<ul>` dentro de la etiqueta `<nav>`, elimine la viñeta.
 
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
@@ -169,8 +169,12 @@ Modelo de caja
 1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
    a)  Con el selector por elemento para las etiquetas <section> con el borde tiene un grosor de 0.2 puntos, es sólido (sin trazos o estilos especiales) y su color es un tono gris azulado claro (#cedddd).
-   b) Para la regla CSS anterior, entre el borde y el contenido agrega una separación vertical de 1.5% y una separación horizonal 0.8%; 
-   c) Para la regla CSS anterior, agrega un margen de 4 píxeles en la parte superior, 2 píxeles en los lados derecho e izquierdo, y 8 píxeles en la parte inferior.
+   
+   b) Para la regla CSS anterior, agrega un margen de 4 píxeles en la parte superior, 2 píxeles en los lados derecho e izquierdo, y 8 píxeles en la parte inferior.
+   
+   c) Para la regla CSS anterior, entre el borde y el contenido agrega una separación vertical de 1.5% y una separación horizontal 0.8%. 
+   
+   d) Para la regla CSS anterior, agrega la propiedad CSS que modifique solo el margen inferior con 1.2 veces el tamaño de la letra del elemento raíz.
 
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
