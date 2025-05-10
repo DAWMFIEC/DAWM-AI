@@ -128,16 +128,16 @@ Reglas CSS - III
 
 1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
-   a) Con el selector para etiqueta descendiente `<p>` dentro de la etiqueta `<footer>`, aplique la propiedad CSS **text-align** con el valor **right**.
+   a) Con el selector para etiqueta descendiente `<p>` dentro de la etiqueta `<footer>` alinee el texto a la derecha y en itálica.
 
-   b) Con el selector para la etiqueta hija `<ul>` dentro de la etiqueta `<nav>`, aplique la propiedad CSS **list-style** con el valor **none**.
+   b) Con el selector para la etiqueta hija `<ul>` dentro de la etiqueta `<nav>`, elimine la viñeta.
 
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 5-10,12-17
+        :emphasize-lines: 5-13,15-20
 
         ...
 
@@ -147,6 +147,9 @@ Reglas CSS - III
 
             /* Alineación del texto a la derecha */
             text-align: right;
+
+            /* Estilo de fuente itálica */
+            font-style: italic;
             
         }
         
