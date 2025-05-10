@@ -74,7 +74,12 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué inconsistencias, limitaciones o errores detectaste en las sugerencias de la IAG respecto al uso correcto de las etiquetas HTML, y cómo las corregiste para asegurar una mejor calidad técnica del documento?
+   * ¿Qué ventajas y riesgos observas al utilizar inteligencia artificial generativa para incorporar etiquetas de formularios, multimedia y texto semántico en la estructura de tu currículum HTML, en comparación con hacerlo de forma manual?
+  
+   * Si tuvieras que explicar tu proceso de integración de esas etiquetas a otro estudiante, ¿cómo justificarías cada decisión técnica tomada con base en las sugerencias de la IA y tus propios criterios?
+
+   * ¿Cómo puedes asegurar que el resultado final del currículum vitae refleje tu autenticidad como desarrollador web, a pesar de haber utilizado inteligencia artificial en parte del proceso de codificación?
+
 
 Actividades autónomas
 =====================
