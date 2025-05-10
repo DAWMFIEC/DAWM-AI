@@ -61,8 +61,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué criterios seguiste para aceptar o modificar las sugerencias de ChatGPT sobre el contenido de tu repositorio?, y    
-    ¿Por qué crees que esas decisiones mejoran tu identidad digital?
+    * ¿De qué manera el uso de inteligencia artificial generativa para escribir o revisar documentos en Markdown puede enriquecer tu comprensión sobre la documentación técnica en el desarrollo de software, y en qué casos podría limitar tu aprendizaje?
+
+    * Al generar documentación técnica con IA en formato Markdown, ¿cómo puedes asegurar la calidad, coherencia y autenticidad del contenido producido para que sea útil en un proyecto colaborativo de desarrollo?
+    
+    * ¿Qué actitudes y principios éticos deberían guiar el uso de IA generativa en la creación de documentación técnica, para mantener tu integridad como desarrollador y el respeto hacia el trabajo en equipo?
 
 
 Actividades autónomas
