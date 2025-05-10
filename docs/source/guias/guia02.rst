@@ -26,7 +26,20 @@ Github
 
 1. Cree un repositorio en GitHub con el nombre *curriculum*.
 2. Clone localmente tu repositorio *curriculum*.
-3. Verifique si su correo electrónico puede realizar confirmaciones de su proyecto.
+3. Verifique que su correo electrónico de su cuenta de GitHub esté configurado con su proyecto. 
+   
+   a) Para ello, ejecute el siguiente comando en la terminal de VSCode:
+
+      .. code-block:: bash
+
+         git config --global user.email 
+
+   b) Si el correo electrónico no coincide con el de su cuenta de GitHub, ejecute el siguiente comando en la terminal de VSCode:
+
+      .. code-block:: bash
+
+         git config --local user.email "su correo electrónico"
+         
 
 Actividades en clases
 =====================
