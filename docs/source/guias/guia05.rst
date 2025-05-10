@@ -30,6 +30,19 @@ Despliegue con GitHub Pages
 1. Versione local y remotamente el repositorio *curriculum*.
 2. Compruebe el resultado en el navegador.
 
+Flex
+----
+
+
+Grid
+----
+
+
+Criterios de evaluación: Flex vs Grid
+-------------------------------------
+
+
+
 Conclusiones
 ============
 
