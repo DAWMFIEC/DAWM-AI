@@ -26,14 +26,7 @@ Github
 
 1. Cree un repositorio en GitHub con el nombre *curriculum*.
 2. Clone localmente tu repositorio *curriculum*.
-3. Verifique su usuario local como propietario del proyecto.
-   
-   a) Abra la terminal en el directorio raíz de su proyecto 
-   b) Muestre usuario local del repositorio con el comando:
-
-   .. code-block:: bash
-
-      git config --local --list
+3. Verifique si su correo electrónico puede realizar confirmaciones de su proyecto.
 
 Actividades en clases
 =====================
