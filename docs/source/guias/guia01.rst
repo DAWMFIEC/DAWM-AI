@@ -18,13 +18,12 @@ Actividades previas
 1. Ingrese a su cuenta de :term:`GitHub`, en `https://github.com <https://github.com>`_.
 2. Verifique si tiene, o no, un repositorio personal: 
     
-   a) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios).
-    
+   a) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios). 
    b) Revise la lista de repositorios. Si encuentra uno con su nombre de usuario o que represente su portafolio personal, ya tiene un repositorio personal.
 
-.. hint::
-
-    Si no tiene un repositorio personal, siga las instrucciones de :term:`Bard` con la guía para :download:`crear repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>` con Github.
+   .. tip::
+    
+        Si no tiene un repositorio personal, siga las instrucciones de :term:`Bard` con la guía para :download:`crear repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>` con Github.
 
 Actividades en clases
 =====================
@@ -35,9 +34,9 @@ Contenido del repositorio
 1. Use el `Cheat Sheet <https://www.markdownguide.org/cheat-sheet/>`_ con las instrucciones más usadas de :term:`Markdown` para modificar el archivo *README.md* de su proyecto.
 2. Utilice :term:`ChatGPT` para el diseño de la estructura y del contenido de tu repositorio personal, p.e.: títulos de cada sección, tus proyectos, los enlaces a cada proyecto, las tecnologías que has utilizado, el estado de tus proyectos, correo institucional, capturas de pantalla de tus proyectos, etc. 
    
-.. attention::
+   .. attention::
 
-   Omite datos sensibles, como: foto, números de contacto, correo personal, dirección, etc.
+        Omite datos sensibles, como: foto, números de contacto, correo personal, dirección, etc.
 
 GitHub Pages
 ------------
@@ -50,8 +49,7 @@ GitHub Pages
    
 .. centered:: :literal:`https://[Tu nombre de usuario].github.io`.
 
-
-.. hint::
+.. note::
 
     Por ejemplo, si tu nombre de usuario es :literal:`juanperez`, la URL de tu sitio será: https://juanperez.github.io
 
