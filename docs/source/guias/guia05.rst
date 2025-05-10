@@ -19,6 +19,7 @@ Github
 ------
 
 1. Clone localmente tu repositorio *curriculum*.
+2. Verifique que su correo electrónico de su cuenta de GitHub esté configurado con su proyecto.
 
 Actividades en clases
 =====================
