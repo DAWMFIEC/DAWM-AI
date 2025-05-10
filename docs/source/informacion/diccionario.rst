@@ -88,3 +88,9 @@ Diccionario de términos
 
     código legado
         Código antiguo o desactualizado que aún se utiliza en un proyecto. Puede ser difícil de mantener y actualizar debido a su antigüedad o falta de documentación.
+
+    flex
+        Es un modelo de diseño CSS que permite distribuir el espacio entre los elementos de una interfaz y alinear el contenido dentro de un contenedor. Es especialmente útil para crear diseños responsivos y adaptativos
+
+    grid
+        Es un sistema de diseño CSS que permite crear diseños de cuadrícula complejos y responsivos. Utiliza filas y columnas para organizar el contenido de manera flexible y adaptativa.
