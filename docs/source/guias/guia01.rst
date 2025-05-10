@@ -21,7 +21,7 @@ Actividades previas
    a) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios). 
    b) Revise la lista de repositorios. Si encuentra uno con su nombre de usuario o que represente su portafolio personal, ya tiene un repositorio personal.
 
-   .. seealso::
+   .. hint::
     
         Si no tiene un repositorio personal, siga las instrucciones de :term:`Bard` con la guía para :download:`crear repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>` con Github.
 
@@ -72,14 +72,14 @@ Actividades autónomas
 Markdown y QR
 ------------------------------
 
-* Use el `tutorial <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones básica de Markdown para seguir modificando su archvio *README.md*.
+* Use el `tutorial de Markdown <https://www.markdownguide.org/basic-syntax/>`_ con las instrucciones básica de Markdown para seguir modificando su archvio *README.md*.
 * Genere el código :term:`QR` en `QR Code Generator <https://br.qr-code-generator.com/>`_ a partir de la :term:`URL` de su repositorio personal.
 
 
 GIT y GitHub
 ------------------------------
 
-* Revise el `tutorial <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
+* Revise el `tutorial de Git <https://www.edureka.co/blog/git-tutorial/>`_ con las instrucciones más usadas para el versionamiento con :term:`GIT`.
 * Analice la documentación para la `administración de los repositorios <https://docs.github.com/es/repositories>`_ en GitHub.
 
 

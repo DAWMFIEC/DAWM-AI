@@ -74,7 +74,7 @@ Reglas CSS - I
 
         }
 
-1. Compruebe la vista previa del resultado en el navegador.
+2. Compruebe la vista previa del resultado en el navegador.
 
 Reglas CSS - II
 ---------------
