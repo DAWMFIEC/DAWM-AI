@@ -15,7 +15,7 @@ Proyecto 05: Aplicación Híbrida - Angular y Ionic
 Introducción
 ======================
 
-.. admonition:: Prompt para ChatGPT
+.. admonition:: Prompt
 
     Pregunta
 

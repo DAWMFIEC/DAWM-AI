@@ -15,7 +15,7 @@ Proyecto 03: Landing Page SPA - Bootstrap & Javascript
 Introducción
 ======================
 
-.. admonition:: Prompt para ChatGPT
+.. admonition:: Prompt
 
     Pregunta
 

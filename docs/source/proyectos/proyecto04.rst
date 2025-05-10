@@ -15,7 +15,7 @@ Proyecto 04: Dashboard - React
 Introducción
 ======================
 
-.. admonition:: Prompt para ChatGPT
+.. admonition:: Prompt
 
     Pregunta
 

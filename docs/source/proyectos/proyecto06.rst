@@ -15,7 +15,7 @@ Proyecto 06: Backend - Django
 Introducción
 ======================
 
-.. admonition:: Prompt para ChatGPT
+.. admonition:: Prompt
 
     Pregunta
 
