@@ -69,8 +69,9 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué aspectos de la estructura sugerida por Bard y Gemini decidiste mantener o modificar?, y 
-    ¿Cómo justificas estas decisiones para mantener la claridad y accesibilidad del documento?
+   * ¿Cómo te ayudó la inteligencia artificial generativa a identificar y comprender las diferencias entre una estructura general HTML válida y una estructura semántica adecuada al momento de diseñar tu currículum vitae?
+   * Al utilizar IA para generar tu currículum vitae en HTML, ¿cómo puedes garantizar que el resultado refleje tus habilidades reales como desarrollador web, manteniendo la integridad académica y profesional en el uso de etiquetas semánticas?
+  
 
 Actividades autónomas
 =====================
