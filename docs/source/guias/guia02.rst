@@ -67,16 +67,16 @@ Archivos y estructura
 Estructura general y semántica
 ------------------------------
 
-1. Utilice :term:`Copilot` de :term:`VSCode` para generar las :term:`etiquetas` HTML en el documento *index.html*, con:
+1. Utilice :term:`Copilot` de :term:`VSCode` para generar las :term:`etiquetas` HTML en el documento *index.html*:
 
-   a) La :term:`estructura general` que incluya la etiqueta <title> y las etiquetas <meta> (para keywords, description y author). Valide su respuesta con la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
+   a) Agregue la :term:`estructura general` que incluya la etiqueta <title> y las etiquetas <meta> (para keywords, description y author). Valide su respuesta con la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
 
       .. admonition:: Prompt sugerido
 
          Genera una estructura HTML básica con las etiquetas <head>, <title>, <meta> y <body>. 
          La etiqueta <head> debe contener la etiqueta <title> con el nombre de mi CV, y las etiquetas <meta> para keywords, description y author.
 
-   b) La :term:`estructura semántica` que contenga 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>). Los enlaces de la etiqueta <nav> deben estar relacionados con las secciones. Valide su respuesta con la guía para :download:`crear una página HTML con la estructura semántica <./pdfs/guia02-estructurasemántica.pdf>`.
+   b) Genere la :term:`estructura semántica` que contenga 1 etiqueta <header>, 1 etiqueta <main>, 5 etiquetas <section>, 1 etiqueta <nav> y 1 etiqueta <footer>. El documento HTML debe contener un título (<h1>) con su nombre. Cada sección debe contener un subtítulo (<h2>). Los enlaces de la etiqueta <nav> deben estar relacionados con las secciones. Valide su respuesta con la guía para :download:`crear una página HTML con la estructura semántica <./pdfs/guia02-estructurasemántica.pdf>`.
 
 2. Redacte el contenido de tu CV con los datos de contacto, estudios, experiencia, habilidades. Valida y mejora la redacción con ayuda de un cliente de :term:`IAG`.
 

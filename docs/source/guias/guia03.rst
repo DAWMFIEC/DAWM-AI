@@ -32,27 +32,25 @@ Actividades en clases
 Etiquetas multimedia
 --------------------
 
-1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas :term:`multimedia` en el documento *index.html*, con:
+1. Utilice un cliente de IAG para generar una recomendación del uso de etiquetas :term:`multimedia` en el documento *index.html*:
 
-   a) Una una imagen con el placeholder de https://placehold.co.
-   b) Un video de YouTube. Agrega la URL.
-   c) Un mapa de Google Maps.
+   a) Agregue una imagen con el placeholder de https://placehold.co. Especifique la seccióna donde se debe colocar la imagen.
+   b) Añada un video de YouTube, con la URL. Indique la sección donde se debe colocar el video.
+   c) Agregue mapa de Google Maps. Especifique la sección donde se debe colocar el mapa.
 
    .. admonition:: Prompt sugerido
 
       Genera una etiqueta HTML para insertar un mapa de Google Maps en mi CV. 
-      El mapa debe mostrar la ubicación de la Escuela Superior Politécnica del Litoral, Guayaquil, Ecuador.
+      El mapa debe mostrar la ubicación de la Escuela Superior Politécnica del Litoral, Guayaquil - Ecuador, en la sección contacto.
          
-
-2. Decida la ubicación de las etiquetas multimedia en las secciones del documento *index.html*.
-3. Compruebe la vista previa del resultado en el navegador.
+2. Compruebe la vista previa del resultado en el navegador.
     
 Etiquetas de formularios
 ------------------------
 
-1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`formularios` en el documento *index.html*, con:
+1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`formularios` en el documento *index.html*:
 
-   a) Un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un conjunto de opciones relacionadas, un vector de valores, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>.
+   a) Añada un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un conjunto de opciones relacionadas, un vector de valores, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>.
 
 2. Decida la ubicación de las etiquetas de formularios en las secciones del documento *index.html*.
 3. Compruebe la vista previa del resultado en el navegador.
