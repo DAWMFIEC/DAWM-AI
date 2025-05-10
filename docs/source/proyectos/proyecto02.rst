@@ -15,17 +15,21 @@ Proyecto 02: Curriculum Vitae - HTML & CSS
 Introducción
 ======================
 
-.. admonition:: Prompt para ChatGPT
+.. admonition:: Prompt
 
     Como desarrollador, ¿Qué tipo de información debo mostrar en mi curriculum vitae?
 
-.. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto01-pregunta1.png
+.. figure:: ./respuestas/proyecto02-respuesta01.png
+   :alt: Respuesta a la pregunta 2
+   :align: center
 
-.. admonition:: Prompt para ChatGPT
+.. admonition:: Prompt
 
     Como desarrollador, ¿Qué tipo de información NO debo mostrar en mi curriculum vitae?
 
-.. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto01-pregunta2.png
+.. figure:: ./respuestas/proyecto02-respuesta02.png
+   :alt: Respuesta a la pregunta 2
+   :align: center
 
 .. toctree::
   :maxdepth: 1

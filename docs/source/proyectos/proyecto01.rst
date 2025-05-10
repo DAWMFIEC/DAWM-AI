@@ -15,11 +15,13 @@ Proyecto 01: Repositorio del desarrollador
 Introducción
 =====================
 
-.. admonition:: Prompt para ChatGPT
+.. admonition:: Prompt
 
     Como desarrollador, ¿De qué manera puedo compartir mis proyectos técnicos-tecnológicos con el mundo de forma accesible y profesional?
 
-.. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto00-pregunta.png
+.. figure:: ./respuestas/proyecto01-respuesta01.png
+   :alt: Respuesta a la pregunta 1
+   :align: center
 
 .. toctree::
   :maxdepth: 1
