@@ -74,6 +74,9 @@ Diccionario de términos
     CSS
         Hojas de estilo en cascada. Lenguaje utilizado para describir la presentación y el diseño de un documento HTML. CSS permite aplicar estilos, colores, fuentes y diseños a los elementos HTML.
 
+    inspector del navegador
+        Herramienta de desarrollo integrada en los navegadores web que permite inspeccionar y depurar el código HTML, CSS y JavaScript de una página web. El inspector del navegador proporciona información sobre la estructura del DOM, los estilos aplicados y el rendimiento de la página.
+    
     reglas CSS
         Conjunto de instrucciones que definen cómo se deben presentar los elementos HTML en una página web. Las reglas CSS incluyen selectores, propiedades y valores que determinan el estilo visual de los elementos.
 

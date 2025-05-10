@@ -75,7 +75,8 @@ Reglas CSS - I
 
         }
 
-1. Compruebe la vista previa del resultado en el navegador.
+2. Compruebe la vista previa del resultado en el navegador.
+3. Utilice el :term:`inspector del navegador` para verificar que las reglas CSS se aplican correctamente a los elementos HTML.
 
 Reglas CSS - II
 ---------------
