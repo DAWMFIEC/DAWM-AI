@@ -35,11 +35,6 @@ Flex
 
 .. sidebar:: 
 
-    .. image:: https://blog.pixelfreestudio.com/wp-content/uploads/2024/07/1_OLorod4d77ZQwOhWTs7Jdw-1024x596.jpg
-       :alt: Flexbox
-       :width: 50%
-       :align: center
-
     Con :term:`flex`, o flexbox, los elementos dentro de un contenedor pueden crecer, encogerse y alinearse de manera flexible.
 
 
@@ -49,17 +44,19 @@ Flex
    
    b) Para el selector anterior, distribuya el espacio equitativamente entre los elementos de la lista.
 
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: text
+        :emphasize-lines: 5-13,15-20
+
 2. Compruebe la vista previa del resultado en el navegador.
 
 Grid
 ----
 
 .. sidebar:: 
-
-    .. image:: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/sites/2147496605/images/adSKFRGlQnauNI2eNk5y_blog-CSSGrid.jpg
-       :alt: Grid
-       :width: 50%
-       :align: center
 
     Con :term:`grid` los elementos dentro de un contenedor pueden alinearse en filas y columnas, lo que permite crear diseños más complejos y estructurados.
 
