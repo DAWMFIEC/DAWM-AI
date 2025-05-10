@@ -123,7 +123,7 @@ Reglas CSS - II
 3. Compruebe la vista previa del resultado en el navegador.
 
 Reglas CSS - III
----------------
+----------------
 
 
 1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
