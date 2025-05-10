@@ -174,7 +174,7 @@ Modelo de caja
    
    c) Para la regla CSS anterior, entre el borde y el contenido agrega una separación vertical de 1.5% y una separación horizontal 0.8%. 
    
-   d) Para la regla CSS anterior, agrega la propiedad CSS que modifique solo el margen inferior con 1.2 veces el tamaño de la letra del elemento raíz.
+   d) Para la regla CSS anterior, agrega la propiedad CSS que modifique por separado el margen inferior con 1.2 veces el tamaño de la letra del elemento raíz.
 
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
