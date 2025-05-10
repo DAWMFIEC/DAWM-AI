@@ -42,7 +42,7 @@ Estructura general y semántica
 
    a) La :term:`estructura general` que incluya la etiqueta <title> y las etiquetas <meta> (para keywords, description y author). Valide su respuesta con la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
 
-      .. tip:: **Prompt sugerido**
+      .. admonition:: Prompt sugerido
 
          Genera una estructura HTML básica con las etiquetas <head>, <title>, <meta> y <body>. 
          La etiqueta <head> debe contener la etiqueta <title> con el nombre de mi CV, y las etiquetas <meta> para keywords, description y author.

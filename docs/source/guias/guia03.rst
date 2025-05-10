@@ -37,7 +37,7 @@ Etiquetas multimedia
    b) Un video de YouTube. Agrega la URL.
    c) Un mapa de Google Maps.
 
-   .. tip:: **Prompt sugerido**
+   .. admonition:: Prompt sugerido
 
       Genera una etiqueta HTML para insertar un mapa de Google Maps en mi CV. 
       El mapa debe mostrar la ubicación de la Escuela Superior Politécnica del Litoral, Guayaquil, Ecuador.
