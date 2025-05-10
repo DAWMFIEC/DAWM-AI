@@ -21,7 +21,7 @@ Actividades previas
    a) En la esquina superior derecha, haga clic en su foto de perfil y seleccione **Your repositories** (Sus repositorios). 
    b) Revise la lista de repositorios. Si encuentra uno con su nombre de usuario o que represente su portafolio personal, ya tiene un repositorio personal.
 
-   .. tip::
+   .. seealso::
     
         Si no tiene un repositorio personal, siga las instrucciones de :term:`Bard` con la guía para :download:`crear repositorio personal <./pdfs/guia01-repositoriopersonal.pdf>` con Github.
 
@@ -47,11 +47,11 @@ GitHub Pages
 4. Haz clic en **Guardar cambios**.
 5. Una vez que hayas publicado tu sitio, puedes verlo en la siguiente URL: 
    
-.. centered:: :literal:`https://[Tu nombre de usuario].github.io`.
+   .. centered:: :literal:`https://[Tu nombre de usuario].github.io`.
 
-.. note::
-
-    Por ejemplo, si tu nombre de usuario es :literal:`juanperez`, la URL de tu sitio será: https://juanperez.github.io
+   .. note::
+        
+        Por ejemplo, si tu nombre de usuario es :literal:`juanperez`, la URL de tu sitio será: https://juanperez.github.io
 
 
 Conclusiones
