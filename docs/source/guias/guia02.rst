@@ -93,7 +93,7 @@ Conclusiones
 
    * ¿Cómo te ayudó la inteligencia artificial generativa a identificar y comprender las diferencias entre una estructura general HTML válida y una estructura semántica adecuada al momento de diseñar tu currículum vitae?
   
-   * Al aplicar la estructura generada por IA, ¿qué ajustes realizaste para garantizar que tu currículum sea comprensible tanto para personas como para tecnologías de asistencia (como lectores de pantalla)?
+   * ¿Cómo verificaste que el uso de etiquetas semánticas sugeridas por la IA realmente aporta claridad y organización al contenido de tu currículum, más allá de solo cumplir una estructura técnica?
   
    * ¿De qué manera el uso de IA para generar la estructura de tu currículum influye en tu responsabilidad como desarrollador en formación, especialmente en lo relacionado con la honestidad y la autoría del código?
   
