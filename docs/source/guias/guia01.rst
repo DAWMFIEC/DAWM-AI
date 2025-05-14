@@ -47,11 +47,11 @@ GitHub Pages
 4. Haz clic en **Guardar cambios**.
 5. Una vez que hayas publicado tu sitio, puedes verlo en la siguiente URL: 
    
-   .. centered:: :literal:`https://[Tu nombre de usuario].github.io`.
+   .. centered:: :literal:`https://[Tu nombre de usuario].github.io/[Tu nombre de usuario]/`.
 
    .. note::
         
-        Por ejemplo, si tu nombre de usuario es :literal:`juanperez`, la URL de tu sitio será: https://juanperez.github.io
+        Por ejemplo, si tu nombre de usuario es :literal:`juanperez`, la URL de tu sitio será: https://juanperez.github.io/juanperez/
 
 
 Conclusiones

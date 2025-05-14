@@ -26,6 +26,9 @@ Diccionario de términos
     GitHub
         Plataforma de desarrollo colaborativo que utiliza Git como sistema de control de versiones. Permite alojar proyectos, colaborar con otros desarrolladores y gestionar el código fuente.
 
+    Codespaces
+        Entorno de desarrollo integrado en la nube proporcionado por GitHub. Permite a los desarrolladores trabajar en proyectos directamente desde el navegador, sin necesidad de configurar un entorno local.
+
     Flujos de trabajo
         Conjunto de acciones automatizadas que se ejecutan en respuesta a eventos específicos en un repositorio de GitHub. Los flujos de trabajo se definen en archivos YAML y pueden incluir tareas como la construcción, prueba y despliegue de aplicaciones.
 

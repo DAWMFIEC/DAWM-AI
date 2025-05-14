@@ -21,35 +21,34 @@ Diseño
 1. Decide el contenido de su CV. Puedes considerar la recomendación de diseño para :download:`diseñar el contenido de un CV <./pdfs/guia02-disenocv.pdf>`.
 2. Elije la estructura del contenido de su CV, p.e.: el orden de las secciones, título de cada sección, uso de listas numeradas o listas no numeradas de elementos, etc.
 
-Visual Studio Code
-------------------
-
-Extensión: Vista Previa
-^^^^^^^^^^^^^^^^^^^^^^^
-
-1. En VSCode, acceda a la opción **Extensión** en la barra lateral izquierda (o presione Ctrl+Shift+X).
-2. Busque e instale la extensión `Live Preview` en el Marketplace de VSCode.
-
-
 Github
 ------
 
 1. Cree un repositorio en GitHub con el nombre *curriculum*.
-2. Clone localmente tu repositorio *curriculum*.
-3. Verifique que el correo electrónico de su cuenta de GitHub esté configurado con su proyecto, de acuerdo con la `Documentación de GitHub <https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository>`_. 
+
+Visual Studio Code
+------------------
+
+1. Utilice VSCode 
    
-   a) Para ello, ejecute el siguiente comando en la terminal de VSCode:
+   a) Desde el navegador, abra su proyecto con :term:`Codespaces`, o 
+   b) Clone localmente tu repositorio *curriculum*. Verifique que el correo electrónico de su cuenta de GitHub esté configurado con su proyecto, de acuerdo con la `Documentación de GitHub <https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository>`_. 
 
-      .. code-block:: bash
+      (i) Para ello, ejecute el siguiente comando en la terminal de VSCode:
+      
+          .. code-block:: bash
 
-         git config --global user.email 
+             git config --global user.email 
 
-   b) Si el correo electrónico no coincide con el de su cuenta de GitHub, ejecute el siguiente comando en la terminal de VSCode:
+      (ii) Si el correo electrónico no coincide con el de su cuenta de GitHub, ejecute el siguiente comando en la terminal de VSCode:
 
-      .. code-block:: bash
+           .. code-block:: bash
 
-         git config --local user.email "su correo electrónico"
+              git config --local user.email "su correo electrónico"
          
+2. Acceda a la opción **Extensión** en la barra lateral izquierda (o presione Ctrl+Shift+X).
+3. Busque e instale la extensión `Live Preview` en el Marketplace de VSCode.
+
 
 Actividades en clases
 =====================
