@@ -73,6 +73,13 @@ Etiquetas de semántica de texto
 
 3. Compruebe la vista previa del resultado en el navegador.
 
+Etiquetas contenedoras 
+----------------------
+
+1. Decida la ubicación de las etiquetas contenedoras en las secciones del documento *index.html*.
+
+2. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas contenedoras en el documento *index.html*
+
 Despliegue con GitHub Pages
 ---------------------------
 
