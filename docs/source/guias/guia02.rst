@@ -29,7 +29,7 @@ Github
 Visual Studio Code
 ------------------
 
-1. Utilice VSCode 
+1. Utilice :term:`VSCode` 
    
    a) Desde el navegador, abra su proyecto con :term:`Codespaces`, o 
    b) Clone localmente tu repositorio *curriculum*. Verifique que el correo electrónico de su cuenta de GitHub esté configurado con su proyecto, de acuerdo con la `Documentación de GitHub <https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository>`_. 
@@ -66,7 +66,7 @@ Archivos y estructura
 Estructura general y semántica
 ------------------------------
 
-1. Utilice :term:`Copilot` de :term:`VSCode` para generar las :term:`etiquetas` HTML en el documento *index.html*:
+1. Utilice :term:`Copilot` de VSCode para generar las :term:`etiquetas` HTML en el documento *index.html*:
 
    a) Agregue la :term:`estructura general` que incluya la etiqueta <title> y las etiquetas <meta> (para keywords, description y author). Valide su respuesta con la guía para :download:`crear una página HTML con la estructura general <./pdfs/guia02-estructurageneral.pdf>`.
 
