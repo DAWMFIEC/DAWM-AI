@@ -118,6 +118,3 @@ En redes:
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Semantic HTML elements play a crucial role in improving website SEO and its accessibility.<br><br>Replacing non-semantic elements makes code more readable and maintainable.<br><br>HTML Semantic Elements:<br>→ Carry inherent meanings;<br>→ Make web content more Structured;<br>→ More Meaningful.… <a href="https://t.co/O18NI5L8XD">pic.twitter.com/O18NI5L8XD</a></p>&mdash; Deepanshu Sharma (@deepanshusharmx) <a href="https://twitter.com/deepanshusharmx/status/1708118904391053714?ref_src=twsrc%5Etfw">September 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-.. raw:: html
-
-   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Publishing with GitHub Pages is now even simpler. Just three steps and you&#39;ve got yourself a website. <a href="https://t.co/hEwuD3aSoE">https://t.co/hEwuD3aSoE</a></p>&mdash; GitHub (@github) <a href="https://twitter.com/github/status/807389330528288768?ref_src=twsrc%5Etfw">December 10, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
