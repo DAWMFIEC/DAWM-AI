@@ -21,11 +21,11 @@ Diseño
 1. Escoge las tipografías con `Google Fonts <https://fonts.google.com/>`_ y combínalas con `Fontjoy <https://fontjoy.com/>`_ de acuerdo a tu gusto para el título de pricipal, para los títulos en las secciones y para todo el documento.
 2. Seleciona a tu gusto una combinación de colores de acuerdo con la guía de `Happy Hues <https://www.happyhues.co/>`_, `Huemint <https://huemint.com/website-2/>`_, `Coolors <https://coolors.co/>`_ o `ColorMagic <https://colormagic.app/>`_.
 
-Github
-------
+Ambiente de desarrollo
+----------------------
 
-1. Clone localmente tu repositorio *curriculum*.
-2. Verifique que el correo electrónico de su cuenta de GitHub esté configurado con su proyecto.
+1. Acceda a su proyecto *curriculum* en Codespaces o en su máquina local.
+2. Haga clic en el ícono de `Live Preview` en la barra de estado de VSCode para iniciar el servidor local.
 
 Actividades en clases
 =====================

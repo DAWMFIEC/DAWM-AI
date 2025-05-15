@@ -15,11 +15,11 @@ Guía 05: CSS - Diseño
 Actividades previas
 =====================
 
-Github
-------
+Ambiente de desarrollo
+----------------------
 
-1. Clone localmente tu repositorio *curriculum*.
-2. Verifique que el correo electrónico de su cuenta de GitHub esté configurado con su proyecto.
+1. Acceda a su proyecto *curriculum* en Codespaces o en su máquina local.
+2. Haga clic en el ícono de `Live Preview` en la barra de estado de VSCode para iniciar el servidor local.
 
 Actividades en clases
 =====================

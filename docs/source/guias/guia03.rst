@@ -20,11 +20,11 @@ Diseño
 
 1. Diseñe el contenido de su CV en el que incorpore un formulario, una imagen o un video, y un mapa, considerando la recomendación de diseño para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
 
-Github
-------
+Ambiente de desarrollo
+----------------------
 
-1. Clone localmente tu repositorio *curriculum*.
-2. Verifique que el correo electrónico de su cuenta de GitHub esté configurado con su proyecto.
+1. Acceda a su proyecto *curriculum* en Codespaces o en su máquina local.
+2. Haga clic en el ícono de `Live Preview` en la barra de estado de VSCode para iniciar el servidor local.
 
 Actividades en clases
 =====================

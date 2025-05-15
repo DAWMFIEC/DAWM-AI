@@ -21,15 +21,11 @@ Diseño
 1. Decide el contenido de su CV. Puedes considerar la recomendación de diseño para :download:`diseñar el contenido de un CV <./pdfs/guia02-disenocv.pdf>`.
 2. Elije la estructura del contenido de su CV, p.e.: el orden de las secciones, título de cada sección, uso de listas numeradas o listas no numeradas de elementos, etc.
 
-Github
-------
+Ambiente de desarrollo
+----------------------
 
 1. Cree un repositorio en GitHub con el nombre *curriculum*.
-
-Visual Studio Code
-------------------
-
-1. Utilice :term:`VSCode` 
+2. Utilice :term:`VSCode` 
    
    a) Desde el navegador, abra su proyecto con :term:`Codespaces`, o 
    b) Clone localmente tu repositorio *curriculum*. Verifique que el correo electrónico de su cuenta de GitHub esté configurado con su proyecto, de acuerdo con la `Documentación de GitHub <https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository>`_. 
@@ -46,8 +42,8 @@ Visual Studio Code
 
               git config --local user.email "su correo electrónico"
          
-2. Acceda a la opción **Extensión** en la barra lateral izquierda (o presione Ctrl+Shift+X).
-3. Busque e instale la extensión `Live Preview` en el Marketplace de VSCode.
+3. Acceda a la opción **Extensión** en la barra lateral izquierda (o presione Ctrl+Shift+X).
+4. Busque e instale la extensión `Live Preview` en el Marketplace de VSCode.
 
 
 Actividades en clases
