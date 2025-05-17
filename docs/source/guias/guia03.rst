@@ -80,7 +80,7 @@ Etiquetas contenedoras
 
    .. admonition:: Prompt sugerido
 
-      Desarrolla la justificación para el uso de [coloque aquí las etiquetas HTML].
+      Desarrolla la justificación para el uso de las etiquetas HTML [coloque aquí las etiquetas HTML].
 
 3. Compruebe la vista previa del resultado en el navegador.
 
