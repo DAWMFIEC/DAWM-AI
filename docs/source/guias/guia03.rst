@@ -18,8 +18,9 @@ Actividades previas
 Diseño
 ------
 
-1. Decida el contenido de su CV en el que incorpore un formulario, una imagen o un video, y un mapa, considerando la recomendación para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
-2. Decida la sección del documento *index.html* en la que colocará el contenido de su CV.
+1. Decida el contenido de su CV para que incorpore un formulario, una imagen, un video y un mapa, considerando la recomendación para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
+
+2. Escoja las secciones en su documento *index.html* en las que colocará el formulario, la imagen, el video y el mapa.
 
 Ambiente de desarrollo
 ----------------------
@@ -33,9 +34,7 @@ Actividades en clases
 Etiquetas multimedia
 --------------------
 
-1. Decida la ubicación de las etiquetas multimedia en las secciones del documento *index.html*.
-   
-2. Utilice un cliente de IAG para generar una recomendación del uso de etiquetas :term:`multimedia` en el documento *index.html*:
+1. Utilice un cliente de IAG para generar una recomendación del uso de etiquetas :term:`multimedia` en el documento *index.html*:
 
    a) Agregue un mapa de Google Maps.
 
@@ -47,38 +46,35 @@ Etiquetas multimedia
    b) Agregue una imagen con el placeholder de https://placehold.co.
    c) Añada un video de YouTube, con la URL.
          
-3. Compruebe la vista previa del resultado en el navegador.
+2. Compruebe la vista previa del resultado en el navegador.
     
 Etiquetas de formularios
 ------------------------
 
-1. Decida la ubicación de las etiquetas de formularios en las secciones del documento *index.html*.
+1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`formularios` en el documento *index.html*:
 
-2. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`formularios` en el documento *index.html*:
+   a) Añada un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un conjunto de opciones relacionadas, un vector de valores, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>, en la sección **contacto**.
 
-   a) Añada un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un conjunto de opciones relacionadas, un vector de valores, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>.
-
-3. Compruebe la vista previa del resultado en el navegador.
+2. Compruebe la vista previa del resultado en el navegador.
 
 Etiquetas de semántica de texto
 -------------------------------
 
-1. Decida la ubicación de las etiquetas de semántica de texto en las secciones del documento *index.html*.
-   
-2. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`semántica de texto` en el documento *index.html*, con:
+1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`semántica de texto` en el documento *index.html*, con:
    
    a) Agregue un párrafo con un enlace a un sitio web. 
    b) Añada una lista ordenada de elementos.
    c) Incorpore una lista no ordenada de elementos.
    d) Agregue una tabla sin bordes, con al menos tres filas y tres columnas. La primera fila y la primera columna debe contener los encabezados de la tabla.
 
-3. Compruebe la vista previa del resultado en el navegador.
+2. Compruebe la vista previa del resultado en el navegador.
 
 Etiquetas contenedoras 
 ----------------------
 
-1. Decida la ubicación de las etiquetas contenedoras en las secciones del documento *index.html*.
-2. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas contenedoras en el documento *index.html*
+1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas contenedoras en el documento *index.html*, con:
+
+
 
 Despliegue con GitHub Pages
 ---------------------------
