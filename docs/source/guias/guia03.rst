@@ -18,7 +18,7 @@ Actividades previas
 Diseño
 ------
 
-1. Decida el contenido de su CV para que incorpore un formulario, una imagen, un video y un mapa, considerando la recomendación para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
+1. Decida el contenido de su CV para que incorpore un formulario, una imagen, un video y un mapa, considerando la recomendación para el :download:`diseño del contenido de un CV <./pdfs/guia03-disenocontenido.pdf>`.
 
 2. Escoja las secciones en su documento *index.html* en las que colocará el formulario, la imagen, el video y el mapa.
 
