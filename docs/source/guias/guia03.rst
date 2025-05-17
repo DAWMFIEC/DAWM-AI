@@ -18,7 +18,8 @@ Actividades previas
 Diseño
 ------
 
-1. Diseñe el contenido de su CV en el que incorpore un formulario, una imagen o un video, y un mapa, considerando la recomendación de diseño para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
+1. Decida el contenido de su CV en el que incorpore un formulario, una imagen o un video, y un mapa, considerando la recomendación para :download:`diseñar el contenido de un CV con contenido multimedia <./pdfs/guia03-disenocontenidomultimedia.pdf>`.
+2. Decida la sección del documento *index.html* en la que colocará el contenido de su CV.
 
 Ambiente de desarrollo
 ----------------------
@@ -41,7 +42,7 @@ Etiquetas multimedia
    .. admonition:: Prompt sugerido
 
       Genera una etiqueta HTML para insertar un mapa de Google Maps en mi CV. 
-      El mapa debe mostrar la ubicación de la Escuela Superior Politécnica del Litoral, Guayaquil - Ecuador, en la sección contacto.
+      El mapa debe mostrar la ubicación de la Escuela Superior Politécnica del Litoral, Guayaquil - Ecuador, en la sección **contacto**.
 
    b) Agregue una imagen con el placeholder de https://placehold.co.
    c) Añada un video de YouTube, con la URL.
@@ -77,7 +78,6 @@ Etiquetas contenedoras
 ----------------------
 
 1. Decida la ubicación de las etiquetas contenedoras en las secciones del documento *index.html*.
-
 2. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas contenedoras en el documento *index.html*
 
 Despliegue con GitHub Pages
