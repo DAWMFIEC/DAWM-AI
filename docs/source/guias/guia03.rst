@@ -67,22 +67,17 @@ Etiquetas de semántica de texto
    c) Incorpore una lista no ordenada de elementos.
    d) Agregue una tabla sin bordes, con al menos tres filas y tres columnas. La primera fila y la primera columna debe contener los encabezados de la tabla.
 
-2. Compruebe la vista previa del resultado en el navegador.
-
-Etiquetas contenedoras 
-----------------------
-
-1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas contenedoras en el documento *index.html*, con:
+2. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas contenedoras en el documento *index.html*, con:
 
    a) Agregue la sección referencias, que contenga al menos tres testimonios de personas para la que usted ha trabajado. Cada testimonio debe contener una frase, un párrafo con el nombre de la persona, su cargo y una breve descripción de su experiencia laboral con usted. Incluya la referencia en el menu de navegación.
 
-2. Consulta a tu cliente de IAG la justificación de cada etiqueta contenedora.
+3. Consulta a tu cliente de IAG la justificación de cada etiqueta contenedora.
 
    .. admonition:: Prompt sugerido
 
       Desarrolla la justificación para el uso de las etiquetas HTML [coloque aquí las etiquetas HTML].
 
-3. Compruebe la vista previa del resultado en el navegador.
+4. Compruebe la vista previa del resultado en el navegador.
 
 Despliegue con GitHub Pages
 ---------------------------
