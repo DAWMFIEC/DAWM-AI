@@ -43,8 +43,8 @@ Etiquetas multimedia
       Genera una etiqueta HTML para insertar un mapa de Google Maps en mi CV. 
       El mapa debe mostrar la ubicación de la Escuela Superior Politécnica del Litoral, Guayaquil - Ecuador, en la sección **contacto**.
 
-   b) Agregue una imagen con el placeholder de https://placehold.co.
-   c) Añada un video de YouTube, con la URL.
+   b) Añada una imagen con el placeholder de https://placehold.co.
+   c) Incorpore un video de YouTube (incluya la URL).
          
 2. Compruebe la vista previa del resultado en el navegador.
     
@@ -53,7 +53,7 @@ Etiquetas de formularios
 
 1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas de :term:`formularios` en el documento *index.html*:
 
-   a) Añada un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un conjunto de opciones relacionadas, un vector de valores, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>, en la sección **contacto**.
+   a) Añada un formulario que al menos incluya un elemento para ingresar un texto en una línea, un elemento con una lista desplegable, un conjunto de opciones relacionadas, un vector de valores, un elemento para un área de texto y un botón para enviar el formulario. Todos los elementos son obligatorios. No utilice la etiqueta <br>.
 
 2. Compruebe la vista previa del resultado en el navegador.
 
@@ -74,7 +74,15 @@ Etiquetas contenedoras
 
 1. Utilice un cliente de IAG para generar una recomendación de el uso de etiquetas contenedoras en el documento *index.html*, con:
 
+   a) Agregue la sección referencias, que contenga al menos tres testimonios de personas para la que usted ha trabajado. Cada testimonio debe contener una frase, un párrafo con el nombre de la persona, su cargo y una breve descripción de su experiencia laboral con usted. Incluya la referencia en el menu de navegación.
 
+2. Consulta a tu cliente de IAG la justificación de cada etiqueta contenedora.
+
+   .. admonition:: Prompt sugerido
+
+      Desarrolla la justificación para el uso de [coloque aquí las etiquetas HTML].
+
+3. Compruebe la vista previa del resultado en el navegador.
 
 Despliegue con GitHub Pages
 ---------------------------
@@ -91,7 +99,7 @@ Conclusiones
   
    * Si tuvieras que explicar tu proceso de integración de esas etiquetas a otro estudiante, ¿cómo justificarías cada decisión técnica tomada con base en las sugerencias de la IA y tus propios criterios?
 
-   * ¿Cómo puedes asegurar que el resultado final del currículum vitae refleje tu autenticidad como desarrollador web, a pesar de haber utilizado inteligencia artificial en parte del proceso de codificación?
+   * ¿Cómo puedes asegurar que el resultado final del currículum vitae refleje tu diseño como desarrollador web, a pesar de haber utilizado inteligencia artificial en parte del proceso de codificación?
 
 
 Actividades autónomas
