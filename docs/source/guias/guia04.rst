@@ -167,11 +167,11 @@ Reglas CSS - III
 
 2. Compruebe la vista previa del resultado en el navegador.
 
-3. Consulta a tu cliente de IAG la justificación de cada tipo de selector.
+3. Consulta a tu cliente de IAG la justificación para el uso de cada tipo de selector.
 
    .. admonition:: Prompt sugerido
 
-        Justifica el uso de los selectores CSS para la regla CSS [coloque aquí las reglas CSS].
+        Justifica el uso de los selectores CSS de acuerdo con la especificidad.
 
 Modelo de caja
 --------------
