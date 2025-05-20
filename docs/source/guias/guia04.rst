@@ -47,7 +47,7 @@ Reglas CSS - I
 
       .. admonition:: Prompt sugerido
 
-          Agrega el selector CSS para todos los elementos, que aplique la propiedad CSS font-family con el valor CSS “Segoe UI”, Tahoma, Geneva, Verdana, sans-serif.
+          Agrega el selector CSS para todos los elementos que aplique la propiedad CSS font-family con el valor CSS “Segoe UI”, Tahoma, Geneva, Verdana, sans-serif.
     
    b) Añada el selector para el título principal, aplique la propiedad CSS para alinear el texto al centro y en negritas.
 
