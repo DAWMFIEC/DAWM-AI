@@ -73,7 +73,12 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué?
+    * ¿Qué diferencias conceptuales encontraste entre el uso de Flexbox y Grid para organizar visualmente el contenido del currículum vitae?
+
+    * ¿Qué modificaciones realizaste sobre el código generado por la IA al momento de implementar el diseño con Flexbox o Grid?
+
+    * ¿Cómo puedes garantizar que el uso de inteligencia artificial en la implementación de Flexbox o Grid no reemplace tu capacidad de toma de decisiones como futuro desarrollador web?
+
 
 Actividades autónomas
 =====================
