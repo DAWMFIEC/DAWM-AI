@@ -281,8 +281,7 @@ Actividades autónomas
 Estándar CSS
 ------------------------------
 
-* Revisa el estándar con las `Descripciones
-de todas las especificaciones CSS <https://www-w3-org.translate.goog/Style/CSS/specs.en.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc>`_.
+* Revisa el estándar con las `Descripciones de todas las especificaciones CSS <https://www-w3-org.translate.goog/Style/CSS/specs.en.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc>`_.
 * Revisa la documentación de `CSS - MDN <https://developer.mozilla.org/es/docs/Web/CSS>`_.
 * En **W3Schools** revisa las opciones de `Selectores CSS <https://www.w3schools.com/cssref/css_selectors.php>`_ y las `Propiedades y Valores CSS <https://www.w3schools.com/cssref/index.php>`_.
 
