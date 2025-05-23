@@ -100,3 +100,6 @@ Diccionario de términos
 
     grid
         Es un sistema de diseño CSS que permite crear diseños de cuadrícula complejos y responsivos. Utiliza filas y columnas para organizar el contenido de manera flexible y adaptativa.
+
+    unidad relativa al tamaño de la fuente raíz
+        Unidad de medida en CSS que se basa en el tamaño de la fuente raíz del documento. Se utiliza para establecer tamaños y espacios de manera proporcional al tamaño de la fuente base, lo que facilita la adaptación del diseño a diferentes tamaños de pantalla.

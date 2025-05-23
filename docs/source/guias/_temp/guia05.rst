@@ -37,8 +37,12 @@ Flex
    a) Con el selector para la etiqueta hija `<ul>` dentro de la etiqueta `<nav>`, utilice la propiedad `display` con el valor `flex` para activar el modelo de diseño flexbox.
    
    b) Para el selector anterior, distribuya el espacio equitativamente entre los elementos de la lista.
-
+   
    c) Para el selector anterior, establece que los elementos hijos de un contenedor flexible se organicen en una fila horizontal, de izquierda a derecha, siguiendo la dirección principal del eje horizontal.
+
+   d) Para el selector anterior, establece que los elementos hijos de un contenedor flexible se alineen verticalmente en el centro del eje transversal, ubicándolos equidistantes respecto a los bordes superior e inferior del contenedor.
+
+   e) Para el selector anterior, establece un espacio uniforme de 1 :term:`unidad relativa al tamaño de la fuente raíz` (1rem) entre cada par de elementos hijos.
 
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
@@ -47,18 +51,19 @@ Flex
     .. code-block:: text
         :emphasize-lines: 3-9
 
-        ...
+        section { ... }
         
-        /* Estilo para el contenedor de navegación */
-
         nav > ul {
             display: flex;
             justify-content: space-between;
             flex-direction: row;
+            align-items: center;
+            gap: 1rem;
         }
 
+    .. note::
 
-
+        Revisa la guía de CSS flexbox en `CSS Flexbox Layout Guide <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>`_.
 
 2. Compruebe la vista previa del resultado en el navegador.
 
