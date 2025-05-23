@@ -67,7 +67,7 @@ Flex
 
     .. note::
 
-       Revisa la guía de CSS flexbox en `CSS Flexbox Layout Guide <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>`_.
+         Revisa la guía de CSS flexbox en `CSS Flexbox Layout Guide <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>`_.
 
 Grid
 ----
