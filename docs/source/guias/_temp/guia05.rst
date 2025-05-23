@@ -78,7 +78,25 @@ Grid
 
     .. image:: https://tutorial.techaltum.com/images/css-grids.jpg
 
-1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
+1. Modifique el archivo *index.html*:
+
+   a) Todos los elementos dentro la etiqueta `<form>` deben tener la siguiente estructura:
+   
+        .. code-block:: html
+
+            <form>
+                <label> ... </label>
+                <input ... >
+                
+                <label> ... </label>
+                <select ... > ... </select>
+                
+                <fieldset> ... <fieldset>
+                
+                <button> ... </button>
+            </form>
+
+2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
    a) Con el selector para la etiqueta hija `<form>` dentro de la etiqueta `<sector>`, utilice la propiedad `display` con el valor `grid` para activar el modelo de diseño grid.
 
@@ -100,7 +118,7 @@ Grid
         }
 
 
-2. Compruebe la vista previa del resultado en el navegador.
+3. Compruebe la vista previa del resultado en el navegador.
 
    .. note::
 
