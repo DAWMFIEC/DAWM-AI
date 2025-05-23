@@ -82,6 +82,24 @@ Grid
 
    a) Con el selector para la etiqueta hija `<form>` dentro de la etiqueta `<sector>`, utilice la propiedad `display` con el valor `grid` para activar el modelo de diseño grid.
 
+   b) Para el selector anterior, establece un espacio uniforme de 1 unidad relativa al tamaño de la fuente raíz (1rem) entre cada par de elementos hijos por fila y por columna, por separado.
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: text
+        :emphasize-lines: 3-7
+
+        nav > ul { ... }
+        
+        section > form {
+            display: grid;
+            row-gap: 1rem;
+            column-gap: 1rem;
+        }
+
+
 2. Compruebe la vista previa del resultado en el navegador.
 
    .. note::
