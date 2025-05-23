@@ -76,9 +76,17 @@ Grid
 
     Con :term:`grid` los elementos dentro de un contenedor pueden alinearse en filas y columnas, lo que permite crear diseños más complejos y estructurados.
 
+    .. image:: https://tutorial.techaltum.com/images/css-grids.jpg
+
 1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
+    a) Con el selector para la etiqueta hija `<form>` dentro de la etiqueta `<sector>`, utilice la propiedad `display` con el valor `grid` para activar el modelo de diseño grid.
+
 2. Compruebe la vista previa del resultado en el navegador.
+
+   .. note::
+
+        Revisa la guía de CSS grid en `CSS Grid Layout Guide <https://css-tricks.com/snippets/css/complete-guide-grid/>`_.
 
 Criterios de evaluación: Flex vs Grid
 -------------------------------------
