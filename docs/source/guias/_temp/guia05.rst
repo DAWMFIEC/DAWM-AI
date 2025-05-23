@@ -80,7 +80,7 @@ Grid
 
 1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
-    a) Con el selector para la etiqueta hija `<form>` dentro de la etiqueta `<sector>`, utilice la propiedad `display` con el valor `grid` para activar el modelo de diseño grid.
+   a) Con el selector para la etiqueta hija `<form>` dentro de la etiqueta `<sector>`, utilice la propiedad `display` con el valor `grid` para activar el modelo de diseño grid.
 
 2. Compruebe la vista previa del resultado en el navegador.
 
