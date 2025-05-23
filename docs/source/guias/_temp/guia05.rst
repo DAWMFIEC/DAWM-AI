@@ -24,11 +24,7 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
-Despliegue con GitHub Pages
----------------------------
 
-1. Versione local y remotamente el repositorio *curriculum*.
-2. Compruebe el resultado en el navegador.
 
 Flex
 ----
@@ -64,6 +60,12 @@ Grid
 
 2. Compruebe la vista previa del resultado en el navegador.
 
+
+Despliegue con GitHub Pages
+---------------------------
+
+1. Versione local y remotamente el repositorio *curriculum*.
+2. Compruebe el resultado en el navegador.
 
 Criterios de evaluación: Flex vs Grid
 -------------------------------------
