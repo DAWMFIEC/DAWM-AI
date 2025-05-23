@@ -24,8 +24,6 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
-
-
 Flex
 ----
 
@@ -45,7 +43,19 @@ Flex
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 5-13,15-20
+        :emphasize-lines: 3-8
+
+        ...
+        
+        /* Estilo para el contenedor de navegación */
+
+        nav > ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+
 
 2. Compruebe la vista previa del resultado en el navegador.
 
@@ -60,15 +70,15 @@ Grid
 
 2. Compruebe la vista previa del resultado en el navegador.
 
+Criterios de evaluación: Flex vs Grid
+-------------------------------------
+
 
 Despliegue con GitHub Pages
 ---------------------------
 
 1. Versione local y remotamente el repositorio *curriculum*.
 2. Compruebe el resultado en el navegador.
-
-Criterios de evaluación: Flex vs Grid
--------------------------------------
 
 Conclusiones
 ============
