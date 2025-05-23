@@ -31,6 +31,8 @@ Flex
 
     Con :term:`flex`, o flexbox, los elementos dentro de un contenedor pueden crecer, encogerse y alinearse de manera flexible.
 
+    .. image:: https://img.uxcel.com/practices/flexbox-1665382286109/a-1665382286109-2x.jpg
+
 
 1. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
