@@ -38,12 +38,14 @@ Flex
    
    b) Para el selector anterior, distribuya el espacio equitativamente entre los elementos de la lista.
 
+   c) Para el selector anterior, establece que los elementos hijos de un contenedor flexible se organicen en una fila horizontal, de izquierda a derecha, siguiendo la dirección principal del eje horizontal.
+
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 3-8
+        :emphasize-lines: 3-9
 
         ...
         
@@ -52,6 +54,7 @@ Flex
         nav > ul {
             display: flex;
             justify-content: space-between;
+            flex-direction: row;
         }
 
 
