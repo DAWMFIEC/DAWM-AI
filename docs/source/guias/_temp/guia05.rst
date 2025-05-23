@@ -82,19 +82,19 @@ Grid
 
    a) Todos los elementos dentro la etiqueta `<form>` deben tener la siguiente estructura:
    
-        .. code-block:: html
+.. code-block:: text
 
-            <form>
-                <label> ... </label>
-                <input ... >
-                
-                <label> ... </label>
-                <select ... > ... </select>
-                
-                <fieldset> ... <fieldset>
-                
-                <button> ... </button>
-            </form>
+    <form>
+        <label> ... </label>
+        <input ... >
+        
+        <label> ... </label>
+        <select ... > ... </select>
+        
+        <fieldset> ... <fieldset>
+        
+        <button> ... </button>
+    </form>
 
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
