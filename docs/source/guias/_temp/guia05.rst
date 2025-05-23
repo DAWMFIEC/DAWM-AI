@@ -61,11 +61,11 @@ Flex
             gap: 1rem;
         }
 
+2. Compruebe la vista previa del resultado en el navegador.
+
     .. note::
 
-        Revisa la guía de CSS flexbox en `CSS Flexbox Layout Guide <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>`_.
-
-2. Compruebe la vista previa del resultado en el navegador.
+       Revisa la guía de CSS flexbox en `CSS Flexbox Layout Guide <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>`_.
 
 Grid
 ----
