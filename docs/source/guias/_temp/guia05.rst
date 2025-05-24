@@ -78,7 +78,7 @@ Flex
 
    .. note::
 
-        Revisa la guía de CSS flexbox en `CSS Flexbox Layout Guide <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>`_.
+        Revisa los conceptos básicos de flexbox en `Basic concepts of flexbox <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox>`_ y la guía de CSS flexbox en `CSS Flexbox Layout Guide <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>`_.
 
 Grid
 ----
@@ -147,7 +147,7 @@ Grid
 
    .. note::
 
-        Revisa la guía de CSS grid en `CSS Grid Layout Guide <https://css-tricks.com/snippets/css/complete-guide-grid/>`_.
+        Revisa los conceptos básicos de grid en `Basic concepts of grid layout <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout>`_ y la guía de CSS grid en `CSS Grid Layout Guide <https://css-tricks.com/snippets/css/complete-guide-grid/>`_.
 
 Criterios de evaluación: Flex vs Grid
 -------------------------------------
