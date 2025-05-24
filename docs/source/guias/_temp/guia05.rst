@@ -80,23 +80,23 @@ Grid
 
 1. Modifique el archivo *index.html*:
 
-   a) Todos los elementos dentro la etiqueta `<form>` deben tener la siguiente estructura:
+   a) Todos los controles del formulario (la etiqueta `<form>`) deben estar al mismo nivel, es decir, no deben estar anidados dentro de etiquetas `<div>` o `<span>`. 
 
-.. code-block:: html
-    :caption: Etiquetas al primer nivel.
-    :linenos:
+   .. code-block:: html
+       :caption: Controles del formulario sin etiquetas contenedoras.
+       :linenos:
 
-    <form>
-        <label> ... </label>
-        <input ... >
-        
-        <label> ... </label>
-        <select ... > ... </select>
-        
-        <fieldset> ... <fieldset>
-        
-        <button> ... </button>
-    </form>
+       <form>
+            <label> ... </label>
+            <input ... >
+            
+            <label> ... </label>
+            <select ... > ... </select>
+            
+            <fieldset> ... <fieldset>
+            
+            <button> ... </button>
+       </form>
 
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
