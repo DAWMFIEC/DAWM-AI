@@ -82,9 +82,9 @@ Grid
 
    a) Todos los elementos dentro la etiqueta `<form>` deben tener la siguiente estructura:
    
-        .. code-block:: text
+       .. code-block:: text
 
-            <form>
+           <form>
                 <label> ... </label>
                 <input ... >
                 
@@ -94,7 +94,7 @@ Grid
                 <fieldset> ... <fieldset>
                 
                 <button> ... </button>
-            </form>
+           </form>
 
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
