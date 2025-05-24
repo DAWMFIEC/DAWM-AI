@@ -51,7 +51,7 @@ Flex
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 3,5-6,8-9,11-12,14-15,17-18,20
+        :emphasize-lines: 3-20
 
         section { ... }
         
@@ -120,7 +120,7 @@ Grid
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 3,5-6,8-9,11-12,14
+        :emphasize-lines: 3-14
 
         nav > ul { ... }
         
