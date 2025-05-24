@@ -51,16 +51,27 @@ Flex
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 3-9
+        :emphasize-lines: 3,5-6,8-9,11-12,14-15,17-18,20
 
         section { ... }
         
         nav > ul {
-            display: flex;
+
+            /* Activa el modelo de diseño Flexbox*/
+            display: flex; 
+
+            /* Distribuye los elementos con espacio igual entre ellos */
             justify-content: space-between;
+
+            /* Organiza los elementos en una fila horizontal de izquierda a derecha */ 
             flex-direction: row;
-            align-items: center;
-            gap: 1rem;
+
+            /* Centra verticalmente los elementos dentro del contenedor */
+            align-items: center; 
+
+            /* Establece un espacio uniforme de 1rem entre cada elemento */
+            gap: 1rem; 
+
         }
 
 2. Compruebe la vista previa del resultado en el navegador.
@@ -109,14 +120,21 @@ Grid
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 3-7
+        :emphasize-lines: 3,5-6,8-9,11-12,14
 
         nav > ul { ... }
         
         section > form {
+            
+            /* Activa el modelo de diseño basado en cuadrícula */
             display: grid;
+
+            /* Establece un espacio vertical uniforme de 1rem entre filas */
             row-gap: 1rem;
+
+            /* Establece un espacio horizontal uniforme de 1rem entre columnas */
             column-gap: 1rem;
+
         }
 
 
