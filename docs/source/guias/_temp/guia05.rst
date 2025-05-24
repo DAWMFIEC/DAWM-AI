@@ -122,7 +122,7 @@ Grid
     :class: solution
 
     .. code-block:: text
-        :emphasize-lines: 3-14
+        :emphasize-lines: 3-17
 
         nav > ul { ... }
         
