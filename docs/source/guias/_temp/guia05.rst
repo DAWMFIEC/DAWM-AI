@@ -113,7 +113,9 @@ Grid
 
    a) Con el selector para la etiqueta hija `<form>` dentro de la etiqueta `<sector>`, utilice la propiedad `display` con el valor `grid` para activar el modelo de diseño grid.
 
-   b) Para el selector anterior, establece un espacio uniforme de 1 unidad relativa al tamaño de la fuente raíz (1rem) entre cada par de elementos hijos por fila y por columna, por separado.
+   b) Para el selector anterior, define una estructura de una sola columna en un contenedor con diseño de cuadrícula (grid), asignándole una fracción proporcional del espacio disponible, de modo que ocupe todo el ancho del área del contenedor.
+   
+   c) Para el selector anterior, establece un espacio uniforme de 1 unidad relativa al tamaño de la fuente raíz (1rem) entre cada par de elementos hijos por fila y por columna, por separado.
 
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
@@ -128,6 +130,9 @@ Grid
             
             /* Activa el modelo de diseño basado en cuadrícula */
             display: grid;
+
+            /* Define una sola columna que ocupa todo el ancho disponible del contenedor */
+            grid-template-columns: 1fr;
 
             /* Establece un espacio vertical uniforme de 1rem entre filas */
             row-gap: 1rem;
