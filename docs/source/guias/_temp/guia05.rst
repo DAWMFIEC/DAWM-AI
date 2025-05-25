@@ -154,27 +154,41 @@ Flex vs Grid
 
 1. Compruebe en el archivo *index.html*:
 
-    a) En la sección de referencias, organice los elementos de la siguiente manera:
+   a) En la sección de referencias, organice los elementos de la siguiente manera:
 
-       - El subtítulo es una etiqueta `<h2>`.
-       - Los tres artículos están al mismo nivel que el subtítulo.
+      (i) El subtítulo es una etiqueta `<h2>`.
+      (ii) Las tres artículos son etiquetas `<article>`, y se encuentran al mismo nivel que el subtítulo.
 
-    .. code-block:: html
-        :caption: Estructura de la sección referencias.
-        :linenos:
+   .. code-block:: html
+       :caption: Estructura de la sección referencias.
+       :linenos:
 
-        <section>
-            <h2>Referencias</h2>
-            <article> ... </article>
-            <article> ... </article>
-            <article> ... </article>
-        </section>
+       <section>
+           <h2>Referencias</h2>
+           <article> ... </article>
+           <article> ... </article>
+           <article> ... </article>
+       </section>
         
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
     a) Para organizar la sección referencias para Grid y Flex, independientemente. El subtitulo ocupa todo el ancho y los tres artículos ocupen el espacio equitativamente. El espacio de separación entre filas y columnas es 1rem. No agregue otras etiquetas, ni atributos. 
 
 3. Compruebe la vista previa del resultado en el navegador.
+
+.. tabs::
+
+   .. tab:: Apples
+
+      Apples are green, or sometimes red.
+
+   .. tab:: Pears
+
+      Pears are green.
+
+   .. tab:: Oranges
+
+      Oranges are orange.
 
 
 Despliegue con GitHub Pages
