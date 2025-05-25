@@ -184,7 +184,9 @@ Flex vs Grid
         .. tab:: Flex
 
            .. code-block:: text
-               :emphasize-lines: 1-11,13-18,20-25
+               :emphasize-lines: 2-13,15-20,22-27
+
+               section > form { ... }
 
                #referencias {
 
