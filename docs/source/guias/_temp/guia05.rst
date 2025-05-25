@@ -89,9 +89,9 @@ Grid
 
     .. image:: https://tutorial.techaltum.com/images/css-grids.jpg
 
-1. Modifique el archivo *index.html*:
+1. Compruebe en el archivo *index.html*:
 
-   a) Todos los controles del formulario (la etiqueta `<form>`) deben estar al mismo nivel, es decir, no deben estar anidados dentro de etiquetas `<div>` o `<span>`. 
+   a) Todos los controles del formulario deben estar al mismo nivel, es decir, no deben estar anidados dentro de etiquetas `<div>` o `<span>`. 
 
    .. code-block:: html
        :caption: Controles del formulario sin etiquetas contenedoras.
@@ -149,8 +149,32 @@ Grid
 
         Revisa los conceptos básicos de grid en `Basic concepts of grid layout <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout>`_ y la guía de CSS grid en `CSS Grid Layout Guide <https://css-tricks.com/snippets/css/complete-guide-grid/>`_.
 
-Criterios de evaluación: Flex vs Grid
+Flex vs Grid
 -------------------------------------
+
+1. Compruebe en el archivo *index.html*:
+
+    a) En la sección de referencias, organice los elementos de la siguiente manera:
+
+       - El subtítulo es una etiqueta `<h2>`.
+       - Los tres artículos están al mismo nivel que el subtítulo.
+
+    .. code-block:: html
+        :caption: Estructura de la sección referencias.
+        :linenos:
+
+        <section>
+            <h2>Referencias</h2>
+            <article> ... </article>
+            <article> ... </article>
+            <article> ... </article>
+        </section>
+        
+2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
+
+    a) Para organizar la sección referencias para Grid y Flex, independientemente. El subtitulo ocupa todo el ancho y los tres artículos ocupen el espacio equitativamente. El espacio de separación entre filas y columnas es 1rem. No agregue otras etiquetas, ni atributos. 
+
+3. Compruebe la vista previa del resultado en el navegador.
 
 
 Despliegue con GitHub Pages
