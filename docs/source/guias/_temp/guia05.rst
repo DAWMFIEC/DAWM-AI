@@ -183,11 +183,39 @@ Flex vs Grid
 
         .. tab:: Flex
 
-           Apples are green, or sometimes red.            
+           .. code-block:: text
+               :emphasize-lines: 1-11,13-18,20-25
+
+               #referencias {
+
+                    /* Activa el modelo Flexbox */
+                    display: flex;
+
+                    /* Permite que los hijos pasen a la siguiente línea si no caben */
+                    flex-wrap: wrap;
+
+                    /* Espaciado uniforme entre filas y columnas */
+                    gap: 1rem;
+            
+               }
+
+               #referencias > h2 {
+            
+                    /* Hace que el subtítulo ocupe el 100% del ancho del contenedor */
+                    flex: 0 0 100%;
+                
+               }
+
+               #referencias > article {
+                
+                    /* Distribuye equitativamente los artículos en tres columnas */
+                    flex: 1 1 calc(33.333% - 1rem);
+                
+               }            
 
         .. tab:: Grid
         
-           Apples are green, or sometimes red.
+           Pears are green.
         
 
 3. Compruebe la vista previa del resultado en el navegador.
