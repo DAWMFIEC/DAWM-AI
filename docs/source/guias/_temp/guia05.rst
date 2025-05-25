@@ -172,24 +172,74 @@ Flex vs Grid
         
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
-    a) Para organizar la sección referencias para Grid y Flex, independientemente. El subtitulo ocupa todo el ancho y los tres artículos ocupen el espacio equitativamente. El espacio de separación entre filas y columnas es 1rem. No agregue otras etiquetas, ni atributos. 
+   a) Para organizar la sección referencias para Grid y Flex, independientemente. El subtitulo ocupa todo el ancho y los tres artículos ocupen el espacio equitativamente. El espacio de separación entre filas y columnas es 1rem. No agregue otras etiquetas, ni atributos. 
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. tabs::
+
+        .. tab:: Flex
+
+            .. code-block:: text
+                :emphasize-lines: 3-17
+
+                #referencias {
+
+                    /* Activa el modelo Flexbox */
+                    display: flex;
+
+                    /* Permite que los hijos pasen a la siguiente línea si no caben */
+                    flex-wrap: wrap;
+
+                    /* Espaciado uniforme entre filas y columnas */
+                    gap: 1rem;
+            
+                }
+
+                #referencias > h2 {
+            
+                    /* Hace que el subtítulo ocupe el 100% del ancho del contenedor */
+                    flex: 0 0 100%;
+                
+                }
+
+                #referencias > article {
+                
+                    /* Distribuye equitativamente los artículos en tres columnas */
+                    flex: 1 1 calc(33.333% - 1rem);
+                
+                }
+
+    .. tab:: Grid
+        
+        .. code-block:: text
+            :emphasize-lines: 3-17
+
+            #referencias {
+
+                /* Activa el modelo Grid */
+                display: grid;
+
+                /* Define tres columnas iguales */
+                grid-template-columns: repeat(3, 1fr);
+
+                /* Espacio entre filas y columnas */
+                row-gap: 1rem;
+                column-gap: 1rem;
+
+            }
+                
+            #referencias > h2 {
+
+                /* El subtítulo ocupa las tres columnas */
+                grid-column: 1 / -1;
+
+            }
+
 
 3. Compruebe la vista previa del resultado en el navegador.
-
-.. tabs::
-
-   .. tab:: Apples
-
-      Apples are green, or sometimes red.
-
-   .. tab:: Pears
-
-      Pears are green.
-
-   .. tab:: Oranges
-
-      Oranges are orange.
-
 
 Despliegue con GitHub Pages
 ---------------------------
