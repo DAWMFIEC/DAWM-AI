@@ -184,7 +184,7 @@ Flex vs Grid
         .. tab:: Flex
 
            .. code-block:: text
-               :emphasize-lines: 2-13,15-20,22-27
+               :emphasize-lines: 3-14,16-21,23-28
 
                section > form { ... }
 
@@ -217,7 +217,31 @@ Flex vs Grid
 
         .. tab:: Grid
         
-           Pears are green.
+           .. code-block:: text
+               :emphasize-lines: 3-14,16-21
+
+               section > form { ... }
+
+               #referencias {
+
+                    /* Activa el modelo Grid */
+                    display: grid;
+
+                    /* Define tres columnas iguales */
+                    grid-template-columns: repeat(3, 1fr);
+
+                    /* Espacio entre filas y columnas */
+                    row-gap: 1rem;
+                    column-gap: 1rem;
+
+               }
+                    
+               #referencias > h2 {
+
+                    /* El subtítulo ocupa las tres columnas */
+                    grid-column: 1 / -1;
+
+               }
         
 
 3. Compruebe la vista previa del resultado en el navegador.
