@@ -4,22 +4,22 @@
   SPDX-License-Identifier: CC-BY-SA-4.0
 
 ======================================================
-Proyecto 03: Landing Page SPA - Bootstrap & Javascript
+Proyecto 03: Landing Page SPA - TailwindCSS & Javascript
 ======================================================
 
 .. topic:: Objetivo general
     :class: objetivo
 
-    Desarrollar
+    Desarrollar una página de destino (landing page) de una sola página (SPA) utilizando TailwindCSS y Javascript, que permita presentar información de manera atractiva y funcional, aplicando principios de diseño responsivo, accesibilidad y usabilidad, así como la integración de interactividad mediante Javascript para mejorar la experiencia del usuario.
 
 Introducción
 ======================
 
 .. admonition:: Prompt
 
-    Pregunta
+    Como desarrollador, explica ¿Qué es una landing page?
 
-.. figure:: https://dawmfiec.github.io/DAWM/proyectos/2024/imagenes/proyecto01-pregunta2.png
+.. figure:: ./respuestas/proyecto03-respouesta01.png
 
 .. toctree::
   :maxdepth: 1
