@@ -111,7 +111,7 @@ Grid
 
 2. Utilice un cliente de IAG para generar las reglas CSS en el documento *stylesheets/style.css*:
 
-   a) Con el selector para la etiqueta hija `<form>` dentro de la etiqueta `<sector>`, utilice la propiedad `display` con el valor `grid` para activar el modelo de diseño grid.
+   a) Con el selector para la etiqueta hija `<form>` dentro de la etiqueta `<section>`, utilice la propiedad `display` con el valor `grid` para activar el modelo de diseño grid.
 
    b) Para el selector anterior, define una estructura de una sola columna en un contenedor con diseño de cuadrícula (grid), asignándole una fracción proporcional del espacio disponible, de modo que ocupe todo el ancho del área del contenedor.
    
