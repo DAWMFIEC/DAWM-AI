@@ -10,7 +10,7 @@ Guía XX:
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Objetivo específico de la guía.
+    Proponer código de scripting para la recuperación de datos desde una base de datos alojada en la nube, permitiendo mostrar contenido dinámico dentro de la estructura visual diseñada con Tailwind CSS.
 
 Actividades previas
 =====================

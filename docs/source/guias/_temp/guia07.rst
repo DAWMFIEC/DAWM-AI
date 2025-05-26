@@ -10,7 +10,7 @@ Guía XX:
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Objetivo específico de la guía.
+    Proponer código de scripting para el manejo dinámico de la interfaz del cliente, incorporando interactividad en la landing page desarrollada con Tailwind CSS.
 
 Actividades previas
 =====================

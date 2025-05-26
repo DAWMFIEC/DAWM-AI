@@ -10,7 +10,7 @@ Guía XX:
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Objetivo específico de la guía.
+    Proponer código de scripting para el envío de datos a una base de datos alojada en la nube, integrando formularios y funcionalidades que recojan y transmitan información de manera eficiente.
 
 Actividades previas
 =====================

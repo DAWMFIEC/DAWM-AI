@@ -103,3 +103,16 @@ Diccionario de términos
 
     unidad relativa al tamaño de la fuente raíz
         Unidad de medida en CSS que se basa en el tamaño de la fuente raíz del documento. Se utiliza para establecer tamaños y espacios de manera proporcional al tamaño de la fuente base, lo que facilita la adaptación del diseño a diferentes tamaños de pantalla.
+
+    landing page
+        Página web diseñada con un objetivo específico, como la promoción de un producto, la captación de leads o la presentación de información relevante. Las landing pages suelen tener un diseño atractivo y una estructura clara para guiar al usuario hacia una acción específica.
+
+    Tailwind CSS
+        Framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML. Permite crear diseños personalizados y responsivos de manera rápida y eficiente, evitando la necesidad de escribir CSS personalizado.
+
+    Vite
+        Herramienta de construcción y desarrollo para aplicaciones web modernas. Proporciona un entorno de desarrollo rápido y eficiente, con características como recarga en caliente, optimización de recursos y soporte para módulos ES.
+        
+    clases utilitarias
+        Clases predefinidas en Tailwind CSS que se utilizan para aplicar estilos específicos a los elementos HTML. Las clases utilitarias permiten aplicar estilos de manera rápida y eficiente, sin necesidad de escribir CSS personalizado.
+    
