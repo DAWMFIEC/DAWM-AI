@@ -52,6 +52,8 @@ Clases utilitarias
 Vercel
 ------
 
+.. include:: ../../tutoriales/vercel.rst
+
 Conclusiones
 ============
 
