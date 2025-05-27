@@ -3,9 +3,9 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-========================================================
+===========================
 Guía 06: TailwindCSS y Vite 
-========================================================
+===========================
 
 .. topic:: Objetivo específico
     :class: objetivo
@@ -44,9 +44,9 @@ Vite
       npm create vite@latest .
 
    a) Para `Ok to proceed? (y)` ingrese `y`.
-   b) Para `Current directory is not empty. Please choose how to proceed:` seleccione la opción `Ignore files and continue`
-   b) Seleccione el framework como `Vanilla`.
-   c) Seleccione la variante como `JavaScript`.
+   b) Para `Current directory is not empty. Please choose how to proceed:` seleccione la opción `Ignore files and continue`.
+   c) Seleccione el framework como `Vanilla`.
+   d) Seleccione la variante como `JavaScript`.
 
 2. Instale las dependencias del proyecto con el comando:
 
@@ -59,6 +59,9 @@ Vite
    .. code-block:: bash
 
       npm run dev
+
+4. Abra su navegador y acceda a la dirección `http://localhost:5173/` para ver su proyecto Vite en funcionamiento.
+5. Detenga el servidor de desarrollo con `Ctrl + C` en la terminal.
 
 TailwindCSS
 -----------
