@@ -39,7 +39,7 @@ Vite
 
 .. sidebar:: 
    
-   :term:`Vite` es un entorno de desarrollo rápido y moderno que permite crear aplicaciones web con facilidad mediante con recarga en caliente, optimización de recursos y soporte para módulos ES. Más información en el sitio de `Vite <https://vite.dev/>`_.
+   :term:`Vite` es un entorno de desarrollo rápido y moderno que permite crear aplicaciones web con facilidad mediante con recarga en caliente, optimización de recursos y soporte para módulos :term:`ES`. Más información en el sitio de `Vite <https://vite.dev/>`_.
 
 1. Utilice la terminal para crear un proyecto Vite con el comando:
 

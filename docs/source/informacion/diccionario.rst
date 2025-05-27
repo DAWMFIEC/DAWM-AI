@@ -112,7 +112,10 @@ Diccionario de términos
 
     Vite
         Herramienta de construcción y desarrollo para aplicaciones web modernas. Proporciona un entorno de desarrollo rápido y eficiente, con características como recarga en caliente, optimización de recursos y soporte para módulos ES.
-        
+
+    ES
+        ECMAScript. Es un estándar de scripting que define cómo se deben implementar los lenguajes de programación basados en JavaScript. ES6 (ECMAScript 2015) es una versión importante que introdujo muchas características nuevas y mejoras al lenguaje. 
+
     clases utilitarias
         Clases predefinidas en Tailwind CSS que se utilizan para aplicar estilos específicos a los elementos HTML. Las clases utilitarias permiten aplicar estilos de manera rápida y eficiente, sin necesidad de escribir CSS personalizado.
     
