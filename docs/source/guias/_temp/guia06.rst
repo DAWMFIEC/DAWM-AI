@@ -43,9 +43,7 @@ Vite
 
    Más información en el sitio de `Vite <https://vite.dev/>`_.
 
-:term:`Vite` es un entorno de desarrollo rápido y moderno que permite crear aplicaciones web con facilidad mediante con recarga en caliente, optimización de recursos y soporte para módulos :term:`ES`.
-
-1. Utilice la terminal para crear un proyecto Vite con el comando:
+1. Utilice la terminal para crear un proyecto :term:`Vite` con el comando:
 
    .. code-block:: bash
 
@@ -77,14 +75,13 @@ TailwindCSS
    
    .. image:: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-mspyndicMBTk-KdKp96OZiaD2rkYLYzFQ&s
 
-   Revise la documentación en `TailwindCSS <https://tailwindcss.com/>`_.
+   Más información en `TailwindCSS <https://tailwindcss.com/>`_.
 
-:term:`TailwindCSS` es un framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML. 
 
 Play CDN
 ^^^^^^^^
 
-1. Agregue la etiqueta de script Play :term:`CDN` al `<head>` de su archivo HTML.
+1. Agregue la referencia a :term:`TailwindCSS` con la etiqueta de script Play :term:`CDN` al `<head>` de su archivo HTML.
 
    .. code-block:: html
       :caption: Agregue la etiqueta script con la referencia al archivo js en el Play CDN
