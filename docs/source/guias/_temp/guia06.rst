@@ -44,7 +44,9 @@ TailwindCSS
 
 .. sidebar::
    
-   :term:`TailwindCSS` es un framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML. Más información en el sitio de `TailwindCSS <https://tailwindcss.com/>`_.
+   Revise la documentación en `TailwindCSS <https://tailwindcss.com/>`_.
+
+:term:`TailwindCSS` es un framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML. 
 
 Play CDN
 ^^^^^^^^
@@ -67,6 +69,20 @@ Play CDN
          </head>
          <body> ... </body>
        </html>
+
+Sección Principal (Hero Section)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Utilice un cliente de IAG para generar el contenido de su sección principal o :term:`hero section` de su landing page, p.e.: título, subtítulo, párrafo introductorio, botón de llamada a la acción, etc.
+
+   .. admonition:: Prompt sugerido
+
+        Genera el contenido de una sección principal para una landing page de [tema] que incluya un título atractivo, un subtítulo descriptivo, un párrafo introductorio y un botón de llamada a la acción. El título debe ser breve y llamativo, el subtítulo debe complementar el título y el párrafo debe explicar brevemente el propósito de la landing page. El botón debe tener un texto claro que invite al usuario a realizar una acción específica.
+
+2. Agregue el contenido generado a su archivo HTML dentro de la etiqueta `<main>`.
+
+Barra de navegación
+^^^^^^^^^^^^^^^^^^^
 
 Flowbite
 --------
