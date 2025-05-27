@@ -14,8 +14,12 @@ main div.bd-article-container p a.reference.internal {
 	text-decoration: none !important;
 }
 
-main div.bd-article-container p a.reference.internal:not(.download)::after {
+main div.bd-article-container p a.reference.internal:not(.download) span.std-term::after {
 	content: "°" !important;
+}
+
+main div.bd-article-container p a.reference.internal:not(.download) span.doc::after {
+	content: "ꜜ" !important;
 }
 
 main div.bd-article-container p a.reference.external:not(.download)::after {
@@ -27,6 +31,10 @@ main div.bd-article-container p a.reference.external {
 	text-decoration: none !important;
 }
 
+main div.bd-article-container p a.reference.internal:not(.download) span.doc {
+	font-style: italic;
+	text-decoration: none !important;
+}
 
 summary.admonition-title {
     background: #03a360 !important;
