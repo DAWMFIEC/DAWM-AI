@@ -103,38 +103,29 @@ Play CDN
 Sección Principal (Hero Section)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Utilice un cliente de IAG para generar el contenido de su sección principal o :term:`hero section` de su landing page, p.e.: título, subtítulo, párrafo introductorio, botón de llamada a la acción, etc.
-
-   .. admonition:: Prompt sugerido
-
-      Genera el contenido de una sección principal para una landing page de [tema] que incluya un título atractivo, un subtítulo descriptivo, un párrafo introductorio y un botón de llamada a la acción. El título debe ser breve y llamativo, el subtítulo debe complementar el título y el párrafo debe explicar brevemente el propósito de la landing page. El botón debe tener un texto claro que invite al usuario a realizar una acción específica. Utiliza TailwindCSS, versión 4.1.
+1. Reemplace el contenido del cuerpo del documento HTML, por:
 
    .. code-block:: html
       :linenos:
+      :emphasize-lines: 2-11
 
-      <main class="bg-white dark:bg-gray-900">
-         <div class="max-w-screen-xl mx-auto px-4 py-20 text-center lg:py-32">
-            <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
-            Tu presencia digital comienza aquí
-            </h1>
-            <p class="mt-6 text-lg leading-relaxed text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Creamos experiencias web atractivas y rápidas con Tailwind CSS 4.1. Dale vida a tus ideas con un diseño moderno
-            y responsivo.
-            </p>
-            <div class="mt-8 flex justify-center gap-4">
-            <a href="#inicio"
-               class="inline-block px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-               Comenzar
-            </a>
-            <a href="#demo"
-               class="inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-100 dark:border-gray-600 dark:text-white dark:hover:bg-gray-700">
-               Ver demo
-            </a>
+      <body>
+         <main>
+            <div>
+               <h1>Tu presencia digital comienza aquí</h1>
+               <p>Creamos experiencias web atractivas y rápidas con Tailwind CSS 4.1. Dale vida a tus ideas con un diseño moderno y responsivo.</p>
+               <div>
+                  <button>Comenzar</button>
+                  <button>Ver demo</button>
+               </div>
             </div>
-         </div>
-      </main>
+         </main>
+      </body>
 
-2. Agregue el contenido generado a su archivo HTML dentro de la etiqueta `<main>`.
+3. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
+
+   a) Modifica la etiqueta `<main>` agregándole la clase "bg-white dark:bg-gray-900".
+
 
 Barra de navegación
 ^^^^^^^^^^^^^^^^^^^
