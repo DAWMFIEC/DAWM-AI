@@ -107,7 +107,7 @@ Diccionario de términos
     landing page
         Página web diseñada con un objetivo específico, como la promoción de un producto, la captación de leads o la presentación de información relevante. Las landing pages suelen tener un diseño atractivo y una estructura clara para guiar al usuario hacia una acción específica.
 
-    Tailwind CSS
+    TailwindCSS
         Framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML. Permite crear diseños personalizados y responsivos de manera rápida y eficiente, evitando la necesidad de escribir CSS personalizado.
 
     Vite
