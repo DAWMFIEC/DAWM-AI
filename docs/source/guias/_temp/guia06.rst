@@ -3,14 +3,14 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-===============================
-Guía 06: TailwindCSS + Flowbite
-===============================
+====================
+Guía 06: TailwindCSS
+====================
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Evaluar el uso de clases utilitarias de TailwindCSS y Flowbite en la creación de una landing page funcional y atractiva considerando su adecuación a los requerimientos específicos del diseño.
+    Evaluar el uso de clases utilitarias de TailwindCSS en la creación de una landing page funcional y atractiva considerando su adecuación a los requerimientos específicos del diseño.
 
 Actividades previas
 =====================
@@ -111,30 +111,62 @@ Sección Principal (Hero Section)
 
       <body>
          <main>
-            <div>
+            <div id="container-01">
                <h1>Tu presencia digital comienza aquí</h1>
                <p>Creamos experiencias web atractivas y rápidas con Tailwind CSS 4.1. Dale vida a tus ideas con un diseño moderno y responsivo.</p>
-               <div>
-                  <button>Comenzar</button>
-                  <button>Ver demo</button>
+               <div id="container-02">
+                  <button id="start">Comenzar</button>
+                  <button id="demo">Ver demo</button>
                </div>
             </div>
          </main>
       </body>
 
-3. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
+2. Compruebe el resultado en el navegador. 
 
-   a) Modifica la etiqueta `<main>` agregándole la clase "bg-white dark:bg-gray-900".
+Clases utilitarias
+^^^^^^^^^^^^^^^^^^
 
+1. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
 
-Barra de navegación
-^^^^^^^^^^^^^^^^^^^
+   a) Modifique la etiqueta `<div id="container-01">` agregándole la clase "max-w-screen-xl mx-auto px-4 py-20 text-center".
+   b) Agregue las clases "text-4xl font-extrabold tracking-tight text-gray-900" a la etiqueta `<h1>`
+   c) Añada a la etiqueta `<p>` las clases "mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto"
+   d) Agregue las clases "inline-block px-6 py-3 text-white bg-blue-600 rounded-lg" al elemento `<button id="start">`. Y, las clases "inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg " al elemento `<button id="demo">`.
 
-Flowbite
---------
+Flex
+^^^^
 
-CDN
-^^^
+1. Utilice un cliente de IAG para:
+
+   a) Generar las clases para un margen superior de 2rem, convierte el contenedor en un contenedor flexbox, centra horizontalmente los elementos hijos y establece un espacio uniforme de 1rem entre ellos en la etiqueta `<div id="container-02">`.
+
+   .. admonition:: Prompt sugerido
+
+      Para TailwindCSS versión 4.1, genera las clases para un margen superior de 2rem, convierte el contenedor en un contenedor flexbox, centra horizontalmente los elementos hijos y establece un espacio uniforme de 1rem entre ellos en la etiqueta <div id="container-02">.
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: html
+        :linenos:
+        :emphasize-lines: 1
+
+        <div id="container-02" class="mt-8 flex justify-center gap-4">
+        ... 
+        </div>
+
+Diseño Responsivo
+^^^^^^^^^^^^^^^^^
+
+Modo Oscuro
+^^^^^^^^^^^
+
+1. Aplica a la sección principal:
+
+   a) Modifica la etiqueta `<main>` agregándole la clase "dark:bg-gray-900".
+   b) Añade a la etiqueta `<h1>` la clase "dark:text-white", a la etiqueta `<p>` la clase "dark:text-gray-300"
 
 Vercel
 ------
