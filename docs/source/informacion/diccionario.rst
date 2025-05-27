@@ -125,3 +125,5 @@ Diccionario de términos
     clases utilitarias
         Clases predefinidas en Tailwind CSS que se utilizan para aplicar estilos específicos a los elementos HTML. Las clases utilitarias permiten aplicar estilos de manera rápida y eficiente, sin necesidad de escribir CSS personalizado.
     
+    CDN
+        Un CDN (Content Delivery Network) es una red de entrega de contenido utilizada para facilitar el desarrollo de aplicaciones web. En esencia, es un conjunto de servidores ubicados en diferentes partes del mundo que almacenan copias de los archivos estáticos de una aplicación (como CSS, imágenes, etc.).     

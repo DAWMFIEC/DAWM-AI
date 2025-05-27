@@ -3,14 +3,14 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-====================
-Guía 06: TailwindCSS 
-====================
+===============================
+Guía 06: TailwindCSS + Flowbite
+===============================
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Evaluar el uso de clases utilitarias de TailwindCSS en la creación de una landing page funcional y atractiva considerando su adecuación a los requerimientos específicos del diseño.
+    Evaluar el uso de clases utilitarias de TailwindCSS y Flowbite en la creación de una landing page funcional y atractiva considerando su adecuación a los requerimientos específicos del diseño.
 
 Actividades previas
 =====================
@@ -46,8 +46,33 @@ TailwindCSS
    
    :term:`TailwindCSS` es un framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML. Más información en el sitio de `TailwindCSS <https://tailwindcss.com/>`_.
 
-Clases utilitarias
-^^^^^^^^^^^^^^^^^^
+Play CDN
+^^^^^^^^
+
+1. Agregue la etiqueta de script Play CDN al `<head>` de su archivo HTML.
+
+   .. code-block:: html
+       :caption: Agregue la etiqueta script con la referencia al archivo js en el Play CDN
+       :linenos:
+       :emphasize-lines: 7
+
+       <!doctype html>
+       <html>
+         <head>
+            
+            ...
+
+            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+         
+         </head>
+         <body> ... </body>
+       </html>
+
+Flowbite
+--------
+
+CDN
+^^^
 
 Vercel
 ------
