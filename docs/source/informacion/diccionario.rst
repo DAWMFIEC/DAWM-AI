@@ -110,6 +110,12 @@ Diccionario de términos
     TailwindCSS
         Framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML. Permite crear diseños personalizados y responsivos de manera rápida y eficiente, evitando la necesidad de escribir CSS personalizado.
 
+    .gitignore
+        Archivo utilizado para especificar qué archivos o directorios deben ser ignorados por Git. Se utiliza para evitar que ciertos archivos temporales, de configuración o de dependencias sean rastreados por el sistema de control de versiones.
+
+    Node
+        Entorno de ejecución de JavaScript del lado del servidor. Permite ejecutar código JavaScript fuera del navegador, lo que lo convierte en una herramienta popular para el desarrollo de aplicaciones web y móviles.
+
     Vite
         Herramienta de construcción y desarrollo para aplicaciones web modernas. Proporciona un entorno de desarrollo rápido y eficiente, con características como recarga en caliente, optimización de recursos y soporte para módulos ES.
 
