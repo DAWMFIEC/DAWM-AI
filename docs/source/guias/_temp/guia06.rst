@@ -37,6 +37,10 @@ Actividades en clases
 Vite
 ----
 
+.. sidebar:: 
+   
+   :term:`Vite` es un entorno de desarrollo rápido y moderno que permite crear aplicaciones web con facilidad mediante con recarga en caliente, optimización de recursos y soporte para módulos ES. Más información en el sitio de `Vite <https://vite.dev/>`_.
+
 1. Utilice la terminal para crear un proyecto Vite con el comando:
 
    .. code-block:: bash
@@ -62,9 +66,18 @@ Vite
 
 4. Abra su navegador y acceda a la dirección `http://localhost:5173/` para ver su proyecto Vite en funcionamiento.
 5. Detenga el servidor de desarrollo con `Ctrl + C` en la terminal.
+6. Limpie la terminal con el comando:
+
+   .. code-block:: bash
+
+      clear
 
 TailwindCSS
 -----------
+
+.. sidebar::
+   
+   :term:`TailwindCSS` es un framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML.
 
 Clases utilitarias
 ^^^^^^^^^^^^^^^^^^
