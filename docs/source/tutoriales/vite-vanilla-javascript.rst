@@ -1,6 +1,11 @@
-.. sidebar:: 
-   
-   :term:`Vite` es un entorno de desarrollo rápido y moderno que permite crear aplicaciones web con facilidad mediante con recarga en caliente, optimización de recursos y soporte para módulos :term:`ES`. Más información en el sitio de `Vite <https://vite.dev/>`_.
+..
+  Copyright (c) 2025 Allan Avendaño Sudario
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+===========================================================
+Tutorial para crear un proyecto Vite con Vanilla JavaScript
+===========================================================
 
 1. Utilice la terminal para crear un proyecto Vite con el comando:
 

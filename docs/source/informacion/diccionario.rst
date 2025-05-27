@@ -129,3 +129,10 @@ Diccionario de términos
         Un CDN (Content Delivery Network) es una red de entrega de contenido utilizada para facilitar el desarrollo de aplicaciones web. En esencia, es un conjunto de servidores ubicados en diferentes partes del mundo que almacenan copias de los archivos estáticos de una aplicación (como CSS, imágenes, etc.).     
 
     hero section
+
+        Es la primera sección visible de una página web cuando se carga, diseñada para captar la atención del usuario de inmediato y comunicar el propósito principal del sitio. Suele incluir un título impactante, un subtítulo descriptivo, una imagen o video relevante y una llamada a la acción (CTA) destacada, invitando al visitante a explorar más o realizar una acción específica.
+
+    Vercel
+
+        Es una plataforma en la nube unificada que permite a los desarrolladores desplegar, gestionar y escalar aplicaciones y sitios web de manera rápida y eficiente, especialmente aquellos construidos con tecnologías de frontend modernas como React, Next.js y Vue.js. Se destaca por su enfoque en la experiencia del desarrollador, ofreciendo despliegues automatizados, previsualizaciones instantáneas de cambios, integración continua con sistemas de control de versiones como Git y GitHub, y soporte para funciones serverless, lo que simplifica la creación de lógica de backend sin la necesidad de gestionar servidores.
+
