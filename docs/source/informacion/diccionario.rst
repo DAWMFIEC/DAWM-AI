@@ -136,3 +136,5 @@ Diccionario de términos
 
         Es una plataforma en la nube unificada que permite a los desarrolladores desplegar, gestionar y escalar aplicaciones y sitios web de manera rápida y eficiente, especialmente aquellos construidos con tecnologías de frontend modernas como React, Next.js y Vue.js. Se destaca por su enfoque en la experiencia del desarrollador, ofreciendo despliegues automatizados, previsualizaciones instantáneas de cambios, integración continua con sistemas de control de versiones como Git y GitHub, y soporte para funciones serverless, lo que simplifica la creación de lógica de backend sin la necesidad de gestionar servidores.
 
+    npm
+        (Node Package Manager) es el gestor de paquetes estándar para el entorno de ejecución de JavaScript Node.js, y consiste en un cliente de línea de comandos y una vasta base de datos en línea de paquetes públicos y privados, conocida como el registro npm. 

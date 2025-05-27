@@ -43,7 +43,7 @@ Vite
 
    Más información en el sitio de `Vite <https://vite.dev/>`_.
 
-1. Utilice la terminal para crear un proyecto :term:`Vite` con el comando:
+1. Utilice la terminal para crear un proyecto :term:`Vite` mediante :term:`npm`:
 
    .. code-block:: bash
 
@@ -73,9 +73,9 @@ TailwindCSS
 
 .. sidebar::
    
-   .. image:: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-mspyndicMBTk-KdKp96OZiaD2rkYLYzFQ&s
+   .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tailwind_CSS_logo.svg/2560px-Tailwind_CSS_logo.svg.png
 
-   Más información en `TailwindCSS <https://tailwindcss.com/>`_.
+   Documentación disponible en `TailwindCSS <https://tailwindcss.com/>`_.
 
 
 Play CDN
