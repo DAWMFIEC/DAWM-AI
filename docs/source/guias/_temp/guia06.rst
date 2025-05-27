@@ -77,7 +77,7 @@ TailwindCSS
 
 .. sidebar::
    
-   :term:`TailwindCSS` es un framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML.
+   :term:`TailwindCSS` es un framework de CSS que utiliza un enfoque de clases utilitarias para aplicar estilos a los elementos HTML. Más información en el sitio de `TailwindCSS <https://tailwindcss.com/>`_.
 
 Clases utilitarias
 ^^^^^^^^^^^^^^^^^^
