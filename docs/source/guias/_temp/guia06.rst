@@ -129,10 +129,10 @@ Clases utilitarias
 
 1. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
 
-   a) Modifique la etiqueta `<div id=\"container-01\">` agregándole la clase "max-w-screen-xl mx-auto px-4 py-20 text-center".
+   a) Modifique la etiqueta `<div id=\"container-01\">` agregándole la clase "mx-auto px-4 py-20 text-center".
    b) Agregue las clases "text-4xl font-extrabold tracking-tight text-gray-900" a la etiqueta `<h1>`
    c) Añada a la etiqueta `<p>` las clases "mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto"
-   d) Agregue las clases "inline-block px-6 py-3 text-white bg-blue-600 rounded-lg" al elemento `<button id="start">`. Y, las clases "inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg " al elemento `<button id=\"demo\">`.
+   d) Agregue las clases "inline-block px-6 py-3 text-white bg-blue-600 rounded-lg" al elemento `<button id=\"start\">`. Y, las clases "inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg " al elemento `<button id=\"demo\">`.
 
 Flex
 ^^^^
@@ -150,12 +150,13 @@ Flex
     :class: solution
 
     .. code-block:: html
-        :linenos:
         
         <div id="container-02" class="mt-8 flex justify-center gap-4"> ... </div>
 
 Diseño Responsivo
 ^^^^^^^^^^^^^^^^^
+
+"max-w-screen-xl"
 
 Modo Oscuro
 ^^^^^^^^^^^
