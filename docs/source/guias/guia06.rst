@@ -30,6 +30,7 @@ Ambiente de desarrollo
    b) Agregue un archivo :term:`.gitignore` con la plantilla de :term:`Node`.
    
 2. Acceda a su proyecto *landing* en Codespaces o en su máquina local.
+3. Utilice la(s) rama(s) para desarrollo.
 
 Actividades en clases
 =====================
@@ -171,6 +172,12 @@ Modo Oscuro
    c) Agregue a la etiqueta `<button id=\"demo\">` las clases "dark:border-gray-600 dark:text-white"
 
 3. Compruebe el resultado en el navegador. 
+
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) en el repositorio *landing*.
+2. Genere los cambios con un pull request y apruebe los cambios.
 
 Vercel
 ------
