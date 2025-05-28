@@ -30,7 +30,7 @@ Ambiente de desarrollo
    b) Agregue un archivo :term:`.gitignore` con la plantilla de :term:`Node`.
    
 2. Acceda a su proyecto *landing* en Codespaces o en su máquina local.
-3. Utilice la(s) rama(s) para desarrollo.
+3. Cree y utilice la(s) rama(s) de desarrollo.
 
 Actividades en clases
 =====================
@@ -176,8 +176,8 @@ Modo Oscuro
 Versionamiento
 --------------
 
-1. Versione local y remotamente la(s) rama(s) en el repositorio *landing*.
-2. Genere los cambios con un pull request y apruebe los cambios.
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *landing*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
 
 Vercel
 ------
