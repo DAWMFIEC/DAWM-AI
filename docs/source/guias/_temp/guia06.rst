@@ -129,7 +129,7 @@ Clases utilitarias
 
 1. Utilice la documentación `TailwindCSS - Estilo con clases de utilidad <https://tailwindcss.com/docs/styling-with-utility-classes>`_ y el inspector del navegador para cada uno de los siguientes cambios:
 
-   a) Incorpore la clase "bg-amber-50" a la etiqueta `<main>`.
+   a) Incorpore la clase "bg-slate-50" a la etiqueta `<main>`.
    b) Modifique la etiqueta `<div id=\"container-01\">` agregándole la clase "mx-auto px-4 py-20 text-center".
    c) Agregue las clases "text-4xl font-extrabold tracking-tight text-gray-900" a la etiqueta `<h1>`
    d) Añada a la etiqueta `<p>` las clases "mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto"
@@ -165,7 +165,7 @@ Modo Oscuro
 2. Utilice la documentación de `TailwindCSS - Dark Mode <https://tailwindcss.com/docs/dark-mode>`_ y el inspector del navegador para cada uno de los siguientes cambios:
 
    a) Modifica la etiqueta `<main>` al agregar la clase "dark:bg-gray-900".
-   b) Añade a la etiqueta `<h1>` la clase "dark:text-white", a la etiqueta `<p>` la clase "dark:text-gray-300"
+   b) Añade a la etiqueta `<h1>` la clase "dark:text-white" y a la etiqueta `<p>` la clase "dark:text-gray-300"
    c) Agregue a la etiqueta `<button id=\"demo\">` las clases "dark:border-gray-600 dark:text-white"
 
 3. Compruebe el resultado en el navegador. 
