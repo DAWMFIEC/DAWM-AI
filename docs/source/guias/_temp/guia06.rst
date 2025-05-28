@@ -129,10 +129,11 @@ Clases utilitarias
 
 1. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
 
-   a) Modifique la etiqueta `<div id=\"container-01\">` agregándole la clase "mx-auto px-4 py-20 text-center".
-   b) Agregue las clases "text-4xl font-extrabold tracking-tight text-gray-900" a la etiqueta `<h1>`
-   c) Añada a la etiqueta `<p>` las clases "mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto"
-   d) Agregue las clases "inline-block px-6 py-3 text-white bg-blue-600 rounded-lg" al elemento `<button id=\"start\">`. Y, las clases "inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg " al elemento `<button id=\"demo\">`.
+   a) Incorpore la clase "bg-white" a la etiqueta `<main>`.
+   b) Modifique la etiqueta `<div id=\"container-01\">` agregándole la clase "mx-auto px-4 py-20 text-center".
+   c) Agregue las clases "text-4xl font-extrabold tracking-tight text-gray-900" a la etiqueta `<h1>`
+   d) Añada a la etiqueta `<p>` las clases "mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto"
+   e) Agregue las clases "inline-block px-6 py-3 text-white bg-blue-600 rounded-lg" al elemento `<button id=\"start\">`. Y, las clases "inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg" al elemento `<button id=\"demo\">`.
 
 Flex
 ^^^^
@@ -156,7 +157,8 @@ Flex
 Modo Oscuro
 ^^^^^^^^^^^
 
-1. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
+1. Verifique `modo oscuro de Chrome <https://support.google.com/chrome/answer/9275525>`_ de la landing page. 
+2. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
 
    a) Modifica la etiqueta `<main>` al agregar la clase "dark:bg-gray-900".
    b) Añade a la etiqueta `<h1>` la clase "dark:text-white", a la etiqueta `<p>` la clase "dark:text-gray-300"
@@ -168,13 +170,6 @@ Diseño Responsivo
 ^^^^^^^^^^^^^^^^^
 
 "max-w-screen-xl"
-
-
-
-Vercel
-------
-
-:term:`Vercel` es una plataforma basada en la nube para sitios estáticos y funciones sin servidor que se adapta con fluidez a tu flujo de trabajo.
 
 Conclusiones
 ============
