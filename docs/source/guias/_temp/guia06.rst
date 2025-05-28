@@ -138,7 +138,9 @@ Clases utilitarias
 Flex
 ^^^^
 
-1. Utilice un cliente de IAG para:
+1. Utilice la documentación de `TailwindCSS - Layout <https://tailwindcss.com/docs/display>`_ y el inspector del navegador
+
+2. Utilice un cliente de IAG para:
 
    a) Generar las clases para un margen superior de 2rem, convierte el contenedor en un contenedor flexbox, centra horizontalmente los elementos hijos y establece un espacio uniforme de 1rem entre ellos en la etiqueta `<div id=\"container-02\">`.
 
@@ -154,22 +156,30 @@ Flex
         
         <div id="container-02" class="mt-8 flex justify-center gap-4"> ... </div>
 
+3. Compruebe el resultado en el navegador. 
+
 Modo Oscuro
 ^^^^^^^^^^^
 
 1. Verifique `modo oscuro de Chrome <https://support.google.com/chrome/answer/9275525>`_ de la landing page. 
-2. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
+2. Utilice la documentación de `TailwindCSS - Dark Mode <https://tailwindcss.com/docs/dark-mode>`_ y el inspector del navegador para cada uno de los siguientes cambios:
 
    a) Modifica la etiqueta `<main>` al agregar la clase "dark:bg-gray-900".
    b) Añade a la etiqueta `<h1>` la clase "dark:text-white", a la etiqueta `<p>` la clase "dark:text-gray-300"
    c) Agregue a la etiqueta `<button id=\"demo\">` las clases "dark:border-gray-600 dark:text-white"
 
-2. Compruebe el resultado en el navegador. 
+3. Compruebe el resultado en el navegador. 
 
 Diseño Responsivo
 ^^^^^^^^^^^^^^^^^
 
-"max-w-screen-xl"
+1. `Simula dispositivos móviles con el modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ de la landing page.
+
+2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_ y el inspector del navegador para cada uno de los siguientes cambios:
+
+   a) "max-w-screen-xl"
+
+3. Compruebe el resultado en el navegador. 
 
 Conclusiones
 ============
