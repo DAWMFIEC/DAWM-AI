@@ -170,23 +170,16 @@ Modo Oscuro
 
 3. Compruebe el resultado en el navegador. 
 
-Diseño Responsivo
-^^^^^^^^^^^^^^^^^
-
-1. `Simula dispositivos móviles con el modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ de la landing page.
-
-2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_ y el inspector del navegador para cada uno de los siguientes cambios:
-
-   a) "max-w-screen-xl"
-
-3. Compruebe el resultado en el navegador. 
-
 Conclusiones
 ============
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué?
+    * ¿Qué aprendiste sobre el propósito y funcionamiento de las clases de TailwindCSS? 
+    
+    * ¿Qué estrategias implementaste para garantizar que el modo oscuro se adaptaran de forma funcional y estética?
+
+    * ¿Cómo puedes equilibrar el uso de inteligencia artificial como apoyo en tu proceso creativo y técnico sin depender completamente de ella ni comprometer tu desarrollo autónomo como profesional del diseño web?
 
 Actividades autónomas
 =====================
