@@ -127,9 +127,9 @@ Sección Principal (Hero Section)
 Clases utilitarias
 ^^^^^^^^^^^^^^^^^^
 
-1. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
+1. Utilice la documentación `TailwindCSS - Estilo con clases de utilidad <https://tailwindcss.com/docs/styling-with-utility-classes>`_ y el inspector del navegador para cada uno de los siguientes cambios:
 
-   a) Incorpore la clase "bg-white" a la etiqueta `<main>`.
+   a) Incorpore la clase "bg-amber-50" a la etiqueta `<main>`.
    b) Modifique la etiqueta `<div id=\"container-01\">` agregándole la clase "mx-auto px-4 py-20 text-center".
    c) Agregue las clases "text-4xl font-extrabold tracking-tight text-gray-900" a la etiqueta `<h1>`
    d) Añada a la etiqueta `<p>` las clases "mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto"
