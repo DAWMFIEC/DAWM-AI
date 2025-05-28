@@ -170,16 +170,17 @@ Modo Oscuro
 
 3. Compruebe el resultado en el navegador. 
 
-Diseño Responsivo
-^^^^^^^^^^^^^^^^^
+Vercel
+------
 
-1. `Simula dispositivos móviles con el modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ de la landing page.
-
-2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_ y el inspector del navegador para cada uno de los siguientes cambios:
-
-   a) "max-w-screen-xl"
-
-3. Compruebe el resultado en el navegador. 
+1. Acceda al sitio `Vercel <https://vercel.com/>`_.
+2. Obtenga una cuenta en :term:`Vercel` a partir de su cuenta GitHub.
+3. Autoriza a Vercel para que acceda a tus repositorios (puedes limitar a repos específicos si lo deseas).
+4. Dentro de Vercel, haz clic en el botón **Import Project**.
+5. Vercel mostrará una lista de tus repositorios de GitHub. Haz clic en el botón **Import** del repositorio que contiene tu proyecto.
+6. Vercel detectará automáticamente el framework (si usas Vite, Next.js, etc.). En este caso mostrará **Vite**.
+7. Haga clic en el botón **Deploy**.
+8. Se generará un dominio automático como `[nombre_del_repositorio]-[nombre_del_contenedor].vercel.app`.
 
 Conclusiones
 ============
