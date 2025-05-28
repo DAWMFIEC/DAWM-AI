@@ -135,6 +135,8 @@ Clases utilitarias
    d) Añada a la etiqueta `<p>` las clases "mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto"
    e) Agregue las clases "inline-block px-6 py-3 text-white bg-blue-600 rounded-lg" al elemento `<button id=\"start\">`. Y, las clases "inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg" al elemento `<button id=\"demo\">`.
 
+2. Compruebe el resultado en el navegador. 
+
 Flex
 ^^^^
 
