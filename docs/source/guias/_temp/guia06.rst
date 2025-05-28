@@ -153,18 +153,23 @@ Flex
         
         <div id="container-02" class="mt-8 flex justify-center gap-4"> ... </div>
 
+Modo Oscuro
+^^^^^^^^^^^
+
+1. Utilice la documentación y el inspector del navegador para cada uno de los siguientes cambios:
+
+   a) Modifica la etiqueta `<main>` al agregar la clase "dark:bg-gray-900".
+   b) Añade a la etiqueta `<h1>` la clase "dark:text-white", a la etiqueta `<p>` la clase "dark:text-gray-300"
+   c) Agregue a la etiqueta `<button id=\"demo\">` las clases "dark:border-gray-600 dark:text-white"
+
+2. Compruebe el resultado en el navegador. 
+
 Diseño Responsivo
 ^^^^^^^^^^^^^^^^^
 
 "max-w-screen-xl"
 
-Modo Oscuro
-^^^^^^^^^^^
 
-1. Aplica a la sección principal:
-
-   a) Modifica la etiqueta `<main>` agregándole la clase "dark:bg-gray-900".
-   b) Añade a la etiqueta `<h1>` la clase "dark:text-white", a la etiqueta `<p>` la clase "dark:text-gray-300"
 
 Vercel
 ------
