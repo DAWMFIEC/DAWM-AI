@@ -19,7 +19,6 @@ Diseño
 ------
 
 1. Defina el objetivo de su :term:`landing page`, p.e.: venta de productos de belleza, información de un grupo estudiantil, datos de una veterinaria, noticias de KPOP, etc.
-2. Organice el contenido de su landing page en secciones, p.e.: encabezado, presentación, servicios, testimonios, contacto, etc.
 
 Ambiente de desarrollo
 ----------------------

@@ -3,20 +3,38 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-========================================================
-Guía XX: 
-========================================================
+====================================
+Guía 07: Responsividad y Componentes 
+====================================
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Proponer código de scripting para el manejo dinámico de la interfaz del cliente, incorporando interactividad en la landing page desarrollada con Tailwind CSS.
+    Aplicar principios de diseño responsivo y reutilización de componentes utilizando TailwindCSS para estructurar una landing page de una sola página (SPA) que se adapte correctamente a diferentes dispositivos y mantenga coherencia visual y funcional en toda la interfaz.
+    
 
 Actividades previas
 =====================
 
+Diseño
+------
+
+1. Organice el contenido de su landing page en secciones, p.e.: encabezado, presentación, servicios, testimonios, contacto, etc.
+
+Ambiente de desarrollo
+----------------------
+
+1. Acceda a su proyecto *landing* en Codespaces o en su máquina local.
+2. Cree y utilice la(s) rama(s) de desarrollo.
+
 Actividades en clases
 =====================
+
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *landing*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
 
 Conclusiones
 ============
@@ -35,6 +53,6 @@ En redes:
 
 .. raw:: html
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/deepanshusharmx/status/1708118904391053714">Tweet from @deepanshusharmx</a>
-    <img alt="" src="https://pbs.twimg.com/ext_tw_video_thumb/1708115269187710976/pu/img/316z8sA74Czf1nR6.jpg" width="65%" height="auto" class="align-center"><source type="video/mp4" src="blob:https://x.com/e7c71b7e-0d51-4f41-8e56-28a08cc675fa"></p>
-    </blockquote>
+    Diseño responsivo
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Happy 11th Birthday Responsive Web Design! On May 25, 2010, web designer Ethan Marcotte published an article entitled &quot;Responsive Web Design&quot; in the online magazine A List Apart. <a href="https://t.co/vjK4affT5b">https://t.co/vjK4affT5b</a><a href="https://twitter.com/hashtag/WebDesignHistory?src=hash&amp;ref_src=twsrc%5Etfw">#WebDesignHistory</a> <a href="https://t.co/2Crd5GZ4qC">pic.twitter.com/2Crd5GZ4qC</a></p>&mdash; Web Design Museum (@WebDesignMuseum) <a href="https://twitter.com/WebDesignMuseum/status/1397228466693681163?ref_src=twsrc%5Etfw">May 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -10,7 +10,7 @@ Proyecto 03: Landing Page SPA - TailwindCSS & Javascript
 .. topic:: Objetivo general
     :class: objetivo
 
-    Desarrollar una página de destino (landing page) de una sola página (SPA) utilizando TailwindCSS y Javascript, que permita presentar información de manera atractiva y funcional, aplicando principios de diseño responsivo, accesibilidad y usabilidad, así como la integración de interactividad mediante Javascript para mejorar la experiencia del usuario.
+    Desarrollar una página de destino (landing page) de una sola página (SPA) utilizando TailwindCSS y Javascript que permita presentar información de manera atractiva y funcional aplicando principios de diseño responsivo, accesibilidad y usabilidad, así como la integración de interactividad mediante Javascript para mejorar la experiencia del usuario.
 
 Introducción
 ======================
