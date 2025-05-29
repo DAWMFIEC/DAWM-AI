@@ -20,6 +20,7 @@ Diseño
 ------
 
 1. Organice el contenido de su landing page en secciones, p.e.: encabezado, presentación, servicios, testimonios, contacto, etc.
+2. Diseñe la landing page para dispositivos móviles y para computadoras. 
 
 Ambiente de desarrollo
 ----------------------
@@ -29,6 +30,24 @@ Ambiente de desarrollo
 
 Actividades en clases
 =====================
+
+TailwindCSS
+-----------
+
+Diseño Responsivo
+^^^^^^^^^^^^^^^^^
+
+1. `Simula dispositivos móviles con el modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ de la landing page.
+
+2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_ y el inspector del navegador para cada uno de los siguientes cambios:
+
+3. Compruebe el resultado en el navegador. 
+
+Flowbite
+--------
+
+Componentes
+^^^^^^^^^^^
 
 Versionamiento
 --------------
