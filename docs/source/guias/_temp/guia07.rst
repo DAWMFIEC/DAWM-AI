@@ -20,7 +20,7 @@ Diseño
 ------
 
 1. Organice el contenido de su landing page en secciones, p.e.: encabezado, presentación, servicios, testimonios, contacto, etc.
-2. Diseñe la landing page para dispositivos móviles y para computadoras. 
+2. Diseñe la landing page primero para dispositivos móviles y para computadoras. 
 
 Ambiente de desarrollo
 ----------------------
@@ -54,6 +54,11 @@ Versionamiento
 
 1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *landing*.
 2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
+
+Vercel
+------
+
+1. Revise 
 
 Conclusiones
 ============
