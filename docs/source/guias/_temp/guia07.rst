@@ -20,7 +20,7 @@ Diseño
 ------
 
 1. Organice el contenido de su landing page en secciones, p.e.: encabezado, presentación, servicios, testimonios, contacto, etc.
-2. Diseñe la landing page primero para dispositivos móviles y para computadoras. 
+2. Diseñe cada una de las secciones de la landing page. Primero, considere la versión para la resolución de un dispositivo móvil (640px). Luego para la resolución de una computadora (1280px), p.e.: 
 
 Ambiente de desarrollo
 ----------------------
@@ -34,12 +34,32 @@ Actividades en clases
 TailwindCSS
 -----------
 
+Viewport
+^^^^^^^^
+
+1. Identifique si el *index.html* contiene la etiqueta `<meta>`:
+
+    .. code-block:: html
+        :linenos:
+        :emphasize-lines: 3
+
+        <head>
+            ...
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            ...
+        </head>
+
+2. Utilice un cliente de IAG para justificar la importancia de la etiqueta `<meta>`.
+
 Diseño Responsivo
 ^^^^^^^^^^^^^^^^^
 
 1. `Simula dispositivos móviles con el modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ de la landing page.
 
 2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_ y el inspector del navegador para cada uno de los siguientes cambios:
+
+   a) 
+   b) 'max-w-screen md:max-w-screen-lg'
 
 3. Compruebe el resultado en el navegador. 
 
@@ -58,7 +78,7 @@ Versionamiento
 Vercel
 ------
 
-1. Revise 
+1. Revise   
 
 Conclusiones
 ============
