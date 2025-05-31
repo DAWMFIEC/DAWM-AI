@@ -128,7 +128,7 @@ Versionamiento
 Vercel
 ------
 
-1. Revise   
+1. Verifique el :term:`despliegue continuo (CD)` del proyecto en Vercel.
 
 Conclusiones
 ============

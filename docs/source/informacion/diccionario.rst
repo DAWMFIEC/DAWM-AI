@@ -141,3 +141,6 @@ Diccionario de términos
 
     breakpoints
         Son los puntos definidos en el ancho de la pantalla que permiten aplicar estilos responsivos de forma condicional. Estos breakpoints se utilizan junto con los prefijos de las clases utilitarias, como `sm:`, `md:`, `lg:`, `xl:` y `2xl:`, para indicar que ciertos estilos deben aplicarse solo cuando el viewport alcanza o supera un tamaño específico. 
+
+    despliegue continuo
+        Es un proceso automatizado que permite que cualquier cambio realizado en el código fuente, y enviado a un repositorio conectado (como GitHub, GitLab o Bitbucket), se despliegue automáticamente en producción o en un entorno de vista previa. 
