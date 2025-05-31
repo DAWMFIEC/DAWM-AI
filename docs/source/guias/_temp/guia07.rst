@@ -107,13 +107,17 @@ Componentes
 
 1. Utilice la documentación de `Flowbite <https://flowbite.com/>`_
 
-2. Modifique el archivo *index.html* con Flowbite al `Incluir con el CDN <https://flowbite.com/docs/getting-started/quickstart/#include-using-cdn>`_.
+2. `Incluye Flowbite con el CDN <https://flowbite.com/docs/getting-started/quickstart/#include-using-cdn>`_ en el archivo *index.html*.
 
 3. Modifique el archivo *index.html*, verifique el efecto en los breakpoints recomendados con el inspector y analice el uso de las clases con su cliente AIG
 
    a) Agregue el componente `Default Navbar <https://flowbite.com/docs/components/navbar/#default-navbar>`_.
+   b) Modifique el componente y compruebe el comportamiento para cada tamaño de dispositivo.
 
 4. Compruebe el resultado en el navegador. 
+
+Componentes
+^^^^^^^^^^^
 
 Versionamiento
 --------------
