@@ -86,14 +86,14 @@ Diseño Responsivo
 
    .. image:: https://blog.yunusemre.dev/_astro/mobile-first.bafe34e3_22KpYS.webp
 
-1. Identifica los :term:`breakpoints` con el `simulador del modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ de la landing page.
+1. Identifica los :term:`breakpoints` con el `simulador del modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ en el inspector del navegador.
 
-2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_.
+2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_ y `TailwindCSS - max-width <https://tailwindcss.com/docs/max-width>`_.
 
 3. Modifique el archivo *index.html*, verifique el efecto en los breakpoints recomendados con el inspector y analice el uso de las clases con su cliente AIG, de:
 
    a) Modifique la etiqueta `<div id=\"container-03\">` agregándole la clase "max-w-md". Revise la diferencia de los efectos para los breakpoints `sm`, `md`, `lg`, `xl` y `2xl`.
-   b) Agregue la clase "md:max-w-xl" a la etiqueta `<div id=\"container-03\">` . Revise las diferencias para cada breakpoint.
+   b) Agregue la clase "md:max-w-3xl" a la etiqueta `<div id=\"container-03\">` . Revise las diferencias para cada breakpoint.
    c) Modifique la etiqueta `<div id=\"container-04\">` agregándole las clases "grid grid-cols-2 gap-4". Revise la diferencia de los efectos para los breakpoints `sm`, `md`, `lg`, `xl` y `2xl`.
    d) Agregue la clase "md:grid-cols-4" a la etiqueta `<div id=\"container-04\">` . Revise las diferencias para cada breakpoint.
 
@@ -104,6 +104,16 @@ Flowbite
 
 Componentes
 ^^^^^^^^^^^
+
+1. Utilice la documentación de `Flowbite <https://flowbite.com/>`_
+
+2. Modifique el archivo *index.html* con Flowbite al `Incluir con el CDN <https://flowbite.com/docs/getting-started/quickstart/#include-using-cdn>`_.
+
+3. Modifique el archivo *index.html*, verifique el efecto en los breakpoints recomendados con el inspector y analice el uso de las clases con su cliente AIG
+
+   a) Agregue el componente `Default Navbar <https://flowbite.com/docs/components/navbar/#default-navbar>`_.
+
+4. Compruebe el resultado en el navegador. 
 
 Versionamiento
 --------------
@@ -121,7 +131,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué?
+    * ¿Qué diferencias identificas entre aplicar clases responsivas manualmente y utilizar sugerencias generadas por IA?
+
+    * ¿Cómo validaste la funcionalidad y coherencia visual de las clases responsivas aplicadas en tu proyecto?
+
+    * ¿Cómo influye el uso de inteligencia artificial en la forma en que asumes tu responsabilidad como diseñador web?
 
 Actividades autónomas
 =====================
