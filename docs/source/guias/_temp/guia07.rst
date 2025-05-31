@@ -37,17 +37,16 @@ TailwindCSS
 Viewport
 ^^^^^^^^
 
-1. Identifique si el *index.html* contiene la etiqueta `<meta>`:
+1. Identifique si su archivo *index.html* contiene la etiqueta `<meta>`:
+     .. code-block:: html
+         :linenos:
+         :emphasize-lines: 3
 
-    .. code-block:: html
-        :linenos:
-        :emphasize-lines: 3
-
-        <head>
+         <head>
             ...
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             ...
-        </head>
+         </head>
 
 2. Utilice un cliente de IAG para justificar la importancia de la etiqueta `<meta>`.
 
