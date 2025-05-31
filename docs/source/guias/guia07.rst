@@ -93,7 +93,7 @@ Diseño Responsivo
 3. Modifique el archivo *index.html*, verifique el efecto en los breakpoints recomendados con el inspector y analice el uso de las clases con su cliente AIG, de:
 
    a) Modifique la etiqueta `<div id=\"container-03\">` agregándole la clase "max-w-md". Revise la diferencia de los efectos para los breakpoints `sm`, `md`, `lg`, `xl` y `2xl`.
-   b) Agregue la clase "md:max-w-3xl" a la etiqueta `<div id=\"container-03\">` . Revise las diferencias para cada breakpoint.
+   b) Agregue la clase "md:max-w-xl" a la etiqueta `<div id=\"container-03\">` . Revise las diferencias para cada breakpoint.
    c) Modifique la etiqueta `<div id=\"container-04\">` agregándole las clases "grid grid-cols-2 gap-4". Revise la diferencia de los efectos para los breakpoints `sm`, `md`, `lg`, `xl` y `2xl`.
    d) Agregue la clase "md:grid-cols-4" a la etiqueta `<div id=\"container-04\">` . Revise las diferencias para cada breakpoint.
 
