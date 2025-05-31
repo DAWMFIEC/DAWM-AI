@@ -27,6 +27,12 @@ Ambiente de desarrollo
 
 1. Acceda a su proyecto *landing* en Codespaces o en su máquina local.
 2. Cree y utilice la(s) rama(s) de desarrollo.
+3. Instale los paquetes y levante el servidor, con:
+
+   .. code-block:: bash
+
+      npm install
+      npm run dev
 
 Actividades en clases
 =====================
@@ -51,17 +57,47 @@ Viewport
 
 2. Utilice un cliente de IAG para justificar la importancia de la etiqueta `<meta>`.
 
+Secciones
+^^^^^^^^^
+
+1. Modifique el archivo *index.html*, con:
+
+   .. code-block:: html
+       :caption: Sección con imágenes.
+       :linenos:
+        
+        <section class="bg-white dark:bg-gray-900">
+            <div id="container-03" class="px-4 py-8 mx-auto">
+                <div id="container-04">
+                    <img src="https://placehold.co/50" alt="Imagen 1" class="w-full h-auto rounded">
+                    <img src="https://placehold.co/50" alt="Imagen 2" class="w-full h-auto rounded">
+                    <img src="https://placehold.co/50" alt="Imagen 3" class="w-full h-auto rounded">
+                    <img src="https://placehold.co/50" alt="Imagen 4" class="w-full h-auto rounded">
+                </div>
+            </div>
+        </section>
+
+2. Compruebe el resultado en el navegador. 
+
 Diseño Responsivo
 ^^^^^^^^^^^^^^^^^
 
-1. `Simula dispositivos móviles con el modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ de la landing page.
+.. sidebar:: 
 
-2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_ y el inspector del navegador para cada uno de los siguientes cambios:
+   .. image:: https://blog.yunusemre.dev/_astro/mobile-first.bafe34e3_22KpYS.webp
 
-   a) 
-   b) 'max-w-screen md:max-w-screen-lg'
+1. Identifica los :term:`breakpoints` con el `simulador del modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ de la landing page.
 
-3. Compruebe el resultado en el navegador. 
+2. Utilice la documentación de `TailwindCSS - Responsive Design <https://tailwindcss.com/docs/responsive-design>`_.
+
+3. Modifique el archivo *index.html*, verifique el efecto en los breakpoints recomendados con el inspector y analice el uso de las clases con su cliente AIG, de:
+
+   a) Modifique la etiqueta `<div id=\"container-03\">` agregándole la clase "max-w-md". Revise la diferencia de los efectos para los breakpoints `sm`, `md`, `lg`, `xl` y `2xl`.
+   b) Agregue la clase "md:max-w-xl" a la etiqueta `<div id=\"container-03\">` . Revise las diferencias para cada breakpoint.
+   c) Modifique la etiqueta `<div id=\"container-04\">` agregándole las clases "grid grid-cols-2 gap-4". Revise la diferencia de los efectos para los breakpoints `sm`, `md`, `lg`, `xl` y `2xl`.
+   d) Agregue la clase "md:grid-cols-4" a la etiqueta `<div id=\"container-04\">` . Revise las diferencias para cada breakpoint.
+
+4. Compruebe el resultado en el navegador. 
 
 Flowbite
 --------

@@ -138,3 +138,6 @@ Diccionario de términos
 
     npm
         (Node Package Manager) es el gestor de paquetes estándar para el entorno de ejecución de JavaScript Node.js, y consiste en un cliente de línea de comandos y una vasta base de datos en línea de paquetes públicos y privados, conocida como el registro npm. 
+
+    breakpoints
+        Son los puntos definidos en el ancho de la pantalla que permiten aplicar estilos responsivos de forma condicional. Estos breakpoints se utilizan junto con los prefijos de las clases utilitarias, como `sm:`, `md:`, `lg:`, `xl:` y `2xl:`, para indicar que ciertos estilos deben aplicarse solo cuando el viewport alcanza o supera un tamaño específico. 
