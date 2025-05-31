@@ -101,6 +101,8 @@ Play CDN
          <body> ... </body>
       </html>
 
+2. Compruebe el resultado de la petición en el navegador. 
+
 Sección Principal (Hero Section)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
