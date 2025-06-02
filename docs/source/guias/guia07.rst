@@ -64,6 +64,7 @@ Secciones
 
    .. code-block:: html
        :caption: Sección con imágenes.
+       :emphasize-lines: 1-9
        :linenos:
         
         <section class="bg-white dark:bg-gray-900">
@@ -85,6 +86,8 @@ Diseño Responsivo
 .. sidebar:: 
 
    .. image:: https://blog.yunusemre.dev/_astro/mobile-first.bafe34e3_22KpYS.webp
+
+   Punto de quiebre o breakpoints para diferentes tamaños de dispositivos que considera TailwindCSS.
 
 1. Identifica los :term:`breakpoints` con el `simulador del modo de dispositivo <https://developer.chrome.com/docs/devtools/device-mode?hl=es-419>`_ en el inspector del navegador.
 
@@ -111,13 +114,10 @@ Componentes
 
 3. Modifique el archivo *index.html*, verifique el efecto en los breakpoints recomendados con el inspector y analice el uso de las clases con su cliente AIG
 
-   a) Agregue el componente `Default Navbar <https://flowbite.com/docs/components/navbar/#default-navbar>`_.
+   a) Agregue el :term:`componente` `Default Navbar <https://flowbite.com/docs/components/navbar/#default-navbar>`_.
    b) Modifique el componente y compruebe el comportamiento para cada tamaño de dispositivo.
 
 4. Compruebe el resultado en el navegador. 
-
-Componentes
-^^^^^^^^^^^
 
 Versionamiento
 --------------
