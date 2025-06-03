@@ -30,6 +30,11 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
+Incluir un archivo externo de JavaScript
+----------------------------------------
+
+
+
 Conclusiones
 ============
 
