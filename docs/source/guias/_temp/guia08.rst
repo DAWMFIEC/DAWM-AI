@@ -3,9 +3,9 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-========================================================
-Guía XX: 
-========================================================
+=================================================
+Guía 08: Javascript - Introducción, DOM y Eventos
+=================================================
 
 .. topic:: Objetivo específico
     :class: objetivo
@@ -14,6 +14,18 @@ Guía XX:
 
 Actividades previas
 =====================
+
+Ambiente de desarrollo
+----------------------
+
+1. Acceda a su proyecto *landing* en Codespaces o en su máquina local.
+2. Cree y utilice la(s) rama(s) de desarrollo.
+3. Instale los paquetes y levante el servidor, con:
+
+   .. code-block:: bash
+
+      npm install
+      npm run dev
 
 Actividades en clases
 =====================
@@ -35,6 +47,4 @@ En redes:
 
 .. raw:: html
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/deepanshusharmx/status/1708118904391053714">Tweet from @deepanshusharmx</a>
-    <img alt="" src="https://pbs.twimg.com/ext_tw_video_thumb/1708115269187710976/pu/img/316z8sA74Czf1nR6.jpg" width="65%" height="auto" class="align-center"><source type="video/mp4" src="blob:https://x.com/e7c71b7e-0d51-4f41-8e56-28a08cc675fa"></p>
-    </blockquote>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Avoid render blocking JavaScript using async and defer scripts. <a href="https://t.co/JPDOlshMpk">pic.twitter.com/JPDOlshMpk</a></p>&mdash; Kamran Ahmed (@kamrify) <a href="https://twitter.com/kamrify/status/1436392322451841026?ref_src=twsrc%5Etfw">September 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
