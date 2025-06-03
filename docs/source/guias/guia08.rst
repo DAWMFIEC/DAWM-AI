@@ -30,10 +30,12 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
-Incluir un archivo externo de JavaScript
-----------------------------------------
+Archivos y estructura
+----------------------
 
-
+1. Cree la carpeta *src* dentro del directorio de tu proyecto.
+2. Cree el documento :term:`Javascript` *main.js* dentro de la carpeta *src* de tu proyecto.
+3. Referencie el documento *main.js* en el documento *index.html* al final de la etiqueta `<body>`. Valide su respuesta con la guía para :download:`referenciar una hoja de estilo externa <./pdfs/guia08-referenciajs.pdf>`.
 
 Conclusiones
 ============
