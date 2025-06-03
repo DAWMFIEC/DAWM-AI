@@ -37,8 +37,8 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
-TailwindCSS
------------
+HTML
+----
 
 Viewport
 ^^^^^^^^
@@ -79,6 +79,10 @@ Secciones
         </section>
 
 2. Compruebe el resultado en el navegador. 
+
+
+TailwindCSS
+-----------
 
 Diseño Responsivo
 ^^^^^^^^^^^^^^^^^
