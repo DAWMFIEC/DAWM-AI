@@ -91,7 +91,7 @@ HTML
 
             <script ... ></script>
             <script ... ></script>
-            
+
        </body>
 
 2. Compruebe la vista previa del resultado en el navegador.
@@ -144,7 +144,7 @@ Javascript: DOM
 
    a) Crear la función flecha **showToast** que obtiene la referencia al elemento con el ID `toast-interactive`. En caso de existir la referencia muestre la notificación por pantalla, agregando la clase `md:block`.
 
-   b) Dentro de la función de autoejecución, llame a la función showToast.
+   b) Dentro de la función de autoejecución, elimine el codigo anterior y  llame a la función showToast.
 
 .. admonition:: Haga click aquí para ver la solución
     :collapsible: closed
@@ -174,7 +174,36 @@ Javascript: Eventos
 
 1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
 
-   a) Crear la función flecha **showToast** que obtiene la referencia al elemento con el ID `start`. En caso de existir la referencia, agregue un evento `click` que muestre la notificación por pantalla, agregando la clase `md:block`.
+   a) Crear la función flecha **showVideo** que obtiene la referencia al elemento con el ID `demo`. En caso de existir la referencia, agregue un evento `click` que abra un enlace a un video de YouTube en una nueva pestaña del navegador.
+   b) Dentro de la función de autoejecución, agregue la llamada a la función showVideo.
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: javascript
+        :linenos:
+        :emphasize-lines: 5-12, 16
+
+        "use strict";
+
+        const showToast = () => { ... }
+
+        const showVideo = () => {
+            const demo = document.getElementById("demo");
+            if (demo) {
+                demo.addEventListener("click", () => {
+                    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+                });
+            }
+        };
+
+        (() => {
+            showToast();
+            showVideo();
+        })();
+
+2. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
 
 Versionamiento
 --------------
