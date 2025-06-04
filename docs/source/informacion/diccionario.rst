@@ -150,3 +150,6 @@ Diccionario de términos
     
     despliegue continuo (CD)
         Es un proceso automatizado que permite que cualquier cambio realizado en el código fuente, y enviado a un repositorio conectado (como GitHub, GitLab o Bitbucket), se despliegue automáticamente en producción o en un entorno de vista previa. 
+
+    consola del navegador
+        Es una herramienta de desarrollo integrada en los navegadores web que permite a los desarrolladores interactuar con el código JavaScript, depurar errores, registrar mensajes y realizar pruebas en tiempo real. La consola proporciona un entorno interactivo donde se pueden ejecutar comandos JavaScript y ver los resultados inmediatamente.
