@@ -34,7 +34,12 @@ Archivos y estructura
 ----------------------
 
 1. Cree la carpeta *js* dentro del directorio de tu proyecto.
-2. Cree el documento :term:`Javascript` *file01.js* dentro de la carpeta *js* de tu proyecto. 
+2. Cree el documento :term:`Javascript` *file01.js* dentro de la carpeta *js* de tu proyecto. Declare el documento el modo estricto.
+ 
+   .. code-block:: javascript
+
+       "use strict";
+
 3. Referencie el documento *file01.js*, con el tipo "module", en el documento *index.html* al final de la etiqueta `<body>`. Valide su respuesta con la guía para :download:`referenciar una hoja de estilo externa <./pdfs/guia08-referenciajs.pdf>`.
 
 HTML
@@ -86,26 +91,91 @@ HTML
 
        </body>
 
-
-
-Javascript
-----------
-
-1. Utilice un cliente de IAG para generar en el documento *js/file01.js*:
-2. Declare el modo estricto de Javascript, con:
-
-   .. code-block:: javascript
-
-      "use strict";
-
 2. Compruebe la vista previa del resultado en el navegador.
-3. Utilice el :term:`consola del navegador` para verificar la ejecución del código.
 
-   .. note:: La consola del navegador es una herramienta de desarrollo que permite ver mensajes de depuración, errores y otros datos útiles durante el desarrollo web.
+   .. note:: El código anterior crea una notificación interactiva que permite al usuario suscribirse a un servicio o cerrar la notificación.
+
+3. Agregue la clase `hidden` al elemento `<div id="toast-interactive">` para ocultar la notificación inicialmente, con:
+
+   .. code-block:: html
+       :caption: Notificación interactiva oculta
+       :linenos:
+       :emphasize-lines: 2
+
+       <div id="toast-interactive" 
+            class="hidden ... " 
+            role="alert">
+
+4. Compruebe la vista previa del resultado en el navegador.
 
 
+Javascript: función de autoejecución
+------------------------------------
+
+1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
+
+   a) Crea una :term:`función de autoejecución` que muestre un mensaje de bienvenida con una alerta y por consola.
+    
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: javascript
+        :linenos:
+        :emphasize-lines: 3-6
+
+        "use strict";
+
+        (() => {
+            alert("¡Bienvenido a la página!");
+            console.log("Mensaje de bienvenida mostrado.");
+        })();
+
+2. Compruebe la vista previa del resultado y la :term:`consola del navegador` para verificar la ejecución del código.
 
 
+Javascript: DOM
+---------------
+
+1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
+
+   a) Crear la función flecha **showToast** que obtiene la referencia al elemento con el ID `toast-interactive`. En caso de existir la referencia muestre la notificación por pantalla, eliminando la clase `hidden`.
+
+   b) Dentro de la función de autoejecución, llame a la función showToast.
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: javascript
+        :linenos:
+        :emphasize-lines: 3-8, 11
+
+        "use strict";
+
+        const showToast = () => {
+            const toast = document.getElementById("toast-interactive");
+            if (toast) {
+                toast.classList.remove("hidden");
+            }
+        };
+
+        (() => {
+            showToast();
+        })();
+
+2. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
+
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *landing*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
+
+Vercel
+------
+
+1. Verifique el despliegue continuo (CD) del proyecto en Vercel.
 
 Conclusiones
 ============

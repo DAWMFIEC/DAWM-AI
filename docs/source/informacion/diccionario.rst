@@ -153,3 +153,6 @@ Diccionario de términos
 
     consola del navegador
         Es una herramienta de desarrollo integrada en los navegadores web que permite a los desarrolladores interactuar con el código JavaScript, depurar errores, registrar mensajes y realizar pruebas en tiempo real. La consola proporciona un entorno interactivo donde se pueden ejecutar comandos JavaScript y ver los resultados inmediatamente.
+
+    función de autoejecución
+        IIFE (Immediately Invoked Function Expression) es una función de JavaScript que se define y se ejecuta inmediatamente después de su creación. Se utiliza para crear un ámbito local y evitar la contaminación del espacio de nombres global, lo que ayuda a prevenir conflictos entre variables y funciones en el código.
