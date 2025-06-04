@@ -142,7 +142,7 @@ Javascript: DOM
 
 1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
 
-   a) Crear la función flecha **showToast** que obtiene la referencia al elemento con el ID `toast-interactive`. En caso de existir la referencia muestre la notificación por pantalla, agregando la clase `md:block`.
+   a) Crear la :term:`función flecha` **showToast** que obtiene la referencia al elemento con el ID `toast-interactive`. En caso de existir la referencia muestre la notificación por pantalla, agregando la clase `md:block`.
 
    b) Dentro de la función de autoejecución, elimine el codigo anterior y  llame a la función showToast.
 
@@ -174,7 +174,7 @@ Javascript: Eventos
 
 1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
 
-   a) Crear la función flecha **showVideo** que obtiene la referencia al elemento con el ID `demo`. En caso de existir la referencia, agregue un evento `click` que abra un enlace a un video de YouTube en una nueva pestaña del navegador.
+   a) Crear la función flecha **showVideo** que obtiene la referencia al elemento con el ID `demo`. En caso de existir la referencia, agregue un :term:`evento` `click` que abra un enlace a un video de YouTube en una nueva pestaña del navegador.
    b) Dentro de la función de autoejecución, agregue la llamada a la función showVideo.
 
 .. admonition:: Haga click aquí para ver la solución

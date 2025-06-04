@@ -156,3 +156,9 @@ Diccionario de términos
 
     función de autoejecución
         IIFE (Immediately Invoked Function Expression) es una función de JavaScript que se define y se ejecuta inmediatamente después de su creación. Se utiliza para crear un ámbito local y evitar la contaminación del espacio de nombres global, lo que ayuda a prevenir conflictos entre variables y funciones en el código.
+
+    función flecha
+        Es una forma concisa de definir funciones en JavaScript, introducida en ECMAScript 6 (ES6). Las funciones de flecha tienen una sintaxis más corta y no tienen su propio contexto de `this`, lo que las hace ideales para usar en callbacks y funciones anónimas.
+
+    evento
+        Son acciones o sucesos que ocurren en el navegador, como clics del mouse, teclas presionadas, desplazamiento de la página, entre otros. Los eventos se pueden capturar y manejar mediante JavaScript para crear interactividad en las páginas web.
