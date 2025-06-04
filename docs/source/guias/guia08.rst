@@ -205,6 +205,16 @@ Javascript: Eventos
 
 2. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
 
+JSDoc
+-----
+
+1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
+
+   a) Agregar comentarios JSDoc a las funciones **showToast** y **showVideo**.
+   b) Asegúrese de que los comentarios JSDoc incluyan descripciones, parámetros y tipos de retorno.
+
+2. Valide su respuesta con `JSDoc: La Guía Definitiva para Documentar tu Código JavaScript <https://dev.to/goaqidev/jsdoc-la-guia-definitiva-para-documentar-tu-codigo-javascript-ik5>`_.
+
 Versionamiento
 --------------
 
@@ -221,7 +231,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué?
+    * ¿Qué limitaciones encontraste en las explicaciones o ejemplos generados por la IA que te motivaron a investigar más sobre cómo funcionan getElementById y addEventListener en el flujo de ejecución de JavaScript?
+    
+    * ¿Cómo resolviste errores o comportamientos inesperados al combinar estructuras condicionales con eventos del DOM, y qué papel tuvo tu razonamiento frente a lo sugerido por la IA?
+
+    * ¿Cómo aseguras que el uso de la inteligencia artificial no sustituya tu proceso de aprendizaje, sino que complemente tu desarrollo autónomo al escribir e interpretar código JavaScript?
 
 Actividades autónomas
 =====================
@@ -233,4 +247,6 @@ En redes:
 
 .. raw:: html
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Avoid render blocking JavaScript using async and defer scripts. <a href="https://t.co/JPDOlshMpk">pic.twitter.com/JPDOlshMpk</a></p>&mdash; Kamran Ahmed (@kamrify) <a href="https://twitter.com/kamrify/status/1436392322451841026?ref_src=twsrc%5Etfw">September 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    DOM con JavaScript  
+
+    <blockquote class="twitter-tweet"><p lang="es" dir="ltr">💛¡Las bases del DOM en un hilo!💛<br><br>📜Se conoce como DOM a la forma de referirnos a la estructura del documento HTML.<br><br>Mediante el DOM podemos cambiar el HTML/CSS dinámicamente desde Javascript y hacer cosas mágicas🧙‍♂️<br><br>¡Te explico en un par de tweets como dominarlo!<br><br>🧵⬇ <a href="https://t.co/zgjZsiDRVK">pic.twitter.com/zgjZsiDRVK</a></p>&mdash; Manz 🇮🇨⚡👾 (@Manz) <a href="https://twitter.com/Manz/status/1521890518976073729?ref_src=twsrc%5Etfw">May 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
