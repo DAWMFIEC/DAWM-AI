@@ -43,7 +43,7 @@ Etiquetas multimedia
       Genera una etiqueta HTML para insertar un mapa de Google Maps en mi CV. 
       El mapa debe mostrar la ubicación de la Escuela Superior Politécnica del Litoral, Guayaquil - Ecuador, en la sección **contacto**.
 
-   b) Añada una imagen con el placeholder de https://placehold.co.
+   b) Añada una imagen con el placeholder de `Picsum <https://picsum.photos>`_ o `Placehold <https://placehold.co>`_.
    c) Incorpore un video de YouTube (incluya la URL).
          
 2. Compruebe la vista previa del resultado en el navegador.
