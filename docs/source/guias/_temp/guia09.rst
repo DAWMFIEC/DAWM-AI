@@ -58,6 +58,10 @@ En redes:
 
 .. raw:: html
 
-    APIs públicas para probar en tu proyecto:	
-    
+    Promesas en JavaScript
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">⚡️ Promises in JavaScript Explained⚡️<br><br>A 🧵👇 <a href="https://t.co/EbRRaZOSaD">pic.twitter.com/EbRRaZOSaD</a></p>&mdash; Ighmaz (@ighmaz_js) <a href="https://twitter.com/ighmaz_js/status/1596847897425113088?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    APIs públicas para probar	
+
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Try Public APIs for free<a href="https://t.co/YKUy0OdgTA">https://t.co/YKUy0OdgTA</a></p>&mdash; SwiftUIX (@SwiftUIHome) <a href="https://twitter.com/SwiftUIHome/status/1917132347260211689?ref_src=twsrc%5Etfw">April 29, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
