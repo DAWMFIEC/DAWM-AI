@@ -58,6 +58,6 @@ En redes:
 
 .. raw:: html
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/deepanshusharmx/status/1708118904391053714">Tweet from @deepanshusharmx</a>
-    <img alt="" src="https://pbs.twimg.com/ext_tw_video_thumb/1708115269187710976/pu/img/316z8sA74Czf1nR6.jpg" width="65%" height="auto" class="align-center"><source type="video/mp4" src="blob:https://x.com/e7c71b7e-0d51-4f41-8e56-28a08cc675fa"></p>
-    </blockquote>
+    APIs públicas para probar en tu proyecto:	
+    
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Try Public APIs for free<a href="https://t.co/YKUy0OdgTA">https://t.co/YKUy0OdgTA</a></p>&mdash; SwiftUIX (@SwiftUIHome) <a href="https://twitter.com/SwiftUIHome/status/1917132347260211689?ref_src=twsrc%5Etfw">April 29, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
