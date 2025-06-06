@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ========================================================
-Guía XX: 
+Guía 09: 
 ========================================================
 
 .. topic:: Objetivo específico
@@ -15,8 +15,56 @@ Guía XX:
 Actividades previas
 =====================
 
+Ambiente de desarrollo
+----------------------
+
+1. Acceda a su proyecto *landing* en Codespaces o en su máquina local.
+2. Cree y utilice la(s) rama(s) de desarrollo.
+3. Instale los paquetes y levante el servidor, con:
+
+   .. code-block:: bash
+
+      npm install
+      npm run dev
+
 Actividades en clases
 =====================
+
+HTML
+----
+
+Firebase
+--------
+
+Proyecto
+^^^^^^^^
+
+App - web
+^^^^^^^^^
+
+SDK
+^^^
+
+.env
+^^^^
+
+Realtime Database
+^^^^^^^^^^^^^^^^^
+
+Javascript: Firebase SDK
+------------------------
+
+
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *landing*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
+
+Vercel
+------
+
+1. Verifique el despliegue continuo (CD) del proyecto en Vercel.
 
 Conclusiones
 ============
