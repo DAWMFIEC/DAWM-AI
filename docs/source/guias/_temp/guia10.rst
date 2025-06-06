@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ==========================================
-Guía 10: Firebase: SDK y Realtime Database
+Guía 10: Firebase: Realtime Database y SDK
 ==========================================
 
 .. topic:: Objetivo específico

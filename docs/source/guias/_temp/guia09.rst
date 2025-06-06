@@ -3,9 +3,9 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-==================
-Guía 09: Fetch API 
-==================
+====================================
+Guía 09: Servicios, JSON y Fetch API
+====================================
 
 .. topic:: Objetivo específico
     :class: objetivo
@@ -15,8 +15,31 @@ Guía 09: Fetch API
 Actividades previas
 =====================
 
+Ambiente de desarrollo
+----------------------
+
+1. Acceda a su proyecto *landing* en Codespaces o en su máquina local.
+2. Cree y utilice la(s) rama(s) de desarrollo.
+3. Instale los paquetes y levante el servidor, con:
+
+   .. code-block:: bash
+
+      npm install
+      npm run dev
+
 Actividades en clases
 =====================
+
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *landing*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
+
+Vercel
+------
+
+1. Verifique el despliegue continuo (CD) del proyecto en Vercel.
 
 Conclusiones
 ============
