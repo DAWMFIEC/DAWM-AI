@@ -56,8 +56,32 @@ Archivos y estructura
 2. Utilice un cliente de IAG para generara el contenido del archivo *functions.js* con las siguientes especificaciones:
    
    a) Declare el modo estricto del documento.
-   b) Cree y exporte una función llamada `fetchFakerData`. La función recibe el parámetro `url` de tipo string y retorna la `respuesta` de tipo :term:`Promesa`.
+   b) Cree y exporte una función llamada `fetchFakerData`. La función recibe el parámetro `url` de tipo string y retorna la `respuesta` de tipo JSON.
    c) Genere un comentario con la documentación de función con JSDoc. 
+
+
+'use strict';
+
+/**
+ * Realiza una solicitud HTTP a la URL dada y retorna los datos en formato JSON.
+ *
+ * @param {string} url - La URL del recurso desde donde se desea obtener los datos.
+ * @returns {Promise<any>} Una promesa que resuelve con los datos en formato JSON.
+ *
+ * @example
+ * fetchFakerData('https://fakestoreapi.com/products')
+ *   .then(data => console.log(data))
+ *   .catch(error => console.error(error));
+ */
+export function fetchFakerData(url) {
+  return fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Error al obtener los datos: ${response.status}`);
+      }
+      return response.json();
+    });
+}
 
 2. Modifique el documento *js/file01.js*, con: 
    
@@ -70,7 +94,7 @@ Promesas (Fetch API)
 --------------------
 
 1. En su archivo *js/functions.js*, cree una función que consuma la API de Faker utilizando la `Fetch API <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>`_.
-2. Utilice un cliente de IAG para explicar el concepto de promesa en JavaScript y cómo se utilizan para manejar operaciones asincrónicas.
+2. Utilice un cliente de IAG para explicar el concepto de :term:`Promesa` en JavaScript y cómo se utilizan para manejar operaciones asincrónicas.
 
    .. code-block:: javascript
       :linenos:

@@ -48,10 +48,10 @@ HTML
 1. Modifique el documento *index.html*, con:
 
    .. code-block:: html
-       :caption: Notificación interactiva
-       :emphasize-lines: 4-36
-    
-        <body>
+      :caption: Notificación interactiva.
+      :emphasize-lines: 4-36
+
+       <body>
             ...
     
             <div id="toast-interactive"
@@ -91,7 +91,9 @@ HTML
             <script ... ></script>
             <script ... ></script>
 
-       </body>
+        </body>
+    
+        
 
 2. Compruebe la vista previa del resultado en el navegador.
 
