@@ -60,7 +60,7 @@ Archivos y estructura
    
    .. code-block:: javascript
       :caption: Declaración de la función fetchFakerData en el archivo functions.js
-      :emphasize-lines: 1, 3, 5
+      :emphasize-lines: 1-5
 
       'use strict';
 
@@ -80,8 +80,8 @@ Archivos y estructura
 
       ...
 
-Promesas (Fetch API)
---------------------
+Fetch: async/await
+------------------
 
 1. En su archivo *js/functions.js*, modifique la función `fetchFakerData` que consuma el API de Faker utilizando la `Fetch API <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>`_.
 2. Utilice un cliente de IAG para generar el contenido del archivo *functions.js* con las siguientes especificaciones:
@@ -98,22 +98,46 @@ Promesas (Fetch API)
     :class: solution
 
     .. code-block:: javascript
-        :emphasize-lines: 3-14
+        :emphasize-lines: 3-38
 
         'use strict';
 
-        let fetchFakerData = (url) => {
-            return fetch(url)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .catch(error => {
-                    console.error('There has been a problem with your fetch operation:', error);
-                });
-        }
+        let fetchFakerData = async (url) => {
+
+            try {
+
+                // Realizar la petición HTTP usando fetch
+                const response = await fetch(url);
+                
+                // Verificar si la respuesta fue exitosa (status 200-299)
+                if (!response.ok) {
+
+                    return {
+                        success: false,
+                        error: `Error HTTP: ${response.status} - ${response.statusText}`
+                    };
+
+                }
+                
+                // Convertir la respuesta a JSON
+                const data = await response.json();
+                
+                // Retornar objeto con éxito
+                return {
+                    success: true,
+                    data: data
+                };
+                
+            } catch (error) {
+
+                // Manejar errores de red, JSON parsing, etc.
+                return {
+                    success: false,
+                    error: `Error en la petición: ${error.message}`
+                };
+
+            }
+        };
         
         export { fetchFakerData }
 
