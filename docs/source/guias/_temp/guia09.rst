@@ -83,8 +83,8 @@ Archivos y estructura
 Fetch: Promesas + async/await
 -----------------------------
 
-1. En su archivo *js/functions.js*, modifique la función `fetchFakerData` que consuma el API de Faker utilizando la `Fetch API <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>`_.
-2. Utilice un cliente de IAG para generar el contenido del archivo *functions.js* con las siguientes especificaciones:
+1. Considere el tutorial de `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_.
+2. Utilice un cliente de IAG para generar el contenido del archivo *js/functions.js* con las siguientes especificaciones:
 
    a) Convierta la función flecha `fetchFakerData` en asincrónica (async). 
    b) La función realiza una petición HTTP con el objeto fetch. Espere (await) a que la :term:`Promesa` se resuelva o se rechace. 
@@ -147,6 +147,9 @@ Fetch: Promesas + async/await
 
 Fetch: Promesas + encadenamiento
 --------------------------------
+
+1. Considere el tutorial de `Promise Chaining
+ <https://www.javascripttutorial.net/promise-chaining/>`_.
 
 JSDoc
 -----
