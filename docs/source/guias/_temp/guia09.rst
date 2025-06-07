@@ -15,6 +15,21 @@ Guía 09: Promesas, Servicios y JSON
 Actividades previas
 =====================
 
+Faker API
+---------
+
+1. Visite el sitio web de `Faker API <https://fakerapi.it/>`_.
+2. Explore `recursos <https://fakerapi.it/#resources>`_ puede generar la API, como usuarios, productos, textos, etc.
+
+JSON
+----
+
+1. Explore el sitio web de `REQBIN <https://reqbin.com/>`_.
+2. Realice una petición a la API de Faker, p.e.:
+   
+   - **URL:** `https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120`
+   - **Método:** `GET`
+
 Ambiente de desarrollo
 ----------------------
 
@@ -29,6 +44,12 @@ Ambiente de desarrollo
 
 Actividades en clases
 =====================
+
+HTML
+----
+
+Promesas (Fetch API)
+--------------------
 
 Versionamiento
 --------------
