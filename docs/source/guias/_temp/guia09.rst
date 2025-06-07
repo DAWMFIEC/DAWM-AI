@@ -19,7 +19,7 @@ Faker API
 ---------
 
 1. Visite el sitio web de `Faker API <https://fakerapi.it/>`_.
-2. Familiarícese con la documentación de la API del recurso **texto** y los parámetros que puede utilizar para personalizar las respuestas.
+2. Familiarícese con la documentación de la API del recurso **Texts** y los parámetros que puede utilizar para personalizar las respuestas.
 3. Utilice un cliente de IAG para explicar el concepto de :term:`API` y cómo se utiliza para interactuar con servicios externos.
 
 JSON
@@ -32,7 +32,7 @@ JSON
    - **Método:** `GET`
 
 3. Explore la :term:`petición HTTP` y la :term:`respuesta HTTP` en formato :term:`JSON` que se muestra en la sección de respuesta.
-4. Utilice un cliente de IAG para explicar el formato JSON y cómo se estructura la respuesta de la API.
+4. Utilice un cliente de IAG para explicar cómo se estructura la petición y la respuesta de la API; además del formato JSON.
 
 Ambiente de desarrollo
 ----------------------
@@ -49,6 +49,20 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
+Archivos y estructura
+---------------------
+
+1. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto.
+2. Utilice un cliente de IAG para generara el contenido del archivo *functions.js* con las siguientes especificaciones:
+   
+   a) Declare el modo estricto del documento.
+   b) Cree y exporte una función llamada `fetchFakerData`. La función recibe el parámetro `url` de tipo string y retorna la `respuesta` de tipo :term:`Promesa`.
+   c) Genere un comentario con la documentación de función con JSDoc. 
+
+2. Modifique el documento *js/file01.js*, con: 
+   
+   a) Importe la función `fetchFakerData` del documento *functions.js*.
+
 HTML
 ----
 
@@ -56,7 +70,7 @@ Promesas (Fetch API)
 --------------------
 
 1. En su archivo *js/functions.js*, cree una función que consuma la API de Faker utilizando la `Fetch API <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>`_.
-2. Utilice un cliente de IAG para explicar el concepto de :term:`Promesa` en JavaScript y cómo se utilizan para manejar operaciones asincrónicas.
+2. Utilice un cliente de IAG para explicar el concepto de promesa en JavaScript y cómo se utilizan para manejar operaciones asincrónicas.
 
    .. code-block:: javascript
       :linenos:
