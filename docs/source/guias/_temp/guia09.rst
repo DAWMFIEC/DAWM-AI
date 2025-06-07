@@ -10,7 +10,7 @@ Guía 09: Promesas, Servicios y JSON
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Objetivo específico de la guía.
+    Implementar funciones en JavaScript que consuman servicios externos utilizando promesas para recuperar datos en formato JSON y mostrarlos dinámicamente en la landing page mejorando así la interactividad y la presentación de contenido relevante para el usuario.
 
 Actividades previas
 =====================
