@@ -83,8 +83,9 @@ Archivos y estructura
 Fetch: Promesas + async/await
 -----------------------------
 
-1. Considere el tutorial de `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_.
-2. Utilice un cliente de IAG para generar el contenido del archivo *js/functions.js* con las siguientes especificaciones:
+1. Utilice un cliente de IAG para explicar cómo funcionan las promesas en JavaScript y cómo se pueden utilizar para manejar operaciones asincrónicas, como las peticiones HTTP.
+
+2. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el contenido del archivo *js/functions.js* con las siguientes especificaciones:
 
    a) Convierta la función flecha `fetchFakerData` en asincrónica (async). 
    b) La función realiza una petición HTTP con el objeto fetch. Espere (await) a que la :term:`Promesa` se resuelva o se rechace. 
@@ -148,13 +149,24 @@ Fetch: Promesas + async/await
 Fetch: Promesas + encadenamiento
 --------------------------------
 
-1. Considere el tutorial de `Promise Chaining
- <https://www.javascripttutorial.net/promise-chaining/>`_.
+1. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el contenido del archivo *js/file01.js* con las siguientes especificaciones:
+
+   a) Agregue la función `loadData`, que:
+
+      (i) Declare una constante `url` con el valor de la URL de la API de Faker `https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120`.
+      
+      (ii) Llame a la función `fetchFakerData` pasando la constante `url` como argumento.
+      
+      (iii) Encadene el método `then` para manejar la respuesta de la función `fetchFakerData`. En caso de éxito, muestre los datos en la consola. En caso de error, muestre el mensaje de error en la consola. Encadene el método `catch` para manejar cualquier error que ocurra durante la ejecución de la promesa. Considere la estructura del objeto devuelto por la función `fetchFakerData`.
+      
+      (iv) Encadene el método `finally` para mostrar un mensaje en la consola indicando que la petición ha finalizado, independientemente de si fue exitosa o no.
+
+   b) Llame a la función `loadData` en la función de autojecución.
 
 JSDoc
 -----
 
-1. Utilice un cliente de IAG en el documento javascript para generar la documentación JSDoc de las funciones creadas en el archivo *functions.js*. Asegúrese de que los comentarios JSDoc incluyan descripciones, parámetros y tipos de retorno.
+1. Utilice un cliente de IAG en el documento javascript para generar la documentación JSDoc de las funciones creadas. Asegúrese de que los comentarios JSDoc incluyan descripciones, parámetros y tipos de retorno.
 2. Valide su respuesta con `JSDoc: La Guía Definitiva para Documentar tu Código JavaScript <https://dev.to/goaqidev/jsdoc-la-guia-definitiva-para-documentar-tu-codigo-javascript-ik5>`_.
 
 Versionamiento
