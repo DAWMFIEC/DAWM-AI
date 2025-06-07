@@ -157,11 +157,58 @@ Fetch: Promesas + encadenamiento
       
       (ii) Llame a la función `fetchFakerData` pasando la constante `url` como argumento.
       
-      (iii) Encadene el método `then` para manejar la respuesta de la función `fetchFakerData`. En caso de éxito, muestre los datos en la consola. En caso de error, muestre el mensaje de error en la consola. Encadene el método `catch` para manejar cualquier error que ocurra durante la ejecución de la promesa. Considere la estructura del objeto devuelto por la función `fetchFakerData`.
+      (iii) Encadene el método `then` para manejar la respuesta de la función `fetchFakerData`. En caso de éxito, muestre los datos en la consola. En caso de error, muestre el mensaje de error en la consola. Encadene el método `catch` para manejar cualquier error que ocurra durante la ejecución de la promesa. Considere las claves **success** y **data** o **error** del objeto devuelto por la función `fetchFakerData`.
       
       (iv) Encadene el método `finally` para mostrar un mensaje en la consola indicando que la petición ha finalizado, independientemente de si fue exitosa o no.
 
    b) Llame a la función `loadData` en la función de autojecución.
+
+.. admonition:: Haga click aquí para ver la solución
+    :collapsible: closed
+    :class: solution
+
+    .. code-block:: javascript
+        :emphasize-lines: 7-31, 38
+
+        'use strict';
+
+        import { fetchFakerData } from './functions.js';
+
+        ...	
+
+        const loadData = () => {
+
+            const url = "https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120";
+
+            fetchFakerData(url)
+                .then((result) => {
+
+                    if (result.success) {
+                        console.log("Data:", result.data);
+                    } else {
+                        console.error("Error:", result.error);
+                    }
+
+                })
+                .catch((error) => {
+
+                    console.error("Caught error during promise execution:", error);
+
+                })
+                .finally(() => {
+
+                    console.log("The petition has ended.");
+
+                });
+        };
+
+        // Función de autoejecución
+        (() => {
+
+            ...
+            
+            loadData();
+        })();
 
 JSDoc
 -----
