@@ -56,10 +56,7 @@ HTML
 Archivos y estructura
 ---------------------
 
-1. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto, con las siguientes especificaciones:
-   
-   a) Declare el modo estricto del documento.
-   b) Cree y exporte una función flecha `fetchFakerData`. 
+1. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto. Declare el modo estricto del documento. Cree y exporte una función flecha `fetchFakerData`. 
    
    .. code-block:: javascript
       :caption: Declaración de la función fetchFakerData en el archivo functions.js
@@ -71,9 +68,7 @@ Archivos y estructura
 
       export { fetchFakerData }
 
-2. Modifique el documento *js/file01.js*, con: 
-   
-   a) Importe la función `fetchFakerData` del documento *functions.js*.
+2. En el documento *js/file01.js*, importe la función `fetchFakerData` del documento *functions.js*.
 
    .. code-block:: javascript
       :caption: Importación de fetchFakerData en file01.js
@@ -85,16 +80,17 @@ Archivos y estructura
 
       ...
 
-
 Promesas (Fetch API)
 --------------------
 
 1. En su archivo *js/functions.js*, modifique la función `fetchFakerData` que consuma el API de Faker utilizando la `Fetch API <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>`_.
 2. Utilice un cliente de IAG para generar el contenido del archivo *functions.js* con las siguientes especificaciones:
-   
-   a) La función `fetchFakerData` debe realizar una petición asincrónica a al servicio externo identificado por el parámetro `url`.
-   b) En caso de éxito, la función debe retornar una :term:`Promesa` con los datos obtenidos en formato JSON.
-   c) En caso de fallo, la función manejar errores utilizando el método `catch` de la promesa y retornar un mensaje de error apropiado.
+
+   a) Modifique la función flecha `fetchFakerData` como asincrónica (utilice async/await). 
+   b) Esta función debe realizar una petición HTTP mediante una :term:`Promesa`, utilizando fetch. La función siempre devuelve un objeto con las claves **success** y **data** o **error**.
+   c) La clave **success** tendrá un valor booleano que indica si la petición fue exitosa (true) o si ocurrió un error (false) en el servidor HTTP o durante el procesamiento del cliente. 
+   d) En caso de éxito, el objeto debe incluir **data** con el contenido de la respuesta convertida a JSON. 
+   e) En caso de error, el objeto debe incluir **error** con un mensaje descriptivo del error ocurrido.
 
 
 .. admonition:: Haga click aquí para ver la solución
@@ -161,7 +157,7 @@ En redes:
 
     Promesas en JavaScript
 
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">⚡️ Promises in JavaScript Explained⚡️<br><br>A 🧵👇 <a href="https://t.co/EbRRaZOSaD">pic.twitter.com/EbRRaZOSaD</a></p>&mdash; Ighmaz (@ighmaz_js) <a href="https://twitter.com/ighmaz_js/status/1596847897425113088?ref_src=twsrc%5Etfw">November 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">JavaScript&#39;s Fetch API: A Beginner’s Guide 🧵 <a href="https://t.co/K3EUdD72F5">pic.twitter.com/K3EUdD72F5</a></p>&mdash; Csaba Kissi (@csaba_kissi) <a href="https://twitter.com/csaba_kissi/status/1904169335121465653?ref_src=twsrc%5Etfw">March 24, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     APIs públicas para probar	
 
