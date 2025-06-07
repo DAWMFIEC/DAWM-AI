@@ -151,7 +151,7 @@ Fetch: Promesas + encadenamiento
 
 1. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el contenido del archivo *js/file01.js* con las siguientes especificaciones:
 
-   a) Agregue la función `loadData`, que:
+   a) Agregue la función flecha `loadData`, que:
 
       (i) Declare una constante `url` con el valor de la URL de la API de Faker `https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120`.
       
