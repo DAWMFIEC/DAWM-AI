@@ -49,7 +49,6 @@ HTML
 
    .. code-block:: html
        :caption: Notificación interactiva
-       :linenos:
        :emphasize-lines: 4-36
     
         <body>
