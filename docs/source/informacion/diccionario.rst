@@ -163,6 +163,18 @@ Diccionario de términos
     evento
         Son acciones o sucesos que ocurren en el navegador, como clics del mouse, teclas presionadas, desplazamiento de la página, entre otros. Los eventos se pueden capturar y manejar mediante JavaScript para crear interactividad en las páginas web.
 
+    API
+        (Interfaz de Programación de Aplicaciones) es un conjunto de reglas y protocolos que permite a diferentes aplicaciones comunicarse entre sí. En el contexto del desarrollo web, las APIs se utilizan para acceder a servicios externos, como bases de datos, servicios de autenticación, o cualquier otro recurso que pueda ser consumido por una aplicación.
+
+    API RESTful
+        Es un estilo de arquitectura de software que utiliza HTTP para la comunicación entre un cliente y un servidor. Las APIs RESTful siguen principios como la utilización de recursos identificados por URLs, el uso de métodos HTTP (GET, POST, PUT, DELETE) para realizar operaciones sobre esos recursos, y la representación de los datos en formatos como JSON o XML.
+
+    API REST
+        Es un tipo de API que sigue los principios de la arquitectura REST (Representational State Transfer). Las APIs RESTful utilizan el protocolo HTTP para realizar operaciones sobre recursos, permitiendo a los desarrolladores interactuar con servicios web de manera sencilla y eficiente. Estas APIs son ampliamente utilizadas en aplicaciones web y móviles para acceder a datos y funcionalidades de backend.
+        
+    Fetch API   
+        Es una interfaz de programación de aplicaciones (API) que permite realizar peticiones HTTP de manera asíncrona en JavaScript. La Fetch API proporciona una forma más moderna y flexible de hacer solicitudes a servidores y manejar respuestas, en comparación con el antiguo objeto XMLHttpRequest.
+
     petición HTTP
         Es una solicitud enviada por un cliente (como un navegador web) a un servidor para obtener recursos o realizar acciones específicas. Las peticiones HTTP pueden ser de diferentes tipos, como `GET`, `POST`, `PUT`, `DELETE`, entre otros, y se utilizan para interactuar con APIs y servicios web.
 

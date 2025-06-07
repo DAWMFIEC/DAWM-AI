@@ -19,7 +19,8 @@ Faker API
 ---------
 
 1. Visite el sitio web de `Faker API <https://fakerapi.it/>`_.
-2. Explore `recursos <https://fakerapi.it/#resources>`_ puede generar la API, como usuarios, productos, textos, etc.
+2. Familiarícese con la documentación de la API del recurso **texto** y los parámetros que puede utilizar para personalizar las respuestas.
+3. Utilice un cliente de IAG para explicar el concepto de :term:`API` y cómo se utiliza para interactuar con servicios externos.
 
 JSON
 ----
