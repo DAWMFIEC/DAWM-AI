@@ -80,17 +80,21 @@ Archivos y estructura
 
       ...
 
-Fetch: async/await
-------------------
+Fetch: Promesas + async/await
+-----------------------------
 
 1. En su archivo *js/functions.js*, modifique la función `fetchFakerData` que consuma el API de Faker utilizando la `Fetch API <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>`_.
 2. Utilice un cliente de IAG para generar el contenido del archivo *functions.js* con las siguientes especificaciones:
 
-   a) Modifique la función flecha `fetchFakerData` como asincrónica (utilice async/await). 
-   b) Esta función debe realizar una petición HTTP mediante una :term:`Promesa`, utilizando fetch. La función siempre devuelve un objeto con las claves **success** y **data** o **error**.
-   c) La clave **success** tendrá un valor booleano que indica si la petición fue exitosa (true) o si ocurrió un error (false) en el servidor HTTP o durante el procesamiento del cliente. 
-   d) En caso de éxito, el objeto debe incluir **data** con el contenido de la respuesta convertida a JSON. 
-   e) En caso de error, el objeto debe incluir **error** con un mensaje descriptivo del error ocurrido.
+   a) Convierta la función flecha `fetchFakerData` en asincrónica (async). 
+   b) La función realiza una petición HTTP con el objeto fetch. Espere (await) a que la :term:`Promesa` se resuelva o se rechace. 
+   c) La función siempre devuelve un objeto con las claves **success** y **data** o **error**.
+      
+      (i) La clave **success** tendrá un valor booleano que indica si la petición fue exitosa (true) o si ocurrió un error (false) en el servidor HTTP o durante el procesamiento del cliente. 
+      
+      (ii) En caso de éxito, el objeto debe incluir **data** con el contenido de la respuesta convertida a JSON. 
+      
+      (iii) En caso de error, el objeto debe incluir **error** con un mensaje descriptivo del error ocurrido.
 
 
 .. admonition:: Haga click aquí para ver la solución
@@ -140,6 +144,9 @@ Fetch: async/await
         };
         
         export { fetchFakerData }
+
+Fetch: Promesas + encadenamiento
+--------------------------------
 
 JSDoc
 -----
