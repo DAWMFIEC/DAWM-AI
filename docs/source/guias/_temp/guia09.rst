@@ -102,7 +102,6 @@ Promesas (Fetch API)
     :class: solution
 
     .. code-block:: javascript
-        :linenos:
         :emphasize-lines: 3-14
 
         'use strict';
