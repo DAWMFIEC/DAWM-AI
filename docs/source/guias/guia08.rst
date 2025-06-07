@@ -48,8 +48,8 @@ HTML
 1. Modifique el documento *index.html*, con:
 
    .. code-block:: html
-      :caption: Notificación interactiva.
-      :emphasize-lines: 4-36
+       :caption: Notificación interactiva.
+       :emphasize-lines: 4-36
 
        <body>
             ...
