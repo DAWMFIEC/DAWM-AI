@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ====================================
-Guía 09: Servicios, JSON y Fetch API
+Guía 09: Promesas, Servicios y JSON 
 ====================================
 
 .. topic:: Objetivo específico
@@ -46,7 +46,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué?
+    * ¿Cómo te ayudó la inteligencia artificial generativa a entender el flujo de ejecución de una promesa en JavaScript?
+    
+    * ¿Cómo verificaste que el manejo de errores y la estructura de los then, catch y finally respondieran adecuadamente a diferentes escenarios de respuesta del servicio externo?
+    
+    * ¿Cómo puedes asegurar que el uso de inteligencia artificial para manejar peticiones asincrónicas no sustituya tu razonamiento lógico y tu comprensión del manejo de datos en tiempo real?
 
 Actividades autónomas
 =====================

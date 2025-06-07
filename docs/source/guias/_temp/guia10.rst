@@ -71,7 +71,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    ¿Qué?
+    * ¿Qué desafíos conceptuales encontraste al interpretar el código generado por IA para integrar Firebase en tu landing page?
+
+    * ¿Qué modificaciones realizaste al código sugerido por la IA para adaptarlo a los requerimientos específicos de tu landing page?
+
+    * ¿Cómo aseguras que el uso de IA en la implementación de Firebase no sustituya tu comprensión del flujo de datos ni tu responsabilidad en el manejo seguro de la información del usuario?
 
 Actividades autónomas
 =====================
