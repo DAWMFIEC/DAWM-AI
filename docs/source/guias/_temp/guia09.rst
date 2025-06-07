@@ -61,29 +61,29 @@ Archivos y estructura
    a) Declare el modo estricto del documento.
    b) Cree y exporte una función flecha `fetchFakerData`. 
    
-    .. code-block:: javascript
-        :caption: Declaración de la función fetchFakerData en el archivo functions.js
-        :emphasize-lines: 1, 3, 5
+   .. code-block:: javascript
+      :caption: Declaración de la función fetchFakerData en el archivo functions.js
+      :emphasize-lines: 1, 3, 5
 
-        'use strict';
+      'use strict';
 
-        let fetchFakerData = (url) => { }
+      let fetchFakerData = (url) => { }
 
-        export { fetchFakerData }
+      export { fetchFakerData }
 
 2. Modifique el documento *js/file01.js*, con: 
    
    a) Importe la función `fetchFakerData` del documento *functions.js*.
 
-    .. code-block:: javascript
-        :caption: Importación de fetchFakerData en file01.js
-        :emphasize-lines: 3
+   .. code-block:: javascript
+      :caption: Importación de fetchFakerData en file01.js
+      :emphasize-lines: 3
 
-        'use strict';
+      'use strict';
 
-        import { fetchFakerData } from './functions.js';
+      import { fetchFakerData } from './functions.js';
 
-        ...
+      ...
 
 
 Promesas (Fetch API)
