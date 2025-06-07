@@ -197,7 +197,7 @@ Fetch: Promesas + encadenamiento
                 })
                 .finally(() => {
 
-                    console.log("The petition has ended.");
+                    console.log("Request has ended.");
 
                 });
         };
