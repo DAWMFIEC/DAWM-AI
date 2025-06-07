@@ -56,16 +56,11 @@ HTML
 Archivos y estructura
 ---------------------
 
-1. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto.
-2. Utilice un cliente de IAG para generar el contenido del archivo *functions.js* con las siguientes especificaciones:
+1. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto, con las siguientes especificaciones:
    
    a) Declare el modo estricto del documento.
    b) Cree y exporte una función flecha `fetchFakerData`. 
    
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
-    
     .. code-block:: javascript
         :caption: Declaración de la función fetchFakerData en el archivo functions.js
         :emphasize-lines: 1, 3, 5
@@ -79,11 +74,6 @@ Archivos y estructura
 2. Modifique el documento *js/file01.js*, con: 
    
    a) Importe la función `fetchFakerData` del documento *functions.js*.
-
-
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
 
     .. code-block:: javascript
         :caption: Importación de fetchFakerData en file01.js
