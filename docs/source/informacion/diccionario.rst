@@ -162,3 +162,15 @@ Diccionario de términos
 
     evento
         Son acciones o sucesos que ocurren en el navegador, como clics del mouse, teclas presionadas, desplazamiento de la página, entre otros. Los eventos se pueden capturar y manejar mediante JavaScript para crear interactividad en las páginas web.
+
+    petición HTTP
+        Es una solicitud enviada por un cliente (como un navegador web) a un servidor para obtener recursos o realizar acciones específicas. Las peticiones HTTP pueden ser de diferentes tipos, como `GET`, `POST`, `PUT`, `DELETE`, entre otros, y se utilizan para interactuar con APIs y servicios web.
+
+    respuesta HTTP
+        Es la respuesta enviada por un servidor en respuesta a una petición HTTP. La respuesta HTTP incluye un código de estado que indica el resultado de la solicitud (por ejemplo, 200 para éxito, 404 para no encontrado) y puede contener datos en diferentes formatos, como HTML, JSON o XML.
+
+    JSON
+        (JavaScript Object Notation) es un formato ligero de intercambio de datos que es fácil de leer y escribir para los humanos, y fácil de analizar y generar para las máquinas. JSON se utiliza comúnmente para transmitir datos entre un servidor y un cliente en aplicaciones web, especialmente en APIs RESTful.
+
+    Promesa
+        Objetos en JavaScript que representan la finalización o el fracaso eventual de una operación asíncrona. Las promesas permiten manejar operaciones asíncronas de manera más legible y estructurada, evitando el uso excesivo de callbacks anidados (callback hell).

@@ -24,11 +24,14 @@ Faker API
 JSON
 ----
 
-1. Explore el sitio web de `REQBIN <https://reqbin.com/>`_.
+1. Visite el sitio web de `ReqBin <https://reqbin.com/>`_.
 2. Realice una petición a la API de Faker, p.e.:
    
    - **URL:** `https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120`
    - **Método:** `GET`
+
+3. Explore la :term:`petición HTTP` y la :term:`respuesta HTTP` en formato :term:`JSON` que se muestra en la sección de respuesta.
+4. Utilice un cliente de IAG para explicar el formato JSON y cómo se estructura la respuesta de la API.
 
 Ambiente de desarrollo
 ----------------------
@@ -50,6 +53,26 @@ HTML
 
 Promesas (Fetch API)
 --------------------
+
+1. En su archivo *js/functions.js*, cree una función que consuma la API de Faker utilizando la `Fetch API <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>`_.
+2. Utilice un cliente de IAG para explicar el concepto de :term:`Promesa` en JavaScript y cómo se utilizan para manejar operaciones asincrónicas.
+
+   .. code-block:: javascript
+      :linenos:
+
+      // Función para consumir la API de Faker
+      let fetchFakerData = () => {
+          return fetch('https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120')
+              .then(response => {
+                  if (!response.ok) {
+                      throw new Error('Network response was not ok');
+                  }
+                  return response.json();
+              })
+              .catch(error => {
+                  console.error('There has been a problem with your fetch operation:', error);
+              });
+      }
 
 Versionamiento
 --------------
