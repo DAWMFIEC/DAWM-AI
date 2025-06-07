@@ -103,7 +103,6 @@ HTML
 
    .. code-block:: html
        :caption: Notificación interactiva oculta
-       :linenos:
        :emphasize-lines: 2
 
        <div id="toast-interactive" 
@@ -125,7 +124,6 @@ Javascript: función de autoejecución
     :class: solution
 
     .. code-block:: javascript
-        :linenos:
         :emphasize-lines: 3-6
 
         "use strict";
@@ -152,7 +150,6 @@ Javascript: DOM
     :class: solution
 
     .. code-block:: javascript
-        :linenos:
         :emphasize-lines: 3-8, 11
 
         "use strict";
@@ -183,7 +180,6 @@ Javascript: Eventos
     :class: solution
 
     .. code-block:: javascript
-        :linenos:
         :emphasize-lines: 5-12, 16
 
         "use strict";
