@@ -53,35 +53,37 @@ Archivos y estructura
 ---------------------
 
 1. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto.
-2. Utilice un cliente de IAG para generara el contenido del archivo *functions.js* con las siguientes especificaciones:
+2. Utilice un cliente de IAG para generar el contenido del archivo *functions.js* con las siguientes especificaciones:
    
    a) Declare el modo estricto del documento.
-   b) Cree y exporte una función llamada `fetchFakerData`. La función recibe el parámetro `url` de tipo string y retorna la `respuesta` de tipo JSON.
-   c) Genere un comentario con la documentación de función con JSDoc. 
+   b) Cree y exporte una función flecha `fetchFakerData`. La función recibe el parámetro `url` de tipo string y retorna la `respuesta` de tipo JSON.
+   c) Exporte la función `fetchFakerData` para que pueda ser utilizada en otros módulos.
+   d) Genere un comentario con la documentación de función con JSDoc. 
 
+   .. code-block:: javascript
+      :caption: functions
+      :linenos:
+      :emphasize-lines: 2
 
-'use strict';
+      'use strict';
 
-/**
- * Realiza una solicitud HTTP a la URL dada y retorna los datos en formato JSON.
- *
- * @param {string} url - La URL del recurso desde donde se desea obtener los datos.
- * @returns {Promise<any>} Una promesa que resuelve con los datos en formato JSON.
- *
- * @example
- * fetchFakerData('https://fakestoreapi.com/products')
- *   .then(data => console.log(data))
- *   .catch(error => console.error(error));
- */
-export function fetchFakerData(url) {
-  return fetch(url)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`Error al obtener los datos: ${response.status}`);
+      /**
+       * Realiza una solicitud HTTP a la URL dada y retorna los datos en formato JSON.
+       *
+       * @param {string} url - La URL del recurso desde donde se desea obtener los datos.
+       * @returns {Promise<any>} Una promesa que resuelve con los datos en formato JSON.
+       *
+       * @example
+       * fetchFakerData('https://fakestoreapi.com/products')
+       *   .then(data => console.log(data))
+       *   .catch(error => console.error(error));
+       */
+
+      let fetchFakerData = (url) => {
+           
       }
-      return response.json();
-    });
-}
+
+      export { fetchFakerData}
 
 2. Modifique el documento *js/file01.js*, con: 
    
@@ -100,8 +102,8 @@ Promesas (Fetch API)
       :linenos:
 
       // Función para consumir la API de Faker
-      let fetchFakerData = () => {
-          return fetch('https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120')
+      let fetchFakerData = (url) => {
+          return fetch(url)
               .then(response => {
                   if (!response.ok) {
                       throw new Error('Network response was not ok');
