@@ -54,5 +54,8 @@ pre {
 
 details.sd-mb-3 {
 	margin-top: 1rem !important;
+}
+
+details summary span.sd-summary-text {
 	color: #03a360 !important;
 }
