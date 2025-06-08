@@ -133,18 +133,18 @@ Archivos y estructura
 
       ...
 
-Fetch: Promesas + async/await
------------------------------
+Fetch: Promesas + cadena de promesas
+------------------------------------
 
 .. sidebar:: 
 
-   .. image:: https://lenguajejs.com/asincronia/introduccion/que-es/asincronia-javascript.png
+   .. image:: https://www.scaler.com/topics/images/async-await-vs-promises_thumbnail.webp
       
-   ¿Qué es la Asincronía? de `ManzDev <https://manz.dev/>`_.
+   Difference Between Promise and Async Await in Node.js de `Scaler.com <https://www.scaler.com/topics/async-await-vs-promises/>`_.
 
-1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con async/await, como las peticiones HTTP.
+1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con cadena de promesas, como las peticiones HTTP.
 
-2. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
+2. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
 
    a) Convierta la función flecha `fetchFakerData` en asincrónica (async). 
    b) La función realiza una petición HTTP con el objeto fetch. Espere (await) a que la :term:`Promesa` se resuelva o se rechace. 
@@ -205,18 +205,18 @@ Fetch: Promesas + async/await
         
         export { fetchFakerData }
 
-Fetch: Promesas + cadena de promesas
-------------------------------------
+Fetch: Promesas + async/await
+-----------------------------
 
 .. sidebar:: 
 
-   .. image:: https://www.scaler.com/topics/images/async-await-vs-promises_thumbnail.webp
+   .. image:: https://lenguajejs.com/asincronia/introduccion/que-es/asincronia-javascript.png
       
-   Difference Between Promise and Async Await in Node.js de `Scaler.com <https://www.scaler.com/topics/async-await-vs-promises/>`_.
+   ¿Qué es la Asincronía? de `ManzDev <https://manz.dev/>`_.
 
-1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con cadena de promesas, como las peticiones HTTP.
+1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con async/await, como las peticiones HTTP.
 
-2. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
+2. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
 
    a) Agregue la función flecha `loadData`, que:
 
