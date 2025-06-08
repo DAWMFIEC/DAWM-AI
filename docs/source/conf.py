@@ -23,6 +23,7 @@ extensions = [
     'sphinx_copybutton',
     'sphinx_tabs.tabs',
     "sphinx_design",
+    "sphinx_design_elements",
     'myst_parser',
 ]
 
