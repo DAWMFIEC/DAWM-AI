@@ -158,7 +158,7 @@ Fetch: Promesas + cadena de promesas
       (iii) En caso de error, el objeto debe incluir **error** con un mensaje descriptivo del error ocurrido.
 
    .. dropdown:: Expandir para ver la solución
-    :color: success
+    :color: info
 
     .. code-block:: javascript
         :emphasize-lines: 3-45
