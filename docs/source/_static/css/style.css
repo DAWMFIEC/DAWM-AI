@@ -49,3 +49,7 @@ pre {
     white-space: pre-wrap !important; 
     word-break: break-all;            
 }
+
+.dropdown_solution {
+	color: #03a360;
+}

@@ -55,6 +55,7 @@ HTML
 1. En el documento *index.html*, agregue una sección para mostrar los datos obtenidos de la API de Faker.
 
    .. dropdown:: Expandir para ver el código
+      :class: dropdown_solution
 
       .. code-block:: html
           :emphasize-lines: 3-42
@@ -138,16 +139,16 @@ Fetch: Promesas + cadena de promesas
 
 .. sidebar:: 
 
-   .. image:: https://www.scaler.com/topics/images/async-await-vs-promises_thumbnail.webp
+   .. image:: https://cdn.hashnode.com/res/hashnode/image/upload/v1677409815862/3588ce49-a480-46fe-a229-9dafafa4c61d.png
       
-   Difference Between Promise and Async Await in Node.js de `Scaler.com <https://www.scaler.com/topics/async-await-vs-promises/>`_.
+   Mastering JavaScript Promises: The Ultimate Guide de `Loknath Reddy <https://loknath.hashnode.dev/mastering-javascript-promises-the-ultimate-guide>`_.
 
-1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con cadena de promesas, como las peticiones HTTP.
+1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con cadena de promesas.
 
 2. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
 
-   a) Convierta la función flecha `fetchFakerData` en asincrónica (async). 
-   b) La función realiza una petición HTTP con el objeto fetch. Espere (await) a que la :term:`Promesa` se resuelva o se rechace. 
+   a) Modifique la función flecha `fetchFakerData` con una petición HTTP mediante el objeto fetch.
+   b) Procese la respuesta en una cadena de :term:`promesas`.
    c) La función siempre devuelve un objeto con las claves **success** y **data** o **error**.
       
       (i) La clave **success** tendrá un valor booleano que indica si la petición fue exitosa (true) o si ocurrió un error (false) en el servidor HTTP o durante el procesamiento del cliente. 
@@ -162,47 +163,54 @@ Fetch: Promesas + cadena de promesas
     :class: solution
 
     .. code-block:: javascript
-        :emphasize-lines: 3-38
+        :emphasize-lines: 3-45
 
         'use strict';
 
-        let fetchFakerData = async (url) => {
+        let fetchFakerData =  (url) => {
 
-            try {
+            return fetch(url, options)
+                .then(response => {
 
-                // Realizar la petición HTTP usando fetch
-                const response = await fetch(url);
-                
-                // Verificar si la respuesta fue exitosa (status 200-299)
-                if (!response.ok) {
+                    // Verificar si la respuesta es exitosa (status 200-299)
+                    if (!response.ok) {
+                        throw new Error(`HTTP Error: ${response.status} - ${response.statusText}`);
+                    }
+                    return response.json();
 
+                })
+                .then(data => {
+
+                    // Respuesta exitosa
                     return {
-                        success: false,
-                        error: `Error HTTP: ${response.status} - ${response.statusText}`
+                        success: true,
+                        data: data
                     };
 
-                }
-                
-                // Convertir la respuesta a JSON
-                const data = await response.json();
-                
-                // Retornar objeto con éxito
-                return {
-                    success: true,
-                    data: data
-                };
-                
-            } catch (error) {
+                })
+                .catch(error => {
 
-                // Manejar errores de red, JSON parsing, etc.
-                return {
-                    success: false,
-                    error: `Error en la petición: ${error.message}`
-                };
+                    // Manejar errores de red, parsing JSON, o HTTP
+                    let errorMessage = 'Error desconocido';
+                    
+                    if (error instanceof TypeError) {
+                        errorMessage = 'Error de red: No se pudo conectar al servidor';
+                    } else if (error.message.includes('HTTP Error')) {
+                        errorMessage = error.message;
+                    } else if (error.message.includes('JSON')) {
+                        errorMessage = 'Error al procesar la respuesta: Formato JSON inválido';
+                    } else {
+                        errorMessage = error.message;
+                    }
+                    
+                    return {
+                        success: false,
+                        error: errorMessage
+                    };
 
-            }
-        };
-        
+                });
+        }
+
         export { fetchFakerData }
 
 Fetch: Promesas + async/await
@@ -214,11 +222,12 @@ Fetch: Promesas + async/await
       
    ¿Qué es la Asincronía? de `ManzDev <https://manz.dev/>`_.
 
-1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con async/await, como las peticiones HTTP.
+1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con async/await.
 
 2. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
 
-   a) Agregue la función flecha `loadData`, que:
+   a) Agregue la función flecha `loadData` asíncrona (async).
+   b) Agregue la función flecha `loadData`, que:
 
       (i) Declare una constante `url` con el valor de la URL de la API de Faker `https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120`.
       
@@ -278,6 +287,17 @@ Fetch: Promesas + async/await
         })();
 
 2. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
+
+Async/await vs Cadena de promesas
+---------------------------------
+
+.. sidebar:: 
+
+   .. image:: https://www.scaler.com/topics/images/async-await-vs-promises_thumbnail.webp
+
+    Async/Await vs Promises de `Scaler Academy <https://www.scaler.com/>`_.
+
+1. Utilice un cliente de IAG para explicar las diferencias entre el uso de async/await y la cadena de promesas en JavaScript. Explique cómo el uso de async/await puede mejorar la legibilidad del código y facilitar el manejo de errores en comparación con las cadenas de promesas.
 
 Javascript: carga de datos
 --------------------------
