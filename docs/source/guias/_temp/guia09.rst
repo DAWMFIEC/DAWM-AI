@@ -55,6 +55,7 @@ HTML
 1. En el documento *index.html*, agregue una sección para mostrar los datos obtenidos de la API de Faker.
 
    .. dropdown:: Expandir para ver el código
+       :color: info
     
     .. code-block:: html
         :emphasize-lines: 3-42
@@ -147,7 +148,7 @@ Fetch: Promesas + cadena de promesas
 2. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
 
    a) Modifique la función flecha `fetchFakerData` con una petición HTTP mediante el objeto fetch.
-   b) Procese la respuesta en una cadena de :term:`promesas`.
+   b) Procese la respuesta en una cadena de :term:`promesas` (then y catch).
    c) La función siempre devuelve un objeto con las claves **success** y **data** o **error**.
       
       (i) La clave **success** tendrá un valor booleano que indica si la petición fue exitosa (true) o si ocurrió un error (false) en el servidor HTTP o durante el procesamiento del cliente. 
