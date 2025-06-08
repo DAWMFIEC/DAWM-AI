@@ -52,12 +52,10 @@ Actividades en clases
 HTML
 ----
 
-1. En el documento *index.html*, cree una sección para mostrar los datos obtenidos de la API de Faker.
+1. En el documento *index.html*, agregue una sección para mostrar los datos obtenidos de la API de Faker.
 
-   .. dropdown:: Código HTML para la sección de datos
+   .. dropdown:: Expandir código
 
-    Dropdown content
-   
     .. code-block:: html
         :caption: Código HTML para la sección de datos en index.html
         :emphasize-lines: 3-42
@@ -106,6 +104,8 @@ HTML
         </section>
 
         <div id="toast-interactive" ... > </div>
+
+2. Compruebe la vista previa del resultado en el navegador.
 
 Archivos y estructura
 ---------------------
@@ -279,6 +279,13 @@ Fetch: Promesas + cadena de promesas
         })();
 
 2. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
+
+Javascript: carga de datos
+--------------------------
+
+1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
+
+    a) 
 
 JSDoc
 -----
