@@ -55,8 +55,7 @@ HTML
 1. En el documento *index.html*, agregue una sección para mostrar los datos obtenidos de la API de Faker.
 
    .. dropdown:: Expandir para ver el código 
-    :color: warning 
-    :icon: alert
+    :color: primary
     
     .. code-block:: html
         :emphasize-lines: 3-42
@@ -158,10 +157,8 @@ Fetch: Promesas + cadena de promesas
       
       (iii) En caso de error, el objeto debe incluir **error** con un mensaje descriptivo del error ocurrido.
 
-
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Expandir para ver la solución
+    :color: success
 
     .. code-block:: javascript
         :emphasize-lines: 3-45
