@@ -54,8 +54,7 @@ HTML
 
 1. En el documento *index.html*, agregue una sección para mostrar los datos obtenidos de la API de Faker.
 
-   .. dropdown:: Expandir para ver el código
-       :color: info
+   .. dropdown:: Expandir para ver el código :color: warning :icon: alert
     
     .. code-block:: html
         :emphasize-lines: 3-42
