@@ -145,7 +145,7 @@ Fetch: Promesas + cadena de promesas
 
 1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con cadena de promesas.
 
-2. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
+2. Utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
 
    a) Modifique la función flecha `fetchFakerData` con una petición HTTP mediante el objeto fetch.
    b) Procese la respuesta en una cadena de :term:`promesas` (then y catch).
@@ -158,7 +158,7 @@ Fetch: Promesas + cadena de promesas
       (iii) En caso de error, el objeto debe incluir **error** con un mensaje descriptivo del error ocurrido.
 
    .. dropdown:: Expandir para ver la solución
-    :color: info
+    :color: success
 
     .. code-block:: javascript
         :emphasize-lines: 3-45
@@ -216,30 +216,26 @@ Fetch: Promesas + async/await
 
 .. sidebar:: 
 
-   .. image:: https://lenguajejs.com/asincronia/introduccion/que-es/asincronia-javascript.png
+   .. image:: https://i0.wp.com/blog.codeanalogies.com/wp-content/uploads/2019/12/AsyncDiag3Fail.jpg
       
-   ¿Qué es la Asincronía? de `ManzDev <https://manz.dev/>`_.
+   Async/Await Explained By Doing Your Morning Routine de `blog.codeanalogies.com <https://blog.codeanalogies.com/2019/12/22/async-await-explained-by-doing-your-morning-routine/>`_.
 
 1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con async/await.
 
 2. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
 
-   a) Agregue la función flecha `loadData` asíncrona (async).
-   b) Agregue la función flecha `loadData`, que:
+   a) Agregue la función flecha `loadData` asíncrona (async), que:
 
       (i) Declare una constante `url` con el valor de la URL de la API de Faker `https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120`.
       
-      (ii) Llame a la función `fetchFakerData` pasando la constante `url` como argumento.
+      (ii) Llame a la función `fetchFakerData` pasando la constante `url` como argumento.  Espere (await) la respuesta de la función `fetchFakerData`.
       
-      (iii) Encadene el método `then` para manejar la respuesta de la función `fetchFakerData`. En caso de éxito, muestre los datos en la consola. En caso de error, muestre el mensaje de error en la consola. Encadene el método `catch` para manejar cualquier error que ocurra durante la ejecución de la promesa. Considere las claves **success** y **data** o **error** del objeto devuelto por la función `fetchFakerData`.
-      
-      (iv) Encadene el método `finally` para mostrar un mensaje en la consola indicando que la petición ha finalizado, independientemente de si fue exitosa o no.
+      (iii) En caso de éxito, muestre los datos en la consola. En caso de error, muestre el mensaje de error en la consola. Utilice las claves **success** y **data** o **error** del objeto devuelto por la función `fetchFakerData`.
 
    b) Llame a la función `loadData` en la función de autojecución.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Expandir para ver la solución
+    :color: success
 
     .. code-block:: javascript
         :emphasize-lines: 7-31, 38
