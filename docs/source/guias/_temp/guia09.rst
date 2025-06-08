@@ -152,8 +152,14 @@ Fetch: Promesas + async/await
         
         export { fetchFakerData }
 
-Fetch: Promesas + encadenamiento de funciones
----------------------------------------------
+Fetch: Promesas + cadena de promesas
+------------------------------------
+
+.. sidebar:: 
+
+   .. image:: https://www.scaler.com/topics/images/async-await-vs-promises_thumbnail.webp
+      
+   Difference Between Promise and Async Await in Node.js de `Scaler.com <https://www.scaler.com/topics/async-await-vs-promises/>`_.
 
 1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con cadena de promesas, como las peticiones HTTP.
 
