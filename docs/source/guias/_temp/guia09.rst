@@ -83,9 +83,15 @@ Archivos y estructura
 Fetch: Promesas + async/await
 -----------------------------
 
-1. Utilice un cliente de IAG para explicar cómo funcionan las promesas en JavaScript y cómo se pueden utilizar para manejar operaciones asincrónicas, como las peticiones HTTP.
+.. sidebar:: 
 
-2. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el contenido del archivo *js/functions.js* con las siguientes especificaciones:
+   .. image:: https://lenguajejs.com/asincronia/introduccion/que-es/asincronia-javascript.png
+      
+   ¿Qué es la Asincronía? de `ManzDev <https://manz.dev/>`_.
+
+1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con async/await, como las peticiones HTTP.
+
+2. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
 
    a) Convierta la función flecha `fetchFakerData` en asincrónica (async). 
    b) La función realiza una petición HTTP con el objeto fetch. Espere (await) a que la :term:`Promesa` se resuelva o se rechace. 
@@ -146,10 +152,12 @@ Fetch: Promesas + async/await
         
         export { fetchFakerData }
 
-Fetch: Promesas + encadenamiento
---------------------------------
+Fetch: Promesas + encadenamiento de funciones
+---------------------------------------------
 
-1. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el contenido del archivo *js/file01.js* con las siguientes especificaciones:
+1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas con cadena de promesas, como las peticiones HTTP.
+
+2. Revise el tutorial `Promise Chaining <https://www.javascripttutorial.net/promise-chaining/>`_ y utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
 
    a) Agregue la función flecha `loadData`, que:
 
@@ -209,6 +217,8 @@ Fetch: Promesas + encadenamiento
             
             loadData();
         })();
+
+2. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
 
 JSDoc
 -----
