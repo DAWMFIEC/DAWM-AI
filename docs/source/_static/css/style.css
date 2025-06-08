@@ -50,6 +50,9 @@ pre {
     word-break: break-all;            
 }
 
-.dropdown_solution {
-	color: #03a360;
+/* overriding */
+
+details.sd-mb-3 {
+	margin-top: 1rem !important;
+	color: #03a360 !important;
 }
