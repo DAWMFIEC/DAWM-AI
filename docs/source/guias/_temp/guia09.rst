@@ -54,9 +54,9 @@ HTML
 
 1. En el documento *index.html*, cree una sección para mostrar los datos obtenidos de la API de Faker.
 
-   .. dropdown::
+   .. dropdown:: Código HTML para la sección de datos
 
-      Dropdown content
+    Dropdown content
    
    .. code-block:: html
       :caption: Código HTML para la sección de datos en index.html
