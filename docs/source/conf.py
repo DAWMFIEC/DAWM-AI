@@ -22,7 +22,6 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_copybutton',
     'sphinx_tabs.tabs',
-    'sphinx_toolbox.collapse',
     'myst_parser',
 ]
 
