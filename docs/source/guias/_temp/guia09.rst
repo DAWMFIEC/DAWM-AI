@@ -117,19 +117,19 @@ Fetch con cadena de promesas
       
    Mastering JavaScript Promises: The Ultimate Guide de `Loknath Reddy <https://loknath.hashnode.dev/mastering-javascript-promises-the-ultimate-guide>`_.
 
-1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con cadena de promesas.
+1. Con un cliente de IAG, explique cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con cadena de promesas.
 
 2. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto. Declare el modo estricto del documento. Cree la función flecha `fetchFakerData`. Exporte la función del módulo. 
    
 3. Utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
 
-   a) Modifique la función flecha `fetchFakerData` con una petición HTTP mediante el objeto fetch.
+   a) Modifique la función flecha `fetchFakerData` con una petición HTTP mediante el objeto fetch, sin opciones extras.
    b) Procese la respuesta en una cadena de :term:`promesas` (then y catch).
-   c) La función siempre devuelve un objeto con las claves **success** y **data** o **error**.
+   c) La función siempre devuelve un objeto con las claves **success** y **body** o **error**.
       
       (i) La clave **success** tendrá un valor booleano que indica si la petición fue exitosa (true) o si ocurrió un error (false) en el servidor HTTP o durante el procesamiento del cliente. 
       
-      (ii) En caso de éxito, el objeto debe incluir **data** con el contenido de la respuesta convertida a JSON. 
+      (ii) En caso de éxito, el objeto debe incluir **body** con el contenido de la respuesta convertida a JSON. 
       
       (iii) En caso de error, el objeto debe incluir **error** con un mensaje descriptivo del error ocurrido.
 
@@ -142,7 +142,7 @@ Fetch con cadena de promesas
 
         let fetchFakerData =  (url) => {
 
-            return fetch(url, options)
+            return fetch(url)
                 .then(response => {
 
                     // Verificar si la respuesta es exitosa (status 200-299)
@@ -161,7 +161,7 @@ Fetch con cadena de promesas
                     // Respuesta exitosa
                     return {
                         success: true,
-                        data: data
+                        body: data
                     };
 
                 })
@@ -186,7 +186,7 @@ Fetch con async/await
       
    Async/Await Explained By Doing Your Morning Routine de `blog.codeanalogies.com <https://blog.codeanalogies.com/2019/12/22/async-await-explained-by-doing-your-morning-routine/>`_.
 
-1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con async/await.
+1. Con un cliente de IAG, explique cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con async/await.
 
 2. En el documento *js/file01.js*, importe la función `fetchFakerData` del documento *functions.js*.
 
@@ -198,7 +198,7 @@ Fetch con async/await
       
       (ii) Llame a la función `fetchFakerData` pasando la constante `url` como argumento.  Espere (await) la respuesta de la función `fetchFakerData`.
       
-      (iii) En caso de éxito, muestre los datos en la consola. En caso de error, muestre el mensaje de error en la consola. Utilice las claves **success** y **data** o **error** del objeto devuelto por la función `fetchFakerData`.
+      (iii) En caso de éxito, muestre los datos en la consola. En caso de error, muestre el mensaje de error en la consola. Utilice las claves **success** y **body** o **error** del objeto devuelto por la función `fetchFakerData`.
 
    b) Llame a la función `loadData` en la función de autojecución.
 
@@ -222,7 +222,7 @@ Fetch con async/await
                 const result = await fetchFakerData(url);
 
                 if (result.success) {
-                    console.log('Datos obtenidos con éxito:', result.data);
+                    console.log('Datos obtenidos con éxito:', result.body);
                 } else {
                     console.error('Error al obtener los datos:', result.error);
                 }
@@ -248,9 +248,9 @@ Fetch con async/await
 Javascript: carga de datos
 --------------------------
 
-1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
+1. Utilice un cliente de IAG en el documento *js/file01.js*, para generar:
 
-    a) 
+   a) 
 
 JSDoc
 -----
