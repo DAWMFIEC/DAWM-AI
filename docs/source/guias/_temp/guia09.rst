@@ -54,7 +54,7 @@ HTML
 
 1. En el documento *index.html*, agregue una sección para mostrar los datos obtenidos de la API de Faker.
 
-   .. dropdown:: Expandir para ver el código 
+   .. dropdown:: Ver el código 
     :color: primary
     
     .. code-block:: html
@@ -119,7 +119,7 @@ Fetch: Promesas + cadena de promesas
 
 1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con cadena de promesas.
 
-2. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto. Declare el modo estricto del documento. Cree y exporte una función flecha `fetchFakerData`. 
+2. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto. Declare el modo estricto del documento. Cree la función flecha `fetchFakerData`. Exporte la función del módulo. 
    
 3. Utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
 
@@ -133,7 +133,7 @@ Fetch: Promesas + cadena de promesas
       
       (iii) En caso de error, el objeto debe incluir **error** con un mensaje descriptivo del error ocurrido.
 
-   .. dropdown:: Expandir para ver la solución
+   .. dropdown:: Ver la solución
     :color: success
 
     .. code-block:: javascript
@@ -212,7 +212,7 @@ Fetch: Promesas + async/await
 
    b) Llame a la función `loadData` en la función de autojecución.
 
-   .. dropdown:: Expandir para ver la solución
+   .. dropdown:: Ver la solución
     :color: success
 
     .. code-block:: javascript
