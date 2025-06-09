@@ -108,8 +108,8 @@ HTML
 2. Compruebe la vista previa del resultado en el navegador.
 
 
-Fetch: Promesas + cadena de promesas
-------------------------------------
+Fetch: Cadena de promesas
+-------------------------
 
 .. sidebar:: 
 
@@ -137,8 +137,7 @@ Fetch: Promesas + cadena de promesas
     :color: success
 
     .. code-block:: javascript
-        :emphasize-lines: 3-45
-
+        
         'use strict';
 
         let fetchFakerData =  (url) => {
@@ -187,8 +186,8 @@ Fetch: Promesas + cadena de promesas
 
         export { fetchFakerData }
 
-Fetch: Promesas + async/await
------------------------------
+Fetch: Async/await
+------------------
 
 .. sidebar:: 
 
@@ -200,7 +199,7 @@ Fetch: Promesas + async/await
 
 2. En el documento *js/file01.js*, importe la función `fetchFakerData` del documento *functions.js*.
 
-3. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
+3. Utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
 
    a) Agregue la función flecha `loadData` asíncrona (async), que:
 
