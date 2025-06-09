@@ -176,9 +176,9 @@ Flex vs Grid
    .. dropdown:: Ver la solución
     :color: success
 
-    .. tabs::
+    .. tab-set::
 
-        .. tab:: Flex
+        .. tab-item:: Flex
 
            .. code-block:: text
                :emphasize-lines: 3-14,16-21,23-28
@@ -212,7 +212,7 @@ Flex vs Grid
                 
                }            
 
-        .. tab:: Grid
+        .. tab-item:: Grid
         
            .. code-block:: text
                :emphasize-lines: 3-14,16-21
@@ -240,6 +240,7 @@ Flex vs Grid
 
                }
         
+
 
 3. Compruebe la vista previa del resultado en el navegador.
 
