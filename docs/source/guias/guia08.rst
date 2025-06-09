@@ -119,9 +119,8 @@ Javascript: función de autoejecución
 
    a) Crea una :term:`función de autoejecución` que muestre un mensaje de bienvenida con una alerta y por consola.
     
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: javascript
         :emphasize-lines: 3-6
@@ -145,9 +144,8 @@ Javascript: DOM
 
    b) Dentro de la función de autoejecución, elimine el codigo anterior y  llame a la función showToast.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: javascript
         :emphasize-lines: 3-8, 11
@@ -175,9 +173,8 @@ Javascript: Eventos
    a) Crear la función flecha **showVideo** que obtiene la referencia al elemento con el ID `demo`. En caso de existir la referencia, agregue un :term:`evento` `click` que abra un enlace a un video de YouTube en una nueva pestaña del navegador.
    b) Dentro de la función de autoejecución, agregue la llamada a la función showVideo.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: javascript
         :emphasize-lines: 5-12, 16

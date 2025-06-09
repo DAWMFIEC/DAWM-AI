@@ -46,9 +46,8 @@ Flex
 
    e) Para el selector anterior, establece un espacio uniforme de 1 :term:`unidad relativa al tamaño de la fuente raíz` (1rem) entre cada par de elementos hijos.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: text
         :emphasize-lines: 3-20
@@ -117,9 +116,8 @@ Grid
    
    c) Para el selector anterior, establece un espacio uniforme de 1 unidad relativa al tamaño de la fuente raíz (1rem) entre cada par de elementos hijos por fila y por columna, por separado.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: text
         :emphasize-lines: 3-17
@@ -175,9 +173,8 @@ Flex vs Grid
    a) Para organizar la sección referencias para Grid y Flex, independientemente. El subtitulo ocupa todo el ancho y los tres artículos ocupen el espacio equitativamente. El espacio de separación entre filas y columnas es 1rem. No agregue otras etiquetas, ni atributos. 
 
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. tabs::
 

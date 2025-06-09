@@ -51,9 +51,8 @@ Reglas CSS - I
     
    b) Añada el selector para el título principal, aplique la propiedad CSS para alinear el texto al centro y en negritas.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: text
         :emphasize-lines: 1-6,8-16
@@ -96,9 +95,8 @@ Reglas CSS - II
    b) Añada el selector por clase con el valor **subtitle** cuyo color del texto es `rgb(151 156 165 / 0.89);` y el texto en mayúsculas.
 
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: text
         :emphasize-lines: 5-12,14-21
@@ -137,9 +135,8 @@ Reglas CSS - III
 
    b) Agregue el selector para la etiqueta hija inmediata `<ul>` dentro de la etiqueta `<nav>`, elimine la viñeta.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: text
         :emphasize-lines: 5-13,15-20
@@ -186,9 +183,8 @@ Modelo de caja
    
    d) Para la regla CSS anterior, agrega la propiedad CSS que modifique por separado el margen inferior con 1.2 veces el tamaño de la letra del elemento raíz.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: text
         :emphasize-lines: 5-24
@@ -225,9 +221,8 @@ Efectos CSS
 1. Utilice el servicio de `Border Radius <https://border-radius.com/>`_ para generar un borde redondeado de 5 píxeles para el borde de la etiqueta `<section>`.
 2. Utilice el servicio de `Box Shadows <https://box-shadow.dev/>`_ para crear una sombra con desplazamiento de 3 píxeles en ambas direcciones, un desenfoque de 1 píxel y sin expansión, utilizando un color gris claro (235, 234, 234) semitransparente (0.6).
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: text
         :emphasize-lines: 7-10,12-15

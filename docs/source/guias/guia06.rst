@@ -153,9 +153,8 @@ Flex
 
       Para TailwindCSS versión 4.1, genera las clases para un margen superior de 2rem, convierte el contenedor en un contenedor flexbox, centra horizontalmente los elementos hijos y establece un espacio uniforme de 1rem entre ellos en la etiqueta <div id=\"container-02\">.
 
-.. admonition:: Haga click aquí para ver la solución
-    :collapsible: closed
-    :class: solution
+   .. dropdown:: Ver la solución
+    :color: success
 
     .. code-block:: html
         
