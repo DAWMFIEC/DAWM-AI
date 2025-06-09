@@ -107,32 +107,6 @@ HTML
 
 2. Compruebe la vista previa del resultado en el navegador.
 
-Archivos y estructura
----------------------
-
-1. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto. Declare el modo estricto del documento. Cree y exporte una función flecha `fetchFakerData`. 
-   
-   .. code-block:: javascript
-      :caption: Declaración de la función fetchFakerData en el archivo functions.js
-      :emphasize-lines: 1-5
-
-      'use strict';
-
-      let fetchFakerData = (url) => { }
-
-      export { fetchFakerData }
-
-2. En el documento *js/file01.js*, importe la función `fetchFakerData` del documento *functions.js*.
-
-   .. code-block:: javascript
-      :caption: Importación de fetchFakerData en file01.js
-      :emphasize-lines: 3
-
-      'use strict';
-
-      import { fetchFakerData } from './functions.js';
-
-      ...
 
 Fetch: Promesas + cadena de promesas
 ------------------------------------
@@ -145,7 +119,9 @@ Fetch: Promesas + cadena de promesas
 
 1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con cadena de promesas.
 
-2. Utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
+2. Cree el documento javascript *functions.js* dentro de la carpeta *js* de tu proyecto. Declare el modo estricto del documento. Cree y exporte una función flecha `fetchFakerData`. 
+   
+3. Utilice un cliente de IAG para generar el código en *js/functions.js*, de acuerdo con las siguientes especificaciones:
 
    a) Modifique la función flecha `fetchFakerData` con una petición HTTP mediante el objeto fetch.
    b) Procese la respuesta en una cadena de :term:`promesas` (then y catch).
@@ -222,7 +198,9 @@ Fetch: Promesas + async/await
 
 1. Utilice un cliente de IAG para explicar cómo se manejan operaciones asincrónicas (como las peticiones HTTP) con async/await.
 
-2. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
+2. En el documento *js/file01.js*, importe la función `fetchFakerData` del documento *functions.js*.
+
+3. Revise el tutorial `JavaScript async/await <https://www.javascripttutorial.net/javascript-async-await/>`_ y utilice un cliente de IAG para generar el código en *js/file01.js*, de acuerdo con las siguientes especificaciones:
 
    a) Agregue la función flecha `loadData` asíncrona (async), que:
 
@@ -280,18 +258,7 @@ Fetch: Promesas + async/await
             loadData();
         })();
 
-2. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
-
-Async/await vs Cadena de promesas
----------------------------------
-
-.. sidebar:: 
-
-   .. image:: https://www.scaler.com/topics/images/async-await-vs-promises_thumbnail.webp
-
-    Async/Await vs Promises de `Scaler Academy <https://www.scaler.com/>`_.
-
-1. Utilice un cliente de IAG para explicar las diferencias entre el uso de async/await y la cadena de promesas en JavaScript. Explique cómo el uso de async/await puede mejorar la legibilidad del código y facilitar el manejo de errores en comparación con las cadenas de promesas.
+4. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
 
 Javascript: carga de datos
 --------------------------
