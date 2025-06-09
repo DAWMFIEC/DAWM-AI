@@ -186,3 +186,6 @@ Diccionario de términos
 
     promesas
         Objetos en JavaScript que representan la finalización o el fracaso eventual de una operación asíncrona. Las promesas permiten manejar operaciones asíncronas de manera más legible y estructurada, evitando el uso excesivo de callbacks anidados (callback hell).
+
+    renderizar
+        Es el proceso de generar y mostrar contenido en la interfaz de usuario de una aplicación web. En el contexto de aplicaciones web, renderizar implica tomar datos (como HTML, CSS y JavaScript) y convertirlos en una representación visual que los usuarios puedan ver e interactuar.

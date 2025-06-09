@@ -147,10 +147,7 @@ Fetch con cadena de promesas
 
                     // Verificar si la respuesta es exitosa (status 200-299)
                     if (!response.ok) {
-                        return {
-                            success: false,
-                            error: `Error HTTP: ${response.status} - ${response.statusText}`
-                        };
+                        throw new Error(`Error HTTP: ${response.status}`);
                     }
 
                     return response.json();
@@ -248,9 +245,13 @@ Fetch con async/await
 Javascript: carga de datos
 --------------------------
 
-1. Utilice un cliente de IAG en el documento *js/file01.js*, para generar:
+1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
 
-   a) 
+   a) Crear una función flecha `renderCards` que recibe un arreglo de objetos. Los objetos tienen las claves **title**, **author**, **genre** y **content**.
+   b) Esta función debe iterar sobre el arreglo de objetos, vaciar los valores de las claves en una plantilla card de TailwindCSS version 4 y :term:`renderizar` en el elemento HTML con el identificador **skeleton-container**. 
+   c) Dentro de la función `loadData`, en caso de éxito llame a la función `renderCards` y envíe el `result.body.data`.  
+
+2. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
 
 JSDoc
 -----
