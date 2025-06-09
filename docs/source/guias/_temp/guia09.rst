@@ -108,8 +108,8 @@ HTML
 2. Compruebe la vista previa del resultado en el navegador.
 
 
-Fetch: Cadena de promesas
--------------------------
+Fetch con cadena de promesas
+----------------------------
 
 .. sidebar:: 
 
@@ -147,8 +147,12 @@ Fetch: Cadena de promesas
 
                     // Verificar si la respuesta es exitosa (status 200-299)
                     if (!response.ok) {
-                        throw new Error(`HTTP Error: ${response.status} - ${response.statusText}`);
+                        return {
+                            success: false,
+                            error: `Error HTTP: ${response.status} - ${response.statusText}`
+                        };
                     }
+
                     return response.json();
 
                 })
@@ -163,22 +167,9 @@ Fetch: Cadena de promesas
                 })
                 .catch(error => {
 
-                    // Manejar errores de red, parsing JSON, o HTTP
-                    let errorMessage = 'Error desconocido';
-                    
-                    if (error instanceof TypeError) {
-                        errorMessage = 'Error de red: No se pudo conectar al servidor';
-                    } else if (error.message.includes('HTTP Error')) {
-                        errorMessage = error.message;
-                    } else if (error.message.includes('JSON')) {
-                        errorMessage = 'Error al procesar la respuesta: Formato JSON inválido';
-                    } else {
-                        errorMessage = error.message;
-                    }
-                    
                     return {
                         success: false,
-                        error: errorMessage
+                        error: `Error en la petición: ${error.message}`
                     };
 
                 });
@@ -186,8 +177,8 @@ Fetch: Cadena de promesas
 
         export { fetchFakerData }
 
-Fetch: Async/await
-------------------
+Fetch con async/await
+---------------------
 
 .. sidebar:: 
 
