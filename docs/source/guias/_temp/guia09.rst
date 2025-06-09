@@ -215,7 +215,7 @@ Fetch: Async/await
     :color: success
 
     .. code-block:: javascript
-        :emphasize-lines: 7-31, 38
+        :emphasize-lines: 3, 7-26, 33
 
         'use strict';
 
@@ -223,30 +223,25 @@ Fetch: Async/await
 
         ...	
 
-        const loadData = () => {
+        const loadData = async () => {
 
-            const url = "https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120";
+            const url = 'https://fakerapi.it/api/v2/texts?_quantity=10&_characters=120';
 
-            fetchFakerData(url)
-                .then((result) => {
+            try {
+                const result = await fetchFakerData(url);
 
-                    if (result.success) {
-                        console.log("Data:", result.data);
-                    } else {
-                        console.error("Error:", result.error);
-                    }
+                if (result.success) {
+                    console.log('Datos obtenidos con éxito:', result.data);
+                } else {
+                    console.error('Error al obtener los datos:', result.error);
+                }
 
-                })
-                .catch((error) => {
+            } catch (error) {
 
-                    console.error("Caught error during promise execution:", error);
+                console.error('Ocurrió un error inesperado:', error);
+            
+            }
 
-                })
-                .finally(() => {
-
-                    console.log("Request has ended.");
-
-                });
         };
 
         // Función de autoejecución
