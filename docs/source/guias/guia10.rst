@@ -15,6 +15,16 @@ Guía 10: Firebase: Realtime Database y SDK
 Actividades previas
 =====================
 
+Firebase
+--------
+
+Proyecto
+^^^^^^^^
+
+1. Acceda a `Firebase <https://firebase.google.com/>`_ con su cuenta personal de Google.
+2. Cree un proyecto en `Firebase Console <https://console.firebase.google.com/>`_. No es necesario configurar Google Analytics para este proyecto.
+3. Utilice un cliente de IAG para explicar el uso de los servicios que ofrece Firebase.
+
 Ambiente de desarrollo
 ----------------------
 
@@ -36,23 +46,75 @@ HTML
 Firebase
 --------
 
-Proyecto
-^^^^^^^^
-
 App - web
 ^^^^^^^^^
 
-SDK
-^^^
+1. En su proyecto de Firebase, junto a la sección **Project Overview**:abbr:
+   
+   a) Acceda a las configuraciones del proyecto **Project settings**.
+   b) En la pestaña **General**, desplácese hacia abajo hasta la sección **Your apps**.
+   c) Haga clic en el ícono de elemento HTML.
+
+2. En **Add Firebase to your web app** 
+    
+   a) Ingrese un nombre para su aplicación web y haga clic en **Register app**.
+   b) Seleccione la opción **Use a <script> tag**, con la que Firebase le proporcionará la configuración de su aplicación. Copie este código.
+
+   .. dropdown:: Ver el código 
+    :color: primary
+    
+    .. code-block:: html
+
+        const firebaseConfig = {
+            apiKey: "API_KEY",
+            authDomain: "PROJECT_ID.firebaseapp.com",
+            projectId: "PROJECT_ID",
+            // The value of `storageBucket` depends on when you provisioned your default bucket (learn more)
+            storageBucket: "PROJECT_ID.firebasestorage.app",
+            messagingSenderId: "SENDER_ID",
+            appId: "APP_ID",
+        };
+
+3. Con un cliente de IAG, explique cómo se utiliza el código proporcionado por Firebase para inicializar la aplicación web y conectar con los servicios de Firebase.
 
 .env
 ^^^^
 
+1. En la raíz de su proyecto, cree un archivo llamado **.env**.
+2. En este archivo, pegue los valores de la configuración de Firebase que copió anteriormente, asegurándose de que las variables de entorno estén correctamente definidas:
+
+   .. dropdown:: Ver el código 
+    :color: primary
+    
+    .. code-block:: env
+
+        VITE_FIREBASE_API_KEY=API_KEY
+        VITE_FIREBASE_AUTH_DOMAIN=PROJECT_ID.firebaseapp.com
+        VITE_FIREBASE_PROJECT_ID=PROJECT_ID
+        VITE_FIREBASE_STORAGE_BUCKET=PROJECT_ID.firebasestorage.app
+        VITE_FIREBASE_MESSAGING_SENDER_ID=SENDER_ID
+        VITE_FIREBASE_APP_ID=APP_ID
+
+3. Asegúrese de que el archivo **.env** esté incluido en su archivo **.gitignore** para evitar subirlo al repositorio.
+4. Con un cliente de IAG, explique la importancia de las variables de entorno para mantener la seguridad de las credenciales de Firebase y cómo se utilizan en el código.
+
 Realtime Database
 ^^^^^^^^^^^^^^^^^
 
-Javascript: Firebase SDK
-------------------------
+1. Dentro de su proyecto en Firebase, acceda a la sección **Build*** y en la opción **Realtime Database**.
+1. Configure la autenticación y la base de datos en tiempo real (Realtime Database).
+
+   - Asegúrese de que la base de datos esté en modo de prueba para facilitar el desarrollo inicial.
+
+3. Obtenga las credenciales necesarias para conectar su aplicación a Firebase.
+
+
+
+
+
+
+Javascript: procesamiento de datos
+----------------------------------
 
 
 Versionamiento
