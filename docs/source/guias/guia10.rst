@@ -148,8 +148,8 @@ JS: Interacción con la interfaz
 
    a) Define una función llamada `enableForm`.
    b) Dentro de la función, selecciona el formulario HTML que tenga el atributo id="form".
-   c) Agrega un _listener_ de eventos al formulario que reaccione cuando se envíe (submit)
-   c) Dentro del _listener_:
+   c) Agrega un _listener_ de eventos al formulario que reaccione cuando se envíe (submit).
+   d) Dentro del _listener_:
       
       (i) Prevenga el comportamiento por defecto del formulario.
       (ii) Obtenga el valor del campo de entrada que tenga el atributo id="nombre"
