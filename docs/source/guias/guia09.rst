@@ -242,8 +242,8 @@ JS: Fetch con async/await
 
 4. Compruebe la vista previa del resultado y la consola del navegador para verificar la ejecución del código.
 
-Carga de datos
---------------
+JS: Carga de datos
+------------------
 
 1. Utilice un cliente de IAG en el documento *js/file01.js*, para:
 

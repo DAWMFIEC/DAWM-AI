@@ -58,16 +58,15 @@ App - web
 2. En **Add Firebase to your web app** 
     
    a) Ingrese un nombre para su aplicación web y haga clic en **Register app**.
-   b) En **Add Firebase SDK***, seleccione la opción **Use a <script> tag** y copie la configuración para establecer la conexión con Firebase.
+   b) En **Add Firebase SDK**, seleccione la opción **Use a <script> tag** y copie la configuración para establecer la conexión con Firebase.
 
    
-   .. code-block:: html
+   .. code-block:: javascript
 
        const firebaseConfig = {
          apiKey: "API_KEY",
          authDomain: "PROJECT_ID.firebaseapp.com",
          projectId: "PROJECT_ID",
-         // The value of `storageBucket` depends on when you provisioned your default bucket (learn more)
          storageBucket: "PROJECT_ID.firebasestorage.app",
          messagingSenderId: "SENDER_ID",
          appId: "APP_ID",
@@ -96,13 +95,18 @@ App - web
 Realtime Database
 ^^^^^^^^^^^^^^^^^
 
-1. Dentro de su proyecto en Firebase, acceda a la sección **Build*** y en la opción **Realtime Database**.
+1. Dentro de su proyecto en Firebase, acceda a la categoría de productos **Build**, en la opción **Realtime Database**.
 2. Cree una base de datos en tiempo real seleccionando **Create Database**.
    
    a) Seleccione la ubicación de la base de datos, preferiblemente la más cercana a su usuario final.
-   b) En **Security rules**, elija **Start in Test Mode** para permitir el acceso sin restricciones durante el desarrollo inicial. Esto es útil para pruebas, pero asegúrese de cambiar a un modo más seguro antes de desplegar su aplicación en producción.
+   b) En **Security rules**, elija **Start in Test Mode** para permitir el acceso sin restricciones durante el desarrollo inicial. 
+   
+   .. info::
 
-3. Utilice una cliente de IAG para explicar cómo se estructura la base de datos en tiempo real de Firebase y cómo se pueden realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en ella con el Firebase SDK.
+      **Nota de seguridad**: El modo de prueba permite que cualquier persona pueda leer y escribir en la base de datos sin autenticación. 
+      Esto es útil para pruebas, pero asegúrese de cambiar a un modo más seguro antes de desplegar su aplicación en producción.
+
+3. Utilice una cliente de IAG para explicar cómo se estructura la base de datos en tiempo real de Firebase.
 
 JS: Conexión a Firebase
 -----------------------
@@ -116,11 +120,11 @@ JS: Conexión a Firebase
 1. Cree el documento javascript *js/firebase.js*, con su cliente de IAG genere el código de acuerdo con las siguientes especificaciones: 
 
    a) Desde el CDN, importe las funciones necesarias de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
-   b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase.
+   b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase, considerando que utiliza Vite como herramienta de construcción.
    c) Inicialice la aplicación Firebase utilizando el objeto de configuración importado desde las variables de entorno.
-   d) Obtén una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
+   d) Obtenga una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
 
-2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para interactuar con la base de datos en tiempo real y cómo se pueden realizar operaciones básicas como agregar datos.
+2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para interactuar con la base de datos en tiempo real.
 
 JS: Procesamiento de datos
 --------------------------
