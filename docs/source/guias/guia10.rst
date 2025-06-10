@@ -138,6 +138,26 @@ JS: Procesamiento de datos
    e) Maneja el resultado de la operación con promesas, devolviendo un objeto con un mesaje de éxito o de error.
    f) Exporta la función `saveUser` para que pueda ser utilizada en otros archivos.
 
+2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para realizar las operaciones CRUD (Create, Read, Update, Delete).
+
+JS: Interacción con la interfaz
+-------------------------------
+
+1. En el documento *js/file01.js*, importe la función `saveUser` desde *js/firebase.js*.
+2. Con un cliente de IAG, modifique el código del archivo *js/file01.js*, de acuerdo con las siguientes especificaciones: 
+
+   a) Define una función llamada `enableForm`.
+   b) Dentro de la función, selecciona el formulario HTML que tenga el atributo id="form".
+   c) Agrega un _listener_ de eventos al formulario que reaccione cuando se envíe (submit)
+   c) Dentro del _listener_:
+      
+      (i) Prevenga el comportamiento por defecto del formulario.
+      (ii) Obtenga el valor del campo de entrada que tenga el atributo id="nombre"
+      (iii) Llame a la función `saveUser` pasando el valor obtenido del campo de texto.
+      (iv) Limpia el formulario después de enviarlo.
+
+3. Con un cliente de IAG, explique cómo se maneja la interacción entre el JavaScript y la interfaz de usuario, y cómo se envían los datos a Firebase.
+
 Versionamiento
 --------------
 
