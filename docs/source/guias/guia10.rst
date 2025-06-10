@@ -58,11 +58,10 @@ HTML
                <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Vota por tu producto preferido</h2>
 
                <div class="mb-6">
-               <form id="" class="relative flex items-center">
-                  <select id="product-select"
+               <form id="form_voting" class="relative flex items-center">
+                  <select id="select_product"
                      class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                      <option value="" disabled selected>Seleccione un producto</option>
-                     {{-- Add your product options here --}}
                      <option value="product1">Producto 1</option>
                      <option value="product2">Producto 2</option>
                      <option value="product3">Producto 3</option>
@@ -160,7 +159,7 @@ JS: Conexión a Firebase
 
 1. Cree el documento javascript *js/firebase.js*, con su cliente de IAG genere el código de acuerdo con las siguientes especificaciones: 
 
-   a) Desde el CDN, importe las funciones necesarias de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
+   a) Desde el CDN, importe la última versión de las funciones de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
    b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase, considerando que utiliza Vite como herramienta de construcción.
    c) Inicialice la aplicación Firebase utilizando el objeto de configuración importado desde las variables de entorno.
    d) Obtenga una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
@@ -188,12 +187,12 @@ JS: Interacción con la interfaz
 2. Con un cliente de IAG, modifique el código del archivo *js/file01.js*, de acuerdo con las siguientes especificaciones: 
 
    a) Define una función llamada `enableForm`.
-   b) Dentro de la función, selecciona el formulario HTML que tenga el  identificador \'form\'.
-   c) Agrega un *listener*_ de eventos al formulario que reaccione cuando se envíe (submit).
+   b) Dentro de la función, selecciona el formulario HTML que tenga el  identificador \'form_voting\'.
+   c) Agrega un *listener* de eventos al formulario que reaccione cuando se envíe (submit).
    d) Dentro del *callback*:
       
       (i) Prevenga el comportamiento por defecto del formulario.
-      (ii) Obtenga el valor del campo de entrada que tenga el identificador \'product\'
+      (ii) Obtenga el valor del campo de entrada que tenga el identificador \'select_product\'
       (iii) Llame a la función `saveUser` pasando el valor obtenido del campo de texto.
       (iv) Limpia el formulario después de enviarlo.
 
