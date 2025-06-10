@@ -43,6 +43,47 @@ Actividades en clases
 HTML
 ----
 
+1. En el documento *index.html*, agregue una sección para mostrar los datos obtenidos de la API de Faker.
+
+   .. dropdown:: Ver el código 
+    :color: primary
+    
+    .. code-block:: html
+        :emphasize-lines: 3-42
+
+        <section class="bg-slate-50 dark:bg-gray-900"> ... </section>
+
+        <section class="flex flex-col items-center justify-center bg-white py-8">
+            <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+               <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Vota por tu producto preferido</h2>
+
+               <div class="mb-6">
+               <form id="" class="relative flex items-center">
+                  <select id="product-select"
+                     class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                     <option value="" disabled selected>Seleccione un producto</option>
+                     {{-- Add your product options here --}}
+                     <option value="product1">Producto 1</option>
+                     <option value="product2">Producto 2</option>
+                     <option value="product3">Producto 3</option>
+                  </select>
+                  <button
+                     class="ml-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                     VOTAR
+                  </button>
+               </form>
+               </div>
+
+               <div id="canvas" class="border border-gray-300 rounded-lg h-48 w-full p-4 bg-gray-50">
+               <p class="text-gray-500 text-center mt-16">Gráfica con los productos más votados</p>
+               </div>
+            </div>
+        </section>
+
+        <div id="toast-interactive" ... > </div>
+
+
+
 Firebase
 --------
 
@@ -147,12 +188,12 @@ JS: Interacción con la interfaz
 2. Con un cliente de IAG, modifique el código del archivo *js/file01.js*, de acuerdo con las siguientes especificaciones: 
 
    a) Define una función llamada `enableForm`.
-   b) Dentro de la función, selecciona el formulario HTML que tenga el atributo id="form".
-   c) Agrega un _listener_ de eventos al formulario que reaccione cuando se envíe (submit).
-   d) Dentro del _listener_:
+   b) Dentro de la función, selecciona el formulario HTML que tenga el  identificador \'form\'.
+   c) Agrega un *listener*_ de eventos al formulario que reaccione cuando se envíe (submit).
+   d) Dentro del *callback*:
       
       (i) Prevenga el comportamiento por defecto del formulario.
-      (ii) Obtenga el valor del campo de entrada que tenga el atributo id="nombre"
+      (ii) Obtenga el valor del campo de entrada que tenga el identificador \'product\'
       (iii) Llame a la función `saveUser` pasando el valor obtenido del campo de texto.
       (iv) Limpia el formulario después de enviarlo.
 
