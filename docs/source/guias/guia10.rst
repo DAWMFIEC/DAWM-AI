@@ -97,11 +97,12 @@ Realtime Database
 ^^^^^^^^^^^^^^^^^
 
 1. Dentro de su proyecto en Firebase, acceda a la sección **Build*** y en la opción **Realtime Database**.
-1. Configure la autenticación y la base de datos en tiempo real (Realtime Database).
+2. Cree una base de datos en tiempo real seleccionando **Create Database**.
+   
+   a) Seleccione la ubicación de la base de datos, preferiblemente la más cercana a su usuario final.
+   b) En **Security rules**, elija **Start in Test Mode** para permitir el acceso sin restricciones durante el desarrollo inicial. Esto es útil para pruebas, pero asegúrese de cambiar a un modo más seguro antes de desplegar su aplicación en producción.
 
-   - Asegúrese de que la base de datos esté en modo de prueba para facilitar el desarrollo inicial.
-
-3. Obtenga las credenciales necesarias para conectar su aplicación a Firebase.
+3. Utilice una cliente de IAG para explicar cómo se estructura la base de datos en tiempo real de Firebase y cómo se pueden realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en ella con el Firebase SDK.
 
 Javascript: procesamiento de datos
 ----------------------------------
