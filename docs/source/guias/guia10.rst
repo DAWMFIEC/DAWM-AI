@@ -60,20 +60,18 @@ App - web
    a) Ingrese un nombre para su aplicación web y haga clic en **Register app**.
    b) En **Add Firebase SDK***, seleccione la opción **Use a <script> tag** y copie la configuración para establecer la conexión con Firebase.
 
-   .. dropdown:: Ver el código 
-    :color: primary
-    
-    .. code-block:: html
+   
+   .. code-block:: html
 
-        const firebaseConfig = {
-            apiKey: "API_KEY",
-            authDomain: "PROJECT_ID.firebaseapp.com",
-            projectId: "PROJECT_ID",
-            // The value of `storageBucket` depends on when you provisioned your default bucket (learn more)
-            storageBucket: "PROJECT_ID.firebasestorage.app",
-            messagingSenderId: "SENDER_ID",
-            appId: "APP_ID",
-        };
+       const firebaseConfig = {
+         apiKey: "API_KEY",
+         authDomain: "PROJECT_ID.firebaseapp.com",
+         projectId: "PROJECT_ID",
+         // The value of `storageBucket` depends on when you provisioned your default bucket (learn more)
+         storageBucket: "PROJECT_ID.firebasestorage.app",
+         messagingSenderId: "SENDER_ID",
+         appId: "APP_ID",
+       };
 
 3. Con un cliente de IAG, explique cómo se utiliza el objeto de configuración de Firebase en la inicialización de la aplicación web y en la conexión con los servicios con Vanilla Javascript.
 
@@ -82,18 +80,15 @@ App - web
 
 1. En la raíz de su proyecto, cree un archivo llamado **.env**.
 2. En este archivo, agregue las siguiente variables de entorno y pegue los valores correspondientes de la configuración de Firebase que copió anteriormente:
-
-   .. dropdown:: Ver el código 
-    :color: primary
     
-    .. code-block:: env
+   .. code-block:: env
 
-        VITE_FIREBASE_API_KEY=API_KEY
-        VITE_FIREBASE_AUTH_DOMAIN=PROJECT_ID.firebaseapp.com
-        VITE_FIREBASE_PROJECT_ID=PROJECT_ID
-        VITE_FIREBASE_STORAGE_BUCKET=PROJECT_ID.firebasestorage.app
-        VITE_FIREBASE_MESSAGING_SENDER_ID=SENDER_ID
-        VITE_FIREBASE_APP_ID=APP_ID
+       VITE_FIREBASE_API_KEY=API_KEY
+       VITE_FIREBASE_AUTH_DOMAIN=PROJECT_ID.firebaseapp.com
+       VITE_FIREBASE_PROJECT_ID=PROJECT_ID
+       VITE_FIREBASE_STORAGE_BUCKET=PROJECT_ID.firebasestorage.app
+       VITE_FIREBASE_MESSAGING_SENDER_ID=SENDER_ID
+       VITE_FIREBASE_APP_ID=APP_ID
 
 3. Asegúrese de que el archivo **.env** esté incluido en su archivo **.gitignore** para evitar subirlo al repositorio.
 4. Con un cliente de IAG, explique la importancia de las variables de entorno para mantener la seguridad de las credenciales de Firebase y cómo se utilizan en el código en Vite.
