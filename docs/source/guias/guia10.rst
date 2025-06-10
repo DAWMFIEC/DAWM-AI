@@ -43,7 +43,7 @@ Actividades en clases
 HTML
 ----
 
-1. En el documento *index.html*, agregue una sección para mostrar los datos obtenidos de la API de Faker.
+1. En el documento *index.html*, agregue una sección registrar el voto por un producto y mostrar el resultado de la votación.
 
    .. dropdown:: Ver el código 
     :color: primary
