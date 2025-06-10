@@ -23,7 +23,7 @@ Proyecto
 
 1. Acceda a `Firebase <https://firebase.google.com/>`_ con su cuenta personal de Google.
 2. Cree un proyecto en `Firebase Console <https://console.firebase.google.com/>`_. No es necesario configurar Google Analytics para este proyecto.
-3. Utilice un cliente de IAG para explicar el uso de los servicios que ofrece Firebase.
+3. Utilice un cliente de IAG para explicar los servicios, y sus casos prácticos de uso, que ofrece Firebase.
 
 Ambiente de desarrollo
 ----------------------
@@ -49,16 +49,16 @@ Firebase
 App - web
 ^^^^^^^^^
 
-1. En su proyecto de Firebase, junto a la sección **Project Overview**:abbr:
+1. En su proyecto de Firebase:
    
-   a) Acceda a las configuraciones del proyecto **Project settings**.
-   b) En la pestaña **General**, desplácese hacia abajo hasta la sección **Your apps**.
-   c) Haga clic en el ícono de elemento HTML.
+   a) Junto a **Project Overview**, despliegue el menú de configuración del proyecto y escoja **Project settings**.
+   b) En la pestaña **General**, desplácese hasta la sección **Your apps**.
+   c) Haga clic en el ícono de elemento HTML para crear una **web app**.
 
 2. En **Add Firebase to your web app** 
     
    a) Ingrese un nombre para su aplicación web y haga clic en **Register app**.
-   b) Seleccione la opción **Use a <script> tag**, con la que Firebase le proporcionará la configuración de su aplicación. Copie este código.
+   b) En **Add Firebase SDK***, seleccione la opción **Use a <script> tag** y copie la configuración para establecer la conexión con Firebase.
 
    .. dropdown:: Ver el código 
     :color: primary
@@ -75,13 +75,13 @@ App - web
             appId: "APP_ID",
         };
 
-3. Con un cliente de IAG, explique cómo se utiliza el código proporcionado por Firebase para inicializar la aplicación web y conectar con los servicios de Firebase.
+3. Con un cliente de IAG, explique cómo se utiliza el objeto de configuración de Firebase en la inicialización de la aplicación web y en la conexión con los servicios con Vanilla Javascript.
 
 .env
 ^^^^
 
 1. En la raíz de su proyecto, cree un archivo llamado **.env**.
-2. En este archivo, pegue los valores de la configuración de Firebase que copió anteriormente, asegurándose de que las variables de entorno estén correctamente definidas:
+2. En este archivo, agregue las siguiente variables de entorno y pegue los valores correspondientes de la configuración de Firebase que copió anteriormente:
 
    .. dropdown:: Ver el código 
     :color: primary
@@ -96,7 +96,7 @@ App - web
         VITE_FIREBASE_APP_ID=APP_ID
 
 3. Asegúrese de que el archivo **.env** esté incluido en su archivo **.gitignore** para evitar subirlo al repositorio.
-4. Con un cliente de IAG, explique la importancia de las variables de entorno para mantener la seguridad de las credenciales de Firebase y cómo se utilizan en el código.
+4. Con un cliente de IAG, explique la importancia de las variables de entorno para mantener la seguridad de las credenciales de Firebase y cómo se utilizan en el código en Vite.
 
 Realtime Database
 ^^^^^^^^^^^^^^^^^
@@ -107,11 +107,6 @@ Realtime Database
    - Asegúrese de que la base de datos esté en modo de prueba para facilitar el desarrollo inicial.
 
 3. Obtenga las credenciales necesarias para conectar su aplicación a Firebase.
-
-
-
-
-
 
 Javascript: procesamiento de datos
 ----------------------------------
