@@ -125,7 +125,7 @@ JS: Conexión a Firebase
 JS: Procesamiento de datos
 --------------------------
 
-1. Use el cliente de IAG para modifique el documento javascript *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
+1. Use el cliente de IAG y modifique el documento javascript *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
 
    a) Define una función llamada `saveUser` que reciba un parámetro `nombre`.
    b) Dentro de la función, obtén una referencia a la colección `usuarios` de la base de datos.
