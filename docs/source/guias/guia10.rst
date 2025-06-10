@@ -113,18 +113,26 @@ JS: Conexión a Firebase
       
    JavaScript en tu proyecto web en `Agrega Firebase al proyecto de JavaScript <https://firebase.google.com/docs/web/setup>`_.
 
-1. Cree el documento javascript *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
+1. Cree el documento javascript *js/firebase.js*, con su cliente de IAG genere el código de acuerdo con las siguientes especificaciones: 
 
-   a) Importe las funciones necesarias de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
+   a) Desde el CDN, importe las funciones necesarias de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
    b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase.
    c) Inicialice la aplicación Firebase utilizando el objeto de configuración importado desde las variables de entorno.
    d) Obtén una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
-   e) Crea una referencia a la colección dentro de la base de datos en tiempo real de Firebase.
-   f) Exporta la instancia de la base de datos en tiempo real para que pueda ser utilizada en otros módulos.
+
+2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para interactuar con la base de datos en tiempo real y cómo se pueden realizar operaciones básicas como agregar datos.
 
 JS: Procesamiento de datos
 --------------------------
 
+1. Use el cliente de IAG para modifique el documento javascript *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
+
+   a) Define una función llamada `saveUser` que reciba un parámetro `nombre`.
+   b) Dentro de la función, obtén una referencia a la colección `usuarios` de la base de datos.
+   c) Crea una nueva referencia para un usuario utilizando la función `push()`.
+   d) Guarda los datos del nuevo usuario en la base de datos con la función `set()`, con el nombre y la fecha actual.
+   e) Maneja el resultado de la operación con promesas, devolviendo un objeto con un mesaje de éxito o de error.
+   f) Exporta la función `saveUser` para que pueda ser utilizada en otros archivos.
 
 Versionamiento
 --------------
