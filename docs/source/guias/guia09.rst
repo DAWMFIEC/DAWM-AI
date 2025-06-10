@@ -108,8 +108,8 @@ HTML
 2. Compruebe la vista previa del resultado en el navegador.
 
 
-Fetch con cadena de promesas
-----------------------------
+JS: Fetch con cadena de promesas
+--------------------------------
 
 .. sidebar:: 
 
@@ -174,8 +174,8 @@ Fetch con cadena de promesas
 
         export { fetchFakerData }
 
-Fetch con async/await
----------------------
+JS: Fetch con async/await
+-------------------------
 
 .. sidebar:: 
 

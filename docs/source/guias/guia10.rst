@@ -104,8 +104,26 @@ Realtime Database
 
 3. Utilice una cliente de IAG para explicar cómo se estructura la base de datos en tiempo real de Firebase y cómo se pueden realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en ella con el Firebase SDK.
 
-Javascript: procesamiento de datos
-----------------------------------
+JS: Conexión a Firebase
+-----------------------
+
+.. sidebar:: 
+
+   .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/New_Firebase_logo.svg/2560px-New_Firebase_logo.svg.png
+      
+   JavaScript en tu proyecto web en `Agrega Firebase al proyecto de JavaScript <https://firebase.google.com/docs/web/setup>`_.
+
+1. Cree el documento javascript *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
+
+   a) Importe las funciones necesarias de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
+   b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase.
+   c) Inicialice la aplicación Firebase utilizando el objeto de configuración importado desde las variables de entorno.
+   d) Obtén una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
+   e) Crea una referencia a la colección dentro de la base de datos en tiempo real de Firebase.
+   f) Exporta la instancia de la base de datos en tiempo real para que pueda ser utilizada en otros módulos.
+
+JS: Procesamiento de datos
+--------------------------
 
 
 Versionamiento
