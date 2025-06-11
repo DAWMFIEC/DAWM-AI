@@ -238,6 +238,8 @@ JS: Interacción con la tabla
    c) Itere sobre los votos obtenidos y cree una tabla donde cada fila represente un voto, mostrando el producto votado y el total de votos.
    d) Inserte la tabla en el elemento HTML con el identificador `results`.
 
+3. En el navegador, verifique que al cargar la página se muestren los votos almacenados en Firebase en una tabla.
+
 Versionamiento
 --------------
 
