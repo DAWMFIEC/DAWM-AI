@@ -73,8 +73,8 @@ HTML
                </form>
                </div>
 
-               <div id="canvas" class="border border-gray-300 rounded-lg h-48 w-full p-4 bg-gray-50">
-               <p class="text-gray-500 text-center mt-16">Resultado de la votación</p>
+               <div id="results" class="border border-gray-300 rounded-lg h-48 w-full p-4 bg-gray-50">
+                  <p class="text-gray-500 text-center mt-16">Resultado de la votación</p>
                </div>
             </div>
         </section>
@@ -193,8 +193,8 @@ JS: Guardar votos en Firebase
 
 2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para realizar las operaciones CRUD (Create, Read, Update, Delete).
 
-JS: Interacción con la interfaz
--------------------------------
+JS: Interacción con la interfaz - I
+-----------------------------------
 
 1. En el documento *js/file01.js*, importe la función `saveVote` desde *js/firebase.js*.
 2. Con un cliente de IAG, modifique el código del archivo *js/file01.js*, de acuerdo con las siguientes especificaciones: 
@@ -227,16 +227,16 @@ JS: Obtener votos de Firebase
 
 3. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para obtener datos de la base de datos en tiempo real.
 
-JS: Resultados de la votación
------------------------------
+JS: Interacción con la interfaz - II
+------------------------------------
 
-1. En el documento *js/file01.js*, modifique el código de acuerdo con las siguientes especificaciones: 
+1. En el documento *js/file01.js*, importe la función `getVotes` desde *js/firebase.js*.
+2. Con un cliente de IAG, modifique el código del archivo *js/file01.js*, de acuerdo con las siguientes especificaciones:
 
-   a) Defina una función llamada `getVotes`.
-   b) Dentro de la función, obtenga una referencia a la colección `votes` de la base de datos.
-   c) Utilice la función `onValue` para escuchar los cambios en la colección y obtener los datos en tiempo real.
-   d) En el *callback* de `onValue`, procese los datos recibidos y actualice la interfaz de usuario con los resultados de la votación.
-   e) Invoque la función `getVotes` en la función de autoejecución.
+   a) Defina una función llamada `displayVotes`.
+   b) Dentro de la función, obtenga los votos utilizando la función `getVotes`.
+   c) Itere sobre los votos obtenidos y cree una tabla donde cada fila represente un voto, mostrando el producto votado y el total de votos.
+   d) Inserte la tabla en el elemento HTML con el identificador `results`.
 
 Versionamiento
 --------------
