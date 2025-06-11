@@ -171,7 +171,7 @@ JS: Conexión a Firebase
 
 1. Cree el documento javascript *js/firebase.js*, con su cliente de IAG genere el código de acuerdo con las siguientes especificaciones: 
 
-   a) Desde el CDN, importe la `última versión(firebase@11.9.1) <https://github.com/firebase/firebase-js-sdk/releases/latest>`_ de las funciones de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
+   a) Desde el CDN, importe la `última versión(firebase@11.9.1) <https://github.com/firebase/firebase-js-sdk/releases/latest>`_ de las funciones de Firebase para inicializar la aplicación (initializeApp), acceder a la base de datos en tiempo real (getDatabase, ref) y crear datos (set, push).
    b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase, considerando que utiliza Vite como herramienta de construcción.
    c) Inicialice la aplicación Firebase utilizando el objeto de configuración importado desde las variables de entorno.
    d) Obtenga una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
@@ -217,7 +217,7 @@ JS: Interacción con la interfaz
 JS: obtener votos de Firebase
 -----------------------------
 
-1. En el documento *js/firebase.js*, importe las funciones necesarias para escuchar los cambios (onValue) en la base de datos en tiempo real.
+1. En el documento *js/firebase.js*, importe las funciones necesarias para obtener (get) en la base de datos en tiempo real.
 2. Con un cliente de IAG, modifique el código del archivo *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
 
    a) Defina una función llamada `getVotes`.
