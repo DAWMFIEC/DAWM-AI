@@ -95,7 +95,7 @@ App - web
    b) En la pestaña **General**, desplácese hasta la sección **Your apps**.
    c) Haga clic en el ícono de elemento HTML para crear una **web app**.
 
-2. En **Add Firebase to your web app** 
+2. En la ventana modal **Add Firebase to your web app** 
     
    a) Ingrese un nombre para su aplicación web y haga clic en **Register app**.
    b) En **Add Firebase SDK**, seleccione la opción **Use a <script> tag** y copie la configuración para establecer la conexión con Firebase.
@@ -122,12 +122,12 @@ App - web
     
    .. code-block:: env
 
-       VITE_FIREBASE_API_KEY=API_KEY
-       VITE_FIREBASE_AUTH_DOMAIN=PROJECT_ID.firebaseapp.com
-       VITE_FIREBASE_PROJECT_ID=PROJECT_ID
-       VITE_FIREBASE_STORAGE_BUCKET=PROJECT_ID.firebasestorage.app
-       VITE_FIREBASE_MESSAGING_SENDER_ID=SENDER_ID
-       VITE_FIREBASE_APP_ID=APP_ID
+       VITE_FIREBASE_API_KEY="API_KEY"
+       VITE_FIREBASE_AUTH_DOMAIN="PROJECT_ID.firebaseapp.com"
+       VITE_FIREBASE_PROJECT_ID="PROJECT_ID"
+       VITE_FIREBASE_STORAGE_BUCKET="PROJECT_ID.firebasestorage.app"
+       VITE_FIREBASE_MESSAGING_SENDER_ID="SENDER_ID"
+       VITE_FIREBASE_APP_ID="APP_ID"
 
 3. Asegúrese de que el archivo **.env** esté incluido en su archivo **.gitignore** para evitar subirlo al repositorio.
 4. Con un cliente de IAG, explique la importancia de las variables de entorno para mantener la seguridad de las credenciales de Firebase y cómo se utilizan en el código en Vite.
@@ -195,6 +195,8 @@ JS: Interacción con la interfaz
       (ii) Obtenga el valor del campo de entrada que tenga el identificador \'select_product\'
       (iii) Llame a la función `saveUser` pasando el valor obtenido del campo de texto.
       (iv) Limpia el formulario después de enviarlo.
+   
+   e) Invoque la función `enableForm` en la función de autojecución.
 
 3. Con un cliente de IAG, explique cómo se maneja la interacción entre el JavaScript y la interfaz de usuario, y cómo se envían los datos a Firebase.
 
