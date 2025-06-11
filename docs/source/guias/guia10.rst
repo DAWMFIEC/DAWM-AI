@@ -193,8 +193,8 @@ JS: Guardar votos en Firebase
 
 2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para realizar las operaciones CRUD (Create, Read, Update, Delete).
 
-JS: Interacción con la interfaz - I
------------------------------------
+JS: Interacción con el formulario
+---------------------------------
 
 1. En el documento *js/file01.js*, importe la función `saveVote` desde *js/firebase.js*.
 2. Con un cliente de IAG, modifique el código del archivo *js/file01.js*, de acuerdo con las siguientes especificaciones: 
@@ -227,8 +227,8 @@ JS: Obtener votos en Firebase
 
 3. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para obtener datos de la base de datos en tiempo real.
 
-JS: Interacción con la interfaz - II
-------------------------------------
+JS: Interacción con la tabla
+----------------------------
 
 1. En el documento *js/file01.js*, importe la función `getVotes` desde *js/firebase.js*.
 2. Con un cliente de IAG, modifique el código del archivo *js/file01.js*, de acuerdo con las siguientes especificaciones:
