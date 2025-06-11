@@ -217,7 +217,7 @@ JS: Interacción con el formulario
 JS: Obtener votos en Firebase
 -----------------------------
 
-1. En el documento *js/firebase.js*, importe las funciones necesarias para obtener (get) en la base de datos en tiempo real.
+1. En el documento *js/firebase.js*, importe las funciones necesarias para obtener (get y child) en la base de datos en tiempo real.
 2. Con un cliente de IAG, modifique el código del archivo *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
 
    a) Defina una función llamada `getVotes`.
