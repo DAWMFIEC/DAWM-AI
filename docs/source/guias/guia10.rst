@@ -49,7 +49,7 @@ HTML
     :color: primary
     
     .. code-block:: html
-        :emphasize-lines: 3-42
+        :emphasize-lines: 3-40
 
         <section class="bg-slate-50 dark:bg-gray-900"> ... </section>
 
