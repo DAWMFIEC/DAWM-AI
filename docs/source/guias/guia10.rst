@@ -114,8 +114,24 @@ App - web
 
 3. Con un cliente de IAG, explique cómo se utiliza el objeto de configuración de Firebase en la inicialización de la aplicación web y en la conexión con los servicios con Vanilla Javascript.
 
+Realtime Database
+^^^^^^^^^^^^^^^^^
+
+1. Dentro de su proyecto en Firebase, acceda a la categoría de productos **Build**, en la opción **Realtime Database**.
+2. Cree una base de datos en tiempo real seleccionando **Create Database**.
+   
+   a) Seleccione la ubicación de la base de datos, preferiblemente la más cercana a su usuario final.
+   b) En **Security rules**, elija **Start in Test Mode** para permitir el acceso sin restricciones durante el desarrollo inicial. 
+   
+   .. info::
+
+      **Nota de seguridad**: El modo de prueba permite que cualquier persona pueda leer y escribir en la base de datos sin autenticación. 
+      Esto es útil para pruebas, pero asegúrese de cambiar a un modo más seguro antes de desplegar su aplicación en producción.
+
+3. Utilice una cliente de IAG para explicar cómo se estructura la base de datos en tiempo real de Firebase.
+
 .env
-^^^^
+----
 
 1. En la raíz de su proyecto, cree un archivo llamado **.env**.
 2. En este archivo, agregue las siguiente variables de entorno y pegue los valores correspondientes de la configuración de Firebase que copió anteriormente:
@@ -142,22 +158,6 @@ App - web
 
 4. Con un cliente de IAG, explique la importancia de las variables de entorno para mantener la seguridad de las credenciales de Firebase y cómo se utilizan en el código en Vite.
 
-Realtime Database
-^^^^^^^^^^^^^^^^^
-
-1. Dentro de su proyecto en Firebase, acceda a la categoría de productos **Build**, en la opción **Realtime Database**.
-2. Cree una base de datos en tiempo real seleccionando **Create Database**.
-   
-   a) Seleccione la ubicación de la base de datos, preferiblemente la más cercana a su usuario final.
-   b) En **Security rules**, elija **Start in Test Mode** para permitir el acceso sin restricciones durante el desarrollo inicial. 
-   
-   .. info::
-
-      **Nota de seguridad**: El modo de prueba permite que cualquier persona pueda leer y escribir en la base de datos sin autenticación. 
-      Esto es útil para pruebas, pero asegúrese de cambiar a un modo más seguro antes de desplegar su aplicación en producción.
-
-3. Utilice una cliente de IAG para explicar cómo se estructura la base de datos en tiempo real de Firebase.
-
 JS: Conexión a Firebase
 -----------------------
 
@@ -177,13 +177,13 @@ JS: Conexión a Firebase
 
 2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para interactuar con la base de datos en tiempo real.
 
-JS: Procesamiento de datos
---------------------------
+JS: guardar votos en Firebase
+-----------------------------
 
 1. Use el cliente de IAG y modifique el documento javascript *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
 
    a) Define una función llamada `saveVote` que reciba un parámetro `productID`.
-   b) Dentro de la función, obtén una referencia a la colección `products` de la base de datos.
+   b) Dentro de la función, obtén una referencia a la colección `votes` de la base de datos.
    c) Crea una nueva referencia para un usuario utilizando la función `push()`.
    d) Guarda los datos en la base de datos con la función `set()`, con el valor del parámetro y la fecha actual.
    e) Maneja el resultado de la operación con promesas, devolviendo un objeto con un mesaje de éxito o de error.
@@ -209,7 +209,14 @@ JS: Interacción con la interfaz
    
    e) Invoque la función `enableForm` en la función de autojecución.
 
-3. Con un cliente de IAG, explique cómo se maneja la interacción entre el JavaScript y la interfaz de usuario, y cómo se envían los datos a Firebase.
+3. Revise su base de datos en Firebase para verificar que los votos se están guardando correctamente.
+4. Con un cliente de IAG, explique cómo se maneja la interacción entre el JavaScript y la interfaz de usuario, y cómo se envían los datos a Firebase.
+
+JS: obtener votos de Firebase
+-----------------------------
+
+JS: Chart.js
+------------
 
 Versionamiento
 --------------
