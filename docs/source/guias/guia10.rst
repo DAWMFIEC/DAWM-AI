@@ -169,7 +169,7 @@ JS: Conexión a Firebase
 
 1. Cree el documento javascript *js/firebase.js*, con su cliente de IAG genere el código de acuerdo con las siguientes especificaciones: 
 
-   a) Desde el CDN, importe la última (firebase@11.9.0) versión de las funciones de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
+   a) Desde el CDN, importe la última (firebase@11.9.1) versión de las funciones de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
    b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase, considerando que utiliza Vite como herramienta de construcción.
    c) Inicialice la aplicación Firebase utilizando el objeto de configuración importado desde las variables de entorno.
    d) Obtenga una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
@@ -194,7 +194,7 @@ JS: Procesamiento de datos
 JS: Interacción con la interfaz
 -------------------------------
 
-1. En el documento *js/file01.js*, importe la función `saveUser` desde *js/firebase.js*.
+1. En el documento *js/file01.js*, importe la función `saveVote` desde *js/firebase.js*.
 2. Con un cliente de IAG, modifique el código del archivo *js/file01.js*, de acuerdo con las siguientes especificaciones: 
 
    a) Define una función llamada `enableForm`.
@@ -204,7 +204,7 @@ JS: Interacción con la interfaz
       
       (i) Prevenga el comportamiento por defecto del formulario.
       (ii) Obtenga el valor del campo de entrada que tenga el identificador \'select_product\'
-      (iii) Llame a la función `saveUser` pasando el valor obtenido del campo de texto.
+      (iii) Llame a la función `saveVote` pasando el valor obtenido del campo de texto.
       (iv) Limpia el formulario después de enviarlo.
    
    e) Invoque la función `enableForm` en la función de autojecución.
