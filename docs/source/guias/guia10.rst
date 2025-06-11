@@ -169,10 +169,11 @@ JS: Conexión a Firebase
 
 1. Cree el documento javascript *js/firebase.js*, con su cliente de IAG genere el código de acuerdo con las siguientes especificaciones: 
 
-   a) Desde el CDN, importe la última versión de las funciones de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
+   a) Desde el CDN, importe la última (firebase@11.9.0) versión de las funciones de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
    b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase, considerando que utiliza Vite como herramienta de construcción.
    c) Inicialice la aplicación Firebase utilizando el objeto de configuración importado desde las variables de entorno.
    d) Obtenga una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
+   e) Aún no exporte las funciones.
 
 2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para interactuar con la base de datos en tiempo real.
 
@@ -181,12 +182,12 @@ JS: Procesamiento de datos
 
 1. Use el cliente de IAG y modifique el documento javascript *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
 
-   a) Define una función llamada `saveUser` que reciba un parámetro `nombre`.
-   b) Dentro de la función, obtén una referencia a la colección `usuarios` de la base de datos.
+   a) Define una función llamada `saveVote` que reciba un parámetro `productID`.
+   b) Dentro de la función, obtén una referencia a la colección `products` de la base de datos.
    c) Crea una nueva referencia para un usuario utilizando la función `push()`.
-   d) Guarda los datos del nuevo usuario en la base de datos con la función `set()`, con el nombre y la fecha actual.
+   d) Guarda los datos en la base de datos con la función `set()`, con el valor del parámetro y la fecha actual.
    e) Maneja el resultado de la operación con promesas, devolviendo un objeto con un mesaje de éxito o de error.
-   f) Exporta la función `saveUser` para que pueda ser utilizada en otros archivos.
+   f) Exporta la función `saveVote` para que pueda ser utilizada en otros archivos.
 
 2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para realizar las operaciones CRUD (Create, Read, Update, Delete).
 
