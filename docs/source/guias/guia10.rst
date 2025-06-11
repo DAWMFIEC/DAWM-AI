@@ -74,7 +74,7 @@ HTML
                </div>
 
                <div id="canvas" class="border border-gray-300 rounded-lg h-48 w-full p-4 bg-gray-50">
-               <p class="text-gray-500 text-center mt-16">Gráfica con los productos más votados</p>
+               <p class="text-gray-500 text-center mt-16">Resultado de la votación</p>
                </div>
             </div>
         </section>
@@ -211,14 +211,30 @@ JS: Interacción con la interfaz
    
    e) Invoque la función `enableForm` en la función de autojecución.
 
-3. Revise su base de datos en Firebase para verificar que los votos se están guardando correctamente.
+3. En el navegador, verifique que al enviar el formulario se guarden los votos en Firebase y que se muestre un mensaje de éxito o error.
 4. Con un cliente de IAG, explique cómo se maneja la interacción entre el JavaScript y la interfaz de usuario, y cómo se envían los datos a Firebase.
 
 JS: obtener votos de Firebase
 -----------------------------
 
-JS: Chart.js
-------------
+1. En el documento *js/firebase.js*, importe las funciones necesarias para escuchar los cambios (onValue) en la base de datos en tiempo real.
+2. Con un cliente de IAG, modifique el código del archivo *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
+
+   a) Defina una función llamada `getVotes`.
+   b) Dentro de la función, obtenga una referencia a la colección `votes` de la base de datos.
+   c) Utilice la función `onValue` para escuchar los cambios en la colección y obtener los datos en tiempo real.
+   d) Exporta la función `getVotes` para que pueda ser utilizada en otros archivos.
+
+JS: Resultados de la votación
+-----------------------------
+
+1. En el documento *js/file01.js*, modifique el código de acuerdo con las siguientes especificaciones: 
+
+   a) Defina una función llamada `getVotes`.
+   b) Dentro de la función, obtenga una referencia a la colección `votes` de la base de datos.
+   c) Utilice la función `onValue` para escuchar los cambios en la colección y obtener los datos en tiempo real.
+   d) En el *callback* de `onValue`, procese los datos recibidos y actualice la interfaz de usuario con los resultados de la votación.
+   e) Invoque la función `getVotes` en la función de autoejecución.
 
 Versionamiento
 --------------
