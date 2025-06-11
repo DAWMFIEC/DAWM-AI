@@ -179,7 +179,7 @@ JS: Conexión a Firebase
 
 2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para enviar datos a la base de datos en tiempo real.
 
-JS: guardar votos en Firebase
+JS: Guardar votos en Firebase
 -----------------------------
 
 1. Use el cliente de IAG y modifique el documento javascript *js/firebase.js*, de acuerdo con las siguientes especificaciones: 
@@ -214,7 +214,7 @@ JS: Interacción con la interfaz
 3. En el navegador, verifique que al enviar el formulario se guarden los votos en Firebase y que se muestre un mensaje de éxito o error.
 4. Con un cliente de IAG, explique cómo se maneja la interacción entre el JavaScript y la interfaz de usuario, y cómo se envían los datos a Firebase.
 
-JS: obtener votos de Firebase
+JS: Obtener votos de Firebase
 -----------------------------
 
 1. En el documento *js/firebase.js*, importe las funciones necesarias para obtener (get) en la base de datos en tiempo real.
@@ -222,7 +222,7 @@ JS: obtener votos de Firebase
 
    a) Defina una función llamada `getVotes`.
    b) Dentro de la función, obtenga una referencia a la colección `votes` de la base de datos.
-   c) Utilice la función `onValue` para escuchar los cambios en la colección y obtener los datos en tiempo real.
+   c) Utilice la función `get` para obtener los datos de la colección.
    d) Exporta la función `getVotes` para que pueda ser utilizada en otros archivos.
 
 3. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para obtener datos de la base de datos en tiempo real.
