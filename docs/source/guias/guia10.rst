@@ -123,7 +123,7 @@ Realtime Database
    a) Seleccione la ubicación de la base de datos, preferiblemente la más cercana a su usuario final.
    b) En **Security rules**, elija **Start in Test Mode** para permitir el acceso sin restricciones durante el desarrollo inicial. 
    
-   .. info::
+   .. attention:: 
 
       **Nota de seguridad**: El modo de prueba permite que cualquier persona pueda leer y escribir en la base de datos sin autenticación. 
       Esto es útil para pruebas, pero asegúrese de cambiar a un modo más seguro antes de desplegar su aplicación en producción.
@@ -149,10 +149,12 @@ Realtime Database
 
    .. code-block:: gitignore
 
+       ...
+       
        # Firebase environment variables
        .env
 
-   .. info::
+   .. attention::
 
       Al versionar, omita el archivo **.env** en el versionamiento local y remoto, para evitar exponer las credenciales de Firebase.
 
