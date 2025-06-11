@@ -130,6 +130,16 @@ App - web
        VITE_FIREBASE_APP_ID="APP_ID"
 
 3. Asegúrese de que el archivo **.env** esté incluido en su archivo **.gitignore** para evitar subirlo al repositorio.
+
+   .. code-block:: gitignore
+
+       # Firebase environment variables
+       .env
+
+   .. info::
+
+      Al versionar, omita el archivo **.env** en el versionamiento local y remoto, para evitar exponer las credenciales de Firebase.
+
 4. Con un cliente de IAG, explique la importancia de las variables de entorno para mantener la seguridad de las credenciales de Firebase y cómo se utilizan en el código en Vite.
 
 Realtime Database
