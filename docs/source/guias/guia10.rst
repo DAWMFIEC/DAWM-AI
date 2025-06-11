@@ -73,7 +73,7 @@ HTML
                </form>
                </div>
 
-               <div id="results" class="border border-gray-300 rounded-lg h-48 w-full p-4 bg-gray-50">
+               <div id="results" class="border border-gray-300 rounded-lg h-52 w-full p-2 bg-gray-50">
                   <p class="text-gray-500 text-center mt-16">Resultado de la votación</p>
                </div>
             </div>
@@ -237,6 +237,7 @@ JS: Interacción con la tabla
    b) Dentro de la función, obtenga los votos utilizando la función `getVotes`.
    c) Itere sobre los votos obtenidos y cree una tabla donde cada fila represente un voto, mostrando el producto votado y el total de votos.
    d) Inserte la tabla en el elemento HTML con el identificador `results`.
+   e) Invoque la función `displayVotes` en la función de autoejecución y luego de guardar un voto.
 
 3. En el navegador, verifique que al cargar la página se muestren los votos almacenados en Firebase en una tabla.
 
