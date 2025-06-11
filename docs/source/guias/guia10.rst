@@ -177,7 +177,7 @@ JS: Conexión a Firebase
    d) Obtenga una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
    e) Aún no exporte las funciones.
 
-2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para interactuar con la base de datos en tiempo real.
+2. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para enviar datos a la base de datos en tiempo real.
 
 JS: guardar votos en Firebase
 -----------------------------
@@ -224,6 +224,8 @@ JS: obtener votos de Firebase
    b) Dentro de la función, obtenga una referencia a la colección `votes` de la base de datos.
    c) Utilice la función `onValue` para escuchar los cambios en la colección y obtener los datos en tiempo real.
    d) Exporta la función `getVotes` para que pueda ser utilizada en otros archivos.
+
+3. Con un cliente de IAG, explique cómo se utiliza el SDK de Firebase para obtener datos de la base de datos en tiempo real.
 
 JS: Resultados de la votación
 -----------------------------
