@@ -169,7 +169,7 @@ JS: Conexión a Firebase
 
 1. Cree el documento javascript *js/firebase.js*, con su cliente de IAG genere el código de acuerdo con las siguientes especificaciones: 
 
-   a) Desde el CDN, importe la `última versión(firebase@11.9.0) <https://github.com/firebase/firebase-js-sdk/releases/latest>`_ de las funciones de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
+   a) Desde el CDN, importe la `última versión(firebase@11.9.1) <https://github.com/firebase/firebase-js-sdk/releases/latest>`_ de las funciones de Firebase para inicializar la aplicación (initializeApp) y acceder a la base de datos en tiempo real (getDatabase, ref, set, push).
    b) Utilice las variables de entorno definidas en el archivo **.env** para configurar la conexión a Firebase, considerando que utiliza Vite como herramienta de construcción.
    c) Inicialice la aplicación Firebase utilizando el objeto de configuración importado desde las variables de entorno.
    d) Obtenga una referencia a la base de datos en tiempo real de Firebase asociada con la aplicación.
