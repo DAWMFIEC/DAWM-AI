@@ -250,7 +250,8 @@ Versionamiento
 Vercel
 ------
 
-1. Verifique el despliegue continuo (CD) del proyecto en Vercel.
+1. Agregue las variables de entorno con el nombre y valor que aparecen en el archivo **.env**.
+2. Verifique el despliegue continuo (CD) del proyecto en Vercel.
 
 Conclusiones
 ============
