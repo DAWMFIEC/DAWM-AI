@@ -19,6 +19,7 @@ Diseño
 ------
 
 1. Defina el objetivo de su :term:`dashboard`, p.e.: .
+2. Definir las métricas o indicadores clave que se visualizarán.
 2. Identifique las secciones de su landing page, p.e.: encabezado, presentación, servicios, testimonios, contacto, etc.
 
 Ambiente de desarrollo
