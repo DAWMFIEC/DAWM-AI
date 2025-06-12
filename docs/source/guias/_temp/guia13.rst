@@ -3,9 +3,9 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-==========================================
-Guía XX: 
-==========================================
+===============================================
+Guía 13: React: Componentes, Interfaces y Props 
+===============================================
 
 .. topic:: Objetivo específico
     :class: objetivo
