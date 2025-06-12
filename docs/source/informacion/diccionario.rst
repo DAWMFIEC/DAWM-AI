@@ -189,3 +189,6 @@ Diccionario de términos
 
     renderizar
         Es el proceso de generar y mostrar contenido en la interfaz de usuario de una aplicación web. En el contexto de aplicaciones web, renderizar implica tomar datos (como HTML, CSS y JavaScript) y convertirlos en una representación visual que los usuarios puedan ver e interactuar.
+
+    dashboard
+        Es una interfaz visual que muestra información clave y métricas relevantes de manera organizada y fácil de entender. Los dashboards se utilizan comúnmente para monitorear el rendimiento, analizar datos y tomar decisiones informadas en tiempo real.
