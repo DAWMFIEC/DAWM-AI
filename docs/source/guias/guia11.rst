@@ -36,7 +36,6 @@ Actividades en clases
 =====================
 
 
-
 Conclusiones
 ============
 
@@ -44,9 +43,9 @@ Conclusiones
 
     * ¿Qué?
 
-    * ¿Qué?
-
     * ¿Cómo?
+
+    * ¿Para qué?
 
 Actividades autónomas
 =====================
