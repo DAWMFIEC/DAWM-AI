@@ -15,11 +15,15 @@ Guía 11: TypeScript - Introducción
 Actividades previas
 =====================
 
-Diseño
-------
+Open-Meteo
+---------
 
-1. Defina el objetivo de su :term:`dashboard`, p.e.: .
-2. Defina las métricas o indicadores clave que se visualizarán en el dashboard.
+1. Regístrese en `Open-Meteo <https://open-meteo.com/>`_ y obtenga una clave de API gratuita.
+2. Explore la documentación de la `API de Open-Meteo <https://open-meteo.com/en/docs>`_ para comprender cómo realizar solicitudes y obtener datos meteorológicos.
+
+   a) Familiarícese con los endpoints disponibles.
+   b) Practique haciendo solicitudes a la API utilizando herramientas como cURL.
+
 
 Ambiente de desarrollo
 ----------------------
@@ -54,3 +58,7 @@ Recursos extras
 ------------------------------
 
 En redes:
+
+.. raw:: html
+
+    <blockquote class="twitter-tweet"><p lang="ca" dir="ltr">Bootcamp FullStack JavaScript en Español<br>Gratuito y con Certificado final<br><br>✓ React + Redux<br>✓ Node con TypeScript<br>✓ APIs Express y GraphQL<br>✓ Desarrollo apps móviles<br>✓ Docker &amp; GitHub Actions<br>✓ PostgreSQL y MongoDB<br><br>De la Universidad de Helsinki:<br>→ <a href="https://t.co/Divm89YuBi">https://t.co/Divm89YuBi</a> <a href="https://t.co/HDJbhMdam6">pic.twitter.com/HDJbhMdam6</a></p>&mdash; Miguel Ángel Durán (@midudev) <a href="https://twitter.com/midudev/status/1768301655861190958?ref_src=twsrc%5Etfw">March 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
