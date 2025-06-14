@@ -44,7 +44,7 @@ Stackblitz
 4. Acceda a cada uno de los proyectos y analice su estructura, código y funcionalidades.
 
    a) Acceda a todos los archivos con extensión .ts (index.ts, clase.ts, funciones.ts, etc) y complete las instrucciones que se encuentran en los comentarios de acuerdo con la documentación de `TypeScriptLang <https://www.typescriptlang.org/>`_.
-   c) Verifique la validez de su respuestas utilizando la consola de Stackblitz.
+   b) Verifique la validez de su respuestas utilizando la consola de Stackblitz.
    
       (i) Errores en tiempo de transpilación: No debe tener líneas marcadas en rojo.
       (ii) Errores en tiempo de compilación: La vista previa debe ejecutarse sin problemas y la consola de la vista previa no debe contener errores.
