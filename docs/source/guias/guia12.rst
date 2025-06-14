@@ -167,13 +167,16 @@ MUI: Grid y ubicación de elementos
             </Grid>
        }
 
-2. Utilice su cliente de IAG para que el encabezado ocupe todo el ancho, el selector ocupe 3 columnas y los indicadores ocupen 9 columnas en pantallas grandes, pero que ambos elementos se apilen verticalmente en pantallas pequeñas. Compruebe la vista previa del resultado en el navegador.
+2. Utilice su cliente de IAG para definir el estilo con los `múltiples puntos de interrupción <https://mui.com/material-ui/react-grid/#multiple-breakpoints>`_, para:
+
+   a) pantallas pequeñas `xs`, todos los elementos se apilen verticalmente en pantallas pequeñas. 
+   b) Pantallas medianas `md`, en adelante, el encabezado ocupe todo el ancho, el selector ocupe 3 columnas y los indicadores ocupen 9 columnas en pantallas grandes. 
 
    .. dropdown:: Ver el código 
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 8
+        :emphasize-lines: 8, 11, 14
 
          ...
 
@@ -182,13 +185,13 @@ MUI: Grid y ubicación de elementos
                <Grid container spacing={5}>
 
                   {/* Encabezado */}
-                  <Grid size={{ xs: 12 }}>Elemento: Encabezado</Grid>
+                  <Grid size={{ xs: 12, md: 12 }}>Elemento: Encabezado</Grid>
 
                   {/* Selector */}
-                  <Grid size={{ xs: 3 }}>Elemento: Selector</Grid>
+                  <Grid size={{ xs: 12, md: 3  }}>Elemento: Selector</Grid>
 
                   {/* Indicadores */}
-                  <Grid size={{ xs: 9 }}>Elemento: Indicadores</Grid>
+                  <Grid size={{ xs: 12, md: 9 }}>Elemento: Indicadores</Grid>
 
                   ...
 
@@ -198,6 +201,8 @@ MUI: Grid y ubicación de elementos
          }
 
          export default App;
+
+3. Compruebe la vista previa del resultado en el navegador.
 
 MUI: Estilización y componentes adicionales
 -------------------------------------------
