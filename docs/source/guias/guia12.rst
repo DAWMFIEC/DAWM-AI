@@ -95,8 +95,8 @@ React: App.tsx
 2. Compruebe la vista previa del resultado en el navegador.
 3. Utilice un cliente de IAG, para explicar cómo se renderiza el componente principal de la aplicación y el propósito de los archivos `index.html`, `main.tsx` y `App.tsx`.
 
-MUI: Inicialización del proyecto, componentes y propiedades
------------------------------------------------------------
+MUI: Inicialización del proyecto y componente Grid
+--------------------------------------------------
 
 1. Explore la documentación de `MUI <https://mui.com/material-ui/getting-started/overview/>`_ para comprender cómo integrar esta biblioteca en su proyecto de React.
 2. Instale MUI y sus dependencias en su proyecto de React con el siguiente comando:
@@ -132,11 +132,11 @@ MUI: Inicialización del proyecto, componentes y propiedades
                   {/* Gráfico */}
                   <Grid>Elemento: Gráfico</Grid>
 
-                  {/* Tabla */}
-                  <Grid>Elemento: Tabla</Grid>
-
                   {/* Alertas */}
                   <Grid>Elemento: Alertas</Grid>
+
+                  {/* Tabla */}
+                  <Grid>Elemento: Tabla</Grid>
 
                   {/* Información adicional */}
                   <Grid>Elemento: Información adicional</Grid>
@@ -147,8 +147,14 @@ MUI: Inicialización del proyecto, componentes y propiedades
 
          export default App;
 
-4. Ajuste el espaciado entre los elementos utilizando la propiedad `spacing` del componente `Grid`. Por ejemplo, para agregar un espaciado de 5 unidades entre los elementos, modifique el componente `Grid` principal:
+4. Compruebe la vista previa del resultado en el navegador. 
+5. Con un cliente de IAG, explique cómo se utiliza el componente `Grid` de MUI para crear una estructura de cuadrícula y cómo se pueden agregar elementos dentro de esta cuadrícula.
 
+MUI: Grid y ubicación de elementos
+----------------------------------
+
+1. Modifique el componente `Grid` para que sea un contenedor principal utilizando la propiedad `container` y ajuste el espaciado de 5 unidades entre los elementos utilizando la propiedad `spacing`. Compruebe la vista previa del resultado en el navegador.
+   
    .. code-block:: tsx
        :emphasize-lines: 5
 
@@ -161,11 +167,40 @@ MUI: Inicialización del proyecto, componentes y propiedades
             </Grid>
        }
 
-5. Compruebe la vista previa del resultado en el navegador. 
-6. Con un cliente de IAG, explique cómo se utiliza el componente `Grid` de MUI para crear una estructura de cuadrícula y cómo se pueden agregar elementos dentro de esta cuadrícula.
+2. Utilice su cliente de IAG para que el encabezado ocupe todo el ancho, el selector ocupe 3 columnas y los indicadores ocupen 9 columnas en pantallas grandes, pero que ambos elementos se apilen verticalmente en pantallas pequeñas. Compruebe la vista previa del resultado en el navegador.
+
+   .. dropdown:: Ver el código 
+    :color: primary
+
+    .. code-block:: tsx
+        :emphasize-lines: 8
+
+         ...
+
+         function App() {
+            return (
+               <Grid container spacing={5}>
+
+                  {/* Encabezado */}
+                  <Grid size={{ xs: 12 }}>Elemento: Encabezado</Grid>
+
+                  {/* Selector */}
+                  <Grid size={{ xs: 3 }}>Elemento: Selector</Grid>
+
+                  {/* Indicadores */}
+                  <Grid size={{ xs: 9 }}>Elemento: Indicadores</Grid>
+
+                  ...
+
+
+               </Grid>
+            );
+         }
+
+         export default App;
 
 MUI: Estilización y componentes adicionales
-------------------------------------------------
+-------------------------------------------
 
 1. Explore la documentación de MUI para aprender a estilizar los componentes y utilizar otros componentes útiles como  `Card` y  `Typography`.
 2. Importe y utilice algunos de estos componentes en su archivo `App.tsx` para mejorar la apariencia de su dashboard:
@@ -181,7 +216,7 @@ MUI: Estilización y componentes adicionales
 
          function App() {
             return (
-               <Grid>
+               <Grid container spacing={5}>
 
                   {/* Encabezado */}
                   <Grid>
