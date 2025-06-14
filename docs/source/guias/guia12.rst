@@ -117,24 +117,23 @@ MUI: Inicialización del proyecto y componentes
           return (
             <Grid>
 
+               {/* Encabezado */}
+               <Grid>Elemento: Encabezado</Grid>
+
                {/* Selector */}
                <Grid>Elemento: Selector</Grid>
 
                {/* Indicadores */}
-               <Grid>Elemento: Indicador 1</Grid>
-               <Grid>Elemento: Indicador 2</Grid>
-               <Grid>Elemento: Indicador 3</Grid>
-               <Grid>Elemento: Indicador 4</Grid>
+               <Grid>Elemento: Indicadores</Grid>
 
                {/* Gráfico */}
-               <Grid>Elemento: Gráfico 1</Grid>
+               <Grid>Elemento: Gráfico</Grid>
 
                {/* Tabla */}
                <Grid>Elemento: Tabla</Grid>
 
                {/* Alertas */}
-               <Grid>Elemento: Alerta 1</Grid>
-               <Grid>Elemento: Alerta 2</Grid>
+               <Grid>Elemento: Alertas</Grid>
 
                {/* Información adicional */}
                <Grid>Elemento: Información adicional</Grid>
