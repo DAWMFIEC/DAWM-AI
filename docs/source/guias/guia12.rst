@@ -29,11 +29,11 @@ Diseño del dashboard
    e) **Errores comunes**: Identifique la respuesta de la API para los errores más comunes, como solicitudes mal formadas o problemas de conexión.
    f) **Casos de uso para el dashboard**: Reflexione sobre cómo estos datos pueden ser utilizados en el dashboard, como mostrar el clima actual, pronósticos extendidos, gráficos de evolución, alertas visuales, etc.
       
-      a) Clima actual: temperatura, humedad, estado del cielo
-      b) Gráficos de evolución: temperatura por hora, precipitación acumulada
-      c) Pronósticos extendidos: próximos 7 días
-      e) Alertas visuales: si uv_index_max supera cierto umbral, mostrar advertencia
-      f) Íconos adaptativos: usando weathercode
+      (i) Clima actual: temperatura, humedad, estado del cielo
+      (ii) Gráficos de evolución: temperatura por hora, precipitación acumulada
+      (iii) Pronósticos extendidos: próximos 7 días
+      (iv) Alertas visuales: si uv_index_max supera cierto umbral, mostrar advertencia
+      (v) Íconos adaptativos: usando weathercode
 
 Ambiente de desarrollo
 ----------------------
