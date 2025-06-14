@@ -78,6 +78,7 @@ React: App.tsx
 1. Modifique el archivo `App.tsx` para mostrar un mensaje de bienvenida, por ejemplo:
 
    .. code-block:: tsx
+      :emphasize-lines: 5-7
 
       import React from 'react';
 
@@ -107,30 +108,38 @@ MUI: Inicialización del proyecto y componentes
 3. Importe el componente `Grid` de MUI en su archivo `App.tsx` y utilícelo para crear una estructura básica de cuadrícula para su dashboard:
 
    .. code-block:: tsx
+      :emphasize-lines: 6-29
 
       import React from 'react';
       import { Grid } from '@mui/material';
 
       function App() {
           return (
-              <Grid>
+            <Grid>
 
-                  {/* Selector */}
-                  <Grid>Elemento: Selector</Grid>
+               {/* Selector */}
+               <Grid>Elemento: Selector</Grid>
 
-                  {/* Indicadores */}
-                  <Grid>Elemento: Indicador 1</Grid>
-                  <Grid>Elemento: Indicador 2</Grid>
-                  <Grid>Elemento: Indicador 3</Grid>
-                  <Grid>Elemento: Indicador 4</Grid>
+               {/* Indicadores */}
+               <Grid>Elemento: Indicador 1</Grid>
+               <Grid>Elemento: Indicador 2</Grid>
+               <Grid>Elemento: Indicador 3</Grid>
+               <Grid>Elemento: Indicador 4</Grid>
 
-                  {/* Tabla */}
-                  <Grid>Elemento: Tabla</Grid>
+               {/* Gráfico */}
+               <Grid>Elemento: Gráfico 1</Grid>
 
-                  {/* Gráfico */}
-                  <Grid>Elemento: Gráfico 1</Grid>
+               {/* Tabla */}
+               <Grid>Elemento: Tabla</Grid>
 
-              </Grid>
+               {/* Alertas */}
+               <Grid>Elemento: Alerta 1</Grid>
+               <Grid>Elemento: Alerta 2</Grid>
+
+               {/* Información adicional */}
+               <Grid>Elemento: Información adicional</Grid>
+
+            </Grid>
           );
       }
 
