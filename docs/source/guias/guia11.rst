@@ -30,16 +30,16 @@ Stackblitz
 
 1. Acceda a `Stackblitz <https://stackblitz.com/>`_ y familiarícese la interfaz y con las herramientas disponibles para el desarrollo de aplicaciones web.
 2. Acceda a la colección pública `Typescript <https://stackblitz.com/@aavendan/collections/typescript>`_.
-3. Cree una bifurcación (fork) de la colección pública de TypeScript y explore los proyectos disponibles.
-4. Acceda a cada uno de los proyectos y analice su estructura, código y funcionalidades.
+3. Acceda a cada uno de los proyectos:
 
-   a) Acceda a todos los archivos con extensión .ts (index.ts, clase.ts, funciones.ts, etc) y complete las instrucciones que se encuentran en los comentarios de acuerdo con la documentación de `TypeScriptLang <https://www.typescriptlang.org/>`_.
-   b) Verifique la validez de su respuestas utilizando la consola de Stackblitz.
+   a) Cree una bifurcación (fork) 
+   b) Acceda a todos los archivos con extensión .ts (index.ts, clase.ts, funciones.ts, etc) y complete las instrucciones que se encuentran en los comentarios de acuerdo con la documentación de `TypeScriptLang <https://www.typescriptlang.org/>`_.
+   c) Verifique la validez de su respuestas utilizando la consola de Stackblitz.
    
       (i) Errores en tiempo de transpilación: No debe tener líneas marcadas en rojo.
       (ii) Errores en tiempo de compilación: La vista previa debe ejecutarse sin problemas y la consola de la vista previa no debe contener errores.
 
-5. Responda a la actividad en clases con la URL de su colección.
+4. Responda a la actividad en clases con las URLs de sus proyectos.
 
 Conclusiones
 ============
