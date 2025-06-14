@@ -3,9 +3,9 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-========================================================================
-Guía 12: React - Introducción y MUI - Librería de componentes para React
-========================================================================
+===================================
+Guía 12: React y MUI - Introducción
+===================================
 
 .. topic:: Objetivo específico
     :class: objetivo

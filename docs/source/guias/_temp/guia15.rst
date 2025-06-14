@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 =========================
-Guía 15: React – Hooks II 
+Guía 15: React - Hooks II 
 =========================
 
 .. topic:: Objetivo específico
