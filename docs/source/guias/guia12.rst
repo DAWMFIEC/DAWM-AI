@@ -55,8 +55,14 @@ React
 1. Explore la documentación de `React <https://react.dev/>`_ para comprender los conceptos básicos de esta biblioteca.
 2. Cree un proyecto de React utilizando `Vite <https://vitejs.dev/guide/#scaffolding-your-first-vite-project>`_.
 
-   a) Seleccione el framework como `React` y la variante como `TypeScript`.
-   b) Instale las dependencias del proyecto e inicie el servidor de desarrollo con los siguientes comandos:
+   a) Dentro de la carpeta de su proyecto, abra la terminal y cree un nuevo proyecto de Vite con el siguiente comando:
+
+   .. code-block:: bash
+
+      npm create vite@latest . 
+   
+   b) Seleccione el framework como `React` y la variante como `TypeScript`.
+   c) Instale las dependencias del proyecto e inicie el servidor de desarrollo con los siguientes comandos:
 
    .. code-block:: bash
 
