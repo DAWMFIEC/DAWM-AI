@@ -16,21 +16,17 @@ Actividades previas
 =====================
 
 Open-Meteo
----------
+----------
 
-1. Regístrese en `Open-Meteo <https://open-meteo.com/>`_ y obtenga una clave de API gratuita.
-2. Explore la documentación de la `API de Open-Meteo <https://open-meteo.com/en/docs>`_ para comprender cómo realizar solicitudes y obtener datos meteorológicos.
-
-   a) Familiarícese con los endpoints disponibles.
-   b) Practique haciendo solicitudes a la API utilizando herramientas como cURL.
-
+1. Explore la documentación de la `API de Open-Meteo <https://open-meteo.com/en/docs>`_ para comprender cómo realizar solicitudes y obtener datos meteorológicos.
+2. Practique haciendo solicitudes a la API utilizando herramientas como cURL o desde una pestaña en su navegador.
 
 Ambiente de desarrollo
 ----------------------
 
 1. Cree un repositorio en GitHub con el nombre *dashboard*.
 
-   a) Agregue un archivo README.md con el título de su dashboard y una breve descripción del objetivo de su proyecto.
+   a) Agregue un archivo README.md con el título de su :term:`dashboard` y una breve descripción del objetivo de su proyecto.
    b) Agregue un archivo *.gitignore* con la plantilla de *Node*.
    
 2. Acceda a su proyecto *dashboard* en Codespaces o en su máquina local.
@@ -39,17 +35,30 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
+Stackblitz
+----------
+
+1. Acceda a `Stackblitz <https://stackblitz.com/>`_ y familiarícese la interfaz y con las herramientas disponibles para el desarrollo de aplicaciones web.
+3. Acceda a la colección pública `Typescript <https://stackblitz.com/@aavendan/collections/typescript>`_.
+4. Cree una bifurcación (fork) de la colección pública de TypeScript y explore los proyectos disponibles.
+5. Acceda a cada uno de los proyectos y analice su estructura, código y funcionalidades.
+
+   a) Acceda a todos los archivos con extensión .ts (index.ts, clase.ts, funciones.ts, etc) y complete las instrucciones que se encuentran en los comentarios de acuerdo con la documentación de `TypeScriptLang <https://www.typescriptlang.org/>`_.
+   c) Verifique la validez de su respuestas utilizando la consola de Stackblitz.
+      
+      (i) Errores en tiempo de transpilación: No debe tener líneas marcadas en rojo.
+      (ii) Errores en tiempo de compilación: La vista previa debe ejecutarse sin problemas y la consola de la vista previa no debe contener errores.
 
 Conclusiones
 ============
 
 .. topic:: Preguntas de cierre
 
-    * ¿Qué?
+    * ¿Qué conceptos fundamentales de TypeScript crees que podrían ser malinterpretados si solo se sigue el código sugerido por la IA sin analizarlo críticamente?
 
-    * ¿Cómo?
+    * ¿Qué ajustes realizaste al código generado por la IA para que las anotaciones de tipo, interfaces o funciones en TypeScript se adaptaran correctamente a las necesidades del dashboard?
 
-    * ¿Para qué?
+    * ¿Qué implica para ti, como futuro desarrollador, asumir con responsabilidad el uso del código generado por IA, asegurándote de comprenderlo antes de integrarlo a un proyecto real como un dashboard?
 
 Actividades autónomas
 =====================
