@@ -16,6 +16,25 @@ Guía 12: React - Introducción y MUI - Librería de componentes para React
 Actividades previas
 =====================
 
+Diseño del dashboard
+----------------------
+
+1. Explore la documentación de la `API de Open-Meteo <https://open-meteo.com/en/docs>`_.
+2. Identifique los elementos claves del API que serán útiles para el :term:`dashboard`:
+
+   a) **Parámetros de entrada (Input)**: Determine qué parámetros son necesarios para realizar una solicitud a la API, como ubicación geográfica o zona horaria.
+   b) **Datos disponibles (Variables climáticas)**: Explore las variables climáticas que la API puede proporcionar y su frecuencia temporal, como temperatura actual, por día o por hora, etc.
+   c) **Formato de respuesta (Response)**: Familiarícese con el formato de respuesta de la API, que generalmente es JSON, y cómo se estructuran los datos.
+   d) **Codificación del clima (weathercode)**: Comprenda cómo se codifica el clima en la respuesta de la API, lo que le permitirá interpretar correctamente las condiciones climáticas.
+   e) **Errores comunes**: Identifique la respuesta de la API para los errores más comunes, como solicitudes mal formadas o problemas de conexión.
+   f) **Casos de uso para el dashboard**: Reflexione sobre cómo estos datos pueden ser utilizados en el dashboard, como mostrar el clima actual, pronósticos extendidos, gráficos de evolución, alertas visuales, etc.
+      
+      a) Clima actual: temperatura, humedad, estado del cielo
+      b) Gráficos de evolución: temperatura por hora, precipitación acumulada
+      c) Pronósticos extendidos: próximos 7 días
+      e) Alertas visuales: si uv_index_max supera cierto umbral, mostrar advertencia
+      f) Íconos adaptativos: usando weathercode
+
 Ambiente de desarrollo
 ----------------------
 
