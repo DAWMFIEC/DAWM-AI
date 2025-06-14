@@ -107,42 +107,101 @@ MUI: Inicialización del proyecto y componentes
 
 3. Importe el componente `Grid` de MUI en su archivo `App.tsx` y utilícelo para crear una estructura básica de cuadrícula para su dashboard:
 
-   .. code-block:: tsx
-      :emphasize-lines: 6-29
+   .. dropdown:: Ver el código 
+    :color: primary
 
-      import React from 'react';
-      import { Grid } from '@mui/material';
+    .. code-block:: tsx
+        :emphasize-lines: 6-29
 
-      function App() {
-          return (
-            <Grid>
+         import React from 'react';
+         import { Grid } from '@mui/material';
 
-               {/* Encabezado */}
-               <Grid>Elemento: Encabezado</Grid>
+         function App() {
+            return (
+               <Grid>
 
-               {/* Selector */}
-               <Grid>Elemento: Selector</Grid>
+                  {/* Encabezado */}
+                  <Grid>Elemento: Encabezado</Grid>
 
-               {/* Indicadores */}
-               <Grid>Elemento: Indicadores</Grid>
+                  {/* Selector */}
+                  <Grid>Elemento: Selector</Grid>
 
-               {/* Gráfico */}
-               <Grid>Elemento: Gráfico</Grid>
+                  {/* Indicadores */}
+                  <Grid>Elemento: Indicadores</Grid>
 
-               {/* Tabla */}
-               <Grid>Elemento: Tabla</Grid>
+                  {/* Gráfico */}
+                  <Grid>Elemento: Gráfico</Grid>
 
-               {/* Alertas */}
-               <Grid>Elemento: Alertas</Grid>
+                  {/* Tabla */}
+                  <Grid>Elemento: Tabla</Grid>
 
-               {/* Información adicional */}
-               <Grid>Elemento: Información adicional</Grid>
+                  {/* Alertas */}
+                  <Grid>Elemento: Alertas</Grid>
 
-            </Grid>
-          );
-      }
+                  {/* Información adicional */}
+                  <Grid>Elemento: Información adicional</Grid>
 
-      export default App;
+               </Grid>
+            );
+         }
+
+         export default App;
+
+4. Compruebe la vista previa del resultado en el navegador.
+5. Con un cliente de IAG, explique cómo se utiliza el componente `Grid` de MUI para crear una estructura de cuadrícula y cómo se pueden agregar elementos dentro de esta cuadrícula.
+
+MUI: Estilización y componentes adicionales
+------------------------------------------------
+
+1. Explore la documentación de MUI para aprender a estilizar los componentes y utilizar otros componentes útiles como `Button`, `Card`, `Typography`, etc.
+2. Importe y utilice algunos de estos componentes en su archivo `App.tsx` para mejorar la apariencia de su dashboard:
+
+   .. dropdown:: Ver el código 
+    :color: primary
+
+    .. code-block:: tsx
+        :emphasize-lines: 6-29
+
+        import React from 'react';
+        import { Grid, Button, Typography } from '@mui/material';
+
+        function App() {
+           return (
+               <Grid>
+
+                  {/* Encabezado */}
+                  <Grid>
+                     <Typography variant="h4">Dashboard</Typography>
+                  </Grid>
+
+                  {/* Selector */}
+                  <Grid>
+                     <Button variant="contained">Seleccionar ubicación</Button>
+                  </Grid>
+
+                  {/* Indicadores */}
+                  <Grid>Elemento: Indicadores</Grid>
+
+                  {/* Gráfico */}
+                  <Grid>Elemento: Gráfico</Grid>
+
+                  {/* Tabla */}
+                  <Grid>Elemento: Tabla</Grid>
+
+                  {/* Alertas */}
+                  <Grid>Elemento: Alertas</Grid>
+
+                  {/* Información adicional */}
+                  <Grid>Elemento: Información adicional</Grid>
+
+               </Grid>
+           );
+        }
+
+        export default App;
+
+3. Compruebe la vista previa del resultado en el navegador.
+4. Con un cliente de IAG, explique cómo se utilizan los componentes `Button` y `Typography` de MUI para mejorar la usabilidad y la apariencia del dashboard.
 
 Conclusiones
 ============
