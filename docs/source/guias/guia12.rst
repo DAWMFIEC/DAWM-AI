@@ -153,7 +153,12 @@ MUI: Inicialización del proyecto y componente Grid
 MUI: Grid y ubicación de elementos
 ----------------------------------
 
-1. Modifique el componente `Grid` para que sea un contenedor principal utilizando la propiedad `container` y ajuste el espaciado de 5 unidades entre los elementos utilizando la propiedad `spacing`. Compruebe la vista previa del resultado en el navegador.
+1. Modifique el componente `Grid` su archivo `App.tsx`:
+
+   a) Para que sea un contenedor principal utilizando la propiedad `container <https://mui.com/material-ui/react-container/>`_.
+   b) Ajuste el espaciado de 5 unidades entre los elementos utilizando la propiedad `spacing <https://mui.com/material-ui/react-container/>`_. 
+   c) Alinee los elementos en el centro utilizando la propiedad `sx <https://mui.com/material-ui/react-container/>`_ para los estilos  `justifyContent` y `alignItems`.
+   d) Compruebe la vista previa del resultado en el navegador.
    
    .. code-block:: tsx
        :emphasize-lines: 5
@@ -162,15 +167,16 @@ MUI: Grid y ubicación de elementos
 
        function App() {
          return (
-            <Grid container spacing={5}>
+            <Grid container spacing={5} sx={{ justifyContent: "center", alignItems: "center" }}>
                ...
             </Grid>
        }
 
 2. Utilice su cliente de IAG para definir el estilo con los `múltiples puntos de interrupción <https://mui.com/material-ui/react-grid/#multiple-breakpoints>`_, para:
 
-   a) pantallas pequeñas `xs`, todos los elementos se apilen verticalmente en pantallas pequeñas. 
+   a) Pantallas pequeñas `xs`, todos los elementos se apilen verticalmente en pantallas pequeñas. 
    b) Pantallas medianas `md`, en adelante, el encabezado ocupe todo el ancho, el selector ocupe 3 columnas y los indicadores ocupen 9 columnas en pantallas grandes. 
+   c) Compruebe la vista previa del resultado en el navegador.
 
    .. dropdown:: Ver el código 
     :color: primary
@@ -182,7 +188,7 @@ MUI: Grid y ubicación de elementos
 
          function App() {
             return (
-               <Grid container spacing={5}>
+               <Grid ... >
 
                   {/* Encabezado */}
                   <Grid size={{ xs: 12, md: 12 }}>Elemento: Encabezado</Grid>
@@ -201,8 +207,6 @@ MUI: Grid y ubicación de elementos
          }
 
          export default App;
-
-3. Compruebe la vista previa del resultado en el navegador.
 
 MUI: Estilización y componentes adicionales
 -------------------------------------------
