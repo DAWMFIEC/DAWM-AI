@@ -95,8 +95,8 @@ React: App.tsx
 2. Compruebe la vista previa del resultado en el navegador.
 3. Utilice un cliente de IAG, para explicar cómo se renderiza el componente principal de la aplicación y el propósito de los archivos `index.html`, `main.tsx` y `App.tsx`.
 
-MUI: Inicialización del proyecto y componentes
-----------------------------------------------
+MUI: Inicialización del proyecto, componentes y propiedades
+-----------------------------------------------------------
 
 1. Explore la documentación de `MUI <https://mui.com/material-ui/getting-started/overview/>`_ para comprender cómo integrar esta biblioteca en su proyecto de React.
 2. Instale MUI y sus dependencias en su proyecto de React con el siguiente comando:
@@ -111,7 +111,7 @@ MUI: Inicialización del proyecto y componentes
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 6-29
+        :emphasize-lines: 2, 6-29
 
          import React from 'react';
          import { Grid } from '@mui/material';
@@ -147,58 +147,59 @@ MUI: Inicialización del proyecto y componentes
 
          export default App;
 
-4. Compruebe la vista previa del resultado en el navegador.
-5. Con un cliente de IAG, explique cómo se utiliza el componente `Grid` de MUI para crear una estructura de cuadrícula y cómo se pueden agregar elementos dentro de esta cuadrícula.
+4. Ajuste el espaciado entre los elementos utilizando la propiedad `spacing` del componente `Grid`. Por ejemplo, para agregar un espaciado de 5 unidades entre los elementos, modifique el componente `Grid` principal:
+
+   .. code-block:: tsx
+       :emphasize-lines: 5
+
+       ...
+
+       function App() {
+         return (
+            <Grid container spacing={5}>
+               ...
+            </Grid>
+       }
+
+5. Compruebe la vista previa del resultado en el navegador. 
+6. Con un cliente de IAG, explique cómo se utiliza el componente `Grid` de MUI para crear una estructura de cuadrícula y cómo se pueden agregar elementos dentro de esta cuadrícula.
 
 MUI: Estilización y componentes adicionales
 ------------------------------------------------
 
-1. Explore la documentación de MUI para aprender a estilizar los componentes y utilizar otros componentes útiles como `Button`, `Card`, `Typography`, etc.
+1. Explore la documentación de MUI para aprender a estilizar los componentes y utilizar otros componentes útiles como  `Card` y  `Typography`.
 2. Importe y utilice algunos de estos componentes en su archivo `App.tsx` para mejorar la apariencia de su dashboard:
 
    .. dropdown:: Ver el código 
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 6-29
+        :emphasize-lines: 2, 10, 15
 
-        import React from 'react';
-        import { Grid, Button, Typography } from '@mui/material';
+         import React from 'react';
+         import { Grid, Card, Typography } from '@mui/material';
 
-        function App() {
-           return (
+         function App() {
+            return (
                <Grid>
 
                   {/* Encabezado */}
                   <Grid>
-                     <Typography variant="h4">Dashboard</Typography>
+                     <Typography variant="h1">Dashboard</Typography>
                   </Grid>
 
                   {/* Selector */}
                   <Grid>
-                     <Button variant="contained">Seleccionar ubicación</Button>
+                     Elemento: Selector
                   </Grid>
 
-                  {/* Indicadores */}
-                  <Grid>Elemento: Indicadores</Grid>
-
-                  {/* Gráfico */}
-                  <Grid>Elemento: Gráfico</Grid>
-
-                  {/* Tabla */}
-                  <Grid>Elemento: Tabla</Grid>
-
-                  {/* Alertas */}
-                  <Grid>Elemento: Alertas</Grid>
-
-                  {/* Información adicional */}
-                  <Grid>Elemento: Información adicional</Grid>
+                  ...
 
                </Grid>
-           );
-        }
+            );
+         }
 
-        export default App;
+         export default App;
 
 3. Compruebe la vista previa del resultado en el navegador.
 4. Con un cliente de IAG, explique cómo se utilizan los componentes `Button` y `Typography` de MUI para mejorar la usabilidad y la apariencia del dashboard.
