@@ -49,7 +49,11 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
+React
+------
 
+1. Explore la documentación de `React <https://react.dev/>`_ para comprender los conceptos básicos de esta biblioteca.
+2. Cree un proyecto de React utilizando `Vite <https://vitejs.dev/guide/#scaffolding-your-first-vite-project>`_.
 
 Conclusiones
 ============
