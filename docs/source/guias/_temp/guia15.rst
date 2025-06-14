@@ -10,7 +10,7 @@ Guía 15: React – Hooks II
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Integrar 
+    Implementar el hook useEffect para sincronizar el dashboard con fuentes de datos en tiempo real y utilizar localStorage para mantener configuraciones o preferencias del usuario de forma persistente. 
 
 Actividades previas
 =====================

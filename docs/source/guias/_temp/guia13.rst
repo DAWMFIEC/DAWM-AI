@@ -10,7 +10,7 @@ Guía 13: React: Componentes, Interfaces y Props
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Integrar 
+    Desarrollar componentes funcionales reutilizables en React que se comuniquen mediante props, tipadas con interfaces en TypeScript, asegurando una arquitectura modular y mantenible del dashboard.
 
 Actividades previas
 =====================

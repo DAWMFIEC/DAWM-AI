@@ -10,7 +10,7 @@ Guía 14: React - Eventos y Hooks I
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Integrar 
+    Gestionar la interactividad del dashboard mediante eventos del usuario y el uso de hooks como useState y useRef, permitiendo actualizar el estado de la interfaz de forma reactiva y eficiente. 
 
 Actividades previas
 =====================
