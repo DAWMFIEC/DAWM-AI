@@ -49,8 +49,8 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
-React
-------
+React: Inicialización del proyecto
+----------------------------------
 
 1. Explore la documentación de `React <https://react.dev/>`_ para comprender los conceptos básicos de esta biblioteca.
 2. Cree un proyecto de React utilizando `Vite <https://vitejs.dev/guide/#scaffolding-your-first-vite-project>`_.
@@ -68,6 +68,73 @@ React
 
       npm install
       npm run dev
+
+3. Compruebe la vista previa del resultado en el navegador.
+4. Con un cliente de IAG, explique la estructura del proyecto.
+
+React: App.tsx
+--------------
+
+1. Modifique el archivo `App.tsx` para mostrar un mensaje de bienvenida, por ejemplo:
+
+   .. code-block:: tsx
+
+      import React from 'react';
+
+      function App() {
+          return (
+              <div>
+                  <h1>Bienvenido al Dashboard</h1>
+              </div>
+          );
+      }
+
+      export default App;
+
+2. Compruebe la vista previa del resultado en el navegador.
+3. Utilice un cliente de IAG, para explicar cómo se renderiza el componente principal de la aplicación y el propósito de los archivos `index.html`, `main.tsx` y `App.tsx`.
+
+MUI: Inicialización del proyecto y componentes
+----------------------------------------------
+
+1. Explore la documentación de `MUI <https://mui.com/material-ui/getting-started/overview/>`_ para comprender cómo integrar esta biblioteca en su proyecto de React.
+2. Instale MUI y sus dependencias en su proyecto de React con el siguiente comando:
+
+   .. code-block:: bash
+
+      npm install @mui/material @emotion/react @emotion/styled
+
+3. Importe el componente `Grid` de MUI en su archivo `App.tsx` y utilícelo para crear una estructura básica de cuadrícula para su dashboard:
+
+   .. code-block:: tsx
+
+      import React from 'react';
+      import { Grid } from '@mui/material';
+
+      function App() {
+          return (
+              <Grid>
+
+                  {/* Selector */}
+                  <Grid>Elemento: Selector</Grid>
+
+                  {/* Indicadores */}
+                  <Grid>Elemento: Indicador 1</Grid>
+                  <Grid>Elemento: Indicador 2</Grid>
+                  <Grid>Elemento: Indicador 3</Grid>
+                  <Grid>Elemento: Indicador 4</Grid>
+
+                  {/* Tabla */}
+                  <Grid>Elemento: Tabla</Grid>
+
+                  {/* Gráfico */}
+                  <Grid>Elemento: Gráfico 1</Grid>
+
+              </Grid>
+          );
+      }
+
+      export default App;
 
 Conclusiones
 ============
