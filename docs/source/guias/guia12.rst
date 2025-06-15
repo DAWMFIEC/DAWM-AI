@@ -150,8 +150,8 @@ MUI: Inicialización del proyecto y componente Grid
 4. Compruebe la vista previa del resultado en el navegador. 
 5. Con un cliente de IAG, explique cómo se utiliza el componente `Grid` de MUI para crear una estructura de cuadrícula y cómo se pueden agregar elementos dentro de esta cuadrícula.
 
-MUI: Grid y ubicación de elementos
-----------------------------------
+MUI: Ubicación de elementos y Responsividad
+-------------------------------------------
 
 1. Modifique el componente `Grid` su archivo `App.tsx`:
 
@@ -172,9 +172,9 @@ MUI: Grid y ubicación de elementos
             </Grid>
        }
 
-2. Utilice su cliente de IAG para definir el estilo con los `múltiples puntos de interrupción <https://mui.com/material-ui/react-grid/#multiple-breakpoints>`_, para:
+2. Utilice su cliente de IAG para definir el prop `size <https://mui.com/material-ui/react-grid/#multiple-breakpoints>`_, para aplicar el estilo en los múltiples puntos de interrupción:
 
-   a) Pantallas pequeñas `xs`, todos los elementos se apilen verticalmente en pantallas pequeñas. 
+   a) Pantallas extra pequeñas `xs`, todos los elementos se apilen verticalmente. 
    b) Pantallas medianas `md`, en adelante:
    
       (i) El encabezado ocupe todo el ancho (12 columnas), 
@@ -216,15 +216,14 @@ MUI: Grid y ubicación de elementos
 
 3. Con un cliente de IAG, genere el código para modificar los elementos del Grid:
 
-   a) La gráfica y la tabla tienen la propiedad `sx <https://mui.com/material-ui/customization/how-to-customize/#the-sx-prop>`_ para ocultar los elementos en pantallas pequeñas y mostrar como bloque en pantallas medianas.
-   
-   b) Compruebe la vista previa del resultado en el navegador.
+   a) La gráfica y la tabla tienen la propiedad `sx <https://mui.com/material-ui/customization/how-to-customize/#the-sx-prop>`_ para ocultar los elementos en pantallas extra pequeñas y mostrar como bloque en pantallas medianas.
+   b) Compruebe la vista previa del resultado en el navegador para diferentes tamaños.
 
    .. dropdown:: Ver el código 
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 10, 15
+        :emphasize-lines: 10, 17
 
          ...
 
@@ -235,12 +234,16 @@ MUI: Grid y ubicación de elementos
                   ...
 
                   {/* Gráfico */}
-                  <Grid size={{ xs: 12, md: 8  }} sx={{ display: { xs: "none", md: "block"} }} >Elemento: Gráfico</Grid>
+                  <Grid size={{ xs: 12, md: 8  }} sx={{ display: { xs: "none", md: "block"} }} >
+                     Elemento: Gráfico
+                  </Grid>
 
                   ...
 
                   {/* Tabla */}
-                  <Grid size={{ xs: 12, md: 12  }} sx={{ display: { xs: "none", md: "block" } }}>Elemento: Tabla</Grid>
+                  <Grid size={{ xs: 12, md: 12  }} sx={{ display: { xs: "none", md: "block" } }}>
+                     Elemento: Tabla
+                  </Grid>
 
                   ...
 
@@ -251,15 +254,16 @@ MUI: Grid y ubicación de elementos
 
          export default App;
 
-4. Compruebe la vista previa del resultado en el navegador.
+4. Consulte su cliente de IAG para explicar la utilidad de los props en los componentes.
 
-MUI: Estilización y componentes adicionales
--------------------------------------------
+MUI: Componentes adicionales
+----------------------------
 
 1. Explore la documentación de MUI para estilizar los siguientes componentes en su archivo `App.tsx`:
 
    a) `Typography <https://mui.com/material-ui/react-typography/>`_ para mostrar títulos y descripciones de manera estilizada.
    b) `Card <https://mui.com/material-ui/react-card/>`_ para crear tarjetas que representen contenedores de elementos.
+   c) Compruebe la vista previa del resultado en el navegador.
 
    .. dropdown:: Ver el código 
     :color: primary
@@ -287,8 +291,7 @@ MUI: Estilización y componentes adicionales
 
          export default App;
 
-2. Compruebe la vista previa del resultado en el navegador.
-3. Con un cliente de IAG, explique cómo se utilizan los componentes `Typography` y `Card` de MUI para mejorar la usabilidad y la apariencia del dashboard.
+2. Con un cliente de IAG, explique cómo se utilizan los componentes de MUI para mejorar la usabilidad y la apariencia del dashboard.
 
 Conclusiones
 ============
