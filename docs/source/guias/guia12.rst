@@ -177,8 +177,10 @@ MUI: Grid y ubicación de elementos
    a) Pantallas pequeñas `xs`, todos los elementos se apilen verticalmente en pantallas pequeñas. 
    b) Pantallas medianas `md`, en adelante:
    
-      (i) El encabezado ocupe todo el ancho, 
-      (ii) El selector ocupe 3 columnas y los indicadores ocupen 9 columnas.
+      (i) El encabezado ocupe todo el ancho (12 columnas), 
+      (ii) El selector ocupa 3 columnas y los indicadores ocupan 9 columnas.
+      (iii) El gráfico ocupa 8 columnas y las alertas ocupan 4 columnas.
+      (iv) La tabla  y el elemento de información adicional ocupan 12 columnas.
 
    c) Compruebe la vista previa del resultado en el navegador.
 
