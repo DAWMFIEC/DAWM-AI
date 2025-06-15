@@ -192,3 +192,9 @@ Diccionario de términos
 
     dashboard
         Es una interfaz visual que muestra información clave y métricas relevantes de manera organizada y fácil de entender. Los dashboards se utilizan comúnmente para monitorear el rendimiento, analizar datos y tomar decisiones informadas en tiempo real.
+
+    prop
+        Es una abreviatura de "propiedad" y se refiere a los atributos o características que se pueden pasar a un componente en React. Las props permiten personalizar el comportamiento y la apariencia de un componente al proporcionar datos y configuraciones desde el componente padre.
+    
+    estado
+        Es un objeto en React que representa la información que puede cambiar a lo largo del tiempo en un componente. El estado se utiliza para almacenar datos que afectan la representación visual del componente y se puede actualizar mediante la función `setState`.

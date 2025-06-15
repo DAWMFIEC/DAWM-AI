@@ -155,7 +155,7 @@ MUI: Grid y ubicación de elementos
 
 1. Modifique el componente `Grid` su archivo `App.tsx`:
 
-   a) Para que sea un contenedor principal utilizando la propiedad `container <https://mui.com/material-ui/react-container/>`_.
+   a) Para que sea un contenedor principal utilizando el :term:`prop` `container <https://mui.com/material-ui/react-container/>`_.
    b) Ajuste el espaciado de 5 unidades entre los elementos utilizando la propiedad `spacing <https://mui.com/material-ui/react-container/>`_. 
    c) Alinee los elementos en el centro utilizando la propiedad `sx <https://mui.com/material-ui/react-container/>`_ para los estilos  `justifyContent` y `alignItems`.
    d) Compruebe la vista previa del resultado en el navegador.
@@ -175,7 +175,11 @@ MUI: Grid y ubicación de elementos
 2. Utilice su cliente de IAG para definir el estilo con los `múltiples puntos de interrupción <https://mui.com/material-ui/react-grid/#multiple-breakpoints>`_, para:
 
    a) Pantallas pequeñas `xs`, todos los elementos se apilen verticalmente en pantallas pequeñas. 
-   b) Pantallas medianas `md`, en adelante, el encabezado ocupe todo el ancho, el selector ocupe 3 columnas y los indicadores ocupen 9 columnas en pantallas grandes. 
+   b) Pantallas medianas `md`, en adelante:
+   
+      (i) El encabezado ocupe todo el ancho, 
+      (ii) El selector ocupe 3 columnas y los indicadores ocupen 9 columnas.
+
    c) Compruebe la vista previa del resultado en el navegador.
 
    .. dropdown:: Ver el código 
@@ -211,8 +215,10 @@ MUI: Grid y ubicación de elementos
 MUI: Estilización y componentes adicionales
 -------------------------------------------
 
-1. Explore la documentación de MUI para aprender a estilizar los componentes y utilizar otros componentes útiles como  `Card` y  `Typography`.
-2. Importe y utilice algunos de estos componentes en su archivo `App.tsx` para mejorar la apariencia de su dashboard:
+1. Explore la documentación de MUI para estilizar los siguientes componentes en su archivo `App.tsx`:
+
+   a) `Typography <https://mui.com/material-ui/react-typography/>`_ para mostrar títulos y descripciones de manera estilizada.
+   b) `Card <https://mui.com/material-ui/react-card/>`_ para crear tarjetas que representen contenedores de elementos.
 
    .. dropdown:: Ver el código 
     :color: primary
@@ -221,20 +227,15 @@ MUI: Estilización y componentes adicionales
         :emphasize-lines: 2, 10, 15
 
          import React from 'react';
-         import { Grid, Card, Typography } from '@mui/material';
+         import { Grid, Typography } from '@mui/material';
 
          function App() {
             return (
-               <Grid container spacing={5}>
+               <Grid ... >
 
                   {/* Encabezado */}
-                  <Grid>
+                  <Grid ... >
                      <Typography variant="h1">Dashboard</Typography>
-                  </Grid>
-
-                  {/* Selector */}
-                  <Grid>
-                     Elemento: Selector
                   </Grid>
 
                   ...
@@ -245,8 +246,8 @@ MUI: Estilización y componentes adicionales
 
          export default App;
 
-3. Compruebe la vista previa del resultado en el navegador.
-4. Con un cliente de IAG, explique cómo se utilizan los componentes `Button` y `Typography` de MUI para mejorar la usabilidad y la apariencia del dashboard.
+2. Compruebe la vista previa del resultado en el navegador.
+3. Con un cliente de IAG, explique cómo se utilizan los componentes `Typography` y `Card` de MUI para mejorar la usabilidad y la apariencia del dashboard.
 
 Conclusiones
 ============
