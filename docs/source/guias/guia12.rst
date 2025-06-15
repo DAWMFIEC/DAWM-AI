@@ -214,6 +214,45 @@ MUI: Grid y ubicación de elementos
 
          export default App;
 
+3. Con un cliente de IAG, genere el código para modificar los elementos del Grid:
+
+   a) La gráfica y la tabla tienen la propiedad `sx <https://mui.com/material-ui/customization/how-to-customize/#the-sx-prop>`_ para ocultar los elementos en pantallas pequeñas y mostrar como bloque en pantallas medianas.
+   
+   b) Compruebe la vista previa del resultado en el navegador.
+
+   .. dropdown:: Ver el código 
+    :color: primary
+
+    .. code-block:: tsx
+        :emphasize-lines: 10, 15
+
+         ...
+
+         function App() {
+            return (
+               <Grid ... >
+
+                  ...
+
+                  {/* Gráfico */}
+                  <Grid size={{ xs: 12, md: 8  }} sx={{ display: { xs: "none", md: "block"} }} >Elemento: Gráfico</Grid>
+
+                  ...
+
+                  {/* Tabla */}
+                  <Grid size={{ xs: 12, md: 12  }} sx={{ display: { xs: "none", md: "block" } }}>Elemento: Tabla</Grid>
+
+                  ...
+
+
+               </Grid>
+            );
+         }
+
+         export default App;
+
+4. Compruebe la vista previa del resultado en el navegador.
+
 MUI: Estilización y componentes adicionales
 -------------------------------------------
 
