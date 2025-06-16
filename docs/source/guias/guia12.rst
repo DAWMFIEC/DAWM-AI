@@ -157,7 +157,7 @@ MUI: Ubicación de elementos y Responsividad
 
    a) Para que sea un contenedor principal utilizando el :term:`prop` `container <https://mui.com/material-ui/react-container/>`_.
    b) Ajuste el espaciado de 5 unidades entre los elementos utilizando la propiedad `spacing <https://mui.com/material-ui/react-container/>`_. 
-   c) Alinee los elementos en el centro utilizando la propiedad `sx <https://mui.com/material-ui/react-container/>`_ para los estilos  `justifyContent` y `alignItems`.
+   c) Centre los todos los elementos con utilizando las propiedades `justifyContent y alignItems <https://mui.com/material-ui/react-grid/#centered-elements>`_.
    d) Compruebe la vista previa del resultado en el navegador.
    
    .. code-block:: tsx
@@ -167,7 +167,7 @@ MUI: Ubicación de elementos y Responsividad
 
        function App() {
          return (
-            <Grid container spacing={5} sx={{ justifyContent: "center", alignItems: "center" }}>
+            <Grid container spacing={5} justifyContent="center" alignItems="center">
                ...
             </Grid>
        }
@@ -241,8 +241,6 @@ MUI: Ubicación de elementos y Responsividad
                      sx={{ display: { xs: "none", md: "block"} }} >
                      Elemento: Gráfico
                   </Grid>
-
-                  ...
 
                   {/* Tabla */}
                   <Grid ... 
