@@ -266,7 +266,7 @@ MUI: Componentes adicionales
 
    a) `Typography <https://mui.com/material-ui/react-typography/>`_ para mostrar títulos y descripciones de manera estilizada.
    b) `Alert <https://mui.com/material-ui/react-alert/>`_ para crear alertas visuales que resalten información importante, como advertencias o errores.
-   c) Modifique el contenedor de alertas para que sea un contenedor, con las alertas a la derecha.
+   c) Modifique el contenedor de alertas para que sea un contenedor, con los componentes a la derecha.
    d) Compruebe la vista previa del resultado en el navegador.
 
    .. dropdown:: Ver el código 
