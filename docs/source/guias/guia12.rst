@@ -123,6 +123,9 @@ MUI: Inicialización del proyecto y componente Grid
                   {/* Encabezado */}
                   <Grid>Elemento: Encabezado</Grid>
 
+                  {/* Alertas */}
+                  <Grid>Elemento: Alertas</Grid>
+
                   {/* Selector */}
                   <Grid>Elemento: Selector</Grid>
 
@@ -131,9 +134,6 @@ MUI: Inicialización del proyecto y componente Grid
 
                   {/* Gráfico */}
                   <Grid>Elemento: Gráfico</Grid>
-
-                  {/* Alertas */}
-                  <Grid>Elemento: Alertas</Grid>
 
                   {/* Tabla */}
                   <Grid>Elemento: Tabla</Grid>
@@ -199,6 +199,8 @@ MUI: Ubicación de elementos y Responsividad
                   {/* Encabezado */}
                   <Grid size={{ xs: 12, md: 12 }}>Elemento: Encabezado</Grid>
 
+                  ...
+
                   {/* Selector */}
                   <Grid size={{ xs: 12, md: 3  }}>Elemento: Selector</Grid>
 
@@ -234,14 +236,14 @@ MUI: Ubicación de elementos y Responsividad
                   ...
 
                   {/* Gráfico */}
-                  <Grid size={{ xs: 12, md: 8  }} sx={{ display: { xs: "none", md: "block"} }} >
+                  <Grid ... sx={{ display: { xs: "none", md: "block"} }} >
                      Elemento: Gráfico
                   </Grid>
 
                   ...
 
                   {/* Tabla */}
-                  <Grid size={{ xs: 12, md: 12  }} sx={{ display: { xs: "none", md: "block" } }}>
+                  <Grid ... sx={{ display: { xs: "none", md: "block" } }}>
                      Elemento: Tabla
                   </Grid>
 
@@ -262,7 +264,7 @@ MUI: Componentes adicionales
 1. Explore la documentación de MUI para estilizar los siguientes componentes en su archivo `App.tsx`:
 
    a) `Typography <https://mui.com/material-ui/react-typography/>`_ para mostrar títulos y descripciones de manera estilizada.
-   b) `Card <https://mui.com/material-ui/react-card/>`_ para crear tarjetas que representen contenedores de elementos.
+   b) `Alert <https://mui.com/material-ui/react-alert/>`_ para crear alertas visuales que resalten información importante, como advertencias o errores.
    c) Compruebe la vista previa del resultado en el navegador.
 
    .. dropdown:: Ver el código 
@@ -281,6 +283,11 @@ MUI: Componentes adicionales
                   {/* Encabezado */}
                   <Grid ... >
                      <Typography variant="h1">Dashboard</Typography>
+                  </Grid>
+
+                  {/* Alertas */}
+                  <Grid>
+                     <Alert severity="warning">Alerta: lluvias durante la noche</Alert>
                   </Grid>
 
                   ...
