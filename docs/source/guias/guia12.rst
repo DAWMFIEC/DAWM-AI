@@ -178,9 +178,10 @@ MUI: Ubicación de elementos y Responsividad
    b) Pantallas medianas `md`, en adelante:
    
       (i) El encabezado ocupe todo el ancho (12 columnas), 
-      (ii) El selector ocupa 3 columnas y los indicadores ocupan 9 columnas.
-      (iii) El gráfico ocupa 8 columnas y las alertas ocupan 4 columnas.
-      (iv) La tabla  y el elemento de información adicional ocupan 12 columnas.
+      (ii) Las alertas ocupan 12 columnas.
+      (iii) El selector ocupa 3 columnas y los indicadores ocupan 9 columnas.
+      (iv) El gráfico ocupa 6 columnas y la tabla ocupa 6 columnas.
+      (v) El elemento de información adicional ocupan 12 columnas.
 
    c) Compruebe la vista previa del resultado en el navegador.
 
@@ -188,7 +189,7 @@ MUI: Ubicación de elementos y Responsividad
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 8, 11, 14
+        :emphasize-lines: 8, 13, 16
 
          ...
 
@@ -225,7 +226,7 @@ MUI: Ubicación de elementos y Responsividad
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 10, 17
+        :emphasize-lines: 11, 19
 
          ...
 
@@ -236,14 +237,16 @@ MUI: Ubicación de elementos y Responsividad
                   ...
 
                   {/* Gráfico */}
-                  <Grid ... sx={{ display: { xs: "none", md: "block"} }} >
+                  <Grid ... 
+                     sx={{ display: { xs: "none", md: "block"} }} >
                      Elemento: Gráfico
                   </Grid>
 
                   ...
 
                   {/* Tabla */}
-                  <Grid ... sx={{ display: { xs: "none", md: "block" } }}>
+                  <Grid ... 
+                     sx={{ display: { xs: "none", md: "block" } }}>
                      Elemento: Tabla
                   </Grid>
 
