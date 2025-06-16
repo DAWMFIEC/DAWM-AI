@@ -226,7 +226,7 @@ MUI: Ubicación de elementos y Responsividad
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 11, 19
+        :emphasize-lines: 11, 17
 
          ...
 
@@ -262,7 +262,7 @@ MUI: Ubicación de elementos y Responsividad
 MUI: Componentes adicionales
 ----------------------------
 
-1. Explore la documentación de MUI para estilizar los siguientes componentes en su archivo `App.tsx`:
+1. Con un cliente de IAG, genere el código para agregar los siguientes componentes y la siguiente funcionalidad:
 
    a) `Typography <https://mui.com/material-ui/react-typography/>`_ para mostrar títulos y descripciones de manera estilizada.
    b) `Alert <https://mui.com/material-ui/react-alert/>`_ para crear alertas visuales que resalten información importante, como advertencias o errores.
