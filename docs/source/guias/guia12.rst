@@ -25,8 +25,7 @@ Open-Meteo
 Diseño del dashboard
 ----------------------
 
-1. Explore la documentación de la `API de Open-Meteo <https://open-meteo.com/en/docs>`_.
-2. Identifique los elementos claves del API que serán útiles para el :term:`dashboard`:
+1. Identifique los elementos claves del API que serán útiles para el :term:`dashboard`:
 
    a) **Parámetros de entrada (Input)**: Determine qué parámetros son necesarios para realizar una solicitud a la API, como ubicación geográfica o zona horaria.
    b) **Datos disponibles (Variables climáticas)**: Explore las variables climáticas que la API puede proporcionar y su frecuencia temporal, como temperatura actual, por día o por hora, etc.
@@ -40,6 +39,18 @@ Diseño del dashboard
       (iii) Pronósticos extendidos: próximos 7 días
       (iv) Alertas visuales: si uv_index_max supera cierto umbral, mostrar advertencia
       (v) Íconos adaptativos: usando weathercode
+
+2. Utilice `Lovable <https://lovable.dev/>`_ para generar un esquema básico del dashboard, que incluya los siguientes elementos:
+
+   a) Encabezado: Título del dashboard y descripción breve.
+   b) Alertas: Sección para mostrar alertas importantes relacionadas con el clima.
+   c) Selector: Componente para seleccionar la ubicación geográfica o zona horaria.
+   d) Indicadores: Muestra de datos clave como temperatura actual, humedad, etc.
+   e) Gráfico: Visualización de datos climáticos a lo largo del tiempo.
+   f) Tabla: Información detallada sobre las condiciones climáticas.
+   g) Información adicional: Espacio para mostrar datos complementarios o consejos.
+
+3. Responda a la actividad en clases con la captura de pantalla del sitio web generado.
 
 Ambiente de desarrollo
 ----------------------
@@ -327,3 +338,7 @@ Recursos extras
 ------------------------------
 
 En redes:
+
+.. raw:: html
+
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today we&#39;re sharing that View Transitions and Activity are ready to try in the experimental channel, along with docs and updates on other areas we&#39;re actively working on:<a href="https://t.co/nQqndWzbdX">https://t.co/nQqndWzbdX</a></p>&mdash; React (@reactjs) <a href="https://twitter.com/reactjs/status/1915082330806407433?ref_src=twsrc%5Etfw">April 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
