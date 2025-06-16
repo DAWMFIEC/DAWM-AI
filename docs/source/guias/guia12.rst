@@ -226,7 +226,7 @@ MUI: Ubicación de elementos y Responsividad
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 11, 12
+        :emphasize-lines: 11
 
          ...
 
