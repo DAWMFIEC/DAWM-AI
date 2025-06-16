@@ -16,6 +16,12 @@ Guía 12: React y MUI - Introducción
 Actividades previas
 =====================
 
+Open-Meteo
+----------
+
+1. Explore la documentación de la `API de Open-Meteo <https://open-meteo.com/en/docs>`_ para comprender cómo se realizan las solicitudes para obtener datos meteorológicos.
+2. Practique haciendo solicitudes a la API utilizando herramientas como cURL o desde una pestaña en su navegador.
+
 Diseño del dashboard
 ----------------------
 
