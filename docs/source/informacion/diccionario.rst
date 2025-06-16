@@ -193,6 +193,12 @@ Diccionario de términos
     dashboard
         Es una interfaz visual que muestra información clave y métricas relevantes de manera organizada y fácil de entender. Los dashboards se utilizan comúnmente para monitorear el rendimiento, analizar datos y tomar decisiones informadas en tiempo real.
 
+    React
+        Es una biblioteca de JavaScript para construir interfaces de usuario. Desarrollada por Facebook, React permite crear componentes reutilizables y gestionar el estado de la aplicación de manera eficiente, facilitando el desarrollo de aplicaciones web interactivas y dinámicas.
+
+    JSX
+        Es una extensión de sintaxis para JavaScript que permite escribir código similar a HTML dentro de archivos JavaScript. JSX se utiliza principalmente en React para definir la estructura y el contenido de los componentes de la interfaz de usuario, facilitando la creación de interfaces dinámicas y reutilizables.
+
     prop
         Es una abreviatura de "propiedad" y se refiere a los atributos o características que se pueden pasar a un componente en React. Las props permiten personalizar el comportamiento y la apariencia de un componente al proporcionar datos y configuraciones desde el componente padre.
     

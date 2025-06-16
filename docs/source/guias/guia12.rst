@@ -61,7 +61,7 @@ React: Inicialización del proyecto
 
       npm create vite@latest . 
    
-   b) Seleccione el framework como `React` y la variante como `TypeScript`.
+   b) Seleccione el framework como :term:`React` y la variante como `TypeScript`.
    c) Instale las dependencias del proyecto e inicie el servidor de desarrollo con los siguientes comandos:
 
    .. code-block:: bash
@@ -70,7 +70,7 @@ React: Inicialización del proyecto
       npm run dev
 
 3. Compruebe la vista previa del resultado en el navegador.
-4. Con un cliente de IAG, explique la estructura del proyecto.
+4. Con un cliente de IAG, explique la estructura del proyecto en React, específicamente por el propósito de los archivos `index.html`, `main.tsx` y `App.tsx`.
 
 React: App.tsx
 --------------
@@ -93,7 +93,7 @@ React: App.tsx
       export default App;
 
 2. Compruebe la vista previa del resultado en el navegador.
-3. Utilice un cliente de IAG, para explicar cómo se renderiza el componente principal de la aplicación y el propósito de los archivos `index.html`, `main.tsx` y `App.tsx`.
+3. Utilice un cliente de IAG, para explicar cómo se renderiza el componente principal de la aplicación y :term:`JSX`.
 
 MUI: Inicialización del proyecto y componente Grid
 --------------------------------------------------
