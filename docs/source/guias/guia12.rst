@@ -308,11 +308,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    * ¿Qué?
+    * ¿Cómo te ayudó la inteligencia artificial generativa a comprender los principios de diseño de interfaces con React y MUI, como la reutilización de componentes y la jerarquía visual?
 
-    * ¿Qué?
+    * ¿Cómo aseguraste que la interacción entre los componentes de React y los estilos de MUI generados por la IA fueran consistentes, accesibles y adaptables en distintos tamaños de pantalla?
 
-    * ¿Cómo?
+    * ¿Qué actitudes consideras fundamentales para asegurar que el resultado final del dashboard sea auténtico y producto de tu criterio profesional, incluso si partiste de una base generada por IA?
 
 Actividades autónomas
 =====================
