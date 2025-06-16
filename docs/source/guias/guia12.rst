@@ -266,16 +266,17 @@ MUI: Componentes adicionales
 
    a) `Typography <https://mui.com/material-ui/react-typography/>`_ para mostrar títulos y descripciones de manera estilizada.
    b) `Alert <https://mui.com/material-ui/react-alert/>`_ para crear alertas visuales que resalten información importante, como advertencias o errores.
-   c) Compruebe la vista previa del resultado en el navegador.
+   c) Modifique el contenedor de alertas para que sea un contenedor, con las alertas a la derecha.
+   d) Compruebe la vista previa del resultado en el navegador.
 
    .. dropdown:: Ver el código 
     :color: primary
 
     .. code-block:: tsx
-        :emphasize-lines: 2, 10, 15
+        :emphasize-lines: 2, 10, 15, 16
 
          import React from 'react';
-         import { Grid, Typography } from '@mui/material';
+         import { Grid, Typography, Alert } from '@mui/material';
 
          function App() {
             return (
@@ -283,11 +284,12 @@ MUI: Componentes adicionales
 
                   {/* Encabezado */}
                   <Grid ... >
-                     <Typography variant="h1">Dashboard</Typography>
+                     <Typography component="h1" variant="h2">Dashboard</Typography>
                   </Grid>
 
                   {/* Alertas */}
-                  <Grid>
+                  <Grid ... 
+                     container justifyContent="end">
                      <Alert severity="warning">Alerta: lluvias durante la noche</Alert>
                   </Grid>
 
