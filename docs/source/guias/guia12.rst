@@ -276,50 +276,6 @@ MUI: Ubicación de elementos y Responsividad
 
 4. Consulte su cliente de IAG para explicar la utilidad de los props en los componentes.
 
-MUI: Componentes adicionales
-----------------------------
-
-1. Con un cliente de IAG, genere el código para agregar los siguientes componentes y la siguiente funcionalidad:
-
-   a) `Typography <https://mui.com/material-ui/react-typography/>`_ para mostrar títulos y descripciones de manera estilizada.
-   b) `Alert <https://mui.com/material-ui/react-alert/>`_ para crear alertas visuales que resalten información importante, como advertencias o errores.
-   c) Modifique el contenedor de alertas para que sea un contenedor, con los componentes a la derecha.
-   d) Compruebe la vista previa del resultado en el navegador.
-
-   .. dropdown:: Ver el código 
-    :color: primary
-
-    .. code-block:: tsx
-        :emphasize-lines: 2, 10, 15, 16
-
-         import React from 'react';
-         import { Grid, Typography, Alert } from '@mui/material';
-
-         function App() {
-            return (
-               <Grid ... >
-
-                  {/* Encabezado */}
-                  <Grid ... >
-                     <Typography component="h1" variant="h2">Dashboard</Typography>
-                  </Grid>
-
-                  {/* Alertas */}
-                  <Grid ... 
-                     container justifyContent="end">
-                     <Alert severity="warning">Alerta: lluvias durante la noche</Alert>
-                  </Grid>
-
-                  ...
-
-               </Grid>
-            );
-         }
-
-         export default App;
-
-2. Con un cliente de IAG, explique cómo se utilizan los componentes de MUI para mejorar la usabilidad y la apariencia del dashboard.
-
 Conclusiones
 ============
 
