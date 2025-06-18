@@ -177,7 +177,8 @@ MUI: Ubicación de elementos y Responsividad
                <Grid container spacing={5} justifyContent="center" alignItems="center">
                   ...
                </Grid>
-            }
+            );
+         }
 
 2. Utilice su cliente de IAG para definir el prop `size <https://mui.com/material-ui/react-grid/#multiple-breakpoints>`_, para aplicar el estilo en los múltiples puntos de interrupción:
 
@@ -193,10 +194,10 @@ MUI: Ubicación de elementos y Responsividad
    c) Compruebe la vista previa del resultado en el navegador.
 
    .. dropdown:: Ver el código 
-    :color: primary
+      :color: primary
 
-    .. code-block:: tsx
-        :emphasize-lines: 8, 13, 16
+      .. code-block:: tsx
+         :emphasize-lines: 8, 13, 16
 
          ...
 
@@ -217,23 +218,22 @@ MUI: Ubicación de elementos y Responsividad
 
                   ...
 
-
                </Grid>
             );
-         }
+            }
 
          export default App;
 
-3. Con un cliente de IAG, genere el código para modificar los elementos del Grid:
+3. Con un cliente de IAG, genere el código para modificar los elementos del Grid, de acuerdo a los siguientes requerimientos:
 
    a) La gráfica y la tabla tienen la propiedad `sx <https://mui.com/material-ui/customization/how-to-customize/#the-sx-prop>`_ para ocultar los elementos en pantallas extra pequeñas y mostrar como bloque en pantallas medianas.
    b) Compruebe la vista previa del resultado en el navegador para diferentes tamaños.
 
    .. dropdown:: Ver el código 
-    :color: primary
+      :color: primary
 
-    .. code-block:: tsx
-        :emphasize-lines: 11,17
+      .. code-block:: tsx
+         :emphasize-lines: 11,17
 
          ...
 
@@ -256,7 +256,6 @@ MUI: Ubicación de elementos y Responsividad
                   </Grid>
 
                   ...
-
 
                </Grid>
             );
