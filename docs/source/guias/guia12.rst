@@ -224,7 +224,7 @@ MUI: Ubicación de elementos y Responsividad
 
 3. Con un cliente de IAG, genere el código para modificar los elementos del Grid, de acuerdo a los siguientes requerimientos:
 
-   a) La gráfica y la tabla tienen la propiedad `sx <https://mui.com/material-ui/customization/how-to-customize/#the-sx-prop>`_ para ocultar los elementos en pantallas extra pequeñas y mostrar como bloque en pantallas medianas.
+   a) La gráfica y la tabla tienen la propiedad `sx <https://mui.com/material-ui/customization/how-to-customize/#the-sx-prop>`_ para ocultar los elementos en pantallas extra pequeñas y mostrar como bloque desde pantallas medianas.
    b) Compruebe la vista previa del resultado en el navegador para diferentes tamaños.
 
    .. dropdown:: Ver el código 
