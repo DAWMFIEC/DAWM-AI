@@ -114,45 +114,42 @@ MUI: Inicialización del proyecto y componente Grid
 
 3. Importe el componente `Grid` de MUI en su archivo `App.tsx` y utilícelo para crear una estructura básica de cuadrícula para su dashboard:
 
-   .. dropdown:: Ver el código 
-    :color: primary
+   .. code-block:: tsx
+      :emphasize-lines: 2, 6-29
 
-    .. code-block:: tsx
-        :emphasize-lines: 2, 6-29
+      import React from 'react';
+      import { Grid } from '@mui/material';
 
-         import React from 'react';
-         import { Grid } from '@mui/material';
+      function App() {
+         return (
+            <Grid>
 
-         function App() {
-            return (
-               <Grid>
+               {/* Encabezado */}
+               <Grid>Elemento: Encabezado</Grid>
 
-                  {/* Encabezado */}
-                  <Grid>Elemento: Encabezado</Grid>
+               {/* Alertas */}
+               <Grid>Elemento: Alertas</Grid>
 
-                  {/* Alertas */}
-                  <Grid>Elemento: Alertas</Grid>
+               {/* Selector */}
+               <Grid>Elemento: Selector</Grid>
 
-                  {/* Selector */}
-                  <Grid>Elemento: Selector</Grid>
+               {/* Indicadores */}
+               <Grid>Elemento: Indicadores</Grid>
 
-                  {/* Indicadores */}
-                  <Grid>Elemento: Indicadores</Grid>
+               {/* Gráfico */}
+               <Grid>Elemento: Gráfico</Grid>
 
-                  {/* Gráfico */}
-                  <Grid>Elemento: Gráfico</Grid>
+               {/* Tabla */}
+               <Grid>Elemento: Tabla</Grid>
 
-                  {/* Tabla */}
-                  <Grid>Elemento: Tabla</Grid>
+               {/* Información adicional */}
+               <Grid>Elemento: Información adicional</Grid>
 
-                  {/* Información adicional */}
-                  <Grid>Elemento: Información adicional</Grid>
+            </Grid>
+         );
+      }
 
-               </Grid>
-            );
-         }
-
-         export default App;
+      export default App;
 
 4. Compruebe la vista previa del resultado en el navegador. 
 5. Con un cliente de IAG, explique cómo se utiliza el componente `Grid` de MUI para crear una estructura de cuadrícula y cómo se pueden agregar elementos dentro de esta cuadrícula.
@@ -167,17 +164,20 @@ MUI: Ubicación de elementos y Responsividad
    c) Centre los todos los elementos con utilizando las propiedades `justifyContent y alignItems <https://mui.com/material-ui/react-grid/#centered-elements>`_.
    d) Compruebe la vista previa del resultado en el navegador.
    
-   .. code-block:: tsx
-       :emphasize-lines: 5
+   .. dropdown:: Ver el código 
+      :color: primary   
 
-       ...
+      .. code-block:: tsx
+         :emphasize-lines: 5
 
-       function App() {
-         return (
-            <Grid container spacing={5} justifyContent="center" alignItems="center">
-               ...
-            </Grid>
-       }
+         ...
+
+         function App() {
+            return (
+               <Grid container spacing={5} justifyContent="center" alignItems="center">
+                  ...
+               </Grid>
+            }
 
 2. Utilice su cliente de IAG para definir el prop `size <https://mui.com/material-ui/react-grid/#multiple-breakpoints>`_, para aplicar el estilo en los múltiples puntos de interrupción:
 
