@@ -40,17 +40,7 @@ Diseño del dashboard
       (iv) Alertas visuales: si uv_index_max supera cierto umbral, mostrar advertencia
       (v) Íconos adaptativos: usando weathercode
 
-2. Utilice `Lovable <https://lovable.dev/>`_ para generar un esquema básico del dashboard, que incluya los siguientes elementos:
-
-   a) Encabezado: Título del dashboard y descripción breve.
-   b) Alertas: Sección para mostrar alertas importantes relacionadas con el clima.
-   c) Selector: Componente para seleccionar la ubicación geográfica o zona horaria.
-   d) Indicadores: Muestra de datos clave como temperatura actual, humedad, etc.
-   e) Gráfico: Visualización de datos climáticos a lo largo del tiempo.
-   f) Tabla: Información detallada sobre las condiciones climáticas.
-   g) Información adicional: Espacio para mostrar datos complementarios o consejos.
-
-3. Responda a la actividad en clases con la captura de pantalla del sitio web generado.
+2. Responda a la actividad en clases con la captura de pantalla del sitio web generado.
 
 Ambiente de desarrollo
 ----------------------
