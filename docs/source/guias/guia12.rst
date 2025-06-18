@@ -164,21 +164,19 @@ MUI: Ubicación de elementos y Responsividad
    c) Centre los todos los elementos con utilizando las propiedades `justifyContent y alignItems <https://mui.com/material-ui/react-grid/#centered-elements>`_.
    d) Compruebe la vista previa del resultado en el navegador.
    
-   .. dropdown:: Ver el código 
-      :color: primary   
+   
+   .. code-block:: tsx
+      :emphasize-lines: 5
 
-      .. code-block:: tsx
-         :emphasize-lines: 5
+      ...
 
-         ...
-
-         function App() {
-            return (
-               <Grid container spacing={5} justifyContent="center" alignItems="center">
-                  ...
-               </Grid>
-            );
-         }
+      function App() {
+         return (
+            <Grid container spacing={5} justifyContent="center" alignItems="center">
+               ...
+            </Grid>
+         );
+      }
 
 2. Utilice su cliente de IAG para definir el prop `size <https://mui.com/material-ui/react-grid/#multiple-breakpoints>`_, para aplicar el estilo en los múltiples puntos de interrupción:
 
@@ -263,7 +261,7 @@ MUI: Ubicación de elementos y Responsividad
 
          export default App;
 
-4. Consulte su cliente de IAG para explicar la utilidad de los props en los componentes.
+4. Consulte su cliente de IAG para explicar la utilidad de los props en los componentes, por ejemplo `size` y `sx`.
 
 Conclusiones
 ============
