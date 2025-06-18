@@ -19,6 +19,15 @@ Actividades previas
 Actividades en clases
 =====================
 
+React: Componentes 
+----------------------
+
+1. Revise la documentación de los componentes en `Definir un componente  <https://es.react.dev/learn/your-first-component>`_
+
+MUI: Componentes de UI
+----------------------
+
+1. Revise la documentación de los componentes de UI en `Material UI components <https://mui.com/material-ui/all-components/>`_
 
 
 Conclusiones
