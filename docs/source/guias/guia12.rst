@@ -40,7 +40,7 @@ Diseño del dashboard
       (iv) Alertas visuales: si uv_index_max supera cierto umbral, mostrar advertencia
       (v) Íconos adaptativos: usando weathercode
 
-2. Responda a la actividad en clases con la captura de pantalla del sitio web generado.
+2. Responda a la actividad en clases del diseño generado.
 
 Ambiente de desarrollo
 ----------------------
