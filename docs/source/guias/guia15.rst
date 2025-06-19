@@ -15,6 +15,17 @@ Guía 15: React - Hooks II
 Actividades previas
 =====================
 
+Ambiente de desarrollo
+----------------------
+
+1. Acceda a su proyecto *dashboard* en Codespaces o en su máquina local.
+2. Cree y utilice la(s) rama(s) de desarrollo.
+3. Instale los paquetes y levante el servidor, con:
+
+   .. code-block:: bash
+
+      npm install
+      npm run dev
 
 Actividades en clases
 =====================
