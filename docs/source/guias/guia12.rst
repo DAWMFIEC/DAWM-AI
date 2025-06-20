@@ -87,7 +87,7 @@ React: App.tsx
    .. code-block:: tsx
       :emphasize-lines: 5-7
 
-      import React from 'react';
+      ...
 
       function App() {
           return (
@@ -117,7 +117,7 @@ MUI: Inicialización del proyecto y componente Grid
    .. code-block:: tsx
       :emphasize-lines: 2, 6-29
 
-      import React from 'react';
+      ...
       import { Grid } from '@mui/material';
 
       function App() {

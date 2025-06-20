@@ -41,6 +41,8 @@ React y MUI: Componentes y Props
 Cabeceras, Tipografía y Alertas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2. Cree el archivo `src/components/IndicatorWeather.tsx`.
+
 Selector e Indicador
 ^^^^^^^^^^^^^^^^^^^^
 
