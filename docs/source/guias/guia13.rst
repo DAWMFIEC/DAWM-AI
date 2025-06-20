@@ -44,7 +44,7 @@ Cabeceras, Tipografía y Alertas
 1. Cree el archivo `src/components/Header.tsx`.
 2. Utilice su cliente de IAG, para generar el siguiente código:
 
-   a) Importe el componente **Typography** desde la librería `@mui/material/Typography`
+   a) Importe el componente `Typography <https://mui.com/joy-ui/react-typography/>`_ desde la librería `@mui/material/Typography`
    b) Exporte por defecto el :term:`componente funcional` (función) **Header**.
    c) Dentro del componente `Header`, retorna un elemento `Typography` que muestre el texto "Dashboard del Clima", con las siguientes características:
       
@@ -92,6 +92,9 @@ Cabeceras, Tipografía y Alertas
 
 4. Compruebe la vista previa del resultado en el navegador.
 5. Con un cliente de IAG, explique la renderización del componente `src/components/Header.tsx` dentro del componente `src/App.tsx`.
+
+Alertas
+^^^^^^^
 
 Selector e Indicador
 ^^^^^^^^^^^^^^^^^^^^
