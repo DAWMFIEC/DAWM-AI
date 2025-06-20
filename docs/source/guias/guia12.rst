@@ -77,12 +77,12 @@ React: Inicialización del proyecto
       npm run dev
 
 3. Compruebe la vista previa del resultado en el navegador.
-4. Con un cliente de IAG, explique la estructura del proyecto en React, específicamente por el propósito de los archivos `index.html`, `main.tsx` y `App.tsx`.
+4. Con un cliente de IAG, explique la estructura del proyecto en React, específicamente por el propósito de los archivos `index.html`, `src/main.tsx` y `src/App.tsx`.
 
 React: App.tsx
 --------------
 
-1. Modifique el archivo `App.tsx` para mostrar un mensaje de bienvenida, por ejemplo:
+1. Modifique el archivo `src/App.tsx` para mostrar un mensaje de bienvenida, por ejemplo:
 
    .. code-block:: tsx
       :emphasize-lines: 5-7
@@ -112,7 +112,7 @@ MUI: Inicialización del proyecto y componente Grid
 
       npm install @mui/material @emotion/react @emotion/styled
 
-3. Importe el componente `Grid` de MUI en su archivo `App.tsx` y utilícelo para crear una estructura básica de cuadrícula para su dashboard:
+3. Importe el componente `Grid` de MUI en su archivo `src/App.tsx` y utilícelo para crear una estructura básica de cuadrícula para su dashboard:
 
    .. code-block:: tsx
       :emphasize-lines: 2, 6-29
@@ -157,7 +157,7 @@ MUI: Inicialización del proyecto y componente Grid
 MUI: Ubicación de elementos y Responsividad
 -------------------------------------------
 
-1. Modifique el componente `Grid` su archivo `App.tsx`:
+1. Modifique el componente `Grid` su archivo `src/App.tsx`:
 
    a) Para que sea un contenedor principal utilizando el :term:`prop` `container <https://mui.com/material-ui/react-container/>`_.
    b) Ajuste el espaciado de 5 unidades entre los elementos utilizando la propiedad `spacing <https://mui.com/material-ui/react-container/>`_. 
