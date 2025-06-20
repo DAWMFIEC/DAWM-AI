@@ -41,12 +41,12 @@ React y MUI: Componentes y Props
 Cabeceras, Tipografía y Alertas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Cree el archivo `src/components/Header.tsx`.
+1. Cree el archivo `src/components/HeaderUI.tsx`.
 2. Utilice su cliente de IAG, para generar el siguiente código:
 
-   a) Importe el componente `Typography <https://mui.com/joy-ui/react-typography/>`_ desde la librería `@mui/material/Typography`
-   b) Exporte por defecto el :term:`componente funcional` (función) **Header**.
-   c) Dentro del componente `Header`, retorna un elemento `Typography` que muestre el texto "Dashboard", con las siguientes características:
+   a) Importe el componente `Typography <https://mui.com/material-ui/react-typography/>`_ desde la librería `@mui/material/Typography`
+   b) Exporte por defecto el :term:`componente funcional` (función) **HeaderUI**.
+   c) Dentro del componente `HeaderUI`, retorna un elemento `Typography` que muestre el texto "Dashboard", con las siguientes características:
       
       (i) Utilice el estilo tipográfico (variant) de un encabezado de nivel 2 (h2),
       (ii) Se renderiza (component) como un encabezado de nivel 1 (h1), y
@@ -60,7 +60,7 @@ Cabeceras, Tipografía y Alertas
 
             import Typography from '@mui/material/Typography';
 
-            export default function Header() {
+            export default function HeaderUI() {
                 return (
                     <Typography 
                         variant="h2" 
@@ -71,13 +71,13 @@ Cabeceras, Tipografía y Alertas
                 )
             }
 
-3. Modifique el archivo `src/App.tsx` para importar y usar el componente `Header`:
+3. Modifique el archivo `src/App.tsx` para importar y usar el componente `HeaderUI`:
 
    .. code-block:: tsx
        :emphasize-lines: 2,10
 
        ...
-       import Header from './components/Header';
+       import HeaderUI from './components/HeaderUI';
 
        function App() {
             
@@ -86,7 +86,7 @@ Cabeceras, Tipografía y Alertas
 
                 {/* Encabezado */}
                 <Grid .. >
-                    <Header/>
+                    <HeaderUI/>
                 </Grid>
 
                 ...
@@ -99,6 +99,10 @@ Cabeceras, Tipografía y Alertas
 Alertas
 ^^^^^^^
 
+1. Cree el archivo `src/components/AlertUI.tsx`.
+2. Utilice su cliente de IAG, para generar el siguiente código:
+3.
+4. Compruebe la vista previa del resultado en el navegador.
 5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
 Selector e Indicador
