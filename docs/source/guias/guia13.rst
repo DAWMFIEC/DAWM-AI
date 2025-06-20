@@ -46,7 +46,7 @@ Cabeceras, Tipografía y Alertas
 
    a) Importe el componente `Typography <https://mui.com/joy-ui/react-typography/>`_ desde la librería `@mui/material/Typography`
    b) Exporte por defecto el :term:`componente funcional` (función) **Header**.
-   c) Dentro del componente `Header`, retorna un elemento `Typography` que muestre el texto "Dashboard del Clima", con las siguientes características:
+   c) Dentro del componente `Header`, retorna un elemento `Typography` que muestre el texto "Dashboard", con las siguientes características:
       
       (i) Utilice el estilo tipográfico (variant) de un encabezado de nivel 2 (h2),
       (ii) Se renderiza (component) como un encabezado de nivel 1 (h1), y
@@ -62,8 +62,11 @@ Cabeceras, Tipografía y Alertas
 
             export default function Header() {
                 return (
-                    <Typography variant="h2" component="h1" sx={{fontWeight: 'bold'}}>
-                        Dashboard del Clima
+                    <Typography 
+                        variant="h2" 
+                        component="h1" 
+                        sx={{fontWeight: 'bold'}}>
+                        Dashboard
                     </Typography>
                 )
             }
