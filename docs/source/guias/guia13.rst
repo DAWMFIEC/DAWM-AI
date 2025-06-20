@@ -30,16 +30,15 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
-React: Componentes 
-----------------------
+React y MUI: Componentes y Props
+--------------------------
 
-1. Revise la documentación de los componentes en `Definir un componente  <https://es.react.dev/learn/your-first-component>`_
+1. Revise la documentación de los componentes:
 
-MUI: Componentes de UI
-----------------------
+   a) `Definir un componente <https://es.react.dev/learn/your-first-component>`_ para React.
+   b) Componentes de UI en `Material UI components <https://mui.com/material-ui/all-components/>`_
 
-1. Revise la documentación de los componentes de UI en `Material UI components <https://mui.com/material-ui/all-components/>`_
-
+2. 
 
 Conclusiones
 ============
