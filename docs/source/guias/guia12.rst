@@ -263,6 +263,12 @@ MUI: Ubicación de elementos y Responsividad
 
 4. Consulte su cliente de IAG para explicar la utilidad de los props en los componentes, por ejemplo `size` y `sx`.
 
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *dashboard*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
+
 Conclusiones
 ============
 
