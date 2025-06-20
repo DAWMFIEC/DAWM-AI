@@ -31,14 +31,30 @@ Actividades en clases
 =====================
 
 React y MUI: Componentes y Props
---------------------------
+---------------------------------
 
-1. Revise la documentación de los componentes:
+1. Revise la documentación oficial, para:
 
    a) `Definir un componente <https://es.react.dev/learn/your-first-component>`_ para React.
    b) Componentes de UI en `Material UI components <https://mui.com/material-ui/all-components/>`_
 
-2. 
+Cabeceras, Tipografía y Alertas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Selector e Indicador
+^^^^^^^^^^^^^^^^^^^^
+
+Tablas y Gráficos
+^^^^^^^^^^^^^^^^^
+
+Configuración para el despliegue
+--------------------------------
+
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *dashboard*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
 
 Conclusiones
 ============
