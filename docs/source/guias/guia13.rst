@@ -94,10 +94,12 @@ Cabeceras, Tipografía y Alertas
         }
 
 4. Compruebe la vista previa del resultado en el navegador.
-5. Con un cliente de IAG, explique la renderización del componente `src/components/Header.tsx` dentro del componente `src/App.tsx`.
+5. Con un cliente de IAG, explique la renderización de un componente dentro de otro componente, mediante el DOM Virtual de React.
 
 Alertas
 ^^^^^^^
+
+5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
 Selector e Indicador
 ^^^^^^^^^^^^^^^^^^^^
