@@ -41,7 +41,57 @@ React y MUI: Componentes y Props
 Cabeceras, Tipografía y Alertas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2. Cree el archivo `src/components/IndicatorWeather.tsx`.
+1. Cree el archivo `src/components/Header.tsx`.
+2. Utilice su cliente de IAG, para generar el siguiente código:
+
+   a) Importe el componente **Typography** desde la librería `@mui/material/Typography`
+   b) Exporte por defecto el :term:`componente funcional` (función) **Header**.
+   c) Dentro del componente `Header`, retorna un elemento `Typography` que muestre el texto "Dashboard del Clima", con las siguientes características:
+      
+      (i) Utilice el estilo tipográfico (variant) de un encabezado de nivel 2 (h2),
+      (ii) Se renderiza (component) como un encabezado de nivel 1 (h1), y
+      (iii) El estilo en línea (sx) para que el texto se muestre en negrita (fontWeight: 'bold').
+
+    .. dropdown:: Ver el código 
+        :color: primary
+
+        .. code-block:: tsx
+            :emphasize-lines: 1-9
+
+            import Typography from '@mui/material/Typography';
+
+            export default function Header() {
+                return (
+                    <Typography variant="h2" component="h1" sx={{fontWeight: 'bold'}}>
+                        Dashboard del Clima
+                    </Typography>
+                )
+            }
+
+3. Modifique el archivo `src/App.tsx` para importar y usar el componente `Header`:
+
+   .. code-block:: tsx
+       :emphasize-lines: 2,10
+
+       ...
+       import Header from './components/Header';
+
+       function App() {
+            
+            return (
+                <Grid ... >
+
+                {/* Encabezado */}
+                <Grid .. >
+                    <Header/>
+                </Grid>
+
+                ...
+            )
+        }
+
+4. Compruebe la vista previa del resultado en el navegador.
+5. Con un cliente de IAG, explique la renderización del componente `src/components/Header.tsx` dentro del componente `src/App.tsx`.
 
 Selector e Indicador
 ^^^^^^^^^^^^^^^^^^^^

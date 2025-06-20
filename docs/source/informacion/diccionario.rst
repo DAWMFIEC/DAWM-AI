@@ -204,3 +204,6 @@ Diccionario de términos
     
     estado
         Es un objeto en React que representa la información que puede cambiar a lo largo del tiempo en un componente. El estado se utiliza para almacenar datos que afectan la representación visual del componente y se puede actualizar mediante la función `setState`.
+
+    componente funcional
+        En React, es una función de JavaScript que devuelve un fragmento de interfaz de usuario utilizando JSX. A diferencia de los componentes de clase, los componentes funcionales son más simples y se utilizan principalmente para representar vistas basadas en propiedades (props). Desde la introducción de los Hooks en React 16.8, estos componentes también pueden manejar estado y efectos secundarios, lo que los hace tan potentes como los componentes de clase pero con una sintaxis más concisa y legible.
