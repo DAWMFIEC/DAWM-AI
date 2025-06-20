@@ -52,7 +52,7 @@ Cabeceras, Tipografía y Alertas
       (ii) Se renderiza (component) como un encabezado de nivel 1 (h1), y
       (iii) El estilo en línea (sx) para que el texto se muestre en negrita (fontWeight: 'bold').
 
-    .. dropdown:: Ver el código 
+   .. dropdown:: Ver el código 
         :color: primary
 
         .. code-block:: tsx
