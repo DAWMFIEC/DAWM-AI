@@ -133,8 +133,9 @@ Alertas
 
 3. Modifique el archivo `src/App.tsx`, con:
 
-   a) Importe y use el componente `AlertUI`
-   b) Convierta el elemento `Grid` en un contenedor 
+   a) Importe el componente `AlertUI`
+   b) Use el componente `AlertUI`, agregue el prop `description` con el valor 'No se preveen lluvias'
+   c) Convierta el elemento `Grid` en un contenedor 
 
    .. code-block:: tsx
        :emphasize-lines: 2,11,13
