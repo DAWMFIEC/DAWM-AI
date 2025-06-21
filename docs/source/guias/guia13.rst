@@ -71,7 +71,9 @@ Cabeceras, Tipografía y Alertas
                 )
             }
 
-3. Modifique el archivo `src/App.tsx` para importar y usar el componente `HeaderUI`:
+3. Modifique el archivo `src/App.tsx`, con: 
+
+   a) Importe y use el componente `HeaderUI`.
 
    .. code-block:: tsx
        :emphasize-lines: 2,11
@@ -85,7 +87,7 @@ Cabeceras, Tipografía y Alertas
                 <Grid ... >
 
                 {/* Encabezado */}
-                <Grid .. >
+                <Grid ... >
                     <HeaderUI/>
                 </Grid>
 
@@ -104,7 +106,33 @@ Alertas
    a) Importe el componente `Alert <https://mui.com/material-ui/react-alert/>`_.
    b) Retorne el component `Alert`, con el tipo de alerta de éxito (severity="success") y el estilo visual del componente es contorneado (variant="outlined").
 
-2. Modifique el archivo `src/App.tsx` para importar y usar el componente `AlertUI`
+2. Modifique el archivo `src/App.tsx`, con:
+
+   a) Importe y use el componente `AlertUI`
+   b) Convierta el elemento `Grid` en un contenedor 
+
+   .. code-block:: tsx
+       :emphasize-lines: 2,11,12
+
+       ...
+       import AlertUI from './components/AlertUI';
+
+       function App() {
+            
+            return (
+                <Grid ... >
+
+                {/* Alertas */}
+                <Grid ...
+                    container justifyContent="right" alignItems="center">
+                    <AlertUI/>
+                </Grid>
+
+                ...
+            )
+        }
+
+
 3. Compruebe la vista previa del resultado en el navegador.
 4. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
