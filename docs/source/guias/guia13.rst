@@ -99,17 +99,17 @@ Cabeceras, Tipografía y Alertas
 Alertas
 ^^^^^^^
 
-1. Cree el archivo `src/components/AlertUI.tsx`.
-2. Utilice su cliente de IAG, para generar el siguiente código:
-3.
-4. Compruebe la vista previa del resultado en el navegador.
-5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
+1. Cree el componente funcional `AlertUI`, con:
+    
+   a) Importe el componente `Alert <https://mui.com/material-ui/react-alert/>`_.
+   b) Retorne el component `Alert`, con el tipo de alerta de éxito (severity="success") y el estilo visual del componente es contorneado (variant="outlined").
+
+2. Modifique el archivo `src/App.tsx` para importar y usar el componente `AlertUI`
+3. Compruebe la vista previa del resultado en el navegador.
+4. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
 Selector e Indicador
 ^^^^^^^^^^^^^^^^^^^^
-
-Tablas y Gráficos
-^^^^^^^^^^^^^^^^^
 
 Configuración para el despliegue
 --------------------------------
