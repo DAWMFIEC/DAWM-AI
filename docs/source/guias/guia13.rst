@@ -41,7 +41,7 @@ Cabeceras, Tipografía y Alertas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Cree el archivo `src/components/HeaderUI.tsx`.
-2. Utilice su cliente de IAG, para generar el siguiente código:
+2. Utilice su cliente de IAG, para modificar el componente `HeaderUI` con el siguiente código:
 
    a) Importe el componente `Typography <https://mui.com/material-ui/react-typography/>`_ desde la librería `@mui/material/Typography`
    b) Exporte por defecto el :term:`componente funcional` (función) **HeaderUI**.
@@ -101,12 +101,37 @@ Cabeceras, Tipografía y Alertas
 Alertas
 ^^^^^^^
 
-1. Cree el componente funcional `AlertUI`, con:
+1. Cree el componente funcional `AlertUI`
+2. Utilice su cliente de IAG, para modificar el componente `AlertUI` con el siguiente código:
     
-   a) Importe el componente `Alert <https://mui.com/material-ui/react-alert/>`_.
-   b) Retorne el component `Alert`, con el tipo de alerta de éxito (severity=\"success\") y el estilo visual del componente es contorneado (variant=\"outlined\").
+   a) Importe el componente `Alert <https://mui.com/material-ui/react-alert/>`_ desde la librería `@mui/material/Alert`.
+   b) Define la :term:`interfaz` **AlertConfig**, con la propiedad obligatoria `description` del tipo cadena de texto.
+   c) Exporte el componente funcional predeterminado `AlertUI`, con el parámetro `config` del tipo **AlertConfig**.
+   d) Retorne el component `Alert`, con:
+      
+      (i) El tipo de alerta de éxito (severity=\"success\"),
+      (ii) El estilo visual del componente es contorneado (variant=\"outlined\"),
+      (iii) Renderice el valor de parámetro `description` (config.description) como contenido del componente.
 
-2. Modifique el archivo `src/App.tsx`, con:
+   .. dropdown:: Ver el código 
+        :color: primary
+
+        .. code-block:: tsx
+            :emphasize-lines: 1-11
+
+            import Alert from '@mui/material/Alert';
+
+            interface AlertConfig {
+                description: string;
+            }
+
+            export default function AlertUI( config:AlertConfig ) {
+                return (
+                    <Alert variant="standard" severity="success"> {config.description} </Alert>
+                )
+            }
+
+3. Modifique el archivo `src/App.tsx`, con:
 
    a) Importe y use el componente `AlertUI`
    b) Convierta el elemento `Grid` en un contenedor 
@@ -132,8 +157,8 @@ Alertas
         }
 
 
-3. Compruebe la vista previa del resultado en el navegador.
-4. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
+4. Compruebe la vista previa del resultado en el navegador.
+5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
 Configuración para el despliegue
 --------------------------------
