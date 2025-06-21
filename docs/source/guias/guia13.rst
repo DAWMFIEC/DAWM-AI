@@ -112,7 +112,7 @@ Alertas
    b) Convierta el elemento `Grid` en un contenedor 
 
    .. code-block:: tsx
-       :emphasize-lines: 2,11,12
+       :emphasize-lines: 2,10,11
 
        ...
        import AlertUI from './components/AlertUI';
@@ -123,8 +123,7 @@ Alertas
                 <Grid ... >
 
                 {/* Alertas */}
-                <Grid ...
-                    container justifyContent="right" alignItems="center">
+                <Grid container justifyContent="right" alignItems="center" ... >
                     <AlertUI/>
                 </Grid>
 
