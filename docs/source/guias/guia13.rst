@@ -96,7 +96,7 @@ Cabeceras, Tipografía y Alertas
         }
 
 4. Compruebe la vista previa del resultado en el navegador.
-5. Con un cliente de IAG, explique la renderización de un componente dentro de otro componente, mediante el DOM Virtual de React.
+5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
 Alertas
 ^^^^^^^
@@ -134,8 +134,8 @@ Alertas
 3. Modifique el archivo `src/App.tsx`, con:
 
    a) Importe el componente `AlertUI`
-   b) Use el componente `AlertUI`, agregue el prop `description` con el valor 'No se preveen lluvias'
-   c) Convierta el elemento `Grid` en un contenedor 
+   b) Use el componente `AlertUI`, pase el prop `description` con el valor 'No se preveen lluvias'
+   c) Convierta el elemento `Grid` en un contenedor, alinea horizontalmente los elementos al borde derecho y alinea verticalmente al centro del eje transversal. 
 
    .. code-block:: tsx
        :emphasize-lines: 2,11,13
@@ -152,7 +152,7 @@ Alertas
                 <Grid ...
                     container justifyContent="right" alignItems="center">
                     
-                    <AlertUI/>
+                    <AlertUI description="No se preveen lluvias"/>
                 
                 </Grid>
 
@@ -162,7 +162,7 @@ Alertas
 
 
 4. Compruebe la vista previa del resultado en el navegador.
-5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
+5. Con un cliente de IAG genere el código para modificar los props `variant` y `severity` desde el componente padre.
 
 Configuración para el despliegue
 --------------------------------
