@@ -142,7 +142,7 @@ Configuración para el despliegue
             }
        }
 
-3. Modifique el archivo `vite.config.js`, con:
+3. Modifique el archivo `vite.config.js`, con la ruta al repositorio remoto:
 
    .. code-block:: 
        :emphasize-lines: 2
