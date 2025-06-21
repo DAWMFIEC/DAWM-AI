@@ -33,10 +33,9 @@ Actividades en clases
 React y MUI: Componentes y Props
 ---------------------------------
 
-1. Revise la documentación oficial, para:
+.. note::
 
-   a) `Definir un componente <https://es.react.dev/learn/your-first-component>`_ para React.
-   b) Componentes de UI en `Material UI components <https://mui.com/material-ui/all-components/>`_
+   Utilice la documentación de React al `Definir un componente <https://es.react.dev/learn/your-first-component>`_ y la documentación de MUI para usar `Material UI components <https://mui.com/material-ui/all-components/>`_
 
 Cabeceras, Tipografía y Alertas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -73,7 +72,8 @@ Cabeceras, Tipografía y Alertas
 
 3. Modifique el archivo `src/App.tsx`, con: 
 
-   a) Importe y use el componente `HeaderUI`.
+   a) Importe el componente `HeaderUI`.
+   b) Use el componente `HeaderUI` dentro de la sección **Encabezado**.
 
    .. code-block:: tsx
        :emphasize-lines: 2,11
