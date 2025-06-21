@@ -56,7 +56,7 @@ Cabeceras, Tipografía y Alertas
         :color: primary
 
         .. code-block:: tsx
-            :emphasize-lines: 1-9
+            :emphasize-lines: 1-12
 
             import Typography from '@mui/material/Typography';
 
@@ -74,7 +74,7 @@ Cabeceras, Tipografía y Alertas
 3. Modifique el archivo `src/App.tsx` para importar y usar el componente `HeaderUI`:
 
    .. code-block:: tsx
-       :emphasize-lines: 2,10
+       :emphasize-lines: 2,11
 
        ...
        import HeaderUI from './components/HeaderUI';
@@ -113,6 +113,55 @@ Tablas y Gráficos
 
 Configuración para el despliegue
 --------------------------------
+
+1. Desde la línea de comandos:
+
+   a) Instale el paquete `gh-pages`
+
+   .. code-block:: 
+
+        npm install gh-pages --save-dev
+   
+2. Modifique el archivo `package.json`, con:
+
+   a) La entrada **homepage**. Reemplace `<username>` por su nombre de usuario.
+   b) Los comandos **predeploy** y **deploy** a la entrada **scripts**.
+
+   .. code-block:: 
+       :emphasize-lines: 3,7,8
+
+       {
+            ...
+            "homepage": "https://<username>.github.io/dashboard",
+            ...
+            "scripts": { 
+                ...
+                "predeploy": "npm run build",
+                "deploy": "gh-pages -d dist",
+                ...
+            }
+       }
+
+3. Modifique el archivo `vite.config.js`, con:
+
+   .. code-block:: 
+       :emphasize-lines: 2
+
+       export default defineConfig({
+            base: "/dashboard",
+            plugins: ... ,
+       })
+
+4. Desde la línea de comandos, ejecute el comando de transpilación y despliegue del sitio web, con:
+
+   .. code-block:: bash
+
+      npm run deploy
+
+   a) De ser necesario, elimine, corrija o comente las secciones de código identificadas por el transpilador.
+   b) Vuelva a ejecutar el comando de transpilación y despliegue del sitio web.
+
+5. Compruebe el resultado en el navegador, con la URL: `https://<username>.github.io/dashboard`
 
 Versionamiento
 --------------
