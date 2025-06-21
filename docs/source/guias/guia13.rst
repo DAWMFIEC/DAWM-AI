@@ -227,11 +227,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    * ¿Qué?
+    * ¿Qué aspectos de la definición de interfaces y tipos de props crees que podrían malinterpretarse si solo se confía en las sugerencias de la IA sin reflexionar sobre el contexto del componente?
 
-    * ¿Qué?
+    * ¿Cómo comprobaste que los componentes creados con interfaces propias fueran reutilizables y escalables dentro de la estructura general del dashboard?
 
-    * ¿Cómo?
+    * ¿Cómo equilibras el apoyo recibido por la IA con tu responsabilidad como desarrollador para comprender y justificar el uso de props e interfaces en cada componente del dashboard?
 
 Actividades autónomas
 =====================
