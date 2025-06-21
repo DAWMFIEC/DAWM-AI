@@ -104,7 +104,7 @@ Alertas
 1. Cree el componente funcional `AlertUI`, con:
     
    a) Importe el componente `Alert <https://mui.com/material-ui/react-alert/>`_.
-   b) Retorne el component `Alert`, con el tipo de alerta de éxito (severity="success") y el estilo visual del componente es contorneado (variant="outlined").
+   b) Retorne el component `Alert`, con el tipo de alerta de éxito (severity=\"success\") y el estilo visual del componente es contorneado (variant=\"outlined\").
 
 2. Modifique el archivo `src/App.tsx`, con:
 
@@ -135,9 +135,6 @@ Alertas
 
 3. Compruebe la vista previa del resultado en el navegador.
 4. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
-
-Selector e Indicador
-^^^^^^^^^^^^^^^^^^^^
 
 Configuración para el despliegue
 --------------------------------
