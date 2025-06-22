@@ -30,7 +30,12 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
+React: Eventos y Hooks
+----------------------
 
+.. note::
+
+    Considere la explicación del uso de hooks en `React Hooks - Tutorial <https://adictosaltrabajo.com/2020/02/06/react-hooks-tutorial/>`_ y del manejo de eventos en `Tutorial React: Eventos en React <https://certidevs.com/tutorial-react-eventos-y-manejo-de-eventos>`_.
 
 Conclusiones
 ============

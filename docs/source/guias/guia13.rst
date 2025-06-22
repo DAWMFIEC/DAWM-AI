@@ -35,7 +35,7 @@ React y MUI: Componentes y Props
 
 .. note::
 
-   Utilice la documentación de React al `Definir un componente <https://es.react.dev/learn/your-first-component>`_ y la documentación de MUI para usar `Material UI components <https://mui.com/material-ui/all-components/>`_
+   Utilice la documentación de React para `Definir un componente <https://es.react.dev/learn/your-first-component>`_ y la documentación de MUI para usar `Material UI components <https://mui.com/material-ui/all-components/>`_
 
 Cabeceras, Tipografía y Alertas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
