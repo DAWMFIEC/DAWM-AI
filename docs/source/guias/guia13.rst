@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ===============================================
-Guía 13: React: Componentes, Interfaces y Props 
+Guía 13: React - Componentes, Interfaces y Props 
 ===============================================
 
 .. topic:: Objetivo específico
