@@ -43,7 +43,7 @@ Selector
 1. Utilice la documentación del componente `Select <https://mui.com/material-ui/react-select/>`_ para crear el componente funcional `SelectorUI`, con el siguiente código:
 
    .. code-block:: tsx
-       :emphasize-lines: 1-23
+       :emphasize-lines: 1-25
 
        import FormControl from '@mui/material/FormControl';
        import InputLabel from '@mui/material/InputLabel';
@@ -59,7 +59,7 @@ Selector
                 labelId="city-select-label"
                 id="city-simple-select"
                 label="Ciudad">
-                <MenuItem value=""><em>Seleccione una ciudad</em></MenuItem>
+                <MenuItem disabled><em>Seleccione una ciudad</em></MenuItem>
                 <MenuItem value={"guayaquil"}>Guayaquil</MenuItem>
                 <MenuItem value={"quito"}>Quito</MenuItem>
                 <MenuItem value={"manta"}>Manta</MenuItem>
