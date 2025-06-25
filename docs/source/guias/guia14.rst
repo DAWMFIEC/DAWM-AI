@@ -40,24 +40,17 @@ React: Eventos y Hooks
 Selector
 ^^^^^^^^
 
-1. Cree el componente funcional `SelectorUI`.
-2. Utilice su cliente de IAG, para modificar el componente `AlertUI` con el siguiente código:
-
-   a) Importe los componentes `FormControl`, `InputLabel`, `Select` y `MenuItem` desde la librería `@mui/material`.
-   b) Exporte el componente funcional predeterminado `SelectorUI`
-   c) Retorne el código:
+1. Utilice la documentación del componente `Select <https://mui.com/material-ui/react-select/>`_ para crear el componente funcional `SelectorUI`, con el siguiente código:
 
    .. code-block:: tsx
-       :emphasize-lines: 1-11
+       :emphasize-lines: 1-23
 
        import FormControl from '@mui/material/FormControl';
        import InputLabel from '@mui/material/InputLabel';
        import Select from '@mui/material/Select';
        import MenuItem from '@mui/material/MenuItem';
 
-
        export default function SelectorUI() {
-
     
        return (
           <FormControl fullWidth>
@@ -70,16 +63,20 @@ Selector
                 <MenuItem value={"guayaquil"}>Guayaquil</MenuItem>
                 <MenuItem value={"quito"}>Quito</MenuItem>
                 <MenuItem value={"manta"}>Manta</MenuItem>
+                <MenuItem value={"cuenca"}>Cuenca</MenuItem>
              </Select>
 
           </FormControl>
           )
        }
 
-5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
+2. Compruebe la vista previa del resultado en el navegador.
+3. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
 Evento: onChange
 ^^^^^^^^^^^^^^^^
+
+
 
 Hooks: useState
 ^^^^^^^^^^^^^^^^
