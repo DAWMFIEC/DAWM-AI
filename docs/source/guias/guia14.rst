@@ -80,8 +80,12 @@ Evento: onChange
 1. Utilice su cliente de IAG, para modificar el componente `SelectorUI` con el siguiente código:
 
    a) Importe el tipo `SelectChangeEvent` desde la librería `@mui/material/Select`
-   b) Dentro del componente `SelectorUI`, declare una función llamada `handleChange` que recibe **event** de tipo `SelectChangeEvent<string>`.
-   c) Modifique el componente `Select` de MUI para asignar la función `handleChange` al evento onChange.
+   b) Dentro del componente `SelectorUI`, declare una función flecha `handleChange`, que:
+   
+      (i) Recibe el parámetro **event** de tipo `SelectChangeEvent<string>` 
+      (ii) Muestra en una ventana emergente el valor actual del elemento que generó el evento.
+
+   c) Modifique el componente `Select` de MUI para asignar la función `handleChange` al evento `onChange`.
 
    .. dropdown:: Ver el código 
         :color: primary
