@@ -126,7 +126,7 @@ Hooks: useState
    b) Dentro del componente, declare una :term:`variable de estado` llamada **cityInput** junto con su :term:`función de actualización` **setCityInput**. 
    c) Dentro de la función `handleChange`, reemplace el código anterior por una llamada a la función de actualización `setCityInput` con el valor seleccionado (event.target.value).
    d) En el `<Select>`, enlace el prop value con la variable de estado `cityInput`.
-   e) Debajo del `<Select>`, solamente si `cityInput` tiene un valor muestre un párrafo con el texto 'Información del clima en [ciudad seleccionada]'.
+   e) Debajo del `<Select>`, solamente si `cityInput` tiene un valor muestre un párrafo con el texto 'Información del clima en [ciudad seleccionada]'. Aplica el estilo para mostrar el nombre de la ciudad en negritas y la primera letra en mayúsculas.
 
    .. dropdown:: Ver el código 
         :color: primary
@@ -155,7 +155,7 @@ Hooks: useState
 
                     {cityInput && (
                         <p>
-                            Información del clima en {cityInput}
+                            Información del clima en <span style={{textTransform: 'capitalize', fontWeight: 'bold'}}>{cityInput}</span>
                         </p>
                     )}
                     ...
@@ -203,3 +203,7 @@ Recursos extras
 ------------------------------
 
 En redes:
+
+.. raw:: html
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">⚛️ Massive React hooks cheatsheet ↓ <br><br>1/8 <a href="https://t.co/S0BPD9OHrf">pic.twitter.com/S0BPD9OHrf</a></p>&mdash; George Moller (@_georgemoller) <a href="https://twitter.com/_georgemoller/status/1748347605606600820?ref_src=twsrc%5Etfw">January 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
