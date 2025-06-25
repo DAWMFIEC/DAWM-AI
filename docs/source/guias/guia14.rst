@@ -132,7 +132,7 @@ Hooks: useState
         :color: primary
 
         .. code-block:: tsx
-            :emphasize-lines: 2,6,9,15
+            :emphasize-lines: 2,6,9,15,19-23
 
             ...
             import { useState } from 'react';
@@ -146,19 +146,19 @@ Hooks: useState
                 };
 
                 return (
-                        <Select
-                            ...
-                            value={cityInput}
-                            ...
-                        >
-                            ...
-                        </Select>
+                    ...
+                    <Select
+                        ...
+                        value={cityInput}>
+                        ...
+                    </Select>
 
-                        {cityInput && (
-                            <p>
-                                Información del clima en {cityInput}
-                            </p>
-                        )}
+                    {cityInput && (
+                        <p>
+                            Información del clima en {cityInput}
+                        </p>
+                    )}
+                    ...
                 )
             }
 
