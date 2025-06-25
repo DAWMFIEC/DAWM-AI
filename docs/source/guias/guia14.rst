@@ -44,7 +44,37 @@ Selector
 2. Utilice su cliente de IAG, para modificar el componente `AlertUI` con el siguiente código:
 
    a) Importe los componentes `FormControl`, `InputLabel`, `Select` y `MenuItem` desde la librería `@mui/material`.
-   b) 
+   b) Exporte el componente funcional predeterminado `SelectorUI`
+   c) Retorne el código:
+
+   .. code-block:: tsx
+       :emphasize-lines: 1-11
+
+       import FormControl from '@mui/material/FormControl';
+       import InputLabel from '@mui/material/InputLabel';
+       import Select from '@mui/material/Select';
+       import MenuItem from '@mui/material/MenuItem';
+
+
+       export default function SelectorUI() {
+
+    
+       return (
+          <FormControl fullWidth>
+             <InputLabel id="city-select-label">Ciudad</InputLabel>
+             <Select
+                labelId="city-select-label"
+                id="city-simple-select"
+                label="Ciudad">
+                <MenuItem value=""><em>Seleccione una ciudad</em></MenuItem>
+                <MenuItem value={"guayaquil"}>Guayaquil</MenuItem>
+                <MenuItem value={"quito"}>Quito</MenuItem>
+                <MenuItem value={"manta"}>Manta</MenuItem>
+             </Select>
+
+          </FormControl>
+          )
+       }
 
 5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
@@ -59,11 +89,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    * ¿Qué?
+    * ¿Cómo te ayudó la inteligencia artificial generativa a entender la relación entre los eventos onChange y el hook useState al capturar y actualizar datos en tiempo real dentro de un componente?
 
-    * ¿Qué?
+    * ¿Qué ajustes tuviste que realizar al código propuesto por la IA para lograr que el evento onChange actualizara correctamente el estado mediante useState en tu dashboard?
 
-    * ¿Cómo?
+    * ¿Cómo puedes demostrar que comprendes y eres responsable del código que usas, incluso si fue generado por IA, particularmente cuando se trata de funcionalidades interactivas como la gestión de estado?
 
 Actividades autónomas
 =====================
