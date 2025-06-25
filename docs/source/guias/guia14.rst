@@ -70,13 +70,48 @@ Selector
           )
        }
 
-2. Compruebe la vista previa del resultado en el navegador.
-3. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
+2. En el archivo `src/App.tsx`, importe y use el componente `SelectorUI` en la sección para el **Selector**.
+3. Compruebe la vista previa del resultado en el navegador.
+4. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
 Evento: onChange
 ^^^^^^^^^^^^^^^^
 
+1. Utilice su cliente de IAG, para modificar el componente `SelectorUI` con el siguiente código:
 
+   a) Importe el tipo `SelectChangeEvent` desde la librería `@mui/material/Select`
+   b) Dentro del componente `SelectorUI`, declare una función llamada `handleChange` que recibe **event** de tipo `SelectChangeEvent<string>`.
+   c) Modifique el componente `Select` de MUI para asignar la función `handleChange` al evento onChange.
+
+   .. dropdown:: Ver el código 
+        :color: primary
+
+        .. code-block:: tsx
+            :emphasize-lines: 2,7-9,15
+
+            ...
+            import Select, { type SelectChangeEvent } from '@mui/material/Select';
+            ...
+
+            export default function SelectorUI() {
+                
+                const handleChange = (event: SelectChangeEvent<string>) => {
+                    alert(event.target.value)
+                };
+
+                return (
+                    ...
+                    <Select
+                        ...
+                        onChange={handleChange} >
+                        ...
+                    </Select>
+                    ...
+                )
+            }
+
+3. Compruebe la vista previa del resultado en el navegador.
+4. Con un cliente de IAG, explique el uso del manejador `handleChange` y del evento `onChange`.
 
 Hooks: useState
 ^^^^^^^^^^^^^^^^
