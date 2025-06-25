@@ -132,7 +132,7 @@ Hooks: useState
         :color: primary
 
         .. code-block:: tsx
-            :emphasize-lines: 2,6,9,15,19-23
+            :emphasize-lines: 2,6,9,16,20-24
 
             ...
             import { useState } from 'react';
