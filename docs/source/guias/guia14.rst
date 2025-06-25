@@ -3,9 +3,9 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-===================================================
-Guía 14: React - Eventos y Hooks: useState y useRef
-===================================================
+===========================================
+Guía 14: React - Eventos y Hooks (useState)
+===========================================
 
 .. topic:: Objetivo específico
     :class: objetivo
@@ -36,6 +36,23 @@ React: Eventos y Hooks
 .. note::
 
     Considere la explicación del uso de hooks en `React Hooks - Tutorial <https://adictosaltrabajo.com/2020/02/06/react-hooks-tutorial/>`_ y del manejo de eventos en `Tutorial React: Eventos en React <https://certidevs.com/tutorial-react-eventos-y-manejo-de-eventos>`_.
+
+Selector
+^^^^^^^^
+
+1. Cree el componente funcional `SelectorUI`.
+2. Utilice su cliente de IAG, para modificar el componente `AlertUI` con el siguiente código:
+
+   a) Importe los componentes `FormControl`, `InputLabel`, `Select` y `MenuItem` desde la librería `@mui/material`.
+   b) 
+
+5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
+
+Evento: onChange
+^^^^^^^^^^^^^^^^
+
+Hooks: useState
+^^^^^^^^^^^^^^^^
 
 Conclusiones
 ============
