@@ -164,6 +164,12 @@ Alertas
 4. Compruebe la vista previa del resultado en el navegador.
 5. Con un cliente de IAG genere el código para modificar los props `variant` y `severity` desde el componente padre.
 
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *dashboard*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
+
 Configuración para el despliegue
 --------------------------------
 
@@ -215,12 +221,6 @@ Configuración para el despliegue
    b) Vuelva a ejecutar el comando de transpilación y despliegue del sitio web.
 
 5. Compruebe el resultado en el navegador, con la URL: `https://<username>.github.io/dashboard`
-
-Versionamiento
---------------
-
-1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *dashboard*.
-2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
 
 Conclusiones
 ============
