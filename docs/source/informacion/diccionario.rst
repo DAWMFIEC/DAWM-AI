@@ -210,3 +210,12 @@ Diccionario de términos
 
     interfaz
         Sirve para describir la forma que deben tener los objetos de propiedades (props) que recibe un componente, asegurando así un desarrollo más confiable y mantenible.
+
+    hook 
+        Es una función especial que permite a los componentes funcionales acceder a características propias de los componentes de clase, como el manejo de estado (useState), efectos secundarios (useEffect), referencias (useRef), entre otros.
+
+    variable de estado
+        Es un valor que se almacena dentro de un componente y que puede cambiar a lo largo del tiempo, provocando que el componente se vuelva a renderizar cuando ese valor se actualiza.
+
+    función de actualización
+        Es la función que se obtiene junto con una variable de estado al usar el hook useState, y se utiliza para cambiar el valor de dicha variable. 

@@ -114,13 +114,56 @@ Evento: onChange
                 )
             }
 
-3. Compruebe la vista previa del resultado en el navegador.
-4. Con un cliente de IAG, explique el uso del manejador `handleChange` y del evento `onChange`.
+2. Compruebe la vista previa del resultado en el navegador.
+3. Con un cliente de IAG, explique la sintaxis y manejo de eventos sintéticos en React.
 
 Hooks: useState
 ^^^^^^^^^^^^^^^^
 
-abc
+1. Utilice su cliente de IAG, para modificar el componente `SelectorUI` con el siguiente código:
+
+   a) Importe el :term:`hook` **useState** desde la librería de React para poder manejar el estado interno del componente.
+   b) Dentro del componente, declare una :term:`variable de estado` llamada **cityInput** junto con su :term:`función de actualización` **setCityInput**. 
+   c) Dentro de la función `handleChange`, reemplace el código anterior por una llamada a la función de actualización `setCityInput` con el valor seleccionado (event.target.value).
+   d) En el `<Select>`, enlace el prop value con la variable de estado `cityInput`.
+   e) Debajo del `<Select>`, solamente si `cityInput` tiene un valor muestre un párrafo con el texto 'Información del clima en [ciudad seleccionada]'.
+
+   .. dropdown:: Ver el código 
+        :color: primary
+
+        .. code-block:: tsx
+            :emphasize-lines: 2,6,9,15
+
+            ...
+            import { useState } from 'react';
+
+            export default function SelectorUI() {
+
+                const [cityInput, setCityInput] = useState('');
+
+                const handleChange = (event: SelectChangeEvent<string>) => {
+                    setCityInput(event.target.value)
+                };
+
+                return (
+                        <Select
+                            ...
+                            value={cityInput}
+                            ...
+                        >
+                            ...
+                        </Select>
+
+                        {cityInput && (
+                            <p>
+                                Información del clima en {cityInput}
+                            </p>
+                        )}
+                )
+            }
+
+2. Compruebe la vista previa del resultado en el navegador.
+3. Con un cliente de IAG, explique el propósito de los hooks y de useState en React.
 
 Versionamiento
 --------------
