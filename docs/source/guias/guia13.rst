@@ -51,8 +51,8 @@ Cabeceras, Tipografía y Alertas
       (ii) Se renderiza (component) como un encabezado de nivel 1 (h1), y
       (iii) El estilo en línea (sx) para que el texto se muestre en negrita (fontWeight: 'bold').
 
-   .. dropdown:: Ver el código 
-        :color: primary
+   .. dropdown:: Ver el solución 
+        :color: success
 
         .. code-block:: tsx
             :emphasize-lines: 1-12
@@ -113,8 +113,8 @@ Alertas
       (ii) El estilo visual del componente es contorneado (variant=\"outlined\"),
       (iii) Renderice el valor de parámetro `description` (config.description) como contenido del componente.
 
-   .. dropdown:: Ver el código 
-        :color: primary
+   .. dropdown:: Ver el solución 
+        :color: success
 
         .. code-block:: tsx
             :emphasize-lines: 1-11
