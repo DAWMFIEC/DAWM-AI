@@ -4,13 +4,13 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 =============================================
-Guía 15: React - Hooks (useState y useEffect)
+Guía 15: React - Hooks (useEffect y useRef)
 =============================================
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Implementar el hook useEffect para sincronizar el dashboard con fuentes de datos en tiempo real y utilizar localStorage para mantener configuraciones o preferencias del usuario de forma persistente. 
+    Implementar el hook useEffect para gestionar efectos secundarios en el dashboard, como la obtención de datos en tiempo real desde una API climática, la sincronización del estado con eventos del ciclo de vida del componente y la actualización dinámica de la interfaz según los cambios de ubicación o preferencias del usuario. 
 
 Actividades previas
 =====================
