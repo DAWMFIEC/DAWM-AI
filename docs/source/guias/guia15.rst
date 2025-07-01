@@ -3,9 +3,9 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-=========================
-Guía 15: React - Hooks II 
-=========================
+=============================================
+Guía 15: React - Hooks (useState y useEffect)
+=============================================
 
 .. topic:: Objetivo específico
     :class: objetivo
