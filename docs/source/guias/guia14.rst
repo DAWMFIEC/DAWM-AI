@@ -87,8 +87,8 @@ Evento: onChange
 
    c) Modifique el componente `Select` de MUI para asignar la función `handleChange` al evento `onChange`.
 
-   .. dropdown:: Ver el código 
-        :color: primary
+   .. dropdown:: Ver la solución 
+        :color: success
 
         .. code-block:: tsx
             :emphasize-lines: 2,7-9,15
@@ -128,8 +128,8 @@ Hooks: useState
    d) En el `<Select>`, enlace el prop value con la variable de estado `cityInput`.
    e) Debajo del `<Select>`, solamente si `cityInput` tiene un valor muestre un párrafo con el texto 'Información del clima en [ciudad seleccionada]'. Aplica el estilo para mostrar el nombre de la ciudad en negritas y la primera letra en mayúsculas.
 
-   .. dropdown:: Ver el código 
-        :color: primary
+   .. dropdown:: Ver la solución 
+        :color: success
 
         .. code-block:: tsx
             :emphasize-lines: 2,6,9,16,20-24
