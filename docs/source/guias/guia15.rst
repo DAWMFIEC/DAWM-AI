@@ -10,7 +10,7 @@ Guía 15: React - Hooks (useEffect y useRef)
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Implementar el hook useEffect para gestionar efectos secundarios en el dashboard, como la obtención de datos en tiempo real desde una API climática, la sincronización del estado con eventos del ciclo de vida del componente y la actualización dinámica de la interfaz según los cambios de ubicación o preferencias del usuario. 
+    Implementar la gestión efectos secundarios y la actualización dinámica de la interfaz según los cambios de ubicación o preferencias del usuario en el dashboard. 
 
 Actividades previas
 =====================
