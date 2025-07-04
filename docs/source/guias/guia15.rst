@@ -57,36 +57,51 @@ Indicador
 
 1. Cree el componente funcional `IndicatorUI` en el archivo `src/components/IndicatorUI.tsx`, con el siguiente código:
   
-   a) Importe los componentes `Paper`, `Typography` y `Box` de la librería `@mui/material`.
-    b) Exporte por defecto el :term:`componente funcional` (función) **IndicatorUI**.
-    c
-
    .. code-block:: tsx
        :emphasize-lines: 1-20
 
-       import Paper from '@mui/material/Paper';
-       import Typography from '@mui/material/Typography';
-       import Box from '@mui/material/Box';
+        import Paper from '@mui/material/Paper';
+        import Typography from '@mui/material/Typography';
+        import Box from '@mui/material/Box';
 
-       export default function IndicatorUI() {
-        return (
-            <Paper>
-                <Box sx={{ padding: 2 }}>
-                    <Typography variant="h6" component="div">
-                    Indicador
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                    Aquí va la información del indicador.
-                    </Typography>
-                </Box>    
-            </Paper>
-        );
-       }
+        interface IndicatorUIProps {
+            titulo?: string;
+            descripcion?: string;
+        }
 
-2. Importe y use el componente `IndicatorUI` en el archivo `src/App.tsx`, en la sección marcada como Indicadores.
+        /**
+        * Componente de interfaz de usuario para un indicador.
+        * Muestra un título y una descripción dentro de un Paper.
+        */
+        
+        export default function IndicatorUI( props: IndicatorUIProps ) {
+            return (
+                <Paper>
+                    <Box sx={{ padding: 2 }}>
+                        <Typography variant="h6" component="h3">
+                            {props.titulo || "Título del Indicador"}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary" sx={{ marginTop: 2 }}>
+                            {props.descripcion || "Descripción del indicador. Aquí puedes agregar más información relevante."}
+                        </Typography>
+                    </Box>    
+                </Paper>
+            );
+        }
+
+2. Modifique el archivo `src/App.tsx`, con:
+
+   a) Importe el componente `IndicatorUI` desde el archivo `./components/IndicatorUI`.
+   b) Convierta la sección de **Indicadores** en un contenedor de cuadrícula (Grid) de MUI, espaciado de 5 entre elementos, alineación horizontal con el espacio alrededor y alineación vertical al inicio.
+   c) Agregue a la sección **Indicadores** cuatro indicadores `IndicatorUI`, con los props:
+
+      (i) Título: "Temperatura (2m)", Descripción: "XX°C"
+      (ii) Título: "Temperatura aparente", Descripción: "YY°C"
+      (iii) Título: "Velocidad del viento", Descripción: "ZZkm/h"
+      (iv) Título: "Humedad relativa", Descripción: "NN%"
 
    .. code-block:: tsx
-       :emphasize-lines: 2,13,15-17
+       :emphasize-lines: 2,13,15-18
 
        ...
        import IndicatorUI from './components/IndicatorUI';
@@ -102,9 +117,10 @@ Indicador
                     <Grid size={{ xs: 12, md: 9 }} 
                           container spacing={5} justifyContent="space-around" alignItems="flex-start">
 
-                        <IndicatorUI/>
-                        <IndicatorUI/>
-                        <IndicatorUI/>
+                        <IndicatorUI titulo='Temperatura (2m)' descripcion='XX°C' />
+                        <IndicatorUI titulo='Temperatura aparente' descripcion='YY°C' />
+                        <IndicatorUI titulo='Velocidad del viento' descripcion='ZZkm/h' />
+                        <IndicatorUI titulo='Humedad relativa' descripcion='NN%' />
 
                     </Grid>
 
@@ -114,8 +130,6 @@ Indicador
 
 
 3. Compruebe la vista previa del resultado en el navegador.
-4. Con un cliente de IAG, explique el uso del hook `useEffect` y la configuración del arreglo de dependencias.
-
 
 React - Hook: useEffect
 -----------------------
