@@ -20,7 +20,7 @@ Open-Meteo
 
 1. Consulte la documentación de la API de Open-Meteo en `Open-Meteo API <https://open-meteo.com/en/docs>`_.
 2. Seleccione la ubicación que desea utilizar para las consultas, con coordenadas geográficas.
-3. Marque los indicadores que desea mostrar el dashboard, como temperatura, humedad, viento, etc, en la sección de `Current Weather <https://open-meteo.com/en/docs#current_weather>`_ de la documentación.
+3. Marque los indicadores que desea mostrar el dashboard en la sección de `Current Weather <https://open-meteo.com/en/docs#current_weather>`_ de la documentación, como temperatura (`Temperature (2 m)`), temperatura aparente (`Apparent Temperature`), humedad relativa (`Relative Humidity (2 m)`), velocidad del viento (`Wind Speed (10 m)`), etc.
 4. Seleccione la configuración de las unidades de medida de la API, como temperatura, velocidad del viento, unidades de precipitación, etc.  
 5. Obtenga la URL de la API con los parámetros seleccionados.
 6. Compruebe la estructura del JSON de salida en su navegador.
@@ -62,31 +62,74 @@ React - Hook: useEffect
 DataFetcher
 ^^^^^^^^^^^
 
-1. Cree el componente funcional `DataFetcher` en el archivo `src/hooks/DataFetcherUI.tsx`, con el siguiente código:
+1. Cree el componente funcional `DataFetcher` en el archivo `src/hooks/DataFetcher.tsx`, con:
 
-   .. code-block:: tsx
-      :emphasize-lines: 1-25
+   a) Importe los hooks `useState` y `useEffect` de React.
+   b) Importe la interfaz `OpenMeteoResponse` desde el archivo `src/types/DashboardTypes.tsx`.
+   c) Dentro de `DataFetcher`:
+      
+      (i) Agregue el hook `useState` para almacenar los datos obtenidos de la API (`data`, valor predeterminado **null**), un estado de carga (`loading`, valor predeterminado **true**) y el mensaje de error (`error`, valor predeterminado **null**).
+      (ii) Agregue el hook `useEffect` para que reaccione **únicamente** después del primer renderizado del DOM.
+   
+   d) Dentro del hook **useEffect**:
+   
+      (i) Defina la constante `url` con la URL de la API de Open-Meteo que obtuvo en las actividades previas.
+      (ii) Defina la función asíncrona `fetchData` que realizará la petición asíncrona a la API de Open-Meteo. 
+      (iii) Valide la respuesta de la siguiente manera:
+           
+           A. Si la respuesta no es exitosa, lance un error.
+           B. Si la respuesta es exitosa (código de estado HTTP 200), convierta la respuesta a JSON y almacene el resultado en el estado `data` con `setData`. 
 
-      import React, { useEffect, useState } from 'react';
-      import { OpenMeteoResponse } from '../types/DashboardTypes';
+      (iv) En caso de error, almacene el mensaje de error en el estado `error` con `setError`
+      (v) Ya sea por éxito o por error, cambie el estado `loading` a `false` una vez que se haya completado la petición.
+      (vi) Llame a la función `fetchData` dentro del hook `useEffect`.
 
-      export default function DataFetcherUI() {
-         const [data, setData] = useState<OpenMeteoResponse | null>(null);
-         const [loading, setLoading] = useState(true);
+    e) El componente `DataFetcher` retorna un objeto con los objetos `data`, `loading` y `error` como propiedades.
 
-         useEffect(() => {
-            fetch('https://api.open-meteo.com/v1/forecast?latitude=0&longitude=0&current_weather=true')
-               .then(response => response.json())
-               .then((data: OpenMeteoResponse) => {
-                  setData(data);
-                  setLoading(false);
-               })
-               .catch(error => console.error('Error fetching data:', error));
-         }, []);
+    .. dropdown:: Ver la solución 
+        :color: success
+        
+        .. code-block:: tsx
+            :emphasize-lines: 1-38
 
-         if (loading) return <div>Cargando...</div>;
-         return <div>Datos: {JSON.stringify(data)}</div>;
-      }
+            import { useEffect, useState } from 'react';
+            import { OpenMeteoResponse } from '../types/DashboardTypes';
+
+            export default function DataFetcher() {
+
+                const [data, setData] = useState<OpenMeteoResponse>();
+                const [loading, setLoading] = useState(true);
+                const [error, setError] = useState<string | null>(null);
+
+                useEffect(() => {
+
+                    const fetchData = async () => {
+
+                        try {
+                            
+                            const url = `https://api.open-meteo.com/v1/forecast?latitude=-2.1962&longitude=-79.8862&hourly=temperature_2m&current=temperature_2m,wind_speed_10m,relative_humidity_2m,apparent_temperature&timezone=America%2FChicago`
+
+
+                            const response = await fetch(url);
+                            if (!response.ok) throw new Error('Error en la solicitud');
+                            
+                            const result = await response.json();
+                            setData(result);
+
+                        } catch (err: any) {
+                            setError(err.message);
+                        } finally {
+                            setLoading(false);
+                        }
+                    };
+
+                    fetchData();
+
+                }, []); // El array vacío asegura que el efecto se ejecute solo una vez después del primer renderizado
+
+                return { data, loading, error };
+
+            }
 
 React - Hook: useState
 -----------------------
