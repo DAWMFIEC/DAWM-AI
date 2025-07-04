@@ -40,20 +40,53 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
-Interfaces
-----------
+Interfaces y tipos de datos
+---------------------------
 
 1. Genere el tipo de datos TypeScript para el JSON de salida de la API de Open-Meteo, con:
 
    a) Utilice `Transform JSON to TypeScript <https://transform.tools/json-to-typescript>`_. 
    b) Coloque el JSON de salida de la API de Open-Meteo en el campo de entrada.
-   c) Genere el código TypeScript de las interfaces y cópielo en su proyecto en el archivo `src/types/WeatherTypes.tsx`.
+   c) Genere el código TypeScript de las interfaces y cópielo en su proyecto en el archivo `src/types/DashboardTypes.tsx`.
    d) Modifique el nombre de la interfaz `Root` por `OpenMeteoResponse`.
 
 2. Utilice su cliente de IAG para justificar el uso de las interfaces y el tipo de datos que representan.
 
 React - Hook: useEffect
 -----------------------
+
+.. note::
+
+    Considere la explicación del uso del hook `useEffect <https://es.react.dev/reference/react/useEffect>`_.
+
+DataFetcher
+^^^^^^^^^^^
+
+1. Cree el componente funcional `DataFetcher` en el archivo `src/hooks/DataFetcherUI.tsx`, con el siguiente código:
+
+   .. code-block:: tsx
+      :emphasize-lines: 1-25
+
+      import React, { useEffect, useState } from 'react';
+      import { OpenMeteoResponse } from '../types/DashboardTypes';
+
+      export default function DataFetcherUI() {
+         const [data, setData] = useState<OpenMeteoResponse | null>(null);
+         const [loading, setLoading] = useState(true);
+
+         useEffect(() => {
+            fetch('https://api.open-meteo.com/v1/forecast?latitude=0&longitude=0&current_weather=true')
+               .then(response => response.json())
+               .then((data: OpenMeteoResponse) => {
+                  setData(data);
+                  setLoading(false);
+               })
+               .catch(error => console.error('Error fetching data:', error));
+         }, []);
+
+         if (loading) return <div>Cargando...</div>;
+         return <div>Datos: {JSON.stringify(data)}</div>;
+      }
 
 React - Hook: useState
 -----------------------
