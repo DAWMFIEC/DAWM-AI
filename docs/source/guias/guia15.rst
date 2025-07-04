@@ -80,9 +80,9 @@ DataFetcher
       (v) Ya sea por éxito o por error, cambie el estado `loading` a `false` una vez que se haya completado la petición.
       (vi) Llame a la función `fetchData` dentro del hook `useEffect`.
 
-    e) El componente `DataFetcher` retorna un objeto con los objetos `data`, `loading` y `error` como propiedades.
+   e) El componente `DataFetcher` retorna un objeto con los objetos `data`, `loading` y `error` como propiedades.
 
-    .. dropdown:: Ver la solución 
+   .. dropdown:: Ver la solución 
         :color: success
         
         .. code-block:: tsx
@@ -145,10 +145,12 @@ DataFetcher
 2. Importe y almacene su salida en una constante `dataFetcherOutput` en el archivo `src/App.tsx`.
 
    .. code-block:: tsx
-       :emphasize-lines: 1-2
+       :emphasize-lines: 2,8
 
+       ...
        import DataFetcher from './hooks/DataFetcher';
        ...
+
        function App() {
 
             ...
