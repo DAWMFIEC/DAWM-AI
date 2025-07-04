@@ -18,12 +18,12 @@ Actividades previas
 Open-Meteo
 ----------
 
-1. Consulte la documentación de la API de Open-Meteo en `Open-Meteo API <https://open-meteo.com/en/docs>`_.
-2. Seleccione la ubicación que desea utilizar para las consultas, con coordenadas geográficas.
-3. Marque los indicadores que desea mostrar el dashboard en la sección de `Current Weather <https://open-meteo.com/en/docs#current_weather>`_ de la documentación, como temperatura (`Temperature (2 m)`), humedad relativa (`Relative Humidity (2 m)`), temperatura aparente (`Apparent Temperature`),  velocidad del viento (`Wind Speed (10 m)`), etc.
-4. Seleccione la configuración de las unidades de medida de la API, como temperatura (`Celsius °C`), velocidad del viento (`km/h`), unidades de precipitación (`Millimeter`), etc.  
-5. Obtenga la URL de la API con los parámetros seleccionados.
-6. Compruebe la estructura del JSON de salida en su navegador.
+1. Configure API de Open-Meteo en `Open-Meteo API <https://open-meteo.com/en/docs>`_, con:
+   
+   a) Seleccione la ubicación que desea utilizar para las consultas, con coordenadas geográficas.
+   b) Marque los indicadores que desea mostrar el dashboard en la sección de `Current Weather <https://open-meteo.com/en/docs#current_weather>`_ de la documentación, como temperatura (`Temperature (2 m)`), humedad relativa (`Relative Humidity (2 m)`), temperatura aparente (`Apparent Temperature`),  velocidad del viento (`Wind Speed (10 m)`), etc.
+   c) Seleccione la configuración de las unidades de medida de la API, como temperatura (`Celsius °C`), velocidad del viento (`km/h`), unidades de precipitación (`Millimeter`), etc.  
+2. Con la URL de la API con los parámetros seleccionados, compruebe la estructura del JSON de salida en su navegador.
 
 Ambiente de desarrollo
 ----------------------
@@ -101,7 +101,7 @@ IndicatorUI
       (iv) Título: "Humedad relativa", Descripción: "NN%"
 
    .. code-block:: tsx
-       :emphasize-lines: 2,13,15-18
+       :emphasize-lines: 2,13-15, 17-20
 
        ...
        import IndicatorUI from './components/IndicatorUI';
@@ -115,7 +115,9 @@ IndicatorUI
 
                     {/* Indicadores */}
                     <Grid size={{ xs: 12, md: 9 }} 
-                          container spacing={5} justifyContent="space-around" alignItems="flex-start">
+                          container spacing={5} 
+                          justifyContent="space-around" 
+                          alignItems="flex-start">
 
                         <IndicatorUI titulo='Temperatura (2m)' descripcion='XX°C' />
                         <IndicatorUI titulo='Temperatura aparente' descripcion='YY°C' />
