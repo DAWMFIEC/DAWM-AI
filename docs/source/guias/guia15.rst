@@ -52,6 +52,71 @@ Interfaces y tipos de datos
 
 2. Utilice su cliente de IAG para justificar el uso de las interfaces y el tipo de datos que representan.
 
+Indicador
+---------
+
+1. Cree el componente funcional `IndicatorUI` en el archivo `src/components/IndicatorUI.tsx`, con el siguiente código:
+  
+   a) Importe los componentes `Paper`, `Typography` y `Box` de la librería `@mui/material`.
+    b) Exporte por defecto el :term:`componente funcional` (función) **IndicatorUI**.
+    c
+
+   .. code-block:: tsx
+       :emphasize-lines: 1-20
+
+       import Paper from '@mui/material/Paper';
+       import Typography from '@mui/material/Typography';
+       import Box from '@mui/material/Box';
+
+       export default function IndicatorUI() {
+        return (
+            <Paper>
+                <Box sx={{ padding: 2 }}>
+                    <Typography variant="h6" component="div">
+                    Indicador
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                    Aquí va la información del indicador.
+                    </Typography>
+                </Box>    
+            </Paper>
+        );
+       }
+
+2. Importe y use el componente `IndicatorUI` en el archivo `src/App.tsx`, en la sección marcada como Indicadores.
+
+   .. code-block:: tsx
+       :emphasize-lines: 2,13,15-17
+
+       ...
+       import IndicatorUI from './components/IndicatorUI';
+       ...
+
+       function App() {
+
+            ...
+            return (
+                <Grid ... >
+
+                    {/* Indicadores */}
+                    <Grid size={{ xs: 12, md: 9 }} 
+                          container spacing={5} justifyContent="space-around" alignItems="flex-start">
+
+                        <IndicatorUI/>
+                        <IndicatorUI/>
+                        <IndicatorUI/>
+
+                    </Grid>
+
+                </Grid>
+            )
+       }
+
+
+3. Compruebe la vista previa del resultado en el navegador.
+4. Con un cliente de IAG, explique el uso del hook `useEffect` y la configuración del arreglo de dependencias.
+
+
 React - Hook: useEffect
 -----------------------
 
