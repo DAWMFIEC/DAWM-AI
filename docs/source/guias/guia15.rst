@@ -65,7 +65,7 @@ DataFetcher
 1. Cree el componente funcional `DataFetcher` en el archivo `src/hooks/DataFetcher.tsx`, con:
 
    a) Importe los hooks `useState` y `useEffect` de React.
-   b) Importe la interfaz `OpenMeteoResponse` desde el archivo `src/types/DashboardTypes.tsx`.
+   b) Importe la interfaz `OpenMeteoResponse` desde el archivo `../types/DashboardTypes.tsx`.
    c) Dentro de `DataFetcher`:
       
       (i) Agregue el hook `useState` para almacenar los datos obtenidos de la API (`data`, valor predeterminado **null**), un estado de carga (`loading`, valor predeterminado **true**) y el mensaje de error (`error`, valor predeterminado **null**).
@@ -159,6 +159,9 @@ DataFetcher
        
             return ( ... )
        }
+
+3. Compruebe la vista previa del resultado en el navegador.
+4. Con un cliente de IAG, explique el uso del hook `useEffect` y la configuración del arreglo de dependencias.
 
 React - Hook: useState
 -----------------------
