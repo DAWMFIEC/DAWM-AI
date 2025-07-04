@@ -20,8 +20,8 @@ Open-Meteo
 
 1. Consulte la documentación de la API de Open-Meteo en `Open-Meteo API <https://open-meteo.com/en/docs>`_.
 2. Seleccione la ubicación que desea utilizar para las consultas, con coordenadas geográficas.
-3. Marque los indicadores que desea mostrar el dashboard en la sección de `Current Weather <https://open-meteo.com/en/docs#current_weather>`_ de la documentación, como temperatura (`Temperature (2 m)`), temperatura aparente (`Apparent Temperature`), humedad relativa (`Relative Humidity (2 m)`), velocidad del viento (`Wind Speed (10 m)`), etc.
-4. Seleccione la configuración de las unidades de medida de la API, como temperatura, velocidad del viento, unidades de precipitación, etc.  
+3. Marque los indicadores que desea mostrar el dashboard en la sección de `Current Weather <https://open-meteo.com/en/docs#current_weather>`_ de la documentación, como temperatura (`Temperature (2 m)`), humedad relativa (`Relative Humidity (2 m)`), temperatura aparente (`Apparent Temperature`),  velocidad del viento (`Wind Speed (10 m)`), etc.
+4. Seleccione la configuración de las unidades de medida de la API, como temperatura (`Celsius °C`), velocidad del viento (`km/h`), unidades de precipitación (`Millimeter`), etc.  
 5. Obtenga la URL de la API con los parámetros seleccionados.
 6. Compruebe la estructura del JSON de salida en su navegador.
 
@@ -77,8 +77,8 @@ DataFetcher
       (ii) Defina la función asíncrona `fetchData` que realizará la petición asíncrona a la API de Open-Meteo. 
       (iii) Valide la respuesta de la siguiente manera:
            
-           A. Si la respuesta no es exitosa, lance un error.
-           B. Si la respuesta es exitosa (código de estado HTTP 200), convierta la respuesta a JSON y almacene el resultado en el estado `data` con `setData`. 
+            A. Si la respuesta no es exitosa, lance un error.
+            B. Si la respuesta es exitosa (código de estado HTTP 200), convierta la respuesta a JSON y almacene el resultado en el estado `data` con `setData`. 
 
       (iv) En caso de error, almacene el mensaje de error en el estado `error` con `setError`
       (v) Ya sea por éxito o por error, cambie el estado `loading` a `false` una vez que se haya completado la petición.
