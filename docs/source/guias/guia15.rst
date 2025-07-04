@@ -93,7 +93,13 @@ DataFetcher
             :emphasize-lines: 1-38
 
             import { useEffect, useState } from 'react';
-            import { OpenMeteoResponse } from '../types/DashboardTypes';
+            import { type OpenMeteoResponse } from '../types/DashboardTypes';
+
+            interface DataFetcherOutput {
+                data: OpenMeteoResponse | null;
+                loading: boolean;
+                error: string | null;
+            }
 
             export default function DataFetcher() {
 
@@ -103,21 +109,30 @@ DataFetcher
 
                 useEffect(() => {
 
+                    // Reemplace con su URL de la API de Open-Meteo obtenida en actividades previas
+                    const url = `https://api.open-meteo.com/v1/forecast?latitude=-2.1962&longitude=-79.8862&hourly=temperature_2m&current=temperature_2m,wind_speed_10m,relative_humidity_2m,apparent_temperature&timezone=America%2FChicago`
+
                     const fetchData = async () => {
 
                         try {
                             
-                            const url = `https://api.open-meteo.com/v1/forecast?latitude=-2.1962&longitude=-79.8862&hourly=temperature_2m&current=temperature_2m,wind_speed_10m,relative_humidity_2m,apparent_temperature&timezone=America%2FChicago`
-
-
                             const response = await fetch(url);
-                            if (!response.ok) throw new Error('Error en la solicitud');
-                            
-                            const result = await response.json();
+
+                            if (!response.ok) {
+                                throw new Error(`Error HTTP: ${response.status} - ${response.statusText}`);
+                            }
+
+                            const result: OpenMeteoResponse = await response.json();
                             setData(result);
 
                         } catch (err: any) {
-                            setError(err.message);
+
+                            if (err instanceof Error) {
+                                setError(err.message);
+                            } else {
+                                setError("Ocurrió un error desconocido al obtener los datos.");
+                            }
+                            
                         } finally {
                             setLoading(false);
                         }
