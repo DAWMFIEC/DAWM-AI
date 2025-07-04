@@ -75,11 +75,7 @@ DataFetcher
    
       (i) Defina la constante `url` con la URL de la API de Open-Meteo que obtuvo en las actividades previas.
       (ii) Defina la función asíncrona `fetchData` que realizará la petición asíncrona a la API de Open-Meteo. 
-      (iii) Valide la respuesta de la siguiente manera:
-           
-            A. Si la respuesta no es exitosa, lance un error.
-            B. Si la respuesta es exitosa (código de estado HTTP 200), convierta la respuesta a JSON y almacene el resultado en el estado `data` con `setData`. 
-
+      (iii) Valide si la respuesta no es exitosa, lance un error. Caso contrario, si la respuesta es exitosa (código de estado HTTP 200), convierta la respuesta a JSON y almacene el resultado en el estado `data` con `setData`. 
       (iv) En caso de error, almacene el mensaje de error en el estado `error` con `setError`
       (v) Ya sea por éxito o por error, cambie el estado `loading` a `false` una vez que se haya completado la petición.
       (vi) Llame a la función `fetchData` dentro del hook `useEffect`.
@@ -90,7 +86,7 @@ DataFetcher
         :color: success
         
         .. code-block:: tsx
-            :emphasize-lines: 1-38
+            :emphasize-lines: 1-53
 
             import { useEffect, useState } from 'react';
             import { type OpenMeteoResponse } from '../types/DashboardTypes';
@@ -101,9 +97,9 @@ DataFetcher
                 error: string | null;
             }
 
-            export default function DataFetcher() {
+            export default function DataFetcher() : DataFetcherOutput {
 
-                const [data, setData] = useState<OpenMeteoResponse>();
+                const [data, setData] = useState<OpenMeteoResponse | null>(null);
                 const [loading, setLoading] = useState(true);
                 const [error, setError] = useState<string | null>(null);
 
@@ -132,7 +128,7 @@ DataFetcher
                             } else {
                                 setError("Ocurrió un error desconocido al obtener los datos.");
                             }
-                            
+
                         } finally {
                             setLoading(false);
                         }
@@ -145,6 +141,22 @@ DataFetcher
                 return { data, loading, error };
 
             }
+            
+2. Importe y almacene su salida en una constante `dataFetcherOutput` en el archivo `src/App.tsx`.
+
+   .. code-block:: tsx
+       :emphasize-lines: 1-2
+
+       import DataFetcher from './hooks/DataFetcher';
+       ...
+       function App() {
+
+            ...
+            const dataFetcherOutput = DataFetcher();
+            ...
+       
+            return ( ... )
+       }
 
 React - Hook: useState
 -----------------------
