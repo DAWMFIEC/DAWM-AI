@@ -52,13 +52,13 @@ Interfaces y tipos de datos
 
 2. Utilice su cliente de IAG para justificar el uso de las interfaces y el tipo de datos que representan.
 
-Indicador
----------
+IndicatorUI
+-----------
 
 1. Cree el componente funcional `IndicatorUI` en el archivo `src/components/IndicatorUI.tsx`, con el siguiente código:
   
    .. code-block:: tsx
-       :emphasize-lines: 1-20
+       :emphasize-lines: 1-28
 
         import Paper from '@mui/material/Paper';
         import Typography from '@mui/material/Typography';
@@ -141,7 +141,8 @@ React - Hook: useEffect
 DataFetcher
 ^^^^^^^^^^^
 
-1. Cree el componente funcional `DataFetcher` en el archivo `src/hooks/DataFetcher.tsx`, con:
+1. Cree el componente funcional `DataFetcher` en el archivo `src/hooks/DataFetcher.tsx`.
+2. Utilice su cliente de IAG, para generar el código del componente `DataFetcher`, con:
 
    a) Importe los hooks `useState` y `useEffect` de React.
    b) Importe la interfaz `OpenMeteoResponse` desde el archivo `../types/DashboardTypes.tsx`.
