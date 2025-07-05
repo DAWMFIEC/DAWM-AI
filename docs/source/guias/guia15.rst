@@ -255,7 +255,7 @@ Renderizado condicional
    c) Si `dataFetcherOutput.data` no es **null**, muestre los datos obtenidos de la API, como la temperatura actual, temperatura aparente, velocidad del viento y humedad relativa, utilizando el componente `IndicatorUI` para cada indicador.
 
    .. code-block:: tsx
-       :emphasize-lines: 15-28
+       :emphasize-lines: 15-34
 
        ...
 
@@ -275,14 +275,20 @@ Renderizado condicional
                         {dataFetcherOutput.error && <p>Error: {dataFetcherOutput.error}</p>}
                         {dataFetcherOutput.data && (
                         <>
-                            <IndicatorUI titulo='Temperatura (2m)' 
+
+                            <IndicatorUI 
+                            titulo='Temperatura (2m)' 
                             descripcion={dataFetcherOutput.data.current.temperature_2m +" "+dataFetcherOutput.data.current_units.temperature_2m } />
+                            
                             <IndicatorUI titulo='Temperatura aparente' 
                             descripcion={dataFetcherOutput.data.current.apparent_temperature +" "+dataFetcherOutput.data.current_units.apparent_temperature } />
+                            
                             <IndicatorUI titulo='Velocidad del viento' 
                             descripcion={dataFetcherOutput.data.current.wind_speed_10m +" "+dataFetcherOutput.data.current_units.wind_speed_10m } />
+                            
                             <IndicatorUI titulo='Humedad relativa' 
                             descripcion={dataFetcherOutput.data.current.relative_humidity_2m +" "+dataFetcherOutput.data.current_units.relative_humidity_2m } />
+
                         </>
                         )}
 
