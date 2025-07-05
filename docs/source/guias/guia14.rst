@@ -40,7 +40,8 @@ React: Eventos y Hooks
 Selector
 ^^^^^^^^
 
-1. Utilice la documentación del componente `Select <https://mui.com/material-ui/react-select/>`_ para crear el componente funcional `SelectorUI`, con el siguiente código:
+1. Cree el archivo `src/components/SelectorUI.tsx`.
+2. Utilice la documentación del componente `Select <https://mui.com/material-ui/react-select/>`_ para crear el componente funcional `SelectorUI`, con el siguiente código:
 
    .. code-block:: tsx
        :emphasize-lines: 1-25
@@ -70,9 +71,9 @@ Selector
           )
        }
 
-2. En el archivo `src/App.tsx`, importe y use el componente `SelectorUI` en la sección para el **Selector**.
-3. Compruebe la vista previa del resultado en el navegador.
-4. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
+3. En el archivo `src/App.tsx`, importe y use el componente `SelectorUI` en la sección para el **Selector**.
+4. Compruebe la vista previa del resultado en el navegador.
+5. Con un cliente de IAG, compare el uso del DOM versus el uso del DOM Virtual de React.
 
 Evento: onChange
 ^^^^^^^^^^^^^^^^
