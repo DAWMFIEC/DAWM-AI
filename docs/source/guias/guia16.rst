@@ -10,7 +10,7 @@ Guía 16: React - LocalStorage
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Implementar la persistencia de datos entre sesiones y mejorando la experiencia personalizada del usuario sin necesidad de una base de datos externa.
+    Implementar persistencia de datos para la mejora de la experiencia de usuario sin necesidad de una base de datos externa.
 
 Actividades previas
 =====================
