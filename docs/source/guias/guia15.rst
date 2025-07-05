@@ -45,7 +45,7 @@ Interfaces y tipos de datos
 
 1. Genere el tipo de datos TypeScript para el JSON de salida de la API de Open-Meteo, con:
 
-   a) Utilice `Transform JSON to TypeScript <https://transform.tools/json-to-typescript>`_. 
+   a) Utilice `JSON to TypeScript <https://json2ts.vercel.app/>`_. 
    b) Coloque el JSON de salida de la API de Open-Meteo en el campo de entrada.
    c) Genere el código TypeScript de las interfaces y cópielo en su proyecto en el archivo `src/types/DashboardTypes.tsx`.
    d) Modifique el nombre de la interfaz `Root` por `OpenMeteoResponse`.
