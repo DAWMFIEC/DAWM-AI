@@ -3,14 +3,14 @@
    Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
    SPDX-License-Identifier: CC-BY-SA-4.0
 
-==================================
-Guía 15: React - Hooks (useEffect)
-==================================
+=============================
+Guía 16: React - LocalStorage
+=============================
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Implementar la gestión efectos secundarios y la actualización dinámica de la interfaz según los cambios de ubicación o preferencias del usuario en el dashboard. 
+    Implementar la persistencia de datos entre sesiones y mejorando la experiencia personalizada del usuario sin necesidad de una base de datos externa.
 
 Actividades previas
 =====================
@@ -30,11 +30,8 @@ Ambiente de desarrollo
 Actividades en clases
 =====================
 
-React - Hook: useEffect
------------------------
-
-React - Hook: useState
------------------------
+LocalStorage
+------------
 
 Conclusiones
 ============
