@@ -298,6 +298,26 @@ Renderizado condicional
 2. Compruebe la vista previa del resultado en el navegador.
 3. Con un cliente de IAG, explique el renderizado condicional en React, mediante el uso de variables de estado.
 
+Versionamiento
+--------------
+
+1. Versione local y remotamente la(s) rama(s) de desarrollo en el repositorio *dashboard*.
+2. Genere la(s) solicitud(es) de cambios (pull request) para la rama principal y apruebe los cambios.
+
+Despliegue
+----------
+
+1. Desde la línea de comandos, ejecute el comando de transpilación y despliegue del sitio web, con:
+
+   .. code-block:: bash
+
+      npm run deploy
+
+   a) De ser necesario, elimine, corrija o comente las secciones de código identificadas por el transpilador.
+   b) Vuelva a ejecutar el comando de transpilación y despliegue del sitio web.
+
+2. Compruebe el resultado en el navegador, con la URL: `https://<username>.github.io/dashboard`
+
 Conclusiones
 ============
 
