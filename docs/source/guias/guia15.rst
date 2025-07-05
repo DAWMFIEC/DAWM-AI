@@ -92,8 +92,7 @@ IndicatorUI
 2. Modifique el archivo `src/App.tsx`, con:
 
    a) Importe el componente `IndicatorUI` desde el archivo `./components/IndicatorUI`.
-   b) Convierta la sección de **Indicadores** en un contenedor de cuadrícula (Grid) de MUI, espaciado de 5 entre elementos, alineación horizontal con el espacio alrededor y alineación vertical respecto con el inicio.
-   c) Agregue a la sección **Indicadores** cuatro indicadores `IndicatorUI`, con los props:
+   b) Agregue a la sección **Indicadores** cuatro indicadores `IndicatorUI`, con los props:
 
       (i) Título: "Temperatura (2m)", Descripción: "XX°C"
       (ii) Título: "Temperatura aparente", Descripción: "YY°C"
@@ -101,7 +100,7 @@ IndicatorUI
       (iv) Título: "Humedad relativa", Descripción: "NN%"
 
    .. code-block:: tsx
-       :emphasize-lines: 2,13-15, 17-20
+       :emphasize-lines: 2,14-17
 
        ...
        import IndicatorUI from './components/IndicatorUI';
@@ -114,10 +113,7 @@ IndicatorUI
                 <Grid ... >
 
                     {/* Indicadores */}
-                    <Grid size={{ xs: 12, md: 9 }} 
-                          container spacing={5} 
-                          justifyContent="space-around" 
-                          alignItems="flex-start">
+                    <Grid ... >
 
                         <IndicatorUI titulo='Temperatura (2m)' descripcion='XX°C' />
                         <IndicatorUI titulo='Temperatura aparente' descripcion='YY°C' />
@@ -255,7 +251,7 @@ Renderizado condicional
    c) Si `dataFetcherOutput.data` no es **null**, muestre los datos obtenidos de la API, como la temperatura actual, temperatura aparente, velocidad del viento y humedad relativa, utilizando el componente `IndicatorUI` para cada indicador.
 
    .. code-block:: tsx
-       :emphasize-lines: 15-34
+       :emphasize-lines: 12-35
 
        ...
 
@@ -266,30 +262,31 @@ Renderizado condicional
                 <Grid ... >
 
                     {/* Indicadores */}
-                    <Grid size={{ xs: 12, md: 9 }} 
-                          container spacing={5} 
-                          justifyContent="space-around" 
-                          alignItems="flex-start">
+                    <Grid ... >
+
+                        {/* Renderizado condicional de los datos obtenidos */}
 
                         {dataFetcherOutput.loading && <p>Cargando datos...</p>}
                         {dataFetcherOutput.error && <p>Error: {dataFetcherOutput.error}</p>}
                         {dataFetcherOutput.data && (
-                        <>
+                            <Grid container spacing={5} justifyContent="space-around" alignItems="flex-start">
 
-                            <IndicatorUI 
-                            titulo='Temperatura (2m)' 
-                            descripcion={dataFetcherOutput.data.current.temperature_2m +" "+dataFetcherOutput.data.current_units.temperature_2m } />
-                            
-                            <IndicatorUI titulo='Temperatura aparente' 
-                            descripcion={dataFetcherOutput.data.current.apparent_temperature +" "+dataFetcherOutput.data.current_units.apparent_temperature } />
-                            
-                            <IndicatorUI titulo='Velocidad del viento' 
-                            descripcion={dataFetcherOutput.data.current.wind_speed_10m +" "+dataFetcherOutput.data.current_units.wind_speed_10m } />
-                            
-                            <IndicatorUI titulo='Humedad relativa' 
-                            descripcion={dataFetcherOutput.data.current.relative_humidity_2m +" "+dataFetcherOutput.data.current_units.relative_humidity_2m } />
+                                {/* Indicadores con datos obtenidos */}
 
-                        </>
+                                <IndicatorUI 
+                                titulo='Temperatura (2m)' 
+                                descripcion={dataFetcherOutput.data.current.temperature_2m +" "+dataFetcherOutput.data.current_units.temperature_2m } />
+                                
+                                <IndicatorUI titulo='Temperatura aparente' 
+                                descripcion={dataFetcherOutput.data.current.apparent_temperature +" "+dataFetcherOutput.data.current_units.apparent_temperature } />
+                                
+                                <IndicatorUI titulo='Velocidad del viento' 
+                                descripcion={dataFetcherOutput.data.current.wind_speed_10m +" "+dataFetcherOutput.data.current_units.wind_speed_10m } />
+                                
+                                <IndicatorUI titulo='Humedad relativa' 
+                                descripcion={dataFetcherOutput.data.current.relative_humidity_2m +" "+dataFetcherOutput.data.current_units.relative_humidity_2m } />
+
+                            </Grid>
                         )}
 
                     </Grid>
