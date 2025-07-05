@@ -111,7 +111,7 @@ IndicatorUI
                 <Grid ... >
 
                     {/* Indicadores */}
-                    <Grid container size={{ ... }} >
+                    <Grid container size={{ xs: 12, md: 9 }} >
 
                         <Grid size={{ xs: 12, md: 3 }}>
                             <IndicatorUI title='Temperatura (2m)' description='XX°C' />
@@ -229,7 +229,8 @@ DataFetcher
 
             }
             
-2. Importe y almacene su salida en una constante `dataFetcherOutput` en el archivo `src/App.tsx`.
+2. Reemplace la URL de la API de Open-Meteo en el código del componente `DataFetcher` con la URL que obtuvo en las actividades previas.
+3. Importe y almacene su salida en una constante `dataFetcherOutput` en el archivo `src/App.tsx`.
 
    .. code-block:: tsx
        :emphasize-lines: 2,8
@@ -247,8 +248,8 @@ DataFetcher
             return ( ... )
        }
 
-3. Compruebe con el inspector resultado de la petición asíncrona del navegador.
-4. Con un cliente de IAG, explique el uso del hook `useEffect` y la configuración del arreglo de dependencias.
+4. Compruebe con el inspector resultado de la petición asíncrona del navegador.
+5. Con un cliente de IAG, explique el uso del hook `useEffect` y la configuración del arreglo de dependencias.
 
 Renderizado condicional
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -343,11 +344,11 @@ Conclusiones
 
 .. topic:: Preguntas de cierre
 
-    * ¿Qué?
+    * ¿Cómo te ayudó la inteligencia artificial generativa a entender el propósito de useEffect y su relación con el ciclo de vida de los componentes en React?
 
-    * ¿Qué?
+    * ¿Qué decisiones tomaste al integrar useEffect en tu dashboard para ejecutar tareas como peticiones asincrónicas o sincronización de datos?
 
-    * ¿Cómo?
+    * ¿Cómo aseguras que el uso de useEffect en tu proyecto refleja tu comprensión y no una dependencia automática de herramientas generativas, especialmente al enfrentar errores o comportamientos inesperados?
 
 Actividades autónomas
 =====================
