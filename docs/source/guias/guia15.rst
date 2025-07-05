@@ -20,9 +20,9 @@ Open-Meteo
 
 1. Configure API de Open-Meteo en `Open-Meteo API <https://open-meteo.com/en/docs>`_, con:
    
-   a) Seleccione la ubicación que desea utilizar para las consultas, con coordenadas geográficas.
-   b) Marque los indicadores que desea mostrar el dashboard en la sección de `Current Weather <https://open-meteo.com/en/docs#current_weather>`_ de la documentación, como temperatura (`Temperature (2 m)`), humedad relativa (`Relative Humidity (2 m)`), temperatura aparente (`Apparent Temperature`),  velocidad del viento (`Wind Speed (10 m)`), etc.
-   c) Seleccione la configuración de las unidades de medida de la API, como temperatura (`Celsius °C`), velocidad del viento (`km/h`), unidades de precipitación (`Millimeter`), etc.  
+   a) Seleccione la zona horaria, para Ecuador elija la opción **America/Chicago** (GMT-5).
+   b) Marque los indicadores que desea mostrar el dashboard en la sección de `Current Weather <https://open-meteo.com/en/docs#current_weather>`_ de la documentación, en este caso: temperatura (`Temperature (2 m)`), humedad relativa (`Relative Humidity (2 m)`), temperatura aparente (`Apparent Temperature`) y  velocidad del viento (`Wind Speed (10 m)`).
+   c) Seleccione la configuración de las unidades de medida de la API, en este caso: temperatura (`Celsius °C`), velocidad del viento (`km/h`) y unidades de precipitación (`Millimeter`), etc.  
 2. Con la URL de la API con los parámetros seleccionados, compruebe la estructura del JSON de salida en su navegador.
 
 Ambiente de desarrollo
@@ -147,7 +147,7 @@ DataFetcher
 2. Utilice su cliente de IAG, para generar el código del componente `DataFetcher`, con:
 
    a) Importe los hooks `useState` y `useEffect` de React.
-   b) Importe la interfaz del **type** `OpenMeteoResponse` desde el archivo `../types/DashboardTypes.tsx`.
+   b) Importe la interfaz `OpenMeteoResponse` desde el archivo `../types/DashboardTypes.tsx`. Al importar, indique que es un tipo de dato con `type`.
    c) Dentro de `DataFetcher`:
       
       (i) Agregue el hook `useState` para almacenar los datos obtenidos de la API (`data`, valor predeterminado **null**), un estado de carga (`loading`, valor predeterminado **true**) y el mensaje de error (`error`, valor predeterminado **null**).
@@ -171,7 +171,7 @@ DataFetcher
             :emphasize-lines: 1-53
 
             import { useEffect, useState } from 'react';
-            import { type OpenMeteoResponse } from '../types/DashboardTypes';
+            import type { OpenMeteoResponse } from '../types/DashboardTypes';
 
             interface DataFetcherOutput {
                 data: OpenMeteoResponse | null;
@@ -242,7 +242,7 @@ DataFetcher
             return ( ... )
        }
 
-3. Compruebe la vista previa del resultado en el navegador.
+3. Compruebe con el inspector resultado de la petición asíncrona del navegador.
 4. Con un cliente de IAG, explique el uso del hook `useEffect` y la configuración del arreglo de dependencias.
 
 Renderizado condicional
@@ -255,7 +255,7 @@ Renderizado condicional
    c) Si `dataFetcherOutput.data` no es **null**, muestre los datos obtenidos de la API, como la temperatura actual, temperatura aparente, velocidad del viento y humedad relativa, utilizando el componente `IndicatorUI` para cada indicador.
 
    .. code-block:: tsx
-       :emphasize-lines: 2,8
+       :emphasize-lines: 15-28
 
        ...
 
