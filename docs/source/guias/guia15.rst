@@ -147,7 +147,7 @@ DataFetcher
 2. Utilice su cliente de IAG, para generar el código del componente `DataFetcher`, con:
 
    a) Importe los hooks `useState` y `useEffect` de React.
-   b) Importe la interfaz `OpenMeteoResponse` desde el archivo `../types/DashboardTypes.tsx`.
+   b) Importe la interfaz del **type** `OpenMeteoResponse` desde el archivo `../types/DashboardTypes.tsx`.
    c) Dentro de `DataFetcher`:
       
       (i) Agregue el hook `useState` para almacenar los datos obtenidos de la API (`data`, valor predeterminado **null**), un estado de carga (`loading`, valor predeterminado **true**) y el mensaje de error (`error`, valor predeterminado **null**).
