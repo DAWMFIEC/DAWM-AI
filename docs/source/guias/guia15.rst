@@ -98,7 +98,7 @@ IndicatorUI
       (iv) Título: "Humedad relativa", Descripción: "NN%"
 
    .. code-block:: tsx
-       :emphasize-lines: 2, 12, 14-16, 18-20, 22-24, 26-28
+       :emphasize-lines: 2, 12-30
 
        ...
        import IndicatorUI from './components/IndicatorUI';
